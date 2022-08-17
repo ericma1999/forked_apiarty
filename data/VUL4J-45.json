@@ -1,0 +1,30 @@
+{
+  "id": "VUL4J-45",
+  "name": "esigate/esigate",
+  "vcs": "git",
+  "repo": "https://github.com/esigate/esigate.git",
+  "method": "createTransformer",
+  "method_line": "91",
+  "method_line_before": "89",
+  "revision": "30cad23a8f282600c9b045e1af09f6f8a65357b1",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -pl esigate-core -Dtest=org.esigate.xml.XsltRendererTest#testSecureRendering"
+      },
+      {
+        "compile": "mvn -DskipTests clean install"
+      },
+      {
+        "extract": ""
+      }
+    ]
+  },
+  "file_path": "esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java",
+  "test_class": "org.esigate.xml.XsltRendererTest#testSecureRendering",
+  "src_path": "src/main/java",
+  "test_path": "src/test/java",
+  "package_path": "",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}

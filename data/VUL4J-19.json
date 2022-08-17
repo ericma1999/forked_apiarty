@@ -1,0 +1,30 @@
+{
+  "id": "VUL4J-19",
+  "name": "apache/pdfbox",
+  "vcs": "git",
+  "repo": "https://github.com/bqcuong/vul4j.git",
+  "method": "prepareForDecryption",
+  "method_line": "167",
+  "method_line_before": "167",
+  "revision": "c90825da4d28d7b1ae9b1484b9a010206be3dec5",
+  "build_system": {
+    "custom": [
+      {
+        "test": "mvn test -pl pdfbox -Dtest=org.apache.pdfbox.encryption.TestSymmetricKeyEncryption"
+      },
+      {
+        "compile": "mvn -DskipTests clean install"
+      },
+      {
+        "extract": ""
+      }
+    ]
+  },
+  "file_path": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java",
+  "test_class": "org.apache.pdfbox.encryption.TestSymmetricKeyEncryption#testPermissions",
+  "src_path": "src/main/java",
+  "test_path": "src/test/java",
+  "package_path": "",
+  "src_classes": "target/classes",
+  "test_classes": "target/test-classes"
+}
