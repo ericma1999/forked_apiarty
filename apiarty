@@ -11,7 +11,7 @@ from pathlib import Path
 import argparse
 import json
 import subprocess
-from subprocess import DEVNULL, check_call, run, TimeoutExpired
+from subprocess import DEVNULL, run
 import tempfile
 import shutil
 import time
@@ -508,10 +508,10 @@ tool_by_name = {
 	'Astor-jGenProg': Astor('fr.inria.main.evolution.AstorMain', 'jgenprog'),
 	'Astor-jKali': Astor('fr.inria.main.evolution.AstorMain', 'jKali'),
 	'Astor-jMutRepair': Astor('fr.inria.main.evolution.AstorMain', 'jMutRepair'),
-	'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen'),
-    'Dynamoth': Nopol('dynamoth'),
-    'Nopol': Nopol(None),
-	'NPEFix': Npefix(),
+	'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen')
+  #   'Dynamoth': Nopol('dynamoth'),
+  #   'Nopol': Nopol(None),
+	# 'NPEFix': Npefix(),
 }
 
 

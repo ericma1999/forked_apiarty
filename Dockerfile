@@ -27,14 +27,13 @@ RUN \
 # The following installation instructions can be also found in the GitHub repos of the tools themselves.
 
 # Install Nopol and its dependencies
-WORKDIR /CoCoSpoon
-RUN git clone https://github.com/SpoonLabs/CoCoSpoon.git /CoCoSpoon \
-    && mvn clean install
+# WORKDIR /CoCoSpoon
+# RUN git clone https://github.com/SpoonLabs/CoCoSpoon.git /CoCoSpoon
 
-WORKDIR /nopol
-RUN git clone https://github.com/SpoonLabs/nopol.git /nopol \
-    && cd nopol \
-    && mvn package -DskipTests
+# WORKDIR /nopol
+# RUN git clone https://github.com/SpoonLabs/nopol.git /nopol \
+#     && cd nopol \
+#     && mvn package -DskipTests
 
 # Install Arja and its dependencies
 WORKDIR /arja
@@ -47,7 +46,7 @@ RUN git clone https://github.com/yyxhdy/arja.git /arja \
     && javac -cp lib/*: -d bin $(find src -name '*.java')
 
 # Install NPEFix and its dependencies
-WORKDIR /npefix
+# WORKDIR /npefix
 RUN git clone https://github.com/Spirals-Team/npefix/ /npefix \
     && mvn install
 
@@ -69,14 +68,14 @@ RUN git clone https://github.com/SerVal-DTF/AVATAR.git \
     && ./init.sh
 
 # Install TBar
-WORKDIR /tbar
-RUN git clone https://github.com/SerVal-DTF/TBar.git \
-    && cd /tbar/TBar \
-    && cd D4J \
-    && git clone https://github.com/rjust/defects4j.git \
-    && cd defects4j \
-    && cpanm --installdeps . \
-    && ./init.sh
+# WORKDIR /tbar
+# RUN git clone https://github.com/SerVal-DTF/TBar.git \
+#     && cd /tbar/TBar \
+#     && cd D4J \
+#     && git clone https://github.com/rjust/defects4j.git \
+#     && cd defects4j \
+#     && cpanm --installdeps . \
+#     && ./init.sh
   
 # Install SimFix
 WORKDIR /simfix
