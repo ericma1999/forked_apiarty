@@ -211,11 +211,11 @@ class Arja():
 		repair_status = RepairStatus.UNKNOWN
 		project_folder = ""
 
-		if project.package_path != ".":
-			project_folder = Path(str(project.root) +
-								  "/" + str(project.package_path))
-		else:
-			project_folder = project.root
+		# if project.package_path != ".":
+		# 	project_folder = Path(str(project.root) +
+		# 						  "/" + str(project.package_path))
+		# else:
+		project_folder = project.root
 
 		dependencies = (Path(str(project_folder) +
 							 '/classpath.info')).read_text()

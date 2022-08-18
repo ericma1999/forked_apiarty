@@ -16,15 +16,15 @@
         "compile": "mvn -DskipTests clean install"
       },
       {
-        "extract": ""
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
       }
     ]
   },
   "file_path": "batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java",
   "test_class": "org.apache.batik.dom.util.TestCVE_2017_5662#testCVE_2017_5662",
-  "src_path": "src/main/java",
+  "src_path": "batik-dom/src/main/java/",
   "test_path": "src/test/java",
-  "package_path": "",
+  "package_path": ".",
   "src_classes": "target/classes",
   "test_classes": "target/test-classes"
 }

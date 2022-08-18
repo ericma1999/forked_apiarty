@@ -47,8 +47,8 @@ RUN git clone https://github.com/yyxhdy/arja.git /arja \
 
 # Install NPEFix and its dependencies
 # WORKDIR /npefix
-RUN git clone https://github.com/Spirals-Team/npefix/ /npefix \
-    && mvn install
+# RUN git clone https://github.com/Spirals-Team/npefix/ /npefix \
+#     && mvn install
 
 # Install Astor and its dependencies (1st installation option)
 WORKDIR /astor

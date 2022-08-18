@@ -16,7 +16,7 @@
         "compile": "mvn -DskipTests clean install"
       },
       {
-        "extract": ""
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
       }
     ]
   },
@@ -24,7 +24,7 @@
   "test_class": "com.fasterxml.jackson.dataformat.xml.SupportDTDDefaultsTest#testDTDAttempt",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
-  "package_path": "",
+  "package_path": ".",
   "src_classes": "target/classes",
   "test_classes": "target/test-classes"
 }

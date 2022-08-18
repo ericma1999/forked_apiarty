@@ -16,15 +16,15 @@
         "compile": "./gradlew :spring-security-core:compileTestJava"
       },
       {
-        "extract": ""
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
       }
     ]
   },
   "file_path": "core/src/main/java/org/springframework/security/core/token/SecureRandomFactoryBean.java",
   "test_class": "org.springframework.security.core.token.SecureRandomFactoryBeanTests#testCreatesUsingSeed",
-  "src_path": "src/main/java",
-  "test_path": "src/test/java",
-  "package_path": "",
+  "src_path": "core/src/main/java",
+  "test_path": "core/src/test/java",
+  "package_path": ".",
   "src_classes": "build/classes/java/main",
   "test_classes": "build/classes/java/test"
 }

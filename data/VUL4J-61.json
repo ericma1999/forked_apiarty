@@ -16,7 +16,7 @@
         "compile": "./gradlew compileTestJava"
       },
       {
-        "extract": ""
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
       }
     ]
   },
@@ -24,7 +24,7 @@
   "test_class": "apoc.load.XmlTest#testLoadXmlPreventXXEVulnerabilityThrowsQueryExecutionException",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
-  "package_path": "",
+  "package_path": ".",
   "src_classes": "build/classes/java/main",
   "test_classes": "build/classes/java/main"
 }

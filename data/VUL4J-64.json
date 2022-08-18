@@ -16,15 +16,15 @@
         "compile": "./refine build"
       },
       {
-        "extract": ""
+        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
       }
     ]
   },
   "file_path": "main/src/com/google/refine/importers/XmlImporter.java",
   "test_class": "com.google.refine.tests.importers.XmlImporterTests#ignoresDtds",
-  "src_path": "src",
-  "test_path": "tests/server/src",
-  "package_path": "",
+  "src_path": "main/src",
+  "test_path": "main/tests",
+  "package_path": ".",
   "src_classes": "webapp/WEB-INF/classes",
   "test_classes": "target/test-classes"
 }
