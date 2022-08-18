@@ -624,6 +624,6 @@ if __name__ == "__main__":
 						with open(str(Path(APIARTY_ROOT / 'findings' / 'failed.txt')), 'a+', newline='\n') as file:
 							print("failed")
 							print(f"error: {str(e)} {tool} {project.id}")
-							file.write(f"{tool} {project.id}")
+							file.write(f"{tool_by_name} {project.id}\n")
 							continue
 
