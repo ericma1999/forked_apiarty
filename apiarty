@@ -621,9 +621,9 @@ if __name__ == "__main__":
 							res_writer.writerow([bug_id, tool.name, "timeout", today.strftime("%B %d, %Y")])
 							continue
 					except Exception as e:
-						with open(str(Path(APIARTY_ROOT / 'findings' / 'failed.txt')), 'a+', newline='\n') as file:
+						with open(str(Path(APIARTY_ROOT / 'findings' / 'failed.txt')), 'a+') as file:
 							print("failed")
-							print(f"error: {str(e)} {tool_by_name} {project.id}")
-							file.write(f"{tool_by_name} {project.id}\n")
+							print("error: {} {}".format(str(e), tool_by_name[k]))
+							file.write("{} {}\n".format(tool_by_name[k], project.id))
 							continue
 
