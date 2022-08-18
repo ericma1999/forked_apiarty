@@ -622,6 +622,8 @@ if __name__ == "__main__":
 							continue
 					except Exception as e:
 						with open(str(Path(APIARTY_ROOT / 'findings' / 'failed.txt')), 'a+', newline='\n') as file:
+							print("failed")
+							print(f"{tool} {project.id}")
 							file.write(f"{tool} {project.id}")
 							continue
 
