@@ -620,3 +620,8 @@ if __name__ == "__main__":
 							res_writer = csv.writer(csvfile, delimiter=',')
 							res_writer.writerow([bug_id, tool.name, "timeout", today.strftime("%B %d, %Y")])
 							continue
+					except Exception as e:
+						with open(str(Path(APIARTY_ROOT / 'findings' / 'failed.txt')), 'a+', newline='\n') as file:
+							file.write(f"{tool} {project.id}")
+							continue
+
