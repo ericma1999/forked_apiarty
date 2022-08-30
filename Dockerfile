@@ -52,8 +52,7 @@ RUN git clone https://github.com/yyxhdy/arja.git /arja \
 
 # Install Astor and its dependencies (1st installation option)
 WORKDIR /astor
-RUN git clone https://github.com/SpoonLabs/astor.git /astor \
-    && mvn package -DskipTests=true
+RUN git clone https://github.com/SpoonLabs/astor.git /astor
 
 # Install Avatar
 WORKDIR /avatar
