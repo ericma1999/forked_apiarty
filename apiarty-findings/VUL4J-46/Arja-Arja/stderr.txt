@@ -1,0 +1,12 @@
+Exception in thread "main" java.lang.NullPointerException
+	at us.msu.cse.repair.core.parser.ingredient.IngredientUtil.isReturnThrowCompatible(IngredientUtil.java:517)
+	at us.msu.cse.repair.core.parser.ingredient.AbstractIngredientScreener.canPreFiltered(AbstractIngredientScreener.java:67)
+	at us.msu.cse.repair.core.parser.ingredient.DirectIngredientScreener.screenIngredients(DirectIngredientScreener.java:26)
+	at us.msu.cse.repair.core.parser.ingredient.AbstractIngredientScreener.screen(AbstractIngredientScreener.java:35)
+	at us.msu.cse.repair.core.parser.ingredient.AbstractIngredientScreener.screen(AbstractIngredientScreener.java:30)
+	at us.msu.cse.repair.core.AbstractRepairProblem.invokeIngredientScreener(AbstractRepairProblem.java:417)
+	at us.msu.cse.repair.core.AbstractRepairProblem.invokeModules(AbstractRepairProblem.java:277)
+	at us.msu.cse.repair.core.AbstractRepairProblem.<init>(AbstractRepairProblem.java:246)
+	at us.msu.cse.repair.ec.problems.ArjaProblem.<init>(ArjaProblem.java:44)
+	at us.msu.cse.repair.ArjaMain.main(ArjaMain.java:37)
+	at us.msu.cse.repair.Main.main(Main.java:8)
