@@ -117,6 +117,8 @@ class Project:
 			self.vcs.fetch(self.revision, next_dir)
 			shutil.rmtree(str(self.root) + "/" +
 						  self.package_path + "/" + self.test_path)
+			print("copying from" + next_dir + "/" + self.package_path + "/" + self.test_path)
+			print("copying to " + str(self.root) + "/" + self.package_path + "/" + self.test_path)
 			shutil.copytree(next_dir + "/" + self.package_path + "/" + self.test_path,
 							str(self.root) + "/" + self.package_path + "/" + self.test_path)
 
@@ -276,7 +278,7 @@ class Astor():
 			with (output_dir / 'stdout.txt').open('w') as stdout,\
 				 (output_dir / 'stderr.txt').open('w') as stderr:
 				p = run([
-					'java', '-Xmx4048m', '-cp', "/astor/lib/jtestex7.jar:/astor/target/astor-1.0.0-SNAPSHOT-jar-with-dependencies.jar", self.main_class,
+					'java', '-Xmx4048m', '-cp', "/astor/lib/jtestex7.jar:/astor/target/astor-2.0.0-jar-with-dependencies.jar", self.main_class,
 							'-mode', self.algorithm,
 							'-location', str(project_folder.resolve()) + "/",
 							'-jvm4testexecution', str(os.getenv("JAVA_HOME"))+str("/bin/"),

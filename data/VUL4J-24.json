@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "bundles/extensions/xss/src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java",
-  "test_class": "org.apache.sling.xss.impl.XSSAPIImplTest#testGetValidXML",
+  "test_class": "org.apache.sling.xss.impl.XSSAPIImplTest",
   "src_path": "bundles/extensions/xss/src/main/java",
   "test_path": "bundles/extensions/xss/src/test",
   "package_path": ".",

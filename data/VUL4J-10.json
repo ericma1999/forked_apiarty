@@ -10,7 +10,7 @@
   "build_system": {
     "custom": [
       {
-        "test": "mvn test -Dtest=org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepositoryWithNullChar,org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepository"
+        "test": "mvn test -Dtest=org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepositoryWithNullChar"
       },
       {
         "compile": "mvn -DskipTests clean install"
@@ -21,9 +21,9 @@
     ]
   },
   "file_path": "src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java",
-  "test_class": "org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepositoryWithNullChar,org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepository",
-  "src_path": "src/main/java",
-  "test_path": "src/test/java",
+  "test_class": "org.apache.commons.fileupload.DiskFileItemSerializeTest",
+  "src_path": "src/main/java/",
+  "test_path": "src/test/java/",
   "package_path": ".",
   "src_classes": "target/classes",
   "test_classes": "target/test-classes"

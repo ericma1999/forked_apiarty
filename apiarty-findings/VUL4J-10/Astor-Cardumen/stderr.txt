@@ -1,1 +1,5 @@
-Error: Could not find or load main class fr.inria.main.evolution.AstorMain
+Exception in thread "main" java.lang.IllegalStateException: No suspicious line detected by the fault localization
+	at fr.inria.main.evolution.AstorMain.createEngine(AstorMain.java:105)
+	at fr.inria.main.evolution.AstorMain.run(AstorMain.java:160)
+	at fr.inria.main.evolution.AstorMain.execute(AstorMain.java:222)
+	at fr.inria.main.evolution.AstorMain.main(AstorMain.java:193)
