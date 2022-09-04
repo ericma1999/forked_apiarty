@@ -1,1 +1,0 @@
-docker run -it -v apiarty-findings:/apiarty/findings --rm --pid=host apiarty:latest ${*}
