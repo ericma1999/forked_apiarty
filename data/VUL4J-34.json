@@ -25,6 +25,7 @@
   "src_path": "core/src/main/java",
   "test_path": "core/src/test/java",
   "package_path": ".",
-  "src_classes": "target/classes",
-  "test_classes": "target/test-classes"
+  "src_classes": "core/target/classes",
+  "test_classes": "core/target/test-classes",
+  "custom_classpath_project": "core"
 }

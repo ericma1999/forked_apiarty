@@ -10,7 +10,7 @@
   "build_system": {
     "custom": [
       {
-        "test": "mvn test -pl esigate-core -Dtest=org.esigate.xml.XsltRendererTest#testSecureRendering"
+        "test": "mvn test -pl esigate-core -Dtest=org.esigate.xml.XsltRendererTest -B"
       },
       {
         "compile": "mvn -DskipTests clean install"
@@ -21,10 +21,11 @@
     ]
   },
   "file_path": "esigate-core/src/main/java/org/esigate/xml/XsltRenderer.java",
-  "test_class": "org.esigate.xml.XsltRendererTest#testSecureRendering",
+  "test_class": "org.esigate.xml.XsltRendererTest",
   "src_path": "esigate-core/src/main/java",
   "test_path": "esigate-core/src/test/java",
   "package_path": ".",
-  "src_classes": "target/classes",
-  "test_classes": "target/test-classes"
+  "src_classes": "esigate-core/target/classes",
+  "test_classes": "esigate-core/target/test-classes",
+  "custom_classpath_project": "esigate-core"
 }

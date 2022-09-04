@@ -61,10 +61,11 @@ class cd:
 
 class Project:
 	def __init__(self, id, root, vcs, revision, build_system, test_class,
-				 src_path, test_path, package_path, src_classes, test_classes, build_command):
+				 src_path, test_path, package_path, src_classes, test_classes, build_command, custom_classpath_project):
 		self.id = id
 		self.root = root
 		self.vcs = vcs
+		self.custom_classpath_project = custom_classpath_project
 		self.revision = revision
 		self.build_system = build_system
 		self.test_class = test_class
@@ -184,6 +185,9 @@ class BuildSystem:
 				remaining_attempts = remaining_attempts - 1
 
 	def test(self, root):
+		print("running the test")
+		print(root)
+		print(self.test_command)
 		with cd(root):
 			p = run(self.test_command, shell=True,
 					stdout=apiarty_stdout, stderr=apiarty_stderr)
@@ -218,9 +222,21 @@ class Arja():
 		# 						  "/" + str(project.package_path))
 		# else:
 		project_folder = project.root
+		
+		print("this is the path")
+		print(str(project.root))
+		print("/classpath.info")
 
-		dependencies = (Path(str(project_folder) +
-							 '/classpath.info')).read_text()
+		class_path = (Path(str(project_folder) +
+							 '/classpath.info')) 
+		
+		if project.custom_classpath_project != '':
+			class_path = (Path(str(project_folder) + "/" + project.custom_classpath_project +
+							 '/classpath.info'))
+		
+		print(class_path)
+
+		dependencies = class_path.read_text()
 
 		with cd(ARJA_ROOT):
 			with (output_dir / 'stdout.txt').open('w') as stdout,\
@@ -522,10 +538,15 @@ def parse_project(id, project_root):
 		data = json.load(json_file)
 		vcs = make_vcs(data['vcs'], data['repo'])
 		build_system = make_build(data['build_system'], project_root / data['name'])
+
+		custom_classpath_project = ""
+		if data.get("custom_classpath_project") is not None:
+			custom_classpath_project = data.get("custom_classpath_project")
+
 		return Project(id=data['id'], root=(project_root / data['name']),
 					   vcs=vcs, revision=data['revision'], build_system=build_system,
 					   test_class=data['test_class'], src_path=data['src_path'], test_path=data['test_path'],
-					   package_path=data['package_path'], src_classes=data['src_classes'], test_classes=data['test_classes'], build_command=data['build_system'])
+					   package_path=data['package_path'], src_classes=data['src_classes'], test_classes=data['test_classes'], build_command=data['build_system'],custom_classpath_project=custom_classpath_project)
 
 # TODO: To update this method we have a similar process in all tools for all bugs
 def process_all_bugs(tool, database):

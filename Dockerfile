@@ -27,8 +27,8 @@ RUN \
 # The following installation instructions can be also found in the GitHub repos of the tools themselves.
 
 # Install Nopol and its dependencies
-# WORKDIR /CoCoSpoon
-# RUN git clone https://github.com/SpoonLabs/CoCoSpoon.git /CoCoSpoon
+WORKDIR /CoCoSpoon
+RUN git clone https://github.com/SpoonLabs/CoCoSpoon.git /CoCoSpoon
 
 # WORKDIR /nopol
 # RUN git clone https://github.com/SpoonLabs/nopol.git /nopol \

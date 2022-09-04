@@ -25,6 +25,7 @@
   "src_path": "modules/swagger-parser/src/main/java",
   "test_path": "modules/swagger-parser/src/test/java",
   "package_path": ".",
-  "src_classes": "target/classes",
-  "test_classes": "target/test-classes"
+  "src_classes": "swagger-parser/target/classes",
+  "test_classes": "swagger-parser/target/test-classes",
+  "custom_classpath_project": "swagger-parser"
 }
