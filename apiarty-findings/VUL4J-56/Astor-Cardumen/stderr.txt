@@ -1,4 +1,4 @@
-Sep 04, 2022 6:46:21 PM jenkins.model.Jenkins <clinit>
+Sep 04, 2022 7:31:46 PM jenkins.model.Jenkins <clinit>
 SEVERE: Failed to load Jenkins.class
 java.lang.NoSuchMethodError: org.apache.logging.log4j.spi.LoggerContextFactory.isClassLoaderDependent()Z
 	at org.apache.logging.log4j.jcl.LogAdapter.getContext(LogAdapter.java:40)
@@ -56,7 +56,7 @@ spoon.compiler.ModelBuildingException: The type History collides with a package 
 	at fr.inria.main.evolution.AstorMain.run(AstorMain.java:160)
 	at fr.inria.main.evolution.AstorMain.execute(AstorMain.java:222)
 	at fr.inria.main.evolution.AstorMain.main(AstorMain.java:193)
-Sep 04, 2022 6:46:24 PM jenkins.model.Jenkins <clinit>
+Sep 04, 2022 7:31:48 PM jenkins.model.Jenkins <clinit>
 SEVERE: Failed to load Jenkins.class
 java.lang.NoSuchMethodError: org.apache.logging.log4j.spi.LoggerContextFactory.isClassLoaderDependent()Z
 	at org.apache.logging.log4j.jcl.LogAdapter.getContext(LogAdapter.java:40)

@@ -30,10 +30,8 @@ RUN \
 WORKDIR /CoCoSpoon
 RUN git clone https://github.com/SpoonLabs/CoCoSpoon.git /CoCoSpoon
 
-# WORKDIR /nopol
-# RUN git clone https://github.com/SpoonLabs/nopol.git /nopol \
-#     && cd nopol \
-#     && mvn package -DskipTests
+WORKDIR /nopol
+RUN git clone https://github.com/SpoonLabs/nopol.git /nopol
 
 # Install Arja and its dependencies
 WORKDIR /arja

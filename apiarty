@@ -334,7 +334,7 @@ class Nopol():
 
 	def run(self, project, output_dir):
 		NOPOL_JAR = NOPOL_ROOT / 'nopol' / 'target' / \
-			'nopol-0.2-SNAPSHOT-jar-with-dependencies.jar'
+			'nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar'
 		SOLVER_PATH = NOPOL_ROOT / 'nopol' / 'lib' / 'z3' / 'z3_for_linux'
 
 		repair_status = RepairStatus.UNKNOWN

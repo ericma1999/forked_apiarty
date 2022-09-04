@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "src/main/java/hudson/tasks/junit/SuiteResult.java",
-  "test_class": "hudson.tasks.junit.JUnitResultArchiverTest#testXxe",
+  "test_class": "hudson.tasks.junit.JUnitResultArchiverTest",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",
