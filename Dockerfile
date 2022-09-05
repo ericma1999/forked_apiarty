@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 
 # settings
 ENV DEBIAN_FRONTEND noninteractive
@@ -31,7 +31,7 @@ WORKDIR /CoCoSpoon
 RUN git clone https://github.com/SpoonLabs/CoCoSpoon.git /CoCoSpoon
 
 WORKDIR /nopol
-RUN git clone https://github.com/SpoonLabs/nopol.git /nopol
+RUN git clone https://github.com/ericma1999/forked_nopol.git /nopol
 
 # Install Arja and its dependencies
 WORKDIR /arja
@@ -76,14 +76,14 @@ RUN git clone https://github.com/SerVal-DTF/AVATAR.git \
 #     && ./init.sh
   
 # Install SimFix
-WORKDIR /simfix
-RUN git clone https://github.com/xgdsmileboy/SimFix.git \
-    && cd /simfix/SimFix/sbfl/ \
-    && mkdir projects \
-    && git clone https://github.com/rjust/defects4j.git \
-    && cd defects4j \
-    && cpanm --installdeps . \
-    && ./init.sh
+# WORKDIR /simfix
+# RUN git clone https://github.com/xgdsmileboy/SimFix.git \
+#     && cd /simfix/SimFix/sbfl/ \
+#     && mkdir projects \
+#     && git clone https://github.com/rjust/defects4j.git \
+#     && cd defects4j \
+#     && cpanm --installdeps . \
+#     && ./init.sh
 
 WORKDIR /apiarty
 

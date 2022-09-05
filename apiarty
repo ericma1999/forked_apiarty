@@ -334,7 +334,7 @@ class Nopol():
 
 	def run(self, project, output_dir):
 		NOPOL_JAR = NOPOL_ROOT / 'nopol' / 'target' / \
-			'nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar'
+			'nopol-0.2-SNAPSHOT-jar-with-dependencies.jar'
 		SOLVER_PATH = NOPOL_ROOT / 'nopol' / 'lib' / 'z3' / 'z3_for_linux'
 
 		repair_status = RepairStatus.UNKNOWN
@@ -372,6 +372,13 @@ class Nopol():
 						'--maxTime', str(120)
 					]
 				else:
+					print("java -jar")
+					print(str(NOPOL_JAR))
+
+					print(str(project_folder / project.src_classes)+":" +
+						str(project_folder / project.test_classes) +
+						":"+dependencies)
+
 					args = [
 						'java', '-Xmx4048m', '-jar', str(NOPOL_JAR),
 						'-s', str(project_folder / project.src_path) +
@@ -526,9 +533,9 @@ tool_by_name = {
 	'Astor-jGenProg': Astor('fr.inria.main.evolution.AstorMain', 'jgenprog'),
 	'Astor-jKali': Astor('fr.inria.main.evolution.AstorMain', 'jKali'),
 	'Astor-jMutRepair': Astor('fr.inria.main.evolution.AstorMain', 'jMutRepair'),
-	'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen')
-  #   'Dynamoth': Nopol('dynamoth'),
-  #   'Nopol': Nopol(None),
+	'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen'),
+    'Dynamoth': Nopol('dynamoth'),
+    'Nopol': Nopol(None),
 	# 'NPEFix': Npefix(),
 }
 
