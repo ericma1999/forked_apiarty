@@ -1,0 +1,1036 @@
+[0] INFO ProjectConfiguration - Version of the JVM used: 1.8.0_342
+[1] INFO main - Java version of the JDK used to run tests: 1.8.0_342
+[3] INFO main - The compliance of the JVM is:  8
+[5] INFO main - command line arguments: [-mode  jMutRepair  -location  /apiarty/data/VUL4J-45/esigate/esigate/  -jvm4testexecution  /usr/lib/jvm/java-8-openjdk-amd64/bin/  -failing  org.esigate.xml.XsltRendererTest  -srcjavafolder  /esigate-core/src/main/java  -srctestfolder  /esigate-core/src/test/java  -binjavafolder  /esigate-core/target/classes  -bintestfolder  /esigate-core/target/test-classes  -maxtime  120  -stopfirst  true  -maxgen  1000000  -seed  0  -scope  local  -population  1  -dependencies  :/astor/lib/gzoltar/com.gzoltar-0.0.3.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom]
+[8] INFO AstorMain - Running Astor on a JDK at /usr/lib/jvm/java-11-openjdk-amd64
+Source folders: [/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/main/java]
+Source Test folders: [/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/test/java]
+---- Creating spoon model
+Creating model,  Code location from working folder: /apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/main/java
+building model: /apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/main/java, compliance level: 8
+Classpath (Dependencies) for building SpoonModel: [/astor/lib/gzoltar/com.gzoltar-0.0.3.jar]
+Problem compiling the model with compliance level 8
+The import org.apache cannot be resolved at /apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/main/java/org/esigate/extension/parallelesi/EsiRenderer.java:27
+Recompiling with compliance level 8
+building model: /apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/main/java, compliance level: 8
+Classpath (Dependencies) for building SpoonModel: [/astor/lib/gzoltar/com.gzoltar-0.0.3.jar]
+Error compiling: The import org.apache cannot be resolved at /apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/main/java/org/esigate/extension/parallelesi/EsiRenderer.java:27
+Astor continues when model build fails. Classes created: 188
+Number of CtTypes created: 188
+Running chosen test detection strategy: CLASSLOADER
+NoClassDefFoundError: class org.esigate.url.StickySessionBaseUrlRetrieveStrategy
+NoClassDefFoundError: class org.esigate.url.RoundRobinBaseUrlRetrieveStrategy
+NoClassDefFoundError: class org.esigate.url.SingleBaseUrlRetrieveStrategy
+NoClassDefFoundError: class org.esigate.url.IpHashBaseUrlRetrieveStrategy
+NoClassDefFoundError: class org.esigate.util.HttpRequestHelper
+NoClassDefFoundError: class org.esigate.util.UriUtils
+NoClassDefFoundError: class org.esigate.DriverFactory
+NoClassDefFoundError: class org.esigate.impl.DriverRequest
+NoClassDefFoundError: class org.esigate.authentication.RemoteUserAuthenticationHandler
+NoClassDefFoundError: class org.esigate.authentication.RequestAuthenticationHandler
+NoClassDefFoundError: class org.esigate.http.HttpClientRequestExecutor
+NoClassDefFoundError: class org.esigate.http.cookie.CookieUtil
+NoClassDefFoundError: class org.esigate.http.MoveResponseHeader
+NoClassDefFoundError: class org.esigate.http.ContentTypeHelper
+NoClassDefFoundError: class org.esigate.http.HeaderManager
+NoClassDefFoundError: class org.esigate.http.HttpResponseUtils
+NoClassDefFoundError: class org.esigate.extension.monitoring.Metric
+NoClassDefFoundError: class org.esigate.extension.http.DNS
+NoClassDefFoundError: class org.esigate.extension.surrogate.Surrogate
+NoClassDefFoundError: class org.esigate.extension.ErrorPages
+NoClassDefFoundError: class org.esigate.extension.FetchLogging
+NoClassDefFoundError: class org.esigate.esi.EsiSyntaxError
+NoClassDefFoundError: class org.esigate.cache.CacheConfigHelper
+NoClassDefFoundError: class org.esigate.cache.CacheAdapter
+NoClassDefFoundError: class org.esigate.cookie.DefaultCookieManager
+NoClassDefFoundError: class org.esigate.vars.VariablesResolver
+NoClassDefFoundError: class org.esigate.parser.ParserContextImpl
+NoClassDefFoundError: class org.esigate.parser.future.FutureParserContextImpl
+NoClassDefFoundError: class org.esigate.test.TestUtils
+NoClassDefFoundError: class org.esigate.test.http.HttpResponseBuilder
+NoClassDefFoundError: class org.esigate.test.conn.SequenceResponse
+NoClassDefFoundError: class org.esigate.test.conn.UriResponse
+NoClassDefFoundError: class org.esigate.Driver
+NoClassDefFoundError: class org.esigate.events.impl.ProxyEvent
+NoClassDefFoundError: class org.esigate.events.impl.FragmentEvent
+NoClassDefFoundError: class org.esigate.events.impl.HttpClientBuilderEvent
+NoClassDefFoundError: class org.esigate.events.impl.FetchEvent
+NoClassDefFoundError: class org.esigate.events.impl.RenderEvent
+NoClassDefFoundError: class org.esigate.HttpErrorPage
+NoClassDefFoundError: class org.esigate.url.StickySessionBaseUrlRetrieveStrategyTest
+NoClassDefFoundError: class org.esigate.url.StickySessionBaseUrlRetrieveStrategyTest
+NoClassDefFoundError: class org.esigate.DriverTest
+NoClassDefFoundError: class org.esigate.DriverTest
+NoClassDefFoundError: class org.esigate.http.HttpClientRequestExecutorTest
+NoClassDefFoundError: class org.esigate.http.HttpClientRequestExecutorTest
+NoClassDefFoundError: class org.esigate.http.HeaderManagerTest
+NoClassDefFoundError: class org.esigate.http.HeaderManagerTest
+NoClassDefFoundError: class org.esigate.http.cookie.CustomBrowserCompatSpecFactoryTest
+NoClassDefFoundError: class org.esigate.http.cookie.CustomBrowserCompatSpecFactoryTest
+NoClassDefFoundError: class org.esigate.http.cookie.CookieUtilTest
+NoClassDefFoundError: class org.esigate.http.cookie.CookieUtilTest
+NoClassDefFoundError: class org.esigate.extension.APITest
+NoClassDefFoundError: class org.esigate.extension.surrogate.SurrogateTest
+NoClassDefFoundError: class org.esigate.extension.surrogate.SurrogateTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.ChooseElementTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.ChooseElementTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.EsiTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.EsiTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.CommentTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.CommentTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.IncludeElementTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.IncludeElementTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.VarsElementTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.VarsElementTest
+NoClassDefFoundError: class org.esigate.extension.DefaultCharsetTest
+NoClassDefFoundError: class org.esigate.extension.DefaultCharsetTest
+NoClassDefFoundError: class org.esigate.extension.HtmlEncodingProcessorTest
+NoClassDefFoundError: class org.esigate.extension.HtmlEncodingProcessorTest
+NoClassDefFoundError: class org.esigate.esi.ChooseElementTest
+NoClassDefFoundError: class org.esigate.esi.ChooseElementTest
+NoClassDefFoundError: class org.esigate.esi.CommentTest
+NoClassDefFoundError: class org.esigate.esi.CommentTest
+NoClassDefFoundError: class org.esigate.esi.IncludeElementTest
+NoClassDefFoundError: class org.esigate.esi.IncludeElementTest
+NoClassDefFoundError: class org.esigate.esi.VarsElementTest
+NoClassDefFoundError: class org.esigate.esi.VarsElementTest
+NoClassDefFoundError: class org.esigate.MockRequestExecutor
+NoClassDefFoundError: class org.esigate.cache.CacheStorageTestUtils
+NoClassDefFoundError: class org.esigate.cache.ManagedCacheStorageTest
+NoClassDefFoundError: class org.esigate.cache.ManagedCacheStorageTest
+NoClassDefFoundError: class org.esigate.cache.BasicCacheStorageTest
+NoClassDefFoundError: class org.esigate.cache.BasicCacheStorageTest
+NoClassDefFoundError: class org.esigate.cache.EhcacheCacheStorageTest
+NoClassDefFoundError: class org.esigate.cache.EhcacheCacheStorageTest
+NoClassDefFoundError: class org.esigate.cache.MemcachedCacheStorageTest
+NoClassDefFoundError: class org.esigate.cache.MemcachedCacheStorageTest
+NoClassDefFoundError: class org.esigate.cookie.DefaultCookieManagerTest
+NoClassDefFoundError: class org.esigate.cookie.DefaultCookieManagerTest
+NoClassDefFoundError: class org.esigate.vars.DriverEsiWhenTest
+NoClassDefFoundError: class org.esigate.vars.DriverEsiVariablesTest
+NoClassDefFoundError: class org.esigate.test.conn.UriResponseTest
+NoClassDefFoundError: class org.esigate.test.conn.SequenceResponseTest
+NoClassDefFoundError: class org.esigate.url.StickySessionBaseUrlRetrieveStrategy
+NoClassDefFoundError: class org.esigate.url.RoundRobinBaseUrlRetrieveStrategy
+NoClassDefFoundError: class org.esigate.url.SingleBaseUrlRetrieveStrategy
+NoClassDefFoundError: class org.esigate.url.IpHashBaseUrlRetrieveStrategy
+NoClassDefFoundError: class org.esigate.util.HttpRequestHelper
+NoClassDefFoundError: class org.esigate.util.UriUtils
+NoClassDefFoundError: class org.esigate.DriverFactory
+NoClassDefFoundError: class org.esigate.impl.DriverRequest
+NoClassDefFoundError: class org.esigate.authentication.RemoteUserAuthenticationHandler
+NoClassDefFoundError: class org.esigate.authentication.RequestAuthenticationHandler
+NoClassDefFoundError: class org.esigate.http.HttpClientRequestExecutor
+NoClassDefFoundError: class org.esigate.http.cookie.CookieUtil
+NoClassDefFoundError: class org.esigate.http.MoveResponseHeader
+NoClassDefFoundError: class org.esigate.http.ContentTypeHelper
+NoClassDefFoundError: class org.esigate.http.HeaderManager
+NoClassDefFoundError: class org.esigate.http.HttpResponseUtils
+NoClassDefFoundError: class org.esigate.extension.monitoring.Metric
+NoClassDefFoundError: class org.esigate.extension.http.DNS
+NoClassDefFoundError: class org.esigate.extension.surrogate.Surrogate
+NoClassDefFoundError: class org.esigate.extension.ErrorPages
+NoClassDefFoundError: class org.esigate.extension.FetchLogging
+NoClassDefFoundError: class org.esigate.esi.EsiSyntaxError
+NoClassDefFoundError: class org.esigate.cache.CacheConfigHelper
+NoClassDefFoundError: class org.esigate.cache.CacheAdapter
+NoClassDefFoundError: class org.esigate.cookie.DefaultCookieManager
+NoClassDefFoundError: class org.esigate.vars.VariablesResolver
+NoClassDefFoundError: class org.esigate.parser.ParserContextImpl
+NoClassDefFoundError: class org.esigate.parser.future.FutureParserContextImpl
+NoClassDefFoundError: class org.esigate.test.TestUtils
+NoClassDefFoundError: class org.esigate.test.http.HttpResponseBuilder
+NoClassDefFoundError: class org.esigate.test.conn.SequenceResponse
+NoClassDefFoundError: class org.esigate.test.conn.UriResponse
+NoClassDefFoundError: class org.esigate.Driver
+NoClassDefFoundError: class org.esigate.events.impl.ProxyEvent
+NoClassDefFoundError: class org.esigate.events.impl.FragmentEvent
+NoClassDefFoundError: class org.esigate.events.impl.HttpClientBuilderEvent
+NoClassDefFoundError: class org.esigate.events.impl.FetchEvent
+NoClassDefFoundError: class org.esigate.events.impl.RenderEvent
+NoClassDefFoundError: class org.esigate.HttpErrorPage
+NoClassDefFoundError: class org.esigate.url.StickySessionBaseUrlRetrieveStrategyTest
+NoClassDefFoundError: class org.esigate.DriverTest
+NoClassDefFoundError: class org.esigate.http.HttpClientRequestExecutorTest
+NoClassDefFoundError: class org.esigate.http.HeaderManagerTest
+NoClassDefFoundError: class org.esigate.http.cookie.CustomBrowserCompatSpecFactoryTest
+NoClassDefFoundError: class org.esigate.http.cookie.CookieUtilTest
+NoClassDefFoundError: class org.esigate.extension.APITest
+NoClassDefFoundError: class org.esigate.extension.surrogate.SurrogateTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.ChooseElementTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.EsiTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.CommentTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.IncludeElementTest
+NoClassDefFoundError: class org.esigate.extension.parallelesi.VarsElementTest
+NoClassDefFoundError: class org.esigate.extension.DefaultCharsetTest
+NoClassDefFoundError: class org.esigate.extension.HtmlEncodingProcessorTest
+NoClassDefFoundError: class org.esigate.esi.ChooseElementTest
+NoClassDefFoundError: class org.esigate.esi.CommentTest
+NoClassDefFoundError: class org.esigate.esi.IncludeElementTest
+NoClassDefFoundError: class org.esigate.esi.VarsElementTest
+NoClassDefFoundError: class org.esigate.MockRequestExecutor
+NoClassDefFoundError: class org.esigate.cache.CacheStorageTestUtils
+NoClassDefFoundError: class org.esigate.cache.ManagedCacheStorageTest
+NoClassDefFoundError: class org.esigate.cache.BasicCacheStorageTest
+NoClassDefFoundError: class org.esigate.cache.EhcacheCacheStorageTest
+NoClassDefFoundError: class org.esigate.cache.MemcachedCacheStorageTest
+NoClassDefFoundError: class org.esigate.cookie.DefaultCookieManagerTest
+NoClassDefFoundError: class org.esigate.vars.DriverEsiWhenTest
+NoClassDefFoundError: class org.esigate.vars.DriverEsiVariablesTest
+NoClassDefFoundError: class org.esigate.test.conn.UriResponseTest
+NoClassDefFoundError: class org.esigate.test.conn.SequenceResponseTest
+Test retrieved from classes: 47
+Running Flacoco...
+Running spectrum-based fault localization...
+FlacocoConfig{workspace='/astor/.', projectPath='/apiarty/data/VUL4J-45/esigate/esigate', srcJavaDir=[/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/main/java], srcTestDir=[/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/test/java], binJavaDir=[/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/target/classes], binTestDir=[/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/target/test-classes], classpath='/astor/lib/gzoltar/com.gzoltar-0.0.3.jar', customJUnitClasspath='null', customJacocoClasspath='null', mavenHome='/root/.m2/repository/', coverTests=false, testRunnerVerbose=false, testRunnerTimeoutInMs=7200000, testRunnerJVMArgs='null', threshold=0.1, includeZeros=false, complianceLevel=8, testDetectionStrategy=CLASSLOADER, ignoredTests=[], jUnit4Tests=[org.esigate.impl.UrlRewriterTest#testHrefPatternMatches, org.esigate.aggregator.AggregateRendererTest#testIncludeBlock, org.esigate.extension.parallelesi.TryElementTest#testAttempt2, org.esigate.tags.BlockRendererTest#testUnknownTag, org.esigate.url.SingleBaseUrlRetrieveStrategyTest#testGetBaseURL, org.esigate.util.UriUtilsTest#testRemoveSessionId, org.esigate.extension.parallelesi.TryElementTest#testAttempt1, org.esigate.extension.parallelesi.TryElementTest#testTryFragmentNotFound, org.esigate.DriverConfigurationTest#testStripMappingPath, org.esigate.extension.parallelesi.BaseElementTypeTest#testIsEndTag, org.esigate.util.ParameterTest#testGetValueInteger, org.esigate.esi.TryElementTest#testExcept2, org.esigate.aggregator.AggregateRendererTest#testIncludeTemplateNested, org.esigate.esi.EsiRendererTest#testFragmentTagsShouldBeRemoved, org.esigate.http.ContentTypeHelperTest#testDefaultConfig, org.esigate.util.UriUtilsTest#testCreateUriNoPathAndUrlEncodedCharacters, org.esigate.impl.UrlRewriterTest#testUrlRewriteSpecialChars, org.esigate.impl.UrlRewriterTest#testUrlSanitizingWithDot, org.esigate.renderers.ResourceFixupRendererTest#testRenderBlock1, org.esigate.esi.TryElementTest#testTryCatchFragmentNotFound2, org.esigate.impl.UrlRewriterTest#testUrlRewriteAbsolutUrlBaseUrlSlash, org.esigate.aggregator.AggregateRendererTest#testIncludeBlockNoBlockName, org.esigate.esi.TryElementTest#testExcept1, org.esigate.esi.InlineElementTest#testInlineElement, org.esigate.xml.XsltRendererTest#testParserSupportsUnescapedAmpersandCharacter, org.esigate.extension.parallelesi.BaseElementTest#testOnTagStart, org.esigate.tags.BlockRendererTest#testRenderBlock, org.esigate.esi.RemoveElementTest#testRemove, org.esigate.esi.BaseElementTypeTest#testIsStartTag, org.esigate.util.UriUtilsTest#testCreateUriSpecialCharacters, org.esigate.esi.TagTest#testCreateInvalidAttributesMarkup, org.esigate.extension.parallelesi.CommentElementTest#testCommentEmpty, org.esigate.util.UriUtilsTest#testCreateUri, org.esigate.extension.parallelesi.TryElementTest#testExcept2, org.esigate.extension.parallelesi.TryElementTest#testExcept1, org.esigate.xml.XsltRendererTest#testParserSupportsDuplicatedId, org.esigate.impl.UrlRewriterTest#testBackgroundPatternMatches, org.esigate.esi.BaseElementTest#testOnTagStart, org.esigate.util.FilterListTest#testAddAll, org.esigate.impl.UrlRewriterTest#testUrlRewriteAbsoluteUrlBaseUrl, org.esigate.impl.UrlRewriterTest#testHtmlRewriteInvalidEscapeSequence, org.esigate.util.PropertiesUtilTest#testEmptyList, org.esigate.http.OutgoingRequestContextTest#testSetRemoveAttribute, org.esigate.impl.UrlRewriterTest#testUrlSanitizing, org.esigate.extension.http.CustomizableDNSResolverTest#testResolve, org.esigate.util.FilterListTest#testAddCaseInsensitive, org.esigate.url.IpHashBaseUrlRetrieveStrategyTest#testGetBaseURLRandom, org.esigate.extension.parallelesi.InlineElementTest#testInlineElement, org.esigate.impl.UrlRewriterTest#testUrlRewritePort, org.esigate.extension.parallelesi.TryElementTest#testTryFragmentNotFound2, org.esigate.DriverFactoryTest#testSelectProviderExplicitDefaultMapping, org.esigate.extension.parallelesi.TryElementTest#testMultipleExcept, org.esigate.extension.parallelesi.ReplaceElementTest#testErrorIfNotInsideIncludeTag, org.esigate.extension.parallelesi.TryElementTest#testTry, org.esigate.extension.parallelesi.TryElementTest#testDefaultExcept, org.esigate.impl.UrlRewriterTest#testUrlRewriteAbsolutUrlBaseUrlSlashTest, org.esigate.parser.future.FutureParserTest#testParse, org.esigate.impl.UrlRewriterTest#testDoesNotRewriteJavascriptUrl, org.esigate.aggregator.AggregateRendererTest#testIncludeTemplateNoTemplateName, org.esigate.vars.VariablesResolverTest#testReplaceAllVariables, org.esigate.impl.UriMappingTest#testParseMapping, org.esigate.impl.UrlRewriterTest#testActionPatternMatches, org.esigate.impl.UrlRewriterTest#testUrlRewriteProtocol, org.esigate.impl.UrlRewriterTest#testSrcPatternMatches, org.esigate.parser.future.FutureAppendableAdapterTest#testBasic, org.esigate.util.UriUtilsTest#testCreateUriAddsSlashIfNoPath, org.esigate.util.UriUtilsTest#testEncodeIllegalCharacters, org.esigate.util.FilterListTest#testAddRemove, org.esigate.tags.TemplateRendererTest#testRenderTemplateWithSimilarParamNames, org.esigate.resource.ResourceUtilsTest#testGetHttpUrlWithQueryStringAbsoluteurl, org.esigate.util.UriUtilsTest#testSetPath, org.esigate.impl.UrlRewriterTest#testUrlRewriteSlash, org.esigate.extension.parallelesi.RemoveElementTest#testRemove, org.esigate.util.FilterListTest#testAdd, org.esigate.impl.UrlRewriterTest#testUrlRewriteEmptyUrl, org.esigate.impl.UrlRewriterTest#testHtmlRewriteUrlWithEncodedCharacters, org.esigate.esi.TryElementTest#testTryFragmentNotFound2, org.esigate.esi.ReplaceElementTest#testErrorIfNotInsideIncludeTag, org.esigate.url.RoundRobinBaseUrlRetrieveStrategyTest#testGetBaseURL, org.esigate.esi.TryElementTest#testDefaultExcept, org.esigate.xml.XsltRendererTest#testSecureRendering, org.esigate.http.XForwardedHeadersTest#testAddXForwardedHeadersHttps, org.esigate.util.PropertiesUtilTest#testSingleValueList, org.esigate.extension.parallelesi.TryElementTest#testTryCatchFragmentNotFound, org.esigate.DriverFactoryTest#testSelectProviderBasicUrlMapping, org.esigate.DriverFactoryTest#testSelectProviderHostUrlMapping, org.esigate.DriverConfigurationTest#testBaseUrl, org.esigate.impl.UrlRewriterTest#testHtmlUnicodeEntities, org.esigate.aggregator.AggregateRendererTest#testIncludeBlockNested, org.esigate.util.ParameterTest#testGetValueArray, org.esigate.extension.parallelesi.CommentElementTest#testComment, org.esigate.http.XForwardedHeadersTest#testXForwardedHeadersHttps, org.esigate.util.ParameterTest#testGetValueString, org.esigate.esi.TryElementTest#testTryFragmentNotFound, org.esigate.esi.CommentElementTest#testComment, org.esigate.esi.TryElementTest#testTryCatchFragmentNotFound, org.esigate.resource.ResourceUtilsTest#testGetHttpUrlWithQueryString, org.esigate.util.PropertiesUtilTest#testDoubleList, org.esigate.url.IpHashBaseUrlRetrieveStrategyTest#testGetBaseURLSameIpSameBaseUrl, org.esigate.impl.UrlRewriterTest#testUrlRewriteTrimEmptyUrl, org.esigate.esi.CommentElementTest#testCommentEmpty, org.esigate.tags.BlockRendererTest#testRenderBlockNull, org.esigate.xml.XsltRendererTest#testXslt, org.esigate.esi.BaseElementTypeTest#testIsEndTag, org.esigate.impl.UrlRewriterTest#testUrlRewrite, org.esigate.impl.UrlRewriterTest#testUrlRewriteEmptyRequestUrl, org.esigate.extension.parallelesi.ParallelEsiTest#testParallelInclude, org.esigate.util.FilterListTest#testAddAllRemoveList, org.esigate.impl.UrlRewriterTest#testUrlRewriteEsiVarUrl, org.esigate.esi.TryElementTest#testInvalidMarkup, org.esigate.url.IpHashBaseUrlRetrieveStrategyTest#testGetBaseURLInvalidIp, org.esigate.util.UriUtilsTest#testRemoveSessionId4, org.esigate.util.UriUtilsTest#testRemoveSessionId3, org.esigate.util.UriUtilsTest#testRemoveSessionId2, org.esigate.impl.UriMappingTest#testParseInvalidMapping, org.esigate.util.UriUtilsTest#testRemoveSessionId1, org.esigate.impl.UrlRewriterTest#testUrlRewriteRawQueryString, org.esigate.extension.http.DNSTest#testInit, org.esigate.util.FilterListTest#testAddListRemoveAll, org.esigate.impl.UrlRewriterTest#testUrlRewriteProtocolRelativeUrl, org.esigate.util.UriUtilsTest#testRemoveSessionId6, org.esigate.util.UriUtilsTest#testRemoveSessionId5, org.esigate.extension.surrogate.SurrogateHeaderTest#testParsingAndFormating, org.esigate.extension.parallelesi.TagTest#testCreate, org.esigate.extension.parallelesi.BaseElementTypeTest#testIsStartTag, org.esigate.esi.TryElementTest#testMultipleExcept, org.esigate.xml.XpathRendererTest#testXpathHtml, org.esigate.util.UriUtilsTest#testNormalizePath, org.esigate.http.XForwardedHeadersTest#testAddXForwardedHeadersHttp, org.esigate.tags.TemplateRendererTest#testRenderTemplateNull1, org.esigate.impl.UrlRewriterTest#testRewriteReferer, org.esigate.DriverFactoryTest#testConfigureStringProperties1, org.esigate.util.ParameterTest#testGetValueBoolean, org.esigate.tags.TemplateRendererTest#testRenderTemplateNull2, org.esigate.tags.TemplateRendererTest#testRenderTemplate1, org.esigate.parser.ParserTest#testParse, org.esigate.tags.TemplateRendererTest#testRenderTemplate2, org.esigate.xml.XpathRendererTest#testXpathAttribute, org.esigate.DriverFactoryTest#testSelectProvider, org.esigate.impl.UrlRewriterTest#testDoesNotRewriteMailtoUrl, org.esigate.aggregator.AggregateRendererTest#testIncludeTemplate, org.esigate.esi.TryElementTest#testTry, org.esigate.aggregator.AggregateRendererTest#testNestedTags, org.esigate.DriverFactoryTest#testStripMappingPath, org.esigate.util.FilterListTest#testAddList, org.esigate.xml.XpathRendererTest#testXpathXhtml, org.esigate.extension.parallelesi.TryElementTest#testTryCatchFragmentNotFound2, org.esigate.extension.parallelesi.EsiRendererTest#testFragmentTagsShouldBeRemoved, org.esigate.aggregator.AggregateRendererTest#testIncludeBlockRoot, org.esigate.impl.UrlRewriterTest#testPatternsAreCaseInsensitive, org.esigate.http.XForwardedHeadersTest#testXForwardedHeaders, org.esigate.extension.http.DNSTest#testEvent, org.esigate.aggregator.AggregateRendererTest#testIncludeTemplateWithVariables, org.esigate.esi.TagTest#testCreateWithQuotesInside, org.esigate.util.ParameterTest#testGetValueFloat, org.esigate.impl.UrlRewriterTest#testCdataPatternDoesNotMatch, org.esigate.esi.TryElementTest#testAttempt1, org.esigate.esi.TryElementTest#testAttempt2, org.esigate.extension.parallelesi.TryElementTest#testInvalidMarkup, org.esigate.esi.TagTest#testCreate, org.esigate.util.ParameterTest#testGetValueCollection, org.esigate.impl.UrlRewriterTest#testRewriteInJavascript, org.esigate.http.ContentTypeHelperTest#testParsableContentTypes, org.esigate.extension.parallelesi.TagTest#testCreateInvalidAttributesMarkup, org.esigate.impl.UrlRewriterTest#testUrlRewriteEmptyUrlHashtag, org.esigate.impl.UrlRewriterTest#testUrlRewriteTrim, org.esigate.impl.UrlRewriterTest#testUrlRewriteReplaceContext, org.esigate.impl.UrlRewriterTest#testRewriteMetaRefresh, org.esigate.DriverFactoryTest#testSelectProviderNoMapping, org.esigate.xml.XpathRendererTest#testXpathHtml5, org.esigate.impl.UrlRewriterTest#testEsiIncludePatternDoesNotMatch, org.esigate.extension.parallelesi.TagTest#testCreateWithQuotesInside], jUnit5Tests=[], jacocoIncludes=[], jacocoExcludes=[java.*], family=SPECTRUM_BASED, spectrumFormula=OCHIAI, computeSpoonResults=false}
+Computing tests from config.
+Running TestContext{testMethods=[[Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testHrefPatternMatches, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeBlock, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testAttempt2, [Manual]TestMethod=org.esigate.tags.BlockRendererTest#testUnknownTag, [Manual]TestMethod=org.esigate.url.SingleBaseUrlRetrieveStrategyTest#testGetBaseURL, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testAttempt1, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testTryFragmentNotFound, [Manual]TestMethod=org.esigate.DriverConfigurationTest#testStripMappingPath, [Manual]TestMethod=org.esigate.extension.parallelesi.BaseElementTypeTest#testIsEndTag, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueInteger, [Manual]TestMethod=org.esigate.esi.TryElementTest#testExcept2, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeTemplateNested, [Manual]TestMethod=org.esigate.esi.EsiRendererTest#testFragmentTagsShouldBeRemoved, [Manual]TestMethod=org.esigate.http.ContentTypeHelperTest#testDefaultConfig, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testCreateUriNoPathAndUrlEncodedCharacters, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteSpecialChars, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlSanitizingWithDot, [Manual]TestMethod=org.esigate.renderers.ResourceFixupRendererTest#testRenderBlock1, [Manual]TestMethod=org.esigate.esi.TryElementTest#testTryCatchFragmentNotFound2, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteAbsolutUrlBaseUrlSlash, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeBlockNoBlockName, [Manual]TestMethod=org.esigate.esi.TryElementTest#testExcept1, [Manual]TestMethod=org.esigate.esi.InlineElementTest#testInlineElement, [Manual]TestMethod=org.esigate.xml.XsltRendererTest#testParserSupportsUnescapedAmpersandCharacter, [Manual]TestMethod=org.esigate.extension.parallelesi.BaseElementTest#testOnTagStart, [Manual]TestMethod=org.esigate.tags.BlockRendererTest#testRenderBlock, [Manual]TestMethod=org.esigate.esi.RemoveElementTest#testRemove, [Manual]TestMethod=org.esigate.esi.BaseElementTypeTest#testIsStartTag, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testCreateUriSpecialCharacters, [Manual]TestMethod=org.esigate.esi.TagTest#testCreateInvalidAttributesMarkup, [Manual]TestMethod=org.esigate.extension.parallelesi.CommentElementTest#testCommentEmpty, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testCreateUri, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testExcept2, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testExcept1, [Manual]TestMethod=org.esigate.xml.XsltRendererTest#testParserSupportsDuplicatedId, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testBackgroundPatternMatches, [Manual]TestMethod=org.esigate.esi.BaseElementTest#testOnTagStart, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddAll, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteAbsoluteUrlBaseUrl, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testHtmlRewriteInvalidEscapeSequence, [Manual]TestMethod=org.esigate.util.PropertiesUtilTest#testEmptyList, [Manual]TestMethod=org.esigate.http.OutgoingRequestContextTest#testSetRemoveAttribute, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlSanitizing, [Manual]TestMethod=org.esigate.extension.http.CustomizableDNSResolverTest#testResolve, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddCaseInsensitive, [Manual]TestMethod=org.esigate.url.IpHashBaseUrlRetrieveStrategyTest#testGetBaseURLRandom, [Manual]TestMethod=org.esigate.extension.parallelesi.InlineElementTest#testInlineElement, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewritePort, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testTryFragmentNotFound2, [Manual]TestMethod=org.esigate.DriverFactoryTest#testSelectProviderExplicitDefaultMapping, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testMultipleExcept, [Manual]TestMethod=org.esigate.extension.parallelesi.ReplaceElementTest#testErrorIfNotInsideIncludeTag, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testTry, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testDefaultExcept, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteAbsolutUrlBaseUrlSlashTest, [Manual]TestMethod=org.esigate.parser.future.FutureParserTest#testParse, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testDoesNotRewriteJavascriptUrl, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeTemplateNoTemplateName, [Manual]TestMethod=org.esigate.vars.VariablesResolverTest#testReplaceAllVariables, [Manual]TestMethod=org.esigate.impl.UriMappingTest#testParseMapping, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testActionPatternMatches, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteProtocol, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testSrcPatternMatches, [Manual]TestMethod=org.esigate.parser.future.FutureAppendableAdapterTest#testBasic, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testCreateUriAddsSlashIfNoPath, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testEncodeIllegalCharacters, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddRemove, [Manual]TestMethod=org.esigate.tags.TemplateRendererTest#testRenderTemplateWithSimilarParamNames, [Manual]TestMethod=org.esigate.resource.ResourceUtilsTest#testGetHttpUrlWithQueryStringAbsoluteurl, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testSetPath, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteSlash, [Manual]TestMethod=org.esigate.extension.parallelesi.RemoveElementTest#testRemove, [Manual]TestMethod=org.esigate.util.FilterListTest#testAdd, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteEmptyUrl, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testHtmlRewriteUrlWithEncodedCharacters, [Manual]TestMethod=org.esigate.esi.TryElementTest#testTryFragmentNotFound2, [Manual]TestMethod=org.esigate.esi.ReplaceElementTest#testErrorIfNotInsideIncludeTag, [Manual]TestMethod=org.esigate.url.RoundRobinBaseUrlRetrieveStrategyTest#testGetBaseURL, [Manual]TestMethod=org.esigate.esi.TryElementTest#testDefaultExcept, [Manual]TestMethod=org.esigate.xml.XsltRendererTest#testSecureRendering, [Manual]TestMethod=org.esigate.http.XForwardedHeadersTest#testAddXForwardedHeadersHttps, [Manual]TestMethod=org.esigate.util.PropertiesUtilTest#testSingleValueList, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testTryCatchFragmentNotFound, [Manual]TestMethod=org.esigate.DriverFactoryTest#testSelectProviderBasicUrlMapping, [Manual]TestMethod=org.esigate.DriverFactoryTest#testSelectProviderHostUrlMapping, [Manual]TestMethod=org.esigate.DriverConfigurationTest#testBaseUrl, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testHtmlUnicodeEntities, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeBlockNested, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueArray, [Manual]TestMethod=org.esigate.extension.parallelesi.CommentElementTest#testComment, [Manual]TestMethod=org.esigate.http.XForwardedHeadersTest#testXForwardedHeadersHttps, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueString, [Manual]TestMethod=org.esigate.esi.TryElementTest#testTryFragmentNotFound, [Manual]TestMethod=org.esigate.esi.CommentElementTest#testComment, [Manual]TestMethod=org.esigate.esi.TryElementTest#testTryCatchFragmentNotFound, [Manual]TestMethod=org.esigate.resource.ResourceUtilsTest#testGetHttpUrlWithQueryString, [Manual]TestMethod=org.esigate.util.PropertiesUtilTest#testDoubleList, [Manual]TestMethod=org.esigate.url.IpHashBaseUrlRetrieveStrategyTest#testGetBaseURLSameIpSameBaseUrl, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteTrimEmptyUrl, [Manual]TestMethod=org.esigate.esi.CommentElementTest#testCommentEmpty, [Manual]TestMethod=org.esigate.tags.BlockRendererTest#testRenderBlockNull, [Manual]TestMethod=org.esigate.xml.XsltRendererTest#testXslt, [Manual]TestMethod=org.esigate.esi.BaseElementTypeTest#testIsEndTag, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewrite, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteEmptyRequestUrl, [Manual]TestMethod=org.esigate.extension.parallelesi.ParallelEsiTest#testParallelInclude, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddAllRemoveList, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteEsiVarUrl, [Manual]TestMethod=org.esigate.esi.TryElementTest#testInvalidMarkup, [Manual]TestMethod=org.esigate.url.IpHashBaseUrlRetrieveStrategyTest#testGetBaseURLInvalidIp, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId4, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId3, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId2, [Manual]TestMethod=org.esigate.impl.UriMappingTest#testParseInvalidMapping, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId1, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteRawQueryString, [Manual]TestMethod=org.esigate.extension.http.DNSTest#testInit, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddListRemoveAll, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteProtocolRelativeUrl, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId6, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId5, [Manual]TestMethod=org.esigate.extension.surrogate.SurrogateHeaderTest#testParsingAndFormating, [Manual]TestMethod=org.esigate.extension.parallelesi.TagTest#testCreate, [Manual]TestMethod=org.esigate.extension.parallelesi.BaseElementTypeTest#testIsStartTag, [Manual]TestMethod=org.esigate.esi.TryElementTest#testMultipleExcept, [Manual]TestMethod=org.esigate.xml.XpathRendererTest#testXpathHtml, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testNormalizePath, [Manual]TestMethod=org.esigate.http.XForwardedHeadersTest#testAddXForwardedHeadersHttp, [Manual]TestMethod=org.esigate.tags.TemplateRendererTest#testRenderTemplateNull1, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testRewriteReferer, [Manual]TestMethod=org.esigate.DriverFactoryTest#testConfigureStringProperties1, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueBoolean, [Manual]TestMethod=org.esigate.tags.TemplateRendererTest#testRenderTemplateNull2, [Manual]TestMethod=org.esigate.tags.TemplateRendererTest#testRenderTemplate1, [Manual]TestMethod=org.esigate.parser.ParserTest#testParse, [Manual]TestMethod=org.esigate.tags.TemplateRendererTest#testRenderTemplate2, [Manual]TestMethod=org.esigate.xml.XpathRendererTest#testXpathAttribute, [Manual]TestMethod=org.esigate.DriverFactoryTest#testSelectProvider, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testDoesNotRewriteMailtoUrl, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeTemplate, [Manual]TestMethod=org.esigate.esi.TryElementTest#testTry, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testNestedTags, [Manual]TestMethod=org.esigate.DriverFactoryTest#testStripMappingPath, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddList, [Manual]TestMethod=org.esigate.xml.XpathRendererTest#testXpathXhtml, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testTryCatchFragmentNotFound2, [Manual]TestMethod=org.esigate.extension.parallelesi.EsiRendererTest#testFragmentTagsShouldBeRemoved, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeBlockRoot, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testPatternsAreCaseInsensitive, [Manual]TestMethod=org.esigate.http.XForwardedHeadersTest#testXForwardedHeaders, [Manual]TestMethod=org.esigate.extension.http.DNSTest#testEvent, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeTemplateWithVariables, [Manual]TestMethod=org.esigate.esi.TagTest#testCreateWithQuotesInside, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueFloat, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testCdataPatternDoesNotMatch, [Manual]TestMethod=org.esigate.esi.TryElementTest#testAttempt1, [Manual]TestMethod=org.esigate.esi.TryElementTest#testAttempt2, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testInvalidMarkup, [Manual]TestMethod=org.esigate.esi.TagTest#testCreate, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueCollection, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testRewriteInJavascript, [Manual]TestMethod=org.esigate.http.ContentTypeHelperTest#testParsableContentTypes, [Manual]TestMethod=org.esigate.extension.parallelesi.TagTest#testCreateInvalidAttributesMarkup, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteEmptyUrlHashtag, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteTrim, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteReplaceContext, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testRewriteMetaRefresh, [Manual]TestMethod=org.esigate.DriverFactoryTest#testSelectProviderNoMapping, [Manual]TestMethod=org.esigate.xml.XpathRendererTest#testXpathHtml5, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testEsiIncludePatternDoesNotMatch, [Manual]TestMethod=org.esigate.extension.parallelesi.TagTest#testCreateWithQuotesInside], testFrameworkStrategy=fr.spoonlabs.flacoco.core.coverage.framework.JUnit4Strategy@35c4697c}
+Running TestContext{testMethods=[[Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testHrefPatternMatches, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeBlock, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testAttempt2, [Manual]TestMethod=org.esigate.tags.BlockRendererTest#testUnknownTag, [Manual]TestMethod=org.esigate.url.SingleBaseUrlRetrieveStrategyTest#testGetBaseURL, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testAttempt1, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testTryFragmentNotFound, [Manual]TestMethod=org.esigate.DriverConfigurationTest#testStripMappingPath, [Manual]TestMethod=org.esigate.extension.parallelesi.BaseElementTypeTest#testIsEndTag, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueInteger, [Manual]TestMethod=org.esigate.esi.TryElementTest#testExcept2, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeTemplateNested, [Manual]TestMethod=org.esigate.esi.EsiRendererTest#testFragmentTagsShouldBeRemoved, [Manual]TestMethod=org.esigate.http.ContentTypeHelperTest#testDefaultConfig, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testCreateUriNoPathAndUrlEncodedCharacters, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteSpecialChars, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlSanitizingWithDot, [Manual]TestMethod=org.esigate.renderers.ResourceFixupRendererTest#testRenderBlock1, [Manual]TestMethod=org.esigate.esi.TryElementTest#testTryCatchFragmentNotFound2, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteAbsolutUrlBaseUrlSlash, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeBlockNoBlockName, [Manual]TestMethod=org.esigate.esi.TryElementTest#testExcept1, [Manual]TestMethod=org.esigate.esi.InlineElementTest#testInlineElement, [Manual]TestMethod=org.esigate.xml.XsltRendererTest#testParserSupportsUnescapedAmpersandCharacter, [Manual]TestMethod=org.esigate.extension.parallelesi.BaseElementTest#testOnTagStart, [Manual]TestMethod=org.esigate.tags.BlockRendererTest#testRenderBlock, [Manual]TestMethod=org.esigate.esi.RemoveElementTest#testRemove, [Manual]TestMethod=org.esigate.esi.BaseElementTypeTest#testIsStartTag, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testCreateUriSpecialCharacters, [Manual]TestMethod=org.esigate.esi.TagTest#testCreateInvalidAttributesMarkup, [Manual]TestMethod=org.esigate.extension.parallelesi.CommentElementTest#testCommentEmpty, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testCreateUri, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testExcept2, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testExcept1, [Manual]TestMethod=org.esigate.xml.XsltRendererTest#testParserSupportsDuplicatedId, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testBackgroundPatternMatches, [Manual]TestMethod=org.esigate.esi.BaseElementTest#testOnTagStart, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddAll, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteAbsoluteUrlBaseUrl, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testHtmlRewriteInvalidEscapeSequence, [Manual]TestMethod=org.esigate.util.PropertiesUtilTest#testEmptyList, [Manual]TestMethod=org.esigate.http.OutgoingRequestContextTest#testSetRemoveAttribute, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlSanitizing, [Manual]TestMethod=org.esigate.extension.http.CustomizableDNSResolverTest#testResolve, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddCaseInsensitive, [Manual]TestMethod=org.esigate.url.IpHashBaseUrlRetrieveStrategyTest#testGetBaseURLRandom, [Manual]TestMethod=org.esigate.extension.parallelesi.InlineElementTest#testInlineElement, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewritePort, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testTryFragmentNotFound2, [Manual]TestMethod=org.esigate.DriverFactoryTest#testSelectProviderExplicitDefaultMapping, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testMultipleExcept, [Manual]TestMethod=org.esigate.extension.parallelesi.ReplaceElementTest#testErrorIfNotInsideIncludeTag, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testTry, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testDefaultExcept, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteAbsolutUrlBaseUrlSlashTest, [Manual]TestMethod=org.esigate.parser.future.FutureParserTest#testParse, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testDoesNotRewriteJavascriptUrl, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeTemplateNoTemplateName, [Manual]TestMethod=org.esigate.vars.VariablesResolverTest#testReplaceAllVariables, [Manual]TestMethod=org.esigate.impl.UriMappingTest#testParseMapping, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testActionPatternMatches, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteProtocol, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testSrcPatternMatches, [Manual]TestMethod=org.esigate.parser.future.FutureAppendableAdapterTest#testBasic, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testCreateUriAddsSlashIfNoPath, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testEncodeIllegalCharacters, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddRemove, [Manual]TestMethod=org.esigate.tags.TemplateRendererTest#testRenderTemplateWithSimilarParamNames, [Manual]TestMethod=org.esigate.resource.ResourceUtilsTest#testGetHttpUrlWithQueryStringAbsoluteurl, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testSetPath, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteSlash, [Manual]TestMethod=org.esigate.extension.parallelesi.RemoveElementTest#testRemove, [Manual]TestMethod=org.esigate.util.FilterListTest#testAdd, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteEmptyUrl, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testHtmlRewriteUrlWithEncodedCharacters, [Manual]TestMethod=org.esigate.esi.TryElementTest#testTryFragmentNotFound2, [Manual]TestMethod=org.esigate.esi.ReplaceElementTest#testErrorIfNotInsideIncludeTag, [Manual]TestMethod=org.esigate.url.RoundRobinBaseUrlRetrieveStrategyTest#testGetBaseURL, [Manual]TestMethod=org.esigate.esi.TryElementTest#testDefaultExcept, [Manual]TestMethod=org.esigate.xml.XsltRendererTest#testSecureRendering, [Manual]TestMethod=org.esigate.http.XForwardedHeadersTest#testAddXForwardedHeadersHttps, [Manual]TestMethod=org.esigate.util.PropertiesUtilTest#testSingleValueList, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testTryCatchFragmentNotFound, [Manual]TestMethod=org.esigate.DriverFactoryTest#testSelectProviderBasicUrlMapping, [Manual]TestMethod=org.esigate.DriverFactoryTest#testSelectProviderHostUrlMapping, [Manual]TestMethod=org.esigate.DriverConfigurationTest#testBaseUrl, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testHtmlUnicodeEntities, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeBlockNested, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueArray, [Manual]TestMethod=org.esigate.extension.parallelesi.CommentElementTest#testComment, [Manual]TestMethod=org.esigate.http.XForwardedHeadersTest#testXForwardedHeadersHttps, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueString, [Manual]TestMethod=org.esigate.esi.TryElementTest#testTryFragmentNotFound, [Manual]TestMethod=org.esigate.esi.CommentElementTest#testComment, [Manual]TestMethod=org.esigate.esi.TryElementTest#testTryCatchFragmentNotFound, [Manual]TestMethod=org.esigate.resource.ResourceUtilsTest#testGetHttpUrlWithQueryString, [Manual]TestMethod=org.esigate.util.PropertiesUtilTest#testDoubleList, [Manual]TestMethod=org.esigate.url.IpHashBaseUrlRetrieveStrategyTest#testGetBaseURLSameIpSameBaseUrl, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteTrimEmptyUrl, [Manual]TestMethod=org.esigate.esi.CommentElementTest#testCommentEmpty, [Manual]TestMethod=org.esigate.tags.BlockRendererTest#testRenderBlockNull, [Manual]TestMethod=org.esigate.xml.XsltRendererTest#testXslt, [Manual]TestMethod=org.esigate.esi.BaseElementTypeTest#testIsEndTag, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewrite, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteEmptyRequestUrl, [Manual]TestMethod=org.esigate.extension.parallelesi.ParallelEsiTest#testParallelInclude, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddAllRemoveList, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteEsiVarUrl, [Manual]TestMethod=org.esigate.esi.TryElementTest#testInvalidMarkup, [Manual]TestMethod=org.esigate.url.IpHashBaseUrlRetrieveStrategyTest#testGetBaseURLInvalidIp, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId4, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId3, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId2, [Manual]TestMethod=org.esigate.impl.UriMappingTest#testParseInvalidMapping, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId1, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteRawQueryString, [Manual]TestMethod=org.esigate.extension.http.DNSTest#testInit, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddListRemoveAll, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteProtocolRelativeUrl, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId6, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testRemoveSessionId5, [Manual]TestMethod=org.esigate.extension.surrogate.SurrogateHeaderTest#testParsingAndFormating, [Manual]TestMethod=org.esigate.extension.parallelesi.TagTest#testCreate, [Manual]TestMethod=org.esigate.extension.parallelesi.BaseElementTypeTest#testIsStartTag, [Manual]TestMethod=org.esigate.esi.TryElementTest#testMultipleExcept, [Manual]TestMethod=org.esigate.xml.XpathRendererTest#testXpathHtml, [Manual]TestMethod=org.esigate.util.UriUtilsTest#testNormalizePath, [Manual]TestMethod=org.esigate.http.XForwardedHeadersTest#testAddXForwardedHeadersHttp, [Manual]TestMethod=org.esigate.tags.TemplateRendererTest#testRenderTemplateNull1, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testRewriteReferer, [Manual]TestMethod=org.esigate.DriverFactoryTest#testConfigureStringProperties1, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueBoolean, [Manual]TestMethod=org.esigate.tags.TemplateRendererTest#testRenderTemplateNull2, [Manual]TestMethod=org.esigate.tags.TemplateRendererTest#testRenderTemplate1, [Manual]TestMethod=org.esigate.parser.ParserTest#testParse, [Manual]TestMethod=org.esigate.tags.TemplateRendererTest#testRenderTemplate2, [Manual]TestMethod=org.esigate.xml.XpathRendererTest#testXpathAttribute, [Manual]TestMethod=org.esigate.DriverFactoryTest#testSelectProvider, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testDoesNotRewriteMailtoUrl, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeTemplate, [Manual]TestMethod=org.esigate.esi.TryElementTest#testTry, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testNestedTags, [Manual]TestMethod=org.esigate.DriverFactoryTest#testStripMappingPath, [Manual]TestMethod=org.esigate.util.FilterListTest#testAddList, [Manual]TestMethod=org.esigate.xml.XpathRendererTest#testXpathXhtml, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testTryCatchFragmentNotFound2, [Manual]TestMethod=org.esigate.extension.parallelesi.EsiRendererTest#testFragmentTagsShouldBeRemoved, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeBlockRoot, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testPatternsAreCaseInsensitive, [Manual]TestMethod=org.esigate.http.XForwardedHeadersTest#testXForwardedHeaders, [Manual]TestMethod=org.esigate.extension.http.DNSTest#testEvent, [Manual]TestMethod=org.esigate.aggregator.AggregateRendererTest#testIncludeTemplateWithVariables, [Manual]TestMethod=org.esigate.esi.TagTest#testCreateWithQuotesInside, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueFloat, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testCdataPatternDoesNotMatch, [Manual]TestMethod=org.esigate.esi.TryElementTest#testAttempt1, [Manual]TestMethod=org.esigate.esi.TryElementTest#testAttempt2, [Manual]TestMethod=org.esigate.extension.parallelesi.TryElementTest#testInvalidMarkup, [Manual]TestMethod=org.esigate.esi.TagTest#testCreate, [Manual]TestMethod=org.esigate.util.ParameterTest#testGetValueCollection, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testRewriteInJavascript, [Manual]TestMethod=org.esigate.http.ContentTypeHelperTest#testParsableContentTypes, [Manual]TestMethod=org.esigate.extension.parallelesi.TagTest#testCreateInvalidAttributesMarkup, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteEmptyUrlHashtag, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteTrim, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testUrlRewriteReplaceContext, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testRewriteMetaRefresh, [Manual]TestMethod=org.esigate.DriverFactoryTest#testSelectProviderNoMapping, [Manual]TestMethod=org.esigate.xml.XpathRendererTest#testXpathHtml5, [Manual]TestMethod=org.esigate.impl.UrlRewriterTest#testEsiIncludePatternDoesNotMatch, [Manual]TestMethod=org.esigate.extension.parallelesi.TagTest#testCreateWithQuotesInside], testFrameworkStrategy=fr.spoonlabs.flacoco.core.coverage.framework.JUnit4Strategy@35c4697c}
+Path to runner Classes: /astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@123
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:123)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@123
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:123)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@123
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:123)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.xml.XsltRenderer@-@103
+Adding a line from the block where an exception was thrown: org.esigate.xml.XsltRenderer@-@103
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.xml.XsltRenderer@-@103
+Adding a line from the block where an exception was thrown: org.esigate.xml.XsltRenderer@-@103
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@153
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@155
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@156
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@175
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@176
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@131
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:131)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@123
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:123)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.xml.XsltRenderer@-@103
+Adding a line from the block where an exception was thrown: org.esigate.xml.XsltRenderer@-@103
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@153
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@155
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@156
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@175
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@176
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@153
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@155
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@156
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@175
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@176
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@123
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:123)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.xml.XsltRenderer@-@103
+Adding a line from the block where an exception was thrown: org.esigate.xml.XsltRenderer@-@103
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.xml.XpathRenderer@-@65
+Adding a line from the block where an exception was thrown: org.esigate.xml.XpathRenderer@-@65
+Adding a line where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@153
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@155
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@156
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@175
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@176
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@131
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:131)
+Adding a line where an exception was thrown: org.esigate.xml.XpathRenderer@-@65
+Adding a line from the block where an exception was thrown: org.esigate.xml.XpathRenderer@-@65
+Adding a line where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@153
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@155
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@156
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@175
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@176
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@123
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:123)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@123
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:123)
+Adding a line where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@153
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@155
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@156
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@175
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@176
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line where an exception was thrown: org.esigate.xml.XpathRenderer@-@65
+Adding a line from the block where an exception was thrown: org.esigate.xml.XpathRenderer@-@65
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@123
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:123)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@123
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createMockDriver(MockRequestExecutor.java:123)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.esi.AbstractElementTest@-@38
+No source code file was found for stack-trace element: org.esigate.esi.AbstractElementTest.setUp(AbstractElementTest.java:38)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@79
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.getDefaultProperties(MockRequestExecutor.java:79)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@139
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:139)
+Adding a line where an exception was thrown: org.esigate.MockRequestExecutor@-@135
+No source code file was found for stack-trace element: org.esigate.MockRequestExecutor.createDriver(MockRequestExecutor.java:135)
+Adding a line where an exception was thrown: org.esigate.extension.parallelesi.AbstractElementTest@-@39
+No source code file was found for stack-trace element: org.esigate.extension.parallelesi.AbstractElementTest.setUp(AbstractElementTest.java:39)
+Adding a line where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@153
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@155
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@156
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@175
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@176
+Adding a line from the block where an exception was thrown: org.esigate.DriverFactory@-@183
+Adding a line where an exception was thrown: org.esigate.xml.XpathRenderer@-@65
+Adding a line from the block where an exception was thrown: org.esigate.xml.XpathRenderer@-@65
+Tests found: 172
+Tests executed: 172
+Suspicious: 1 line org.esigate.MockRequestExecutor l: 79, susp 0.8728715609439694
+Suspicious: 2 line org.esigate.MockRequestExecutor l: 139, susp 0.8728715609439694
+Suspicious: 3 line org.esigate.MockRequestExecutor l: 135, susp 0.7867957924694432
+Suspicious: 4 line org.esigate.extension.parallelesi.AbstractElementTest l: 39, susp 0.5491696473652761
+Suspicious: 5 line org.esigate.esi.AbstractElementTest l: 38, susp 0.5345224838248488
+Suspicious: 6 line org.esigate.MockRequestExecutor l: 123, susp 0.3779644730092272
+Suspicious: 7 line org.esigate.DriverFactory l: 153, susp 0.3333333333333333
+Suspicious: 8 line org.esigate.DriverFactory l: 155, susp 0.3333333333333333
+Suspicious: 9 line org.esigate.DriverFactory l: 156, susp 0.3333333333333333
+Suspicious: 10 line org.esigate.DriverFactory l: 175, susp 0.3333333333333333
+Suspicious: 11 line org.esigate.DriverFactory l: 176, susp 0.3333333333333333
+Suspicious: 12 line org.esigate.DriverFactory l: 183, susp 0.3333333333333333
+Suspicious: 13 line org.esigate.xml.XpathRenderer l: 65, susp 0.2519763153394848
+Suspicious: 14 line org.esigate.xml.XsltRenderer l: 103, susp 0.2519763153394848
+Suspicious: 15 line org.esigate.MockRequestExecutor l: 131, susp 0.1781741612749496
+Suspicious:  line org.esigate.MockRequestExecutor l: 79, susp 0.8728715609439694
+Suspicious:  line org.esigate.MockRequestExecutor l: 139, susp 0.8728715609439694
+Suspicious:  line org.esigate.MockRequestExecutor l: 135, susp 0.7867957924694432
+Suspicious:  line org.esigate.extension.parallelesi.AbstractElementTest l: 39, susp 0.5491696473652761
+Suspicious:  line org.esigate.esi.AbstractElementTest l: 38, susp 0.5345224838248488
+Suspicious:  line org.esigate.MockRequestExecutor l: 123, susp 0.3779644730092272
+Suspicious:  line org.esigate.DriverFactory l: 153, susp 0.3333333333333333
+Suspicious:  line org.esigate.DriverFactory l: 155, susp 0.3333333333333333
+Suspicious:  line org.esigate.DriverFactory l: 156, susp 0.3333333333333333
+Suspicious:  line org.esigate.DriverFactory l: 175, susp 0.3333333333333333
+Suspicious:  line org.esigate.DriverFactory l: 176, susp 0.3333333333333333
+Suspicious:  line org.esigate.DriverFactory l: 183, susp 0.3333333333333333
+Suspicious:  line org.esigate.xml.XpathRenderer l: 65, susp 0.2519763153394848
+Suspicious:  line org.esigate.xml.XsltRenderer l: 103, susp 0.2519763153394848
+Suspicious:  line org.esigate.MockRequestExecutor l: 131, susp 0.1781741612749496
+Executing time Fault localization: 13 sec
+Setting up the max to 137540 milliseconds (137 sec)
+---- Initial suspicious size: 15
+Creating variant 1
+ Not ctClass for suspicious code Candidate [className=org.esigate.MockRequestExecutor, methodName=null, lineNumber=79, susp=0.8728715609439694]
+ Not ctClass for suspicious code Candidate [className=org.esigate.MockRequestExecutor, methodName=null, lineNumber=139, susp=0.8728715609439694]
+ Not ctClass for suspicious code Candidate [className=org.esigate.MockRequestExecutor, methodName=null, lineNumber=135, susp=0.7867957924694432]
+ Not ctClass for suspicious code Candidate [className=org.esigate.extension.parallelesi.AbstractElementTest, methodName=null, lineNumber=39, susp=0.5491696473652761]
+ Not ctClass for suspicious code Candidate [className=org.esigate.esi.AbstractElementTest, methodName=null, lineNumber=38, susp=0.5345224838248488]
+ Not ctClass for suspicious code Candidate [className=org.esigate.MockRequestExecutor, methodName=null, lineNumber=123, susp=0.3779644730092272]
+--ModifPoint:CtIfImpl, suspValue 0.3333333333333333, line 183, file DriverFactory.java
+ Not ctClass for suspicious code Candidate [className=org.esigate.MockRequestExecutor, methodName=null, lineNumber=131, susp=0.1781741612749496]
+Total suspicious from FL: 15,  1
+Total ModPoint created: 1
+Creating program variant #1, [Variant id: 1, #gens: 1, #ops: 0, parent:-]
+Calculating fitness
+Calculating fitness for original program variant.
+-Running first validation
+Executing process: (timeout10secs) 
+/usr/lib/jvm/java-8-openjdk-amd64/bin//java  -Xmx2048m  -Dmutnumber_0=null  -cp  "/astor/./lib/com.gzoltar-0.1.1-jar-with-dependencies.jar":"/astor/lib/gzoltar/com.gzoltar-0.0.3.jar":"/astor/./output_astor/AstorMain-esigate/bin/default/":"/astor/lib/jtestex7.jar":"/astor/target/astor-2.0.0-jar-with-dependencies.jar":  fr.inria.astor.core.validation.junit.JUnitNologExternalExecutor  org.esigate.xml.XsltRendererTest
+Analyzing output from process
+TR: Success: false, failTest= 4, was successful: false, cases executed: 4] ,[]
+-Test Failing is passing, Executing regression
+Executing process: (timeout137secs) 
+/usr/lib/jvm/java-8-openjdk-amd64/bin//java  -Xmx2048m  -Dmutnumber_0=null  -cp  "/astor/./lib/com.gzoltar-0.1.1-jar-with-dependencies.jar":"/astor/lib/gzoltar/com.gzoltar-0.0.3.jar":"/astor/./output_astor/AstorMain-esigate/bin/default/":"/astor/lib/jtestex7.jar":"/astor/target/astor-2.0.0-jar-with-dependencies.jar":  fr.inria.astor.core.validation.junit.JUnitNologExternalExecutor  org.esigate.http.XForwardedHeadersTest  org.esigate.extension.parallelesi.TryElementTest  org.esigate.extension.surrogate.SurrogateHeaderTest  org.esigate.extension.parallelesi.ReplaceElementTest  org.esigate.xml.XpathRendererTest  org.esigate.extension.parallelesi.BaseElementTest  org.esigate.extension.parallelesi.RemoveElementTest  org.esigate.DriverFactoryTest  org.esigate.extension.parallelesi.TagTest  org.esigate.impl.UrlRewriterTest  org.esigate.extension.parallelesi.EsiRendererTest  org.esigate.extension.parallelesi.ParallelEsiTest  org.esigate.esi.EsiRendererTest  org.esigate.esi.ReplaceElementTest  org.esigate.url.IpHashBaseUrlRetrieveStrategyTest  org.esigate.parser.future.FutureAppendableAdapterTest  org.esigate.extension.parallelesi.CommentElementTest  org.esigate.extension.parallelesi.InlineElementTest  org.esigate.parser.ParserTest  org.esigate.esi.CommentElementTest  org.esigate.util.PropertiesUtilTest  org.esigate.extension.parallelesi.BaseElementTypeTest  org.esigate.url.SingleBaseUrlRetrieveStrategyTest  org.esigate.url.RoundRobinBaseUrlRetrieveStrategyTest  org.esigate.parser.future.FutureParserTest  org.esigate.extension.http.CustomizableDNSResolverTest  org.esigate.esi.TagTest  org.esigate.renderers.ResourceFixupRendererTest  org.esigate.vars.VariablesResolverTest  org.esigate.esi.RemoveElementTest  org.esigate.extension.http.DNSTest  org.esigate.tags.BlockRendererTest  org.esigate.aggregator.AggregateRendererTest  org.esigate.esi.BaseElementTest  org.esigate.http.ContentTypeHelperTest  org.esigate.http.OutgoingRequestContextTest  org.esigate.util.UriUtilsTest  org.esigate.tags.TemplateRendererTest  org.esigate.esi.TryElementTest  org.esigate.esi.BaseElementTypeTest  org.esigate.util.FilterListTest  org.esigate.xml.XsltRendererTest  org.esigate.DriverConfigurationTest  org.esigate.util.ParameterTest  org.esigate.impl.UriMappingTest  org.esigate.resource.ResourceUtilsTest  org.esigate.esi.InlineElementTest
+Analyzing output from process
+TR: Success: false, failTest= 83, was successful: false, cases executed: 172] ,[]
+The original fitness is : 83.0
+----------------------------
+---Configuration properties
+p:projectinfocommand= com.github.tdurieux:project-config-maven-plugin:info
+p:workingDirectory= /astor/./output_astor
+p:keepcomments= true
+p:maxnumvariablesperingredient= 10
+p:folderDiff= ./diffSolutions
+p:evo_affected_by_op= true
+p:clusteringfilename= clustering.csv
+p:validation= process
+p:modificationpointnavigation= weight
+p:transformingredient= false
+p:diffcontext= 0
+p:evo_buggy_class= true
+p:runjava7code= false
+p:manipulatesuper= false
+p:forceExecuteRegression= false
+p:skipfitnessinitialpopulation= false
+p:filterfaultlocalization= true
+p:population= 1
+p:maxtimefactor= 10
+p:elementsToMutate= 10
+p:parsesourcefromoriginal= true
+p:alternativecompliancelevel= 8
+p:bugId= 280
+p:regressionforfaultlocalization= true
+p:max_synthesis_step= 10000
+p:failing= org.esigate.xml.XsltRendererTest
+p:maxmodificationpoints= 1000
+p:projectIdentifier= 
+p:savecompletepatched= true
+p:synthesis_depth= 3
+p:seed= 0
+p:applyCrossover= false
+p:executorjar= ./lib/jtestex7.jar
+p:binjavafolder= /esigate-core/target/classes
+p:version-location= ./math-version/
+p:tmax1= 10000
+p:tmax2= 137540
+p:continuewhenmodelfail= true
+p:locationGzoltarJar= ./lib/
+p:logtestexecution= false
+p:processoutputinfile= false
+p:gzoltarVersion= 1.7.3
+p:javacompliancelevel= 8
+p:gzoltarpackagetonotinstrument= junit.framework
+p:diff_type= relative
+p:cleantemplates= true
+p:stopfirst= true
+p:lastJUnitVersion= ./examples/libs/junit-4.11.jar
+p:testbystep= false
+p:maxtime= 120
+p:preservelinenumbers= true
+p:resetoperations= false
+p:forcesubprocesskilling= false
+p:jvm4evosuitetestexecution= /usr/lib/jvm/java-11-openjdk-amd64/bin
+p:dependenciespath= :/astor/lib/gzoltar/com.gzoltar-0.0.3.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom
+p:pathToMVNRepository= 
+p:limitbysuspicious= true
+p:faultlocalization= fr.inria.astor.core.faultlocalization.flacoco.FlacocoFaultLocalization
+p:maxsuspcandidates= 1000
+p:antipattern= false
+p:reintroduce= PARENTS:ORIGINAL
+p:multipointmodification= false
+p:probabilistictransformation= true
+p:mutationrate= 1 
+p:jvm4testexecution= /usr/lib/jvm/java-8-openjdk-amd64/bin/
+p:mode= jMutRepair
+p:pvariantfoldername= variant-
+p:flthreshold= 0.1
+p:fitnessfunction= fr.inria.astor.core.solutionsearch.population.TestCaseFitnessFunction
+p:nrPlaceholders= 1
+p:nolog= False
+p:saveall= false
+p:evoRunOnBuggyClass= true
+p:learningdir= 
+p:bintestfolder= /esigate-core/target/test-classes
+p:evosuiteresultfolder= evosuite
+p:operatorspace= mutationspace
+p:resourcesfolder= /src/main/resources:/src/test/resources:
+p:includeZeros= false
+p:allpoints= false
+p:collectonlyusedmethod= false
+p:maxVarCombination= 1000
+p:timezone= America/Los_Angeles
+p:skipfaultlocalization= false
+p:savesolution= true
+p:maxGeneration= 1000000
+p:evosuitetimeout= 120
+p:packageToInstrument= 
+p:uniqueoptogen= false
+p:scope= local
+p:srcjavafolder= /esigate-core/src/main/java
+p:commandTrunk= 50000
+p:metid= 0
+p:ignoredTestCases= 
+p:savespoonmodelondisk= false
+p:targetelementprocessor= if-conditions:return-op-mutation
+p:compiler= fr.inria.astor.core.manipulation.bytecode.compiler.SpoonClassCompiler
+p:maxCombinationVariableLimit= false
+p:jvmversion= 1.8.0_342
+p:nomodificationconvergence= 100
+p:evosuitejar= ./lib/evosuite-master-1.0.4-SNAPSHOT.jar
+p:srctestfolder= /esigate-core/src/test/java
+p:outputjsonresult= true
+p:gzoltartestpackagetoexclude= junit.framework
+p:probagenmutation= false
+p:resetmodel= true
+p:jsonoutputname= astor_output
+p:numberExecutions= 1
+p:ignoreflakyinfl= false
+p:evoDSE= false
+p:duplicateingredientsinspace= false
+p:overridemaxtime= true
+p:maxnumbersolutions= 1000000
+p:logsattemps= true
+p:location= /apiarty/data/VUL4J-45/esigate/esigate/
+p:populationcontroller= fr.inria.astor.core.solutionsearch.population.TestCaseBasedFitnessPopulationController
+----------------------------
+
+****
+analyzing variant #1 out of 1
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(                                                                                                   [...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) != null) && 
+(org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) != null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 2, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(                                                                                                   [...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) >= null) && 
+(org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) != null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 3, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(                                                                                                   [...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) > null) && 
+(org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) != null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 4, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(                                                                                                   [...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) <= null) && 
+(org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) != null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 5, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(                                                                                                   [...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) < null) && 
+(org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) != null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 6, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(!                                                                                                  [...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((!(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null)) && 
+(org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) != null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 7, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && ( org.esigate.Paramet[...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && (
+org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) == null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 8, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && ( org.esigate.Paramet[...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && (
+org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) >= null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 9, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && ( org.esigate.Paramet[...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && (
+org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) > null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 10, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && ( org.esigate.Paramet[...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && (
+org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) <= null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 11, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && ( org.esigate.Paramet[...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && (
+org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) < null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 12, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && (! (org.esigate.Param[...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && (!
+(org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) != null))) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 13, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) ||  (org.esigate.Paramet[...]` (spoon.support.reflect.code.CtBinaryOperatorImpl) 
+ applied: if ((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) || 
+(org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) != null)) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 14, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+mod_point MP=org.esigate.DriverFactory line: 183, pointed element: CtIfImpl
+-->op: OP_INSTANCE:
+IfExpresionMutOp:(spoon.support.reflect.code.CtBinaryOperatorImpl) `(newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) &&  (org.esigate.Paramet[...] ` -topatch--> `!                                                                                                   [...]` (spoon.support.reflect.code.CtUnaryOperatorImpl) 
+ applied: if (!((newInstances.get(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME) == null) && 
+(org.esigate.Parameters.REMOTE_URL_BASE.getValue(defaultProperties) != null))) {
+
+	newInstances.put(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, org.esigate.DriverFactory.createDriver(org.esigate.DriverFactory.DEFAULT_INSTANCE_NAME, defaultProperties));
+}
+-The child does NOT compile: 15, errors: [DriverFactory.java:85: error: package org.slf4j does not exist
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(org.esigate.DriverFactory.class);
+	                              ^, DriverFactory.java:402: error: package org.apache.http.client.methods does not exist
+	public static org.apache.http.client.methods.CloseableHttpResponse proxy(org.esigate.http.IncomingRequest incomingRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+	                                            ^]
+Ingredient counter is Zero
+End exhaustive navigation
+Time Repair Loop (s): 1.491
+generationsexecuted: 1
+----SUMMARY_EXECUTION---
+End Repair Search: NOT Found solution
+All variants:
+f 83.0, [Variant id: 1, #gens: 1, #ops: 0, parent:-]
+Number suspicious:1
+Astor Output:
+
+General stats:
+EXECUTION_IDENTIFIER=
+TOTAL_TIME=1.491
+NR_GENERATIONS=null
+NR_RIGHT_COMPILATIONS=null
+NR_FAILLING_COMPILATIONS=14
+NR_ERRONEOUS_VARIANCES=null
+NR_FAILING_VALIDATION_PROCESS=null
+OUTPUT_STATUS=EXHAUSTIVE_NAVIGATED
+FAULT_LOCALIZATION=fr.inria.astor.core.faultlocalization.flacoco.FlacocoFaultLocalization
+
+Patch stats:
+
+Storing ing JSON at /astor/./output_astor/AstorMain-esigate//astor_output.json
+astor_output:
+{"general":{"NR_RIGHT_COMPILATIONS":null,"NR_ERRONEOUS_VARIANCES":null,"EXECUTION_IDENTIFIER":"","FAULT_LOCALIZATION":"fr.inria.astor.core.faultlocalization.flacoco.FlacocoFaultLocalization","OUTPUT_STATUS":"EXHAUSTIVE_NAVIGATED","NR_FAILLING_COMPILATIONS":14,"NR_GENERATIONS":null,"TOTAL_TIME":1.491,"NR_FAILING_VALIDATION_PROCESS":null},"patches":[]}
+Time Total(s): 21.84

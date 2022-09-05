@@ -21,10 +21,11 @@
     ]
   },
   "file_path": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/encryption/StandardSecurityHandler.java",
-  "test_class": "org.apache.pdfbox.encryption.TestSymmetricKeyEncryption#testPermissions",
+  "test_class": "org.apache.pdfbox.encryption.TestSymmetricKeyEncryption",
   "src_path": "pdfbox/src/main/java",
   "test_path": "pdfbox/src/test/java",
   "package_path": ".",
-  "src_classes": "target/classes",
-  "test_classes": "target/test-classes"
+  "src_classes": "pdfbox/target/classes",
+  "test_classes": "pdfbox/boxtarget/test-classes",
+  "custom_classpath_project": "pdfbox"
 }

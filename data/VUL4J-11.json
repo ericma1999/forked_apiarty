@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "src/main/java/org/apache/commons/fileupload/FileUploadBase.java",
-  "test_class": "org.apache.commons.fileupload.MultipartStreamTest#testSmallBuffer",
+  "test_class": "org.apache.commons.fileupload.MultipartStreamTest",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",

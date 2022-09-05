@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "spring-core/src/main/java/org/springframework/util/MimeTypeUtils.java",
-  "test_class": "org.springframework.util.MimeTypeTests#testCVE_2018_1272",
+  "test_class": "org.springframework.util.MimeTypeTests",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",

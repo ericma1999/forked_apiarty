@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java",
-  "test_class": "io.swagger.parser.util.SwaggerDeserializerTest#testCVE_2017_1000207",
+  "test_class": "io.swagger.parser.util.SwaggerDeserializerTest",
   "src_path": "modules/swagger-parser/src/main/java",
   "test_path": "modules/swagger-parser/src/test/java",
   "package_path": ".",

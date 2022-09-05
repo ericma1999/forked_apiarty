@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "src/main/java/org/owasp/esapi/codecs/PercentCodec.java",
-  "test_class": "org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec %De],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec IMMUNE_PERCENT (%)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (!)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS ($)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (*)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (+)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (-)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (.)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (=)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (?)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (@)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (^)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (_)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (|)],org.OWASP.esapi.codecs.CodecImmunityTest#testImmuneEncode[PercentCodec Full_ALPHA_AND_SPECIALS (~)]",
+  "test_class": "org.OWASP.esapi.codecs.CodecImmunityTest",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",

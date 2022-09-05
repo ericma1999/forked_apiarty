@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "core/src/main/java/org/springframework/security/core/token/SecureRandomFactoryBean.java",
-  "test_class": "org.springframework.security.core.token.SecureRandomFactoryBeanTests#testCreatesUsingSeed",
+  "test_class": "org.springframework.security.core.token.SecureRandomFactoryBeanTests",
   "src_path": "core/src/main/java",
   "test_path": "core/src/test/java",
   "package_path": ".",

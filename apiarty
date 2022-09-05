@@ -285,8 +285,16 @@ class Astor():
 		else:
 			project_folder = Path(str(project.root))
 
-		dependencies = (Path(str(project_folder) +
-							 '/classpath.info')).read_text()
+		class_path = (Path(str(project_folder) +
+							 '/classpath.info')) 
+		
+		if project.custom_classpath_project != '':
+			class_path = (Path(str(project_folder) + "/" + project.custom_classpath_project +
+							 '/classpath.info'))
+		
+		print(class_path)
+
+		dependencies = class_path.read_text()
 
 		print("Project folder: " + str(project_folder))
 
@@ -346,8 +354,16 @@ class Nopol():
 		else:
 			project_folder = project.root
 
-		dependencies = (Path(str(project_folder) +
-							 '/classpath.info')).read_text()
+		class_path = (Path(str(project_folder) +
+							 '/classpath.info')) 
+		
+		if project.custom_classpath_project != '':
+			class_path = (Path(str(project_folder) + "/" + project.custom_classpath_project +
+							 '/classpath.info'))
+		
+		print(class_path)
+
+		dependencies = class_path.read_text()
 
 		with cd(project_folder):
 			with (output_dir / 'stdout.txt').open('w') as stdout,\
@@ -526,7 +542,7 @@ def make_build(name, project_path):
 
 
 tool_by_name = {
-    # 'Arja': Arja('us.msu.cse.repair.Main', 'Arja'),
+  #   'Arja': Arja('us.msu.cse.repair.Main', 'Arja'),
 	# 'Arja-GenProg': Arja('us.msu.cse.repair.GenProgMain', 'GenProg'),
   #   'Arja-Kali': Arja('us.msu.cse.repair.KaliMain', 'Kali'),
 	# 'Arja-RSRepair': Arja('us.msu.cse.repair.RSRepairMain', 'RSRepair'),

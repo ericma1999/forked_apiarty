@@ -1,0 +1,368 @@
+[0] INFO NoPol - Source files: [/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/main/java, /apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/test/java]
+[1] INFO NoPol - Classpath: [file:/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/target/classes/, file:/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/target/test-classes/]
+[2] INFO NoPol - Statement type: PRE_THEN_COND
+[3] INFO NoPol - Args: [org.esigate.xml.XsltRendererTest]
+[7] INFO NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/main/java, /apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[org.esigate.xml.XsltRendererTest], complianceLevel=8, outputFolder=., json=false}
+[8] INFO NoPol - Available processors (cores): 8
+[16] INFO NoPol - Free memory: 69 MB
+[18] INFO NoPol - Maximum memory: 3 GB
+[19] INFO NoPol - Total memory available to JVM: 80 MB
+[23] INFO NoPol - Java version: null
+[25] INFO NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+[26] INFO NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/main/java, /apiarty/data/VUL4J-45/esigate/esigate/esigate-core/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[org.esigate.xml.XsltRendererTest], complianceLevel=8, outputFolder=., json=false}
+[8649] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.StickySessionBaseUrlRetrieveStrategy
+[8666] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.RoundRobinBaseUrlRetrieveStrategy
+[8670] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.SingleBaseUrlRetrieveStrategy
+[8673] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.IpHashBaseUrlRetrieveStrategy
+[8704] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.util.HttpRequestHelper
+[8715] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.util.UriUtils
+[8732] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.DriverFactory
+[8744] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.impl.DriverRequest
+[8748] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.authentication.RemoteUserAuthenticationHandler
+[8750] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.authentication.RequestAuthenticationHandler
+[8754] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HttpClientRequestExecutor
+[8756] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.cookie.CookieUtil
+[8759] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.MoveResponseHeader
+[8765] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.ContentTypeHelper
+[8769] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HeaderManager
+[8772] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HttpResponseUtils
+[8775] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.monitoring.Metric
+[8779] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.http.DNS
+[8782] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.surrogate.Surrogate
+[8786] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.ErrorPages
+[8803] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.FetchLogging
+[8811] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.EsiSyntaxError
+[8817] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.CacheConfigHelper
+[8820] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.CacheAdapter
+[8823] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cookie.DefaultCookieManager
+[8828] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.vars.VariablesResolver
+[8832] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.parser.ParserContextImpl
+[8838] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.parser.future.FutureParserContextImpl
+[8840] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.TestUtils
+[8842] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.http.HttpResponseBuilder
+[8844] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.conn.SequenceResponse
+[8846] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.conn.UriResponse
+[8849] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.Driver
+[8851] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.events.impl.ProxyEvent
+[8853] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.events.impl.FragmentEvent
+[8854] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.events.impl.HttpClientBuilderEvent
+[8856] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.events.impl.FetchEvent
+[8857] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.events.impl.RenderEvent
+[8859] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.HttpErrorPage
+[8861] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.StickySessionBaseUrlRetrieveStrategyTest
+[8862] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.StickySessionBaseUrlRetrieveStrategyTest
+[8875] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.DriverTest
+[8877] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.DriverTest
+[8879] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HttpClientRequestExecutorTest
+[8881] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HttpClientRequestExecutorTest
+[8884] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HeaderManagerTest
+[8886] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HeaderManagerTest
+[8889] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.cookie.CustomBrowserCompatSpecFactoryTest
+[8890] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.cookie.CustomBrowserCompatSpecFactoryTest
+[8892] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.cookie.CookieUtilTest
+[8893] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.cookie.CookieUtilTest
+[8896] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.APITest
+[8898] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.surrogate.SurrogateTest
+[8899] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.surrogate.SurrogateTest
+[8902] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.ChooseElementTest
+[8903] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.ChooseElementTest
+[8905] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.EsiTest
+[8906] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.EsiTest
+[8908] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.CommentTest
+[8909] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.CommentTest
+[8911] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.IncludeElementTest
+[8913] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.IncludeElementTest
+[8916] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.VarsElementTest
+[8917] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.VarsElementTest
+[8919] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.DefaultCharsetTest
+[8920] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.DefaultCharsetTest
+[8922] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.HtmlEncodingProcessorTest
+[8923] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.HtmlEncodingProcessorTest
+[8926] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.ChooseElementTest
+[8927] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.ChooseElementTest
+[8930] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.CommentTest
+[8931] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.CommentTest
+[8935] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.IncludeElementTest
+[8936] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.IncludeElementTest
+[8938] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.VarsElementTest
+[8939] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.VarsElementTest
+[8941] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.MockRequestExecutor
+[8942] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.CacheStorageTestUtils
+[8944] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.ManagedCacheStorageTest
+[8945] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.ManagedCacheStorageTest
+[8947] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.BasicCacheStorageTest
+[8948] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.BasicCacheStorageTest
+[8950] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.EhcacheCacheStorageTest
+[8951] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.EhcacheCacheStorageTest
+[8952] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.MemcachedCacheStorageTest
+[8953] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.MemcachedCacheStorageTest
+[8955] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cookie.DefaultCookieManagerTest
+[8956] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cookie.DefaultCookieManagerTest
+[8958] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.vars.DriverEsiWhenTest
+[8960] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.vars.DriverEsiVariablesTest
+[8964] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.conn.UriResponseTest
+[8966] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.conn.SequenceResponseTest
+[8981] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.StickySessionBaseUrlRetrieveStrategy
+[8983] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.RoundRobinBaseUrlRetrieveStrategy
+[8984] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.SingleBaseUrlRetrieveStrategy
+[8986] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.IpHashBaseUrlRetrieveStrategy
+[8989] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.util.HttpRequestHelper
+[8991] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.util.UriUtils
+[8994] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.DriverFactory
+[8997] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.impl.DriverRequest
+[8998] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.authentication.RemoteUserAuthenticationHandler
+[8999] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.authentication.RequestAuthenticationHandler
+[9001] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HttpClientRequestExecutor
+[9003] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.cookie.CookieUtil
+[9004] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.MoveResponseHeader
+[9007] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.ContentTypeHelper
+[9008] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HeaderManager
+[9010] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HttpResponseUtils
+[9011] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.monitoring.Metric
+[9012] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.http.DNS
+[9014] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.surrogate.Surrogate
+[9015] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.ErrorPages
+[9017] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.FetchLogging
+[9018] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.EsiSyntaxError
+[9020] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.CacheConfigHelper
+[9021] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.CacheAdapter
+[9023] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cookie.DefaultCookieManager
+[9024] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.vars.VariablesResolver
+[9025] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.parser.ParserContextImpl
+[9027] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.parser.future.FutureParserContextImpl
+[9029] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.TestUtils
+[9030] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.http.HttpResponseBuilder
+[9031] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.conn.SequenceResponse
+[9032] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.conn.UriResponse
+[9034] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.Driver
+[9035] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.events.impl.ProxyEvent
+[9036] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.events.impl.FragmentEvent
+[9037] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.events.impl.HttpClientBuilderEvent
+[9038] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.events.impl.FetchEvent
+[9039] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.events.impl.RenderEvent
+[9039] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.HttpErrorPage
+[9040] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.url.StickySessionBaseUrlRetrieveStrategyTest
+[9042] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.DriverTest
+[9043] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HttpClientRequestExecutorTest
+[9045] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.HeaderManagerTest
+[9046] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.cookie.CustomBrowserCompatSpecFactoryTest
+[9047] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.http.cookie.CookieUtilTest
+[9048] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.APITest
+[9049] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.surrogate.SurrogateTest
+[9050] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.ChooseElementTest
+[9051] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.EsiTest
+[9052] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.CommentTest
+[9053] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.IncludeElementTest
+[9054] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.parallelesi.VarsElementTest
+[9054] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.DefaultCharsetTest
+[9055] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.extension.HtmlEncodingProcessorTest
+[9056] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.ChooseElementTest
+[9059] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.CommentTest
+[9061] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.IncludeElementTest
+[9063] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.esi.VarsElementTest
+[9064] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.MockRequestExecutor
+[9065] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.CacheStorageTestUtils
+[9067] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.ManagedCacheStorageTest
+[9070] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.BasicCacheStorageTest
+[9073] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.EhcacheCacheStorageTest
+[9074] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cache.MemcachedCacheStorageTest
+[9075] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.cookie.DefaultCookieManagerTest
+[9077] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.vars.DriverEsiWhenTest
+[9078] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.vars.DriverEsiVariablesTest
+[9079] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.conn.UriResponseTest
+[9080] WARN TestMethodFilter - NoClassDefFoundError: class org.esigate.test.conn.SequenceResponseTest
+Parsing --path-options-file /tmp/test_runner14774960489553099850.options
+Parsing --sourceBinaries /apiarty/data/VUL4J-45/esigate/esigate/./target/classes --testBinaries /apiarty/data/VUL4J-45/esigate/esigate/./target/test-classes --class org.esigate.xml.XsltRendererTest --tests org.esigate.xml.XsltRendererTest#testXslt:org.esigate.xml.XsltRendererTest#testSecureRendering:org.esigate.xml.XsltRendererTest#testParserSupportsUnescapedAmpersandCharacter:org.esigate.xml.XsltRendererTest#testParserSupportsDuplicatedId  --coverage-detail DETAIL_COMPRESSED --nb-failing-load-class 0
+File saved to the following path: /apiarty/data/VUL4J-45/esigate/esigate/target/CoveredTestResultPerTest.dat
+[11128] INFO CoverageRunner - Tests found: 4
+[11129] INFO CoverageRunner - Tests executed: 4
+-1406742585
+-1406742585
+[12615] ERROR DynamicClassCompiler - [Compilation errors]
+XsltRenderer.java:9: error: package org.apache.http.client.methods does not exist
+        org.apache.http.client.methods.CloseableHttpResponse response = driver.render(template, originalRequest.getOriginalRequest());
+                                      ^
+XsltRenderer.java:47: error: package nu.validator.htmlparser.dom does not exist
+            nu.validator.htmlparser.dom.HtmlDocumentBuilder htmlDocumentBuilder = new nu.validator.htmlparser.dom.HtmlDocumentBuilder();
+                                       ^
+XsltRenderer.java:47: error: package nu.validator.htmlparser.dom does not exist
+            nu.validator.htmlparser.dom.HtmlDocumentBuilder htmlDocumentBuilder = new nu.validator.htmlparser.dom.HtmlDocumentBuilder();
+                                                                                                                 ^
+XsltRenderer.java:48: error: cannot find symbol
+            htmlDocumentBuilder.setDoctypeExpectation(DoctypeExpectation.NO_DOCTYPE_ERRORS);
+                                                      ^
+  symbol:   variable DoctypeExpectation
+  location: class org.esigate.xml.XsltRenderer
+XsltRenderer.java:54: error: package nu.validator.htmlparser.dom does not exist
+            nu.validator.htmlparser.dom.Dom2Sax dom2Sax = new nu.validator.htmlparser.dom.Dom2Sax(serializer, serializer);
+                                       ^
+XsltRenderer.java:54: error: package nu.validator.htmlparser.dom does not exist
+            nu.validator.htmlparser.dom.Dom2Sax dom2Sax = new nu.validator.htmlparser.dom.Dom2Sax(serializer, serializer);
+                                                                                         ^
+Note: XsltRenderer.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+[12636] ERROR ConstraintModelBuilder - Unable to compile the change: 
+public class XsltRenderer implements org.esigate.Renderer {
+    private static final javax.xml.transform.TransformerFactory TRANSFORMER_FACTORY = javax.xml.transform.TransformerFactory.newInstance();
+
+    private javax.xml.transform.Transformer transformer;
+
+    public XsltRenderer(java.lang.String template, org.esigate.Driver driver, org.esigate.impl.DriverRequest originalRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+        java.lang.StringBuilder templateStringBuilder = new java.lang.StringBuilder();
+        org.apache.http.client.methods.CloseableHttpResponse response = driver.render(template, originalRequest.getOriginalRequest());
+        templateStringBuilder.append(org.esigate.http.HttpResponseUtils.toString(response));
+        transformer = org.esigate.xml.XsltRenderer.createTransformer(org.apache.commons.io.IOUtils.toInputStream(templateStringBuilder));
+    }
+
+    public XsltRenderer(java.lang.String xsl) throws java.io.IOException {
+        java.io.InputStream templateStream = org.apache.commons.io.IOUtils.toInputStream(xsl);
+        transformer = org.esigate.xml.XsltRenderer.createTransformer(templateStream);
+    }
+
+    private static javax.xml.transform.Transformer createTransformer(java.io.InputStream templateStream) throws java.io.IOException {
+        try {
+            return org.esigate.xml.XsltRenderer.TRANSFORMER_FACTORY.newTransformer(new javax.xml.transform.stream.StreamSource(templateStream));
+        } catch (javax.xml.transform.TransformerConfigurationException e) {
+            throw new org.esigate.xml.ProcessingFailedException("Failed to create XSLT template", e);
+        } finally {
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(0).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("templateStream",templateStream);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("org.esigate.xml.XsltRenderer.TRANSFORMER_FACTORY",org.esigate.xml.XsltRenderer.TRANSFORMER_FACTORY);} catch (Exception ex1) {ex1.printStackTrace();};
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectionEnds();
+            }
+            if (runtimeAngelicValue)
+                templateStream.close();
+
+        }
+    }
+
+    @java.lang.Override
+    public void render(org.esigate.impl.DriverRequest httpRequest, java.lang.String src, java.io.Writer out) throws java.io.IOException {
+        try {
+            nu.validator.htmlparser.dom.HtmlDocumentBuilder htmlDocumentBuilder = new nu.validator.htmlparser.dom.HtmlDocumentBuilder();
+            htmlDocumentBuilder.setDoctypeExpectation(DoctypeExpectation.NO_DOCTYPE_ERRORS);
+            org.w3c.dom.Document document = htmlDocumentBuilder.parse(new org.xml.sax.InputSource(new java.io.StringReader(src)));
+            javax.xml.transform.Source source = new javax.xml.transform.dom.DOMSource(document);
+            javax.xml.transform.dom.DOMResult result = new javax.xml.transform.dom.DOMResult();
+            transformer.transform(source, result);
+            org.esigate.xml.XhtmlSerializer serializer = new org.esigate.xml.XhtmlSerializer(out);
+            nu.validator.htmlparser.dom.Dom2Sax dom2Sax = new nu.validator.htmlparser.dom.Dom2Sax(serializer, serializer);
+            dom2Sax.parse(result.getNode());
+        } catch (javax.xml.transform.TransformerException e) {
+            throw new org.esigate.xml.ProcessingFailedException("Failed to transform source", e);
+        } catch (org.xml.sax.SAXException e) {
+            throw new org.esigate.xml.ProcessingFailedException("Failed serialize transformation result", e);
+        }
+    }
+}
+[12638] ERROR NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+-1406742585
+-1406742585
+-1406742585
+[13289] ERROR DynamicClassCompiler - [Compilation errors]
+XsltRenderer.java:9: error: package org.apache.http.client.methods does not exist
+        org.apache.http.client.methods.CloseableHttpResponse response = driver.render(template, originalRequest.getOriginalRequest());
+                                      ^
+XsltRenderer.java:46: error: package nu.validator.htmlparser.dom does not exist
+            nu.validator.htmlparser.dom.HtmlDocumentBuilder htmlDocumentBuilder = new nu.validator.htmlparser.dom.HtmlDocumentBuilder();
+                                       ^
+XsltRenderer.java:46: error: package nu.validator.htmlparser.dom does not exist
+            nu.validator.htmlparser.dom.HtmlDocumentBuilder htmlDocumentBuilder = new nu.validator.htmlparser.dom.HtmlDocumentBuilder();
+                                                                                                                 ^
+XsltRenderer.java:47: error: cannot find symbol
+            htmlDocumentBuilder.setDoctypeExpectation(DoctypeExpectation.NO_DOCTYPE_ERRORS);
+                                                      ^
+  symbol:   variable DoctypeExpectation
+  location: class org.esigate.xml.XsltRenderer
+XsltRenderer.java:53: error: package nu.validator.htmlparser.dom does not exist
+            nu.validator.htmlparser.dom.Dom2Sax dom2Sax = new nu.validator.htmlparser.dom.Dom2Sax(serializer, serializer);
+                                       ^
+XsltRenderer.java:53: error: package nu.validator.htmlparser.dom does not exist
+            nu.validator.htmlparser.dom.Dom2Sax dom2Sax = new nu.validator.htmlparser.dom.Dom2Sax(serializer, serializer);
+                                                                                         ^
+Note: XsltRenderer.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+[13303] ERROR ConstraintModelBuilder - Unable to compile the change: 
+public class XsltRenderer implements org.esigate.Renderer {
+    private static final javax.xml.transform.TransformerFactory TRANSFORMER_FACTORY = javax.xml.transform.TransformerFactory.newInstance();
+
+    private javax.xml.transform.Transformer transformer;
+
+    public XsltRenderer(java.lang.String template, org.esigate.Driver driver, org.esigate.impl.DriverRequest originalRequest) throws java.io.IOException, org.esigate.HttpErrorPage {
+        java.lang.StringBuilder templateStringBuilder = new java.lang.StringBuilder();
+        org.apache.http.client.methods.CloseableHttpResponse response = driver.render(template, originalRequest.getOriginalRequest());
+        templateStringBuilder.append(org.esigate.http.HttpResponseUtils.toString(response));
+        transformer = org.esigate.xml.XsltRenderer.createTransformer(org.apache.commons.io.IOUtils.toInputStream(templateStringBuilder));
+    }
+
+    public XsltRenderer(java.lang.String xsl) throws java.io.IOException {
+        java.io.InputStream templateStream = org.apache.commons.io.IOUtils.toInputStream(xsl);
+        boolean spoonDefaultValue = false;
+        try {
+            spoonDefaultValue = true;
+        } catch (java.lang.Exception __NopolProcessorException) {
+        }
+        boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+        if (fr.inria.lille.commons.trace.RuntimeValues.instance(1).isEnabled()) {
+            fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectionStarts();
+            try{fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectInput("templateStream",templateStream);} catch (Exception ex1) {ex1.printStackTrace();};
+            fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectOutput(runtimeAngelicValue);
+            fr.inria.lille.commons.trace.RuntimeValues.instance(1).collectionEnds();
+        }
+        if (runtimeAngelicValue)
+            transformer = org.esigate.xml.XsltRenderer.createTransformer(templateStream);
+
+    }
+
+    private static javax.xml.transform.Transformer createTransformer(java.io.InputStream templateStream) throws java.io.IOException {
+        try {
+            return org.esigate.xml.XsltRenderer.TRANSFORMER_FACTORY.newTransformer(new javax.xml.transform.stream.StreamSource(templateStream));
+        } catch (javax.xml.transform.TransformerConfigurationException e) {
+            throw new org.esigate.xml.ProcessingFailedException("Failed to create XSLT template", e);
+        } finally {
+            templateStream.close();
+        }
+    }
+
+    @java.lang.Override
+    public void render(org.esigate.impl.DriverRequest httpRequest, java.lang.String src, java.io.Writer out) throws java.io.IOException {
+        try {
+            nu.validator.htmlparser.dom.HtmlDocumentBuilder htmlDocumentBuilder = new nu.validator.htmlparser.dom.HtmlDocumentBuilder();
+            htmlDocumentBuilder.setDoctypeExpectation(DoctypeExpectation.NO_DOCTYPE_ERRORS);
+            org.w3c.dom.Document document = htmlDocumentBuilder.parse(new org.xml.sax.InputSource(new java.io.StringReader(src)));
+            javax.xml.transform.Source source = new javax.xml.transform.dom.DOMSource(document);
+            javax.xml.transform.dom.DOMResult result = new javax.xml.transform.dom.DOMResult();
+            transformer.transform(source, result);
+            org.esigate.xml.XhtmlSerializer serializer = new org.esigate.xml.XhtmlSerializer(out);
+            nu.validator.htmlparser.dom.Dom2Sax dom2Sax = new nu.validator.htmlparser.dom.Dom2Sax(serializer, serializer);
+            dom2Sax.parse(result.getNode());
+        } catch (javax.xml.transform.TransformerException e) {
+            throw new org.esigate.xml.ProcessingFailedException("Failed to transform source", e);
+        } catch (org.xml.sax.SAXException e) {
+            throw new org.esigate.xml.ProcessingFailedException("Failed serialize transformation result", e);
+        }
+    }
+}
+[13306] ERROR NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+-1406742585
+-1406742585
+[13462] INFO NoPol - ----INFORMATION----
+[13562] INFO NoPol - Nb classes : 269
+[13564] INFO NoPol - Nb methods : 1153
+[13565] INFO NoPol - Nb Statements Analyzed : 2
+[13566] INFO NoPol - Nb Statements with Angelic Value Found : 0
+[13567] INFO NoPol - Nb inputs in SMT : 0
+[13570] INFO NoPol - Nb SMT level: 0
+[13571] INFO NoPol - Nb variables in SMT : 0
+[13572] INFO NoPol - NoPol Execution time : 13463ms
+[13573] INFO NoPol - 
+NO_ANGELIC_VALUE

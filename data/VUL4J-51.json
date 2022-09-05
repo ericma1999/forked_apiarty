@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "src/main/java/hudson/plugins/ccm/parser/CcmParser.java",
-  "test_class": "hudson.plugins.ccm.CcmPublisherTest#testXxe",
+  "test_class": "hudson.plugins.ccm.CcmPublisherTest",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",

@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java",
-  "test_class": "org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair",
+  "test_class": "org.apache.commons.compress.archivers.zip.NioZipEncodingTest",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",

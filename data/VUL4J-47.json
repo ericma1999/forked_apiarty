@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java",
-  "test_class": "com.fasterxml.jackson.dataformat.xml.SupportDTDDefaultsTest#testDTDAttempt",
+  "test_class": "com.fasterxml.jackson.dataformat.xml.SupportDTDDefaultsTest",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",

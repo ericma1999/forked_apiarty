@@ -1,2 +1,0 @@
-Some test(s) failed during computation of coverage:
-org.apache.commons.fileupload.MultipartStreamTest#testSmallBuffer(org.apache.commons.fileupload.MultipartStreamTest): Expected exception: java.lang.IllegalArgumentException

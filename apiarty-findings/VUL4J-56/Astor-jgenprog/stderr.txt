@@ -1,6 +1,11 @@
-Sep 04, 2022 8:13:19 PM jenkins.model.Jenkins <clinit>
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/root/.m2/repository/org/jvnet/hudson/xstream/1.4.7-jenkins-1/xstream-1.4.7-jenkins-1.jar) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Sep 05, 2022 7:13:57 PM jenkins.model.Jenkins <clinit>
 SEVERE: Failed to load Jenkins.class
-java.lang.NoSuchMethodError: org.apache.logging.log4j.spi.LoggerContextFactory.isClassLoaderDependent()Z
+java.lang.NoSuchMethodError: 'boolean org.apache.logging.log4j.spi.LoggerContextFactory.isClassLoaderDependent()'
 	at org.apache.logging.log4j.jcl.LogAdapter.getContext(LogAdapter.java:40)
 	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:48)
 	at org.apache.logging.log4j.jcl.LogFactoryImpl.getInstance(LogFactoryImpl.java:41)
@@ -9,19 +14,20 @@ java.lang.NoSuchMethodError: org.apache.logging.log4j.spi.LoggerContextFactory.i
 	at org.apache.commons.beanutils.ConvertUtilsBean.<init>(ConvertUtilsBean.java:157)
 	at org.kohsuke.stapler.Stapler.<clinit>(Stapler.java:1080)
 	at hudson.model.Node$Mode.<clinit>(Node.java:551)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at java.lang.Class.getEnumConstantsShared(Class.java:3320)
-	at java.lang.Class.getEnumConstants(Class.java:3297)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.Class.getEnumConstantsShared(Class.java:3553)
+	at java.base/java.lang.Class.getEnumConstants(Class.java:3529)
 	at jenkins.model.Jenkins.<clinit>(Jenkins.java:4805)
-	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
-	at sun.reflect.UnsafeFieldAccessorFactory.newFieldAccessor(UnsafeFieldAccessorFactory.java:43)
-	at sun.reflect.ReflectionFactory.newFieldAccessor(ReflectionFactory.java:156)
-	at java.lang.reflect.Field.acquireFieldAccessor(Field.java:1088)
-	at java.lang.reflect.Field.getFieldAccessor(Field.java:1069)
-	at java.lang.reflect.Field.get(Field.java:393)
+	at java.base/jdk.internal.misc.Unsafe.ensureClassInitialized0(Native Method)
+	at java.base/jdk.internal.misc.Unsafe.ensureClassInitialized(Unsafe.java:1042)
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorFactory.newFieldAccessor(UnsafeFieldAccessorFactory.java:43)
+	at java.base/jdk.internal.reflect.ReflectionFactory.newFieldAccessor(ReflectionFactory.java:186)
+	at java.base/java.lang.reflect.Field.acquireFieldAccessor(Field.java:1105)
+	at java.base/java.lang.reflect.Field.getFieldAccessor(Field.java:1086)
+	at java.base/java.lang.reflect.Field.get(Field.java:418)
 	at spoon.support.visitor.java.JavaReflectionTreeBuilder.visitField(JavaReflectionTreeBuilder.java:295)
 	at spoon.support.visitor.java.JavaReflectionVisitorImpl.visitClass(JavaReflectionVisitorImpl.java:92)
 	at spoon.support.visitor.java.JavaReflectionTreeBuilder.visitClass(JavaReflectionTreeBuilder.java:152)
@@ -56,9 +62,9 @@ spoon.compiler.ModelBuildingException: The type History collides with a package 
 	at fr.inria.main.evolution.AstorMain.run(AstorMain.java:160)
 	at fr.inria.main.evolution.AstorMain.execute(AstorMain.java:222)
 	at fr.inria.main.evolution.AstorMain.main(AstorMain.java:193)
-Sep 04, 2022 8:13:22 PM jenkins.model.Jenkins <clinit>
+Sep 05, 2022 7:14:00 PM jenkins.model.Jenkins <clinit>
 SEVERE: Failed to load Jenkins.class
-java.lang.NoSuchMethodError: org.apache.logging.log4j.spi.LoggerContextFactory.isClassLoaderDependent()Z
+java.lang.NoSuchMethodError: 'boolean org.apache.logging.log4j.spi.LoggerContextFactory.isClassLoaderDependent()'
 	at org.apache.logging.log4j.jcl.LogAdapter.getContext(LogAdapter.java:40)
 	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:48)
 	at org.apache.logging.log4j.jcl.LogFactoryImpl.getInstance(LogFactoryImpl.java:41)
@@ -67,19 +73,20 @@ java.lang.NoSuchMethodError: org.apache.logging.log4j.spi.LoggerContextFactory.i
 	at org.apache.commons.beanutils.ConvertUtilsBean.<init>(ConvertUtilsBean.java:157)
 	at org.kohsuke.stapler.Stapler.<clinit>(Stapler.java:1080)
 	at hudson.model.Node$Mode.<clinit>(Node.java:551)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at java.lang.Class.getEnumConstantsShared(Class.java:3320)
-	at java.lang.Class.getEnumConstants(Class.java:3297)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.Class.getEnumConstantsShared(Class.java:3553)
+	at java.base/java.lang.Class.getEnumConstants(Class.java:3529)
 	at jenkins.model.Jenkins.<clinit>(Jenkins.java:4805)
-	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
-	at sun.reflect.UnsafeFieldAccessorFactory.newFieldAccessor(UnsafeFieldAccessorFactory.java:43)
-	at sun.reflect.ReflectionFactory.newFieldAccessor(ReflectionFactory.java:156)
-	at java.lang.reflect.Field.acquireFieldAccessor(Field.java:1088)
-	at java.lang.reflect.Field.getFieldAccessor(Field.java:1069)
-	at java.lang.reflect.Field.get(Field.java:393)
+	at java.base/jdk.internal.misc.Unsafe.ensureClassInitialized0(Native Method)
+	at java.base/jdk.internal.misc.Unsafe.ensureClassInitialized(Unsafe.java:1042)
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorFactory.newFieldAccessor(UnsafeFieldAccessorFactory.java:43)
+	at java.base/jdk.internal.reflect.ReflectionFactory.newFieldAccessor(ReflectionFactory.java:186)
+	at java.base/java.lang.reflect.Field.acquireFieldAccessor(Field.java:1105)
+	at java.base/java.lang.reflect.Field.getFieldAccessor(Field.java:1086)
+	at java.base/java.lang.reflect.Field.get(Field.java:418)
 	at spoon.support.visitor.java.JavaReflectionTreeBuilder.visitField(JavaReflectionTreeBuilder.java:295)
 	at spoon.support.visitor.java.JavaReflectionVisitorImpl.visitClass(JavaReflectionVisitorImpl.java:92)
 	at spoon.support.visitor.java.JavaReflectionTreeBuilder.visitClass(JavaReflectionTreeBuilder.java:152)

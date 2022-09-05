@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "src/main/java/org/jenkinsci/plugins/workflow/support/steps/build/BuildTriggerStepExecution.java",
-  "test_class": "org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepTest#permissions",
+  "test_class": "org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepTest",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",

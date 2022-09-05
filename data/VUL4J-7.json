@@ -10,7 +10,7 @@
   "build_system": {
     "custom": [
       {
-        "test": "mvn test -DforkCount=0 -Dtest=org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest#singleByteReadThrowsAtEofForCorruptedStoredEntry,org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest#multiByteReadThrowsAtEofForCorruptedStoredEntry"
+        "test": "mvn test -DforkCount=0 -Dtest=org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest"
       },
       {
         "compile": "mvn -DskipTests clean install"
@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java",
-  "test_class": "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest#singleByteReadThrowsAtEofForCorruptedStoredEntry,org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest#multiByteReadThrowsAtEofForCorruptedStoredEntry",
+  "test_class": "org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",

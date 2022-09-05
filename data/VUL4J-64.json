@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "main/src/com/google/refine/importers/XmlImporter.java",
-  "test_class": "com.google.refine.tests.importers.XmlImporterTests#ignoresDtds",
+  "test_class": "com.google.refine.tests.importers.XmlImporterTests",
   "src_path": "main/src",
   "test_path": "main/tests",
   "package_path": ".",

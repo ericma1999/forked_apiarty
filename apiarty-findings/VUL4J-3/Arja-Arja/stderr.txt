@@ -1,7 +1,13 @@
-Exception in thread "main" java.lang.IllegalArgumentException: Parameter 'directory' is not a directory: /apiarty/data/VUL4J-3/apache/camel/target/test-classes
-	at org.apache.commons.io.FileUtils.validateListFilesParameters(FileUtils.java:536)
-	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:512)
-	at us.msu.cse.repair.core.util.ClassFinder.scanTestDir(ClassFinder.java:75)
+Exception in thread "main" java.lang.NoClassDefFoundError: org/slf4j/Logger
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3191)
+	at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3197)
+	at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3197)
+	at java.base/java.lang.Class.getMethods(Class.java:1904)
+	at us.msu.cse.repair.core.util.JUnitIdentifier.isJUnit4TestCase(JUnitIdentifier.java:25)
+	at us.msu.cse.repair.core.util.JUnitIdentifier.isJUnitTest(JUnitIdentifier.java:13)
+	at us.msu.cse.repair.core.util.ClassFinder.scanTestDir(ClassFinder.java:88)
 	at us.msu.cse.repair.core.util.ClassFinder.<init>(ClassFinder.java:48)
 	at us.msu.cse.repair.core.AbstractRepairProblem.invokeClassFinder(AbstractRepairProblem.java:286)
 	at us.msu.cse.repair.core.AbstractRepairProblem.invokeModules(AbstractRepairProblem.java:270)
@@ -9,3 +15,8 @@ Exception in thread "main" java.lang.IllegalArgumentException: Parameter 'direct
 	at us.msu.cse.repair.ec.problems.ArjaProblem.<init>(ArjaProblem.java:44)
 	at us.msu.cse.repair.ArjaMain.main(ArjaMain.java:37)
 	at us.msu.cse.repair.Main.main(Main.java:8)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.Logger
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:476)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 16 more

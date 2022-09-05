@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "core/src/main/java/com/opensymphony/xwork2/interceptor/I18nInterceptor.java",
-  "test_class": "com.opensymphony.xwork2.interceptor.I18nInterceptorTest#testCVE_2016_2162",
+  "test_class": "com.opensymphony.xwork2.interceptor.I18nInterceptorTest",
   "src_path": "core/src/main/java",
   "test_path": "core/src/test/java",
   "package_path": ".",

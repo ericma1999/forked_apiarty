@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "src/main/java/org/primeframework/jwt/JWTDecoder.java",
-  "test_class": "org.primeframework.jwt.VulnerabilityTest#test_unsecuredJWT_validation",
+  "test_class": "org.primeframework.jwt.VulnerabilityTest",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",

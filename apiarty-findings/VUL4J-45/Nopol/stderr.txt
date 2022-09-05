@@ -1,0 +1,5 @@
+Some test(s) failed during computation of coverage:
+org.esigate.xml.XsltRendererTest#testParserSupportsDuplicatedId(org.esigate.xml.XsltRendererTest): nu/validator/htmlparser/dom/HtmlDocumentBuilder
+org.esigate.xml.XsltRendererTest#testSecureRendering(org.esigate.xml.XsltRendererTest): Unexpected exception, expected<org.esigate.xml.ProcessingFailedException> but was<java.lang.NoClassDefFoundError>
+org.esigate.xml.XsltRendererTest#testXslt(org.esigate.xml.XsltRendererTest): nu/validator/htmlparser/dom/HtmlDocumentBuilder
+org.esigate.xml.XsltRendererTest#testParserSupportsUnescapedAmpersandCharacter(org.esigate.xml.XsltRendererTest): nu/validator/htmlparser/dom/HtmlDocumentBuilder

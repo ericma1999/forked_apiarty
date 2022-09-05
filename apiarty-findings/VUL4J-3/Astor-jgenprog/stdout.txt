@@ -1,7 +1,0 @@
-[0] INFO ProjectConfiguration - Version of the JVM used: 1.8.0_292
-[1] INFO main - Java version of the JDK used to run tests: 1.8.0_292
-[3] INFO main - The compliance of the JVM is:  8
-[6] INFO main - command line arguments: [-mode  jgenprog  -location  /apiarty/data/VUL4J-3/apache/camel/  -jvm4testexecution  /usr/lib/jvm/java-8-openjdk-amd64/bin/  -failing  org.apache.camel.component.xslt.XsltDTDTest#testSendingStringMessage  -srcjavafolder  /camel-core/src/main/java  -srctestfolder  /camel-core/src/test/java  -binjavafolder  /target/classes  -bintestfolder  /target/test-classes  -maxtime  120  -stopfirst  true  -maxgen  1000000  -seed  0  -scope  local  -population  1  -dependencies  :/astor/lib/gzoltar/com.gzoltar-0.0.3.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom]
-[8] INFO AstorMain - Running Astor on a JDK at /usr/lib/jvm/java-8-openjdk-amd64/jre
-Source folders: [/apiarty/data/VUL4J-3/apache/camel/camel-core/src/main/java]
-Source Test folders: [/apiarty/data/VUL4J-3/apache/camel/camel-core/src/test/java]

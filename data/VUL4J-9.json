@@ -10,7 +10,7 @@
   "build_system": {
     "custom": [
       {
-        "test": "mvn test -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration#testObjectCreationFromStream,org.apache.commons.configuration2.TestYAMLConfiguration#testObjectCreationFromReader"
+        "test": "mvn test -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"
       },
       {
         "compile": "mvn -DskipTests clean install"
@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java",
-  "test_class": "org.apache.commons.configuration2.TestYAMLConfiguration#testObjectCreationFromStream,org.apache.commons.configuration2.TestYAMLConfiguration#testObjectCreationFromReader",
+  "test_class": "org.apache.commons.configuration2.TestYAMLConfiguration",
   "src_path": "src/main/java",
   "test_path": "src/test/java",
   "package_path": ".",

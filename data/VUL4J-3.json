@@ -13,18 +13,19 @@
         "test": "mvn test -pl camel-core -Dtest=org.apache.camel.component.xslt.XsltDTDTest"
       },
       {
-        "compile": "mvn -DskipTests clean install"
+        "compile": "mvn -pl camel-core -DskipTests clean install"
       },
       {
-        "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
+        "extract": "mvn -pl camel-core dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"
       }
     ]
   },
   "file_path": "camel-core/src/main/java/org/apache/camel/converter/jaxp/XmlConverter.java",
-  "test_class": "org.apache.camel.component.xslt.XsltDTDTest#testSendingStringMessage",
+  "test_class": "org.apache.camel.component.xslt.XsltDTDTest",
   "src_path": "camel-core/src/main/java",
   "test_path": "camel-core/src/test/java",
   "package_path": ".",
-  "src_classes": "target/classes",
-  "test_classes": "target/test-classes"
+  "src_classes": "camel-core/target/classes",
+  "test_classes": "camel-core/target/test-classes",
+  "custom_classpath_project": "camel-core"
 }
