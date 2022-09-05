@@ -1,0 +1,7 @@
+[0] INFO ProjectConfiguration - Version of the JVM used: 1.8.0_342
+[1] INFO main - Java version of the JDK used to run tests: 1.8.0_342
+[2] INFO main - The compliance of the JVM is:  8
+[4] INFO main - command line arguments: [-mode  jgenprog  -location  /apiarty/data/VUL4J-19/apache/pdfbox/  -jvm4testexecution  /usr/lib/jvm/java-8-openjdk-amd64/bin/  -failing  org.apache.pdfbox.encryption.TestSymmetricKeyEncryption#testPermissions  -srcjavafolder  /pdfbox/src/main/java  -srctestfolder  /pdfbox/src/test/java  -binjavafolder  /target/classes  -bintestfolder  /target/test-classes  -maxtime  120  -stopfirst  true  -maxgen  1000000  -seed  0  -scope  local  -population  1  -dependencies  :/astor/lib/gzoltar/com.gzoltar-0.0.3.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom]
+[8] INFO AstorMain - Running Astor on a JDK at /usr/lib/jvm/java-11-openjdk-amd64
+Source folders: [/apiarty/data/VUL4J-19/apache/pdfbox/pdfbox/src/main/java]
+Source Test folders: [/apiarty/data/VUL4J-19/apache/pdfbox/pdfbox/src/test/java]

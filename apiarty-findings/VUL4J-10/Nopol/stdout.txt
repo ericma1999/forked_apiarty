@@ -1,0 +1,70 @@
+[0] INFO NoPol - Source files: [/apiarty/data/VUL4J-10/apache/commons-fileupload/src/main/java, /apiarty/data/VUL4J-10/apache/commons-fileupload/src/test/java]
+[1] INFO NoPol - Classpath: [file:/apiarty/data/VUL4J-10/apache/commons-fileupload/target/classes/, file:/apiarty/data/VUL4J-10/apache/commons-fileupload/target/test-classes/, file:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar, file:/root/.m2/repository/portlet-api/portlet-api/1.0/portlet-api-1.0.jar, file:/root/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar]
+[2] INFO NoPol - Statement type: PRE_THEN_COND
+[3] INFO NoPol - Args: [org.apache.commons.fileupload.DiskFileItemSerializeTest]
+[5] INFO NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-10/apache/commons-fileupload/src/main/java, /apiarty/data/VUL4J-10/apache/commons-fileupload/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[org.apache.commons.fileupload.DiskFileItemSerializeTest], complianceLevel=8, outputFolder=., json=false}
+[6] INFO NoPol - Available processors (cores): 8
+[19] INFO NoPol - Free memory: 69 MB
+[20] INFO NoPol - Maximum memory: 3 GB
+[21] INFO NoPol - Total memory available to JVM: 80 MB
+[26] INFO NoPol - Java version: null
+[27] INFO NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+[28] INFO NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-10/apache/commons-fileupload/src/main/java, /apiarty/data/VUL4J-10/apache/commons-fileupload/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[org.apache.commons.fileupload.DiskFileItemSerializeTest], complianceLevel=8, outputFolder=., json=false}
+Parsing --path-options-file /tmp/test_runner17755874473372303729.options
+Parsing --sourceBinaries /apiarty/data/VUL4J-10/apache/commons-fileupload/./target/classes --testBinaries /apiarty/data/VUL4J-10/apache/commons-fileupload/./target/test-classes --class org.apache.commons.fileupload.DiskFileItemSerializeTest --tests org.apache.commons.fileupload.DiskFileItemSerializeTest#testBelowThreshold:org.apache.commons.fileupload.DiskFileItemSerializeTest#testAboveThreshold:org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepository:org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepositoryWithNullChar:org.apache.commons.fileupload.DiskFileItemSerializeTest#testValidRepository:org.apache.commons.fileupload.DiskFileItemSerializeTest#testThreshold  --coverage-detail DETAIL_COMPRESSED --nb-failing-load-class 0
+File saved to the following path: /apiarty/data/VUL4J-10/apache/commons-fileupload/target/CoveredTestResultPerTest.dat
+[6379] INFO CoverageRunner - Tests found: 6
+[6382] INFO CoverageRunner - Tests executed: 6
+-1433165939
+[8587] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:661.
+-1433165939
+[9434] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:636.
+-1433165939
+[10041] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:307.
+-1433165939
+[10580] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:305.
+-1433165939
+[11346] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:304.
+[11921] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:304.
+-1433165939
+-1433165939
+[12436] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:670.
+-1433165939
+[12892] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:668.
+-1433165939
+[13347] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:660.
+[13592] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:660.
+-1433165939
+-1433165939
+[13983] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:657.
+-1433165939
+-1433165939
+-1433165939
+[34845] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.apache.commons.fileupload.disk.DiskFileItem:635.
+[35259] INFO TestPatch - Applying patch: org.apache.commons.fileupload.disk.DiskFileItem:635: CONDITIONAL org.apache.commons.fileupload.disk.DiskFileItem.this.cachedContent!=null
+[35445] INFO TestPatch - Running test suite to check the patch "org.apache.commons.fileupload.disk.DiskFileItem.this.cachedContent!=null" is working
+[35477] INFO NoPol - ----INFORMATION----
+[35490] INFO NoPol - Nb classes : 48
+[35491] INFO NoPol - Nb methods : 305
+[35492] INFO NoPol - Nb Statements Analyzed : 14
+[35493] INFO NoPol - Nb Statements with Angelic Value Found : 2
+[35494] INFO NoPol - Nb inputs in SMT : 5
+[35495] INFO NoPol - Nb SMT level: 1
+[35495] INFO NoPol - Nb SMT components: [0] []
+[35496] INFO NoPol - Nb variables in SMT : 32
+[35497] INFO NoPol - NoPol Execution time : 35478ms
+[35497] INFO NoPol - 
+[35498] INFO NoPol - ----PATCH FOUND----
+[35498] INFO NoPol - org.apache.commons.fileupload.disk.DiskFileItem.this.cachedContent!=null
+[35499] INFO NoPol - Nb test that executes the patch: 6
+[35500] INFO NoPol - org.apache.commons.fileupload.disk.DiskFileItem:635: CONDITIONAL
+[35530] INFO NoPol - --- a/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
++++ b/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+@@ -634,3 +634,3 @@
+         // Read the data
+-        if (dfos.isInMemory()) {
++        if (org.apache.commons.fileupload.disk.DiskFileItem.this.cachedContent!=null) {
+             cachedContent = get();
+
+PATCH

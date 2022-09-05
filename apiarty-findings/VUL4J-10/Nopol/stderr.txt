@@ -1,0 +1,3 @@
+Some test(s) failed during computation of coverage:
+org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepository(org.apache.commons.fileupload.DiskFileItemSerializeTest): Expected exception: java.io.IOException
+org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepositoryWithNullChar(org.apache.commons.fileupload.DiskFileItemSerializeTest): Expected exception: java.io.IOException
