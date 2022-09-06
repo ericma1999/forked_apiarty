@@ -1,0 +1,5 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by spoon.support.visitor.java.JavaReflectionTreeBuilder (file:/nopol/nopol/target/nopol-0.2-SNAPSHOT-jar-with-dependencies.jar) to field sun.security.util.DerValue.TAG_UNIVERSAL
+WARNING: Please consider reporting this to the maintainers of spoon.support.visitor.java.JavaReflectionTreeBuilder
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release

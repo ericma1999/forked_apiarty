@@ -1,37 +1,37 @@
 [0] INFO NoPol - Source files: [/apiarty/data/VUL4J-3/apache/camel/camel-core/src/main/java, /apiarty/data/VUL4J-3/apache/camel/camel-core/src/test/java]
-[2] INFO NoPol - Classpath: [file:/apiarty/data/VUL4J-3/apache/camel/camel-core/target/classes/, file:/apiarty/data/VUL4J-3/apache/camel/camel-core/target/test-classes/, file:/root/.m2/repository/org/apache/camel/spi-annotations/2.15-SNAPSHOT/spi-annotations-2.15-SNAPSHOT.jar, file:/root/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.3/jackson-databind-2.4.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.3/jackson-core-2.4.3.jar, file:/root/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar, file:/root/.m2/repository/org/apache/camel/apt/2.15-SNAPSHOT/apt-2.15-SNAPSHOT.jar, file:/root/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar, file:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, file:/root/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar, file:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar]
-[3] INFO NoPol - Statement type: PRE_THEN_COND
+[1] INFO NoPol - Classpath: [file:/apiarty/data/VUL4J-3/apache/camel/camel-core/target/classes/, file:/apiarty/data/VUL4J-3/apache/camel/camel-core/target/test-classes/, file:/root/.m2/repository/org/apache/camel/spi-annotations/2.15-SNAPSHOT/spi-annotations-2.15-SNAPSHOT.jar, file:/root/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar, file:/root/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar, file:/root/.m2/repository/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar, file:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/root/.m2/repository/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar, file:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/root/.m2/repository/org/easymock/easymock/3.2/easymock-3.2.jar, file:/root/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar, file:/root/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.3/jackson-databind-2.4.3.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.3/jackson-core-2.4.3.jar, file:/root/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar, file:/root/.m2/repository/org/apache/camel/apt/2.15-SNAPSHOT/apt-2.15-SNAPSHOT.jar, file:/root/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar, file:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, file:/root/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar, file:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar]
+[2] INFO NoPol - Statement type: PRE_THEN_COND
 [3] INFO NoPol - Args: [org.apache.camel.component.xslt.XsltDTDTest]
-[5] INFO NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-3/apache/camel/camel-core/src/main/java, /apiarty/data/VUL4J-3/apache/camel/camel-core/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[org.apache.camel.component.xslt.XsltDTDTest], complianceLevel=8, outputFolder=., json=false}
-[6] INFO NoPol - Available processors (cores): 8
-[12] INFO NoPol - Free memory: 69 MB
-[12] INFO NoPol - Maximum memory: 3 GB
-[13] INFO NoPol - Total memory available to JVM: 80 MB
-[15] INFO NoPol - Java version: null
-[16] INFO NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
-[17] INFO NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+[6] INFO NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-3/apache/camel/camel-core/src/main/java, /apiarty/data/VUL4J-3/apache/camel/camel-core/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[org.apache.camel.component.xslt.XsltDTDTest], complianceLevel=8, outputFolder=., json=false}
+[7] INFO NoPol - Available processors (cores): 8
+[17] INFO NoPol - Free memory: 69 MB
+[18] INFO NoPol - Maximum memory: 3 GB
+[19] INFO NoPol - Total memory available to JVM: 80 MB
+[22] INFO NoPol - Java version: null
+[25] INFO NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+[26] INFO NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-3/apache/camel/camel-core/src/main/java, /apiarty/data/VUL4J-3/apache/camel/camel-core/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[org.apache.camel.component.xslt.XsltDTDTest], complianceLevel=8, outputFolder=., json=false}
-[33977] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.component.file.GenericFileMessage
-[34076] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.impl.DefaultMessage
-[34094] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.impl.DefaultModelJAXBContextFactory
-[34171] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.view.ModelFileGenerator
-[34287] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.ModelHelper
-[35426] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.BodyAndHeaderConvertTest
-[35427] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.BodyAndHeaderConvertTest
-[35430] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.GenerateXmlTest
-[35431] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.GenerateXmlTest
-[35434] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlRestParseTest
-[35435] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlRestParseTest
-[35440] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlParseTest
-[35442] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlParseTest
-[35568] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.main.Main
-[35588] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.impl.DefaultMessage
-[35591] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.impl.DefaultModelJAXBContextFactory
-[35599] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.view.ModelFileGenerator
-[35611] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.ModelHelper
-[35619] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.RestContextRefDefinitionHelper
-[35620] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.RouteContextRefDefinitionHelper
-[35677] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.impl.CamelContextAddRouteDefinitionsFromXmlTest
-[35721] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.BodyAndHeaderConvertTest
-[35723] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlRestParseTest
-[35724] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlParseTest
+[46312] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.component.file.GenericFileMessage
+[46446] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.impl.DefaultMessage
+[46467] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.impl.DefaultModelJAXBContextFactory
+[46553] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.view.ModelFileGenerator
+[46682] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.ModelHelper
+[47837] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.BodyAndHeaderConvertTest
+[47838] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.BodyAndHeaderConvertTest
+[47840] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.GenerateXmlTest
+[47841] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.GenerateXmlTest
+[47843] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlRestParseTest
+[47844] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlRestParseTest
+[47848] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlParseTest
+[47849] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlParseTest
+[47954] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.main.Main
+[47973] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.impl.DefaultMessage
+[47976] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.impl.DefaultModelJAXBContextFactory
+[47985] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.view.ModelFileGenerator
+[47997] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.ModelHelper
+[48004] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.RestContextRefDefinitionHelper
+[48005] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.RouteContextRefDefinitionHelper
+[48045] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.impl.CamelContextAddRouteDefinitionsFromXmlTest
+[48088] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.BodyAndHeaderConvertTest
+[48090] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlRestParseTest
+[48091] WARN TestMethodFilter - NoClassDefFoundError: class org.apache.camel.model.XmlParseTest

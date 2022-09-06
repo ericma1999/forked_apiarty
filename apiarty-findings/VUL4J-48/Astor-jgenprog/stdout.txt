@@ -1,0 +1,24 @@
+[0] INFO ProjectConfiguration - Version of the JVM used: 1.8.0_342
+[1] INFO main - Java version of the JDK used to run tests: 1.8.0_342
+[2] INFO main - The compliance of the JVM is:  8
+[4] INFO main - command line arguments: [-mode  jgenprog  -location  /apiarty/data/VUL4J-48/inversoft/prime-jwt/  -jvm4testexecution  /usr/lib/jvm/java-8-openjdk-amd64/bin/  -failing  org.primeframework.jwt.VulnerabilityTest  -srcjavafolder  /src/main/java  -srctestfolder  /src/test/java  -binjavafolder  /target/classes  -bintestfolder  /target/test-classes  -maxtime  120  -stopfirst  true  -maxgen  1000000  -seed  0  -scope  local  -population  1  -dependencies  /root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar:/root/.m2/repository/org/testng/testng/6.8.7/testng-6.8.7.jar:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/root/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/root/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/root/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar:/astor/lib/gzoltar/com.gzoltar-0.0.3.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom]
+[8] INFO AstorMain - Running Astor on a JDK at /usr/lib/jvm/java-11-openjdk-amd64
+Source folders: [/apiarty/data/VUL4J-48/inversoft/prime-jwt/src/main/java]
+Source Test folders: [/apiarty/data/VUL4J-48/inversoft/prime-jwt/src/test/java]
+---- Creating spoon model
+Creating model,  Code location from working folder: /apiarty/data/VUL4J-48/inversoft/prime-jwt/src/main/java
+building model: /apiarty/data/VUL4J-48/inversoft/prime-jwt/src/main/java, compliance level: 8
+Classpath (Dependencies) for building SpoonModel: [/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar, /root/.m2/repository/org/testng/testng/6.8.7/testng-6.8.7.jar, /root/.m2/repository/junit/junit/4.10/junit-4.10.jar, /root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar, /root/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar, /root/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar, /root/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar, /astor/lib/gzoltar/com.gzoltar-0.0.3.jar]
+Spoon Model built from location: /apiarty/data/VUL4J-48/inversoft/prime-jwt/src/main/java
+Number of CtTypes created: 32
+Running chosen test detection strategy: CLASSLOADER
+Test retrieved from classes: 0
+Running chosen test detection strategy: CLASSLOADER
+Running Flacoco...
+Running spectrum-based fault localization...
+FlacocoConfig{workspace='/astor/.', projectPath='/apiarty/data/VUL4J-48/inversoft/prime-jwt', srcJavaDir=[/apiarty/data/VUL4J-48/inversoft/prime-jwt/src/main/java], srcTestDir=[/apiarty/data/VUL4J-48/inversoft/prime-jwt/src/test/java], binJavaDir=[/apiarty/data/VUL4J-48/inversoft/prime-jwt/target/classes], binTestDir=[/apiarty/data/VUL4J-48/inversoft/prime-jwt/target/test-classes], classpath='/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar:/root/.m2/repository/org/testng/testng/6.8.7/testng-6.8.7.jar:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/root/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/root/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/root/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar:/astor/lib/gzoltar/com.gzoltar-0.0.3.jar', customJUnitClasspath='null', customJacocoClasspath='null', mavenHome='/root/.m2/repository/', coverTests=false, testRunnerVerbose=false, testRunnerTimeoutInMs=7200000, testRunnerJVMArgs='null', threshold=0.1, includeZeros=false, complianceLevel=8, testDetectionStrategy=CLASSLOADER, ignoredTests=[], jUnit4Tests=[], jUnit5Tests=[], jacocoIncludes=[], jacocoExcludes=[java.*], family=SPECTRUM_BASED, spectrumFormula=OCHIAI, computeSpoonResults=false}
+Running chosen test detection strategy: CLASSLOADER
+Tests found: 0
+Tests executed: 0
+Executing time Fault localization: 0 sec
+Setting up the max to 2600 milliseconds (2 sec)

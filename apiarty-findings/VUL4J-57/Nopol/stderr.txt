@@ -1,0 +1,2432 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/root/.m2/repository/org/jvnet/hudson/xstream/1.4.7-jenkins-1/xstream-1.4.7-jenkins-1.jar) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/root/.m2/repository/org/slf4j/slf4j-jdk14/1.7.7/slf4j-jdk14-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/nopol/nopol/target/nopol-0.2-SNAPSHOT-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+Sep 06, 2022 5:38:49 AM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @815ms
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/root/.m2/repository/org/jvnet/hudson/xstream/1.4.7-jenkins-1/xstream-1.4.7-jenkins-1.jar) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Sep 06, 2022 5:38:51 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Sep 06, 2022 5:38:51 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /jenkins, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 06, 2022 5:38:51 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@7bfc3126{/jenkins,file:/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test/,AVAILABLE}{/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test}
+Sep 06, 2022 5:38:51 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@126be319{HTTP/1.1}{localhost:38257}
+Sep 06, 2022 5:38:51 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @3069ms
+Sep 06, 2022 5:38:51 AM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:38257/jenkins/
+Sep 06, 2022 5:38:51 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 06, 2022 5:39:01 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 06, 2022 5:39:01 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 06, 2022 5:39:01 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 06, 2022 5:39:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 06, 2022 5:39:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 06, 2022 5:39:05 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 44877
+Sep 06, 2022 5:39:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 06, 2022 5:39:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 06, 2022 5:39:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 06, 2022 5:39:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 06, 2022 5:39:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 06, 2022 5:39:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 06, 2022 5:39:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 06, 2022 5:39:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 06, 2022 5:39:05 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Sep 06, 2022 5:39:05 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@7baf6acf{/,null,AVAILABLE}
+Sep 06, 2022 5:39:05 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@f72203{HTTP/1.1}{0.0.0.0:35191}
+Sep 06, 2022 5:39:05 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @17001ms
+[us #1] Started
+Sep 06, 2022 5:42:05 AM org.jvnet.hudson.test.JenkinsRule$1 run
+WARNING: Test timed out (after 180 seconds).
+"Common-Cleaner" Id=11 Group=InnocuousThreadGroup TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@7c4b0e5
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@7c4b0e5
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.16/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+	at java.base@11.0.16/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:161)
+
+
+"Executing triggerWorkflow(org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepTest)" Id=1 Group=main WAITING on hudson.model.queue.FutureImpl@f434640
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on hudson.model.queue.FutureImpl@f434640
+	at java.base@11.0.16/java.lang.Object.wait(Object.java:328)
+	at app//hudson.remoting.AsyncFutureImpl.get(AsyncFutureImpl.java:73)
+	at app//org.jvnet.hudson.test.JenkinsRule.assertBuildStatus(JenkinsRule.java:1143)
+	at app//org.jvnet.hudson.test.JenkinsRule.assertBuildStatusSuccess(JenkinsRule.java:1172)
+	at app//org.jvnet.hudson.test.JenkinsRule.buildAndAssertSuccess(JenkinsRule.java:1184)
+	at app//org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepTest.triggerWorkflow(BuildTriggerStepTest.java:247)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.16/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.16/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at app//org.jvnet.hudson.test.JenkinsRule$2.evaluate(JenkinsRule.java:533)
+	at app//org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at app//org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at app//org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at app//org.junit.runners.Suite.runChild(Suite.java:128)
+	at app//org.junit.runners.Suite.runChild(Suite.java:27)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at app//eu.stamp_project.testrunner.runner.JUnit4Runner.run(JUnit4Runner.java:73)
+	at app//eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.executeCoveredTestPerTestMethod(JUnit4OnlineJacocoRunner.java:39)
+	at app//eu.stamp_project.testrunner.runner.coverage.JacocoOnlineRunner.runCoveredTestResultPerTestMethod(JacocoOnlineRunner.java:57)
+	at app//eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.main(JUnit4OnlineJacocoRunner.java:59)
+
+
+"Jenkins cron thread" Id=24 Group=main WAITING on java.util.TaskQueue@102792c4
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@102792c4
+	at java.base@11.0.16/java.lang.Object.wait(Object.java:328)
+	at java.base@11.0.16/java.util.TimerThread.mainLoop(Timer.java:527)
+	at java.base@11.0.16/java.util.TimerThread.run(Timer.java:506)
+
+
+"Jenkins UDP 33848 monitoring thread" Id=56 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	-  locked java.net.PlainDatagramSocketImpl@19ba2fef
+	at java.base@11.0.16/java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:200)
+	-  locked java.net.PlainDatagramSocketImpl@19ba2fef
+	at java.base@11.0.16/java.net.DatagramSocket.receive(DatagramSocket.java:814)
+	-  locked java.net.DatagramPacket@764a5b2b
+	-  locked java.net.MulticastSocket@767a8f61
+	at app//hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:83)
+
+
+"jenkins.util.Timer [#10]" Id=53 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#1]" Id=25 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#2]" Id=42 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#3]" Id=43 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#4]" Id=44 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#5]" Id=45 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#6]" Id=46 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#7]" Id=47 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#8]" Id=48 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#9]" Id=49 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3d322340
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"Jetty Thread Pool-acceptor-0@f54a759-ServerConnector@126be319{HTTP/1.1}{localhost:38257}" Id=23 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at app//org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 2
+	- java.util.concurrent.ThreadPoolExecutor$Worker@46292372
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@778f8716
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@22b62b39/0" Id=19 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@14476d33
+	-  locked sun.nio.ch.EPollSelectorImpl@38cdb20f
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@4837595f
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@22b62b39/1" Id=20 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@23a59445
+	-  locked sun.nio.ch.EPollSelectorImpl@c244bf7
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@2bffa76d
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@22b62b39/2" Id=21 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@75206586
+	-  locked sun.nio.ch.EPollSelectorImpl@2028fce7
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@3b718392
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@22b62b39/3" Id=22 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@2f20431b
+	-  locked sun.nio.ch.EPollSelectorImpl@1f5cefb
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@6d2260db
+
+
+"NioSocketAcceptor-1" Id=54 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@129fa00b
+	-  locked sun.nio.ch.EPollSelectorImpl@19a33279
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.apache.mina.transport.socket.nio.NioSocketAcceptor.select(NioSocketAcceptor.java:238)
+	at app//org.apache.mina.core.polling.AbstractPollingIoAcceptor$Acceptor.run(AbstractPollingIoAcceptor.java:432)
+	at app//org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@bc5f22
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@1e6dad8Timer" Id=84 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@376f7a2b
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@376f7a2b
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@37d3d232Timer" Id=18 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1a35a01
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1a35a01
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-76-selector-ServerConnectorManager@9cf16e8/0" Id=76 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@3211547f
+	-  locked sun.nio.ch.EPollSelectorImpl@7a9cd085
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-77-selector-ServerConnectorManager@9cf16e8/1" Id=77 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@5eab5ffe
+	-  locked sun.nio.ch.EPollSelectorImpl@7c88d2cd
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-78-selector-ServerConnectorManager@9cf16e8/2" Id=78 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@4402c38f
+	-  locked sun.nio.ch.EPollSelectorImpl@58062b72
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-79-selector-ServerConnectorManager@9cf16e8/3" Id=79 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@5c56db23
+	-  locked sun.nio.ch.EPollSelectorImpl@667274de
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-80-acceptor-0@520c473a-ServerConnector@f72203{HTTP/1.1}{0.0.0.0:35191}" Id=80 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at app//org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@343edd24
+
+
+"qtp679442449-81" Id=81 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-82" Id=82 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-83" Id=83 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"TCP slave agent listener port=0" Id=55 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//hudson.TcpSlaveAgentListener.run(TcpSlaveAgentListener.java:95)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@35be323b
+
+
+"Timer-0" Id=85 Group=main RUNNABLE
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at app//hudson.Functions.getThreadInfos(Functions.java:1190)
+	at app//org.jvnet.hudson.test.JenkinsRule.dumpThreads(JenkinsRule.java:435)
+	at app//org.jvnet.hudson.test.JenkinsRule.access$200(JenkinsRule.java:245)
+	at app//org.jvnet.hudson.test.JenkinsRule$1.run(JenkinsRule.java:427)
+	at java.base@11.0.16/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base@11.0.16/java.util.TimerThread.run(Timer.java:506)
+
+
+"watching builds" Id=13 Group=main TIMED_WAITING
+	at java.base@11.0.16/java.lang.Thread.sleep(Native Method)
+	at app//org.jvnet.hudson.test.BuildWatcher$1.run(BuildWatcher.java:66)
+
+
+"Finalizer" Id=3 Group=system WAITING on java.lang.ref.ReferenceQueue$Lock@1e6200ec
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1e6200ec
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@11.0.16/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+
+
+"Reference Handler" Id=2 Group=system RUNNABLE
+	at java.base@11.0.16/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@11.0.16/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+	at java.base@11.0.16/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+
+
+"Signal Dispatcher" Id=4 Group=system RUNNABLE
+
+
+Sep 06, 2022 5:42:05 AM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@126be319{HTTP/1.1}{localhost:0}
+Sep 06, 2022 5:42:05 AM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@7bfc3126{/jenkins,file:/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test/,UNAVAILABLE}{/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test}
+[ds #1] Started by upstream project "us" build number 1
+[us #1] [Pipeline] build (Building ds)
+[us #1] Scheduling project: ds
+[us #1] Starting building: ds #1
+Sep 06, 2022 5:43:05 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Sep 06, 2022 5:43:05 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /jenkins, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 06, 2022 5:43:05 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@627d8516{/jenkins,file:/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test/,AVAILABLE}{/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test}
+Sep 06, 2022 5:43:05 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@64b70919{HTTP/1.1}{localhost:45625}
+Sep 06, 2022 5:43:05 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @257413ms
+Sep 06, 2022 5:43:05 AM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:45625/jenkins/
+Sep 06, 2022 5:43:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 06, 2022 5:43:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 06, 2022 5:43:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 06, 2022 5:43:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 06, 2022 5:43:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 06, 2022 5:43:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 06, 2022 5:43:06 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 39561
+Sep 06, 2022 5:43:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 06, 2022 5:43:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 06, 2022 5:43:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 06, 2022 5:43:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 06, 2022 5:43:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 06, 2022 5:43:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 06, 2022 5:43:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 06, 2022 5:43:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+[dir2/upstream #1] Started
+Sep 06, 2022 5:46:06 AM org.jvnet.hudson.test.JenkinsRule$1 run
+WARNING: Test timed out (after 180 seconds).
+"Common-Cleaner" Id=11 Group=InnocuousThreadGroup TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@7c4b0e5
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@7c4b0e5
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.16/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+	at java.base@11.0.16/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:161)
+
+
+"Executing buildFolderProject(org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepTest)" Id=1 Group=main WAITING on hudson.model.queue.FutureImpl@89028e3
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on hudson.model.queue.FutureImpl@89028e3
+	at java.base@11.0.16/java.lang.Object.wait(Object.java:328)
+	at app//hudson.remoting.AsyncFutureImpl.get(AsyncFutureImpl.java:73)
+	at app//org.jvnet.hudson.test.JenkinsRule.assertBuildStatus(JenkinsRule.java:1143)
+	at app//org.jvnet.hudson.test.JenkinsRule.assertBuildStatusSuccess(JenkinsRule.java:1172)
+	at app//org.jvnet.hudson.test.JenkinsRule.buildAndAssertSuccess(JenkinsRule.java:1184)
+	at app//org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepTest.buildFolderProject(BuildTriggerStepTest.java:108)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.16/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.16/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at app//org.jvnet.hudson.test.JenkinsRule$2.evaluate(JenkinsRule.java:533)
+	at app//org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at app//org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at app//org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at app//org.junit.runners.Suite.runChild(Suite.java:128)
+	at app//org.junit.runners.Suite.runChild(Suite.java:27)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at app//eu.stamp_project.testrunner.runner.JUnit4Runner.run(JUnit4Runner.java:73)
+	at app//eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.executeCoveredTestPerTestMethod(JUnit4OnlineJacocoRunner.java:39)
+	at app//eu.stamp_project.testrunner.runner.coverage.JacocoOnlineRunner.runCoveredTestResultPerTestMethod(JacocoOnlineRunner.java:57)
+	at app//eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.main(JUnit4OnlineJacocoRunner.java:59)
+
+
+"Jenkins cron thread" Id=113 Group=main WAITING on java.util.TaskQueue@230b7911
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@230b7911
+	at java.base@11.0.16/java.lang.Object.wait(Object.java:328)
+	at java.base@11.0.16/java.util.TimerThread.mainLoop(Timer.java:527)
+	at java.base@11.0.16/java.util.TimerThread.run(Timer.java:506)
+
+
+"Jenkins UDP 33848 monitoring thread" Id=145 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	-  locked java.net.PlainDatagramSocketImpl@5999bae1
+	at java.base@11.0.16/java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:200)
+	-  locked java.net.PlainDatagramSocketImpl@5999bae1
+	at java.base@11.0.16/java.net.DatagramSocket.receive(DatagramSocket.java:814)
+	-  locked java.net.DatagramPacket@1fe7f4a3
+	-  locked java.net.MulticastSocket@422bb28d
+	at app//hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:83)
+
+
+"jenkins.util.Timer [#10]" Id=142 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#1]" Id=114 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#2]" Id=131 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#3]" Id=135 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#4]" Id=136 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#5]" Id=137 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#6]" Id=138 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#7]" Id=139 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#8]" Id=140 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#9]" Id=141 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3b3d1f37
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"Jetty Thread Pool-acceptor-0@d660672-ServerConnector@64b70919{HTTP/1.1}{localhost:45625}" Id=112 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at app//org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 2
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@2d57b4c4
+	- java.util.concurrent.ThreadPoolExecutor$Worker@3cec79d3
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@72cec0c2/0" Id=108 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@2684393
+	-  locked sun.nio.ch.EPollSelectorImpl@476addba
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@5c10285a
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@72cec0c2/1" Id=109 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@4e342284
+	-  locked sun.nio.ch.EPollSelectorImpl@76e71f1c
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@6b667cb3
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@72cec0c2/2" Id=110 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@3653be88
+	-  locked sun.nio.ch.EPollSelectorImpl@274522f5
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@6f38a289
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@72cec0c2/3" Id=111 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@488a049b
+	-  locked sun.nio.ch.EPollSelectorImpl@6dbfd69
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@61e3cf4d
+
+
+"NioSocketAcceptor-2" Id=143 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@62549d8c
+	-  locked sun.nio.ch.EPollSelectorImpl@72b5f496
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.apache.mina.transport.socket.nio.NioSocketAcceptor.select(NioSocketAcceptor.java:238)
+	at app//org.apache.mina.core.polling.AbstractPollingIoAcceptor$Acceptor.run(AbstractPollingIoAcceptor.java:432)
+	at app//org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@637383ad
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@1686f0b4Timer" Id=107 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@657d781
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@657d781
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@1e6dad8Timer" Id=84 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@376f7a2b
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@376f7a2b
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-76-selector-ServerConnectorManager@9cf16e8/0" Id=76 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@3211547f
+	-  locked sun.nio.ch.EPollSelectorImpl@7a9cd085
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-77-selector-ServerConnectorManager@9cf16e8/1" Id=77 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@5eab5ffe
+	-  locked sun.nio.ch.EPollSelectorImpl@7c88d2cd
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-78-selector-ServerConnectorManager@9cf16e8/2" Id=78 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@4402c38f
+	-  locked sun.nio.ch.EPollSelectorImpl@58062b72
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-79-selector-ServerConnectorManager@9cf16e8/3" Id=79 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@5c56db23
+	-  locked sun.nio.ch.EPollSelectorImpl@667274de
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-80-acceptor-0@520c473a-ServerConnector@f72203{HTTP/1.1}{0.0.0.0:35191}" Id=80 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at app//org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@343edd24
+
+
+"qtp679442449-81" Id=81 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-82" Id=82 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-83" Id=83 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"TCP slave agent listener port=0" Id=144 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//hudson.TcpSlaveAgentListener.run(TcpSlaveAgentListener.java:95)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@a8ec820
+
+
+"Timer-1" Id=164 Group=main RUNNABLE
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at app//hudson.Functions.getThreadInfos(Functions.java:1190)
+	at app//org.jvnet.hudson.test.JenkinsRule.dumpThreads(JenkinsRule.java:435)
+	at app//org.jvnet.hudson.test.JenkinsRule.access$200(JenkinsRule.java:245)
+	at app//org.jvnet.hudson.test.JenkinsRule$1.run(JenkinsRule.java:427)
+	at java.base@11.0.16/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base@11.0.16/java.util.TimerThread.run(Timer.java:506)
+
+
+"watching builds" Id=13 Group=main TIMED_WAITING
+	at java.base@11.0.16/java.lang.Thread.sleep(Native Method)
+	at app//org.jvnet.hudson.test.BuildWatcher$1.run(BuildWatcher.java:66)
+
+
+"Finalizer" Id=3 Group=system WAITING on java.lang.ref.ReferenceQueue$Lock@1e6200ec
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1e6200ec
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@11.0.16/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+
+
+"Reference Handler" Id=2 Group=system RUNNABLE
+	at java.base@11.0.16/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@11.0.16/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+	at java.base@11.0.16/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+
+
+"Signal Dispatcher" Id=4 Group=system RUNNABLE
+
+
+Sep 06, 2022 5:46:06 AM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@64b70919{HTTP/1.1}{localhost:0}
+Sep 06, 2022 5:46:06 AM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@627d8516{/jenkins,file:/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test/,UNAVAILABLE}{/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test}
+[dir2/upstream #1] [Pipeline] build (Building dir1 » downstream)
+[dir1/downstream #1] Started by upstream project "dir2/upstream" build number 1
+[dir1/downstream #1] Building in workspace /tmp/hudson16281391685636288942test/workspace/dir1/downstream
+Sep 06, 2022 5:46:06 AM hudson.model.Run execute
+INFO: dir1/downstream #1 main build action completed: SUCCESS
+Sep 06, 2022 5:46:06 AM org.jenkinsci.plugins.workflow.job.WorkflowRun finish
+INFO: dir2/upstream #1 completed: SUCCESS
+[dir2/upstream #1] Scheduling project: dir1 » downstream
+[dir2/upstream #1] Starting building: dir1 » downstream #1
+[dir1/downstream #1] Sleeping 1ms
+[dir1/downstream #1] Finished: SUCCESS
+[dir2/upstream #1] [Pipeline] End of Pipeline
+[dir2/upstream #1] Finished: SUCCESS
+Sep 06, 2022 5:47:06 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Sep 06, 2022 5:47:06 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /jenkins, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 06, 2022 5:47:06 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@25da615a{/jenkins,file:/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test/,AVAILABLE}{/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test}
+Sep 06, 2022 5:47:06 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@3a5c2626{HTTP/1.1}{localhost:44537}
+Sep 06, 2022 5:47:06 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @498152ms
+Sep 06, 2022 5:47:06 AM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:44537/jenkins/
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 06, 2022 5:47:06 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 38571
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 06, 2022 5:47:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+[foo #1] Started
+[foo #1] [Pipeline] build (Building test1)
+[test1 #1] Started by upstream project "foo" build number 1
+[test1 #1] Building in workspace /tmp/hudson2077783135945480384test/workspace/test1
+[test1 #1] Sleeping 9223372036854775807ms
+[foo #1] Scheduling project: test1
+[foo #1] Starting building: test1 #1
+Sep 06, 2022 5:50:06 AM org.jvnet.hudson.test.JenkinsRule$1 run
+WARNING: Test timed out (after 180 seconds).
+"Common-Cleaner" Id=11 Group=InnocuousThreadGroup TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@7c4b0e5
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@7c4b0e5
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.16/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+	at java.base@11.0.16/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:161)
+
+
+"Executing abortBuild(org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepTest)" Id=1 Group=main WAITING on com.google.common.util.concurrent.AbstractFuture$Sync@3ccaa771
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on com.google.common.util.concurrent.AbstractFuture$Sync@3ccaa771
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer.parkAndCheckInterrupt(AbstractQueuedSynchronizer.java:885)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1039)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1345)
+	at app//com.google.common.util.concurrent.AbstractFuture$Sync.get(AbstractFuture.java:275)
+	at app//com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:111)
+	at app//org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.waitForSuspension(CpsFlowExecution.java:662)
+	at app//org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepTest.abortBuild(BuildTriggerStepTest.java:143)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.16/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.16/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at app//org.jvnet.hudson.test.JenkinsRule$2.evaluate(JenkinsRule.java:533)
+	at app//org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at app//org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at app//org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at app//org.junit.runners.Suite.runChild(Suite.java:128)
+	at app//org.junit.runners.Suite.runChild(Suite.java:27)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at app//eu.stamp_project.testrunner.runner.JUnit4Runner.run(JUnit4Runner.java:73)
+	at app//eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.executeCoveredTestPerTestMethod(JUnit4OnlineJacocoRunner.java:39)
+	at app//eu.stamp_project.testrunner.runner.coverage.JacocoOnlineRunner.runCoveredTestResultPerTestMethod(JacocoOnlineRunner.java:57)
+	at app//eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.main(JUnit4OnlineJacocoRunner.java:59)
+
+
+"Executor #1 for master : executing test1 #1" Id=212 Group=main TIMED_WAITING
+	at java.base@11.0.16/java.lang.Thread.sleep(Native Method)
+	at app//org.jvnet.hudson.test.SleepBuilder.perform(SleepBuilder.java:51)
+	at app//hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at app//hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:782)
+	at app//hudson.model.Build$BuildExecution.build(Build.java:205)
+	at app//hudson.model.Build$BuildExecution.doRun(Build.java:162)
+	at app//hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:534)
+	at app//hudson.model.Run.execute(Run.java:1738)
+	at app//hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at app//hudson.model.ResourceController.execute(ResourceController.java:98)
+	at app//hudson.model.Executor.run(Executor.java:410)
+
+
+"Jenkins cron thread" Id=192 Group=main WAITING on java.util.TaskQueue@1751d45a
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@1751d45a
+	at java.base@11.0.16/java.lang.Object.wait(Object.java:328)
+	at java.base@11.0.16/java.util.TimerThread.mainLoop(Timer.java:527)
+	at java.base@11.0.16/java.util.TimerThread.run(Timer.java:506)
+
+
+"Jenkins UDP 33848 monitoring thread" Id=224 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	-  locked java.net.PlainDatagramSocketImpl@7c9c0de
+	at java.base@11.0.16/java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:200)
+	-  locked java.net.PlainDatagramSocketImpl@7c9c0de
+	at java.base@11.0.16/java.net.DatagramSocket.receive(DatagramSocket.java:814)
+	-  locked java.net.DatagramPacket@46a23894
+	-  locked java.net.MulticastSocket@752611da
+	at app//hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:83)
+
+
+"jenkins.util.Timer [#10]" Id=221 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#1]" Id=193 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#2]" Id=210 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#3]" Id=214 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#4]" Id=215 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#5]" Id=216 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#6]" Id=217 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#7]" Id=218 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#8]" Id=219 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#9]" Id=220 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@357468c1
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"Jetty Thread Pool-acceptor-0@2a4fed4f-ServerConnector@3a5c2626{HTTP/1.1}{localhost:44537}" Id=191 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at app//org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 2
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@79ff5042
+	- java.util.concurrent.ThreadPoolExecutor$Worker@5acc9fdf
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@552aafe/0" Id=187 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@3632cc01
+	-  locked sun.nio.ch.EPollSelectorImpl@733054a3
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@4efc25fc
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@552aafe/1" Id=188 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@1aa8949b
+	-  locked sun.nio.ch.EPollSelectorImpl@4289e0c8
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@7ee3d262
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@552aafe/2" Id=189 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@62fb7e5c
+	-  locked sun.nio.ch.EPollSelectorImpl@131fabec
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@396e6d9
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@552aafe/3" Id=190 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@4dcde958
+	-  locked sun.nio.ch.EPollSelectorImpl@404fdf89
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@75308740
+
+
+"NioSocketAcceptor-3" Id=222 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@b794a71
+	-  locked sun.nio.ch.EPollSelectorImpl@887661c
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.apache.mina.transport.socket.nio.NioSocketAcceptor.select(NioSocketAcceptor.java:238)
+	at app//org.apache.mina.core.polling.AbstractPollingIoAcceptor$Acceptor.run(AbstractPollingIoAcceptor.java:432)
+	at app//org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@189762b3
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@1e6dad8Timer" Id=84 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@376f7a2b
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@376f7a2b
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@95bb2a2Timer" Id=186 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@320d5e98
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@320d5e98
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-76-selector-ServerConnectorManager@9cf16e8/0" Id=76 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@3211547f
+	-  locked sun.nio.ch.EPollSelectorImpl@7a9cd085
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-77-selector-ServerConnectorManager@9cf16e8/1" Id=77 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@5eab5ffe
+	-  locked sun.nio.ch.EPollSelectorImpl@7c88d2cd
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-78-selector-ServerConnectorManager@9cf16e8/2" Id=78 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@4402c38f
+	-  locked sun.nio.ch.EPollSelectorImpl@58062b72
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-79-selector-ServerConnectorManager@9cf16e8/3" Id=79 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@5c56db23
+	-  locked sun.nio.ch.EPollSelectorImpl@667274de
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-80-acceptor-0@520c473a-ServerConnector@f72203{HTTP/1.1}{0.0.0.0:35191}" Id=80 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at app//org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@343edd24
+
+
+"qtp679442449-81" Id=81 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-82" Id=82 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-83" Id=83 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"TCP slave agent listener port=0" Id=223 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//hudson.TcpSlaveAgentListener.run(TcpSlaveAgentListener.java:95)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@116d9052
+
+
+"Timer-2" Id=243 Group=main RUNNABLE
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at app//hudson.Functions.getThreadInfos(Functions.java:1190)
+	at app//org.jvnet.hudson.test.JenkinsRule.dumpThreads(JenkinsRule.java:435)
+	at app//org.jvnet.hudson.test.JenkinsRule.access$200(JenkinsRule.java:245)
+	at app//org.jvnet.hudson.test.JenkinsRule$1.run(JenkinsRule.java:427)
+	at java.base@11.0.16/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base@11.0.16/java.util.TimerThread.run(Timer.java:506)
+
+
+"watching builds" Id=13 Group=main TIMED_WAITING
+	at java.base@11.0.16/java.lang.Thread.sleep(Native Method)
+	at app//org.jvnet.hudson.test.BuildWatcher$1.run(BuildWatcher.java:66)
+
+
+"Finalizer" Id=3 Group=system WAITING on java.lang.ref.ReferenceQueue$Lock@1e6200ec
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1e6200ec
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@11.0.16/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+
+
+"Reference Handler" Id=2 Group=system RUNNABLE
+	at java.base@11.0.16/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@11.0.16/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+	at java.base@11.0.16/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+
+
+"Signal Dispatcher" Id=4 Group=system RUNNABLE
+
+
+Sep 06, 2022 5:50:06 AM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@3a5c2626{HTTP/1.1}{localhost:0}
+Sep 06, 2022 5:50:06 AM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@25da615a{/jenkins,file:/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test/,UNAVAILABLE}{/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test}
+Sep 06, 2022 5:50:06 AM hudson.model.Run execute
+INFO: test1 #1 aborted
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at org.jvnet.hudson.test.SleepBuilder.perform(SleepBuilder.java:51)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:782)
+	at hudson.model.Build$BuildExecution.build(Build.java:205)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:162)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:534)
+	at hudson.model.Run.execute(Run.java:1738)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+
+Sep 06, 2022 5:50:06 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Sep 06, 2022 5:50:06 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /jenkins, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 06, 2022 5:50:06 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@3abfe845{/jenkins,file:/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test/,AVAILABLE}{/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test}
+Sep 06, 2022 5:50:06 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@2330e3e0{HTTP/1.1}{localhost:43091}
+Sep 06, 2022 5:50:06 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @678909ms
+Sep 06, 2022 5:50:06 AM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:43091/jenkins/
+Sep 06, 2022 5:50:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 06, 2022 5:50:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 06, 2022 5:50:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 06, 2022 5:50:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 06, 2022 5:50:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 06, 2022 5:50:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 06, 2022 5:50:07 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 42551
+Sep 06, 2022 5:50:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 06, 2022 5:50:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 06, 2022 5:50:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 06, 2022 5:50:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 06, 2022 5:50:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 06, 2022 5:50:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 06, 2022 5:50:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 06, 2022 5:50:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+[us #1] Started
+Sep 06, 2022 5:53:07 AM org.jvnet.hudson.test.JenkinsRule$1 run
+WARNING: Test timed out (after 180 seconds).
+"Common-Cleaner" Id=11 Group=InnocuousThreadGroup TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@7c4b0e5
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@7c4b0e5
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.16/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+	at java.base@11.0.16/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:161)
+
+
+"Executing noWait(org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepTest)" Id=1 Group=main WAITING on hudson.model.queue.FutureImpl@345b80ce
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on hudson.model.queue.FutureImpl@345b80ce
+	at java.base@11.0.16/java.lang.Object.wait(Object.java:328)
+	at app//hudson.remoting.AsyncFutureImpl.get(AsyncFutureImpl.java:73)
+	at app//org.jvnet.hudson.test.JenkinsRule.assertBuildStatus(JenkinsRule.java:1143)
+	at app//org.jvnet.hudson.test.JenkinsRule.assertBuildStatusSuccess(JenkinsRule.java:1172)
+	at app//org.jvnet.hudson.test.JenkinsRule.buildAndAssertSuccess(JenkinsRule.java:1184)
+	at app//org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepTest.noWait(BuildTriggerStepTest.java:283)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.16/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.16/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at app//org.jvnet.hudson.test.JenkinsRule$2.evaluate(JenkinsRule.java:533)
+	at app//org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at app//org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at app//org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at app//org.junit.runners.Suite.runChild(Suite.java:128)
+	at app//org.junit.runners.Suite.runChild(Suite.java:27)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at app//eu.stamp_project.testrunner.runner.JUnit4Runner.run(JUnit4Runner.java:73)
+	at app//eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.executeCoveredTestPerTestMethod(JUnit4OnlineJacocoRunner.java:39)
+	at app//eu.stamp_project.testrunner.runner.coverage.JacocoOnlineRunner.runCoveredTestResultPerTestMethod(JacocoOnlineRunner.java:57)
+	at app//eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.main(JUnit4OnlineJacocoRunner.java:59)
+
+
+"Jenkins cron thread" Id=269 Group=main WAITING on java.util.TaskQueue@1fc0f27e
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@1fc0f27e
+	at java.base@11.0.16/java.lang.Object.wait(Object.java:328)
+	at java.base@11.0.16/java.util.TimerThread.mainLoop(Timer.java:527)
+	at java.base@11.0.16/java.util.TimerThread.run(Timer.java:506)
+
+
+"Jenkins UDP 33848 monitoring thread" Id=301 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	-  locked java.net.PlainDatagramSocketImpl@6eea1d78
+	at java.base@11.0.16/java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:200)
+	-  locked java.net.PlainDatagramSocketImpl@6eea1d78
+	at java.base@11.0.16/java.net.DatagramSocket.receive(DatagramSocket.java:814)
+	-  locked java.net.DatagramPacket@64cc4671
+	-  locked java.net.MulticastSocket@13668ab2
+	at app//hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:83)
+
+
+"jenkins.util.Timer [#10]" Id=299 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#1]" Id=270 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#2]" Id=287 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#3]" Id=291 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#4]" Id=292 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#5]" Id=293 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#6]" Id=294 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#7]" Id=296 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#8]" Id=297 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"jenkins.util.Timer [#9]" Id=298 Group=main WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5aecd0ca
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"Jetty Thread Pool-acceptor-0@5d7d9b75-ServerConnector@2330e3e0{HTTP/1.1}{localhost:43091}" Id=268 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at app//org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 2
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@704b8db3
+	- java.util.concurrent.ThreadPoolExecutor$Worker@4defd42
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@399dad9b/0" Id=264 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@3ea3ebbe
+	-  locked sun.nio.ch.EPollSelectorImpl@7ba1720e
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@7a0f244f
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@399dad9b/1" Id=265 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@1314c044
+	-  locked sun.nio.ch.EPollSelectorImpl@4a104fc3
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@3672276e
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@399dad9b/2" Id=266 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@6b4fa324
+	-  locked sun.nio.ch.EPollSelectorImpl@1b8e8d41
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@4248b963
+
+
+"Jetty Thread Pool-selector-ServerConnectorManager@399dad9b/3" Id=267 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@2e2d7894
+	-  locked sun.nio.ch.EPollSelectorImpl@668b54c5
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at java.base@11.0.16/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.16/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@7f08caf
+
+
+"NioSocketAcceptor-4" Id=295 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@66fd8a2e
+	-  locked sun.nio.ch.EPollSelectorImpl@4a77b557
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.apache.mina.transport.socket.nio.NioSocketAcceptor.select(NioSocketAcceptor.java:238)
+	at app//org.apache.mina.core.polling.AbstractPollingIoAcceptor$Acceptor.run(AbstractPollingIoAcceptor.java:432)
+	at app//org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@74563d57
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@1e6dad8Timer" Id=84 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@376f7a2b
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@376f7a2b
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"org.eclipse.jetty.server.session.HashSessionManager@75fc1992Timer" Id=263 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3a9c7835
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3a9c7835
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@11.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-76-selector-ServerConnectorManager@9cf16e8/0" Id=76 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@3211547f
+	-  locked sun.nio.ch.EPollSelectorImpl@7a9cd085
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-77-selector-ServerConnectorManager@9cf16e8/1" Id=77 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@5eab5ffe
+	-  locked sun.nio.ch.EPollSelectorImpl@7c88d2cd
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-78-selector-ServerConnectorManager@9cf16e8/2" Id=78 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@4402c38f
+	-  locked sun.nio.ch.EPollSelectorImpl@58062b72
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-79-selector-ServerConnectorManager@9cf16e8/3" Id=79 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.16/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@5c56db23
+	-  locked sun.nio.ch.EPollSelectorImpl@667274de
+	at java.base@11.0.16/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at app//org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at app//org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-80-acceptor-0@520c473a-ServerConnector@f72203{HTTP/1.1}{0.0.0.0:35191}" Id=80 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at app//org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@343edd24
+
+
+"qtp679442449-81" Id=81 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-82" Id=82 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"qtp679442449-83" Id=83 Group=main TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d0a3d6a
+	at java.base@11.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+	at app//org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at app//org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.base@11.0.16/java.lang.Thread.run(Thread.java:829)
+
+
+"TCP slave agent listener port=0" Id=300 Group=main RUNNABLE (in native)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:533)
+	at java.base@11.0.16/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:285)
+	at app//hudson.TcpSlaveAgentListener.run(TcpSlaveAgentListener.java:95)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@52bcfd65
+
+
+"Timer-3" Id=319 Group=main RUNNABLE
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@11.0.16/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at app//hudson.Functions.getThreadInfos(Functions.java:1190)
+	at app//org.jvnet.hudson.test.JenkinsRule.dumpThreads(JenkinsRule.java:435)
+	at app//org.jvnet.hudson.test.JenkinsRule.access$200(JenkinsRule.java:245)
+	at app//org.jvnet.hudson.test.JenkinsRule$1.run(JenkinsRule.java:427)
+	at java.base@11.0.16/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base@11.0.16/java.util.TimerThread.run(Timer.java:506)
+
+
+"watching builds" Id=13 Group=main TIMED_WAITING
+	at java.base@11.0.16/java.lang.Thread.sleep(Native Method)
+	at app//org.jvnet.hudson.test.BuildWatcher$1.run(BuildWatcher.java:66)
+
+
+"Finalizer" Id=3 Group=system WAITING on java.lang.ref.ReferenceQueue$Lock@1e6200ec
+	at java.base@11.0.16/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1e6200ec
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@11.0.16/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+
+
+"Reference Handler" Id=2 Group=system RUNNABLE
+	at java.base@11.0.16/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@11.0.16/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+	at java.base@11.0.16/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+
+
+"Signal Dispatcher" Id=4 Group=system RUNNABLE
+
+
+Sep 06, 2022 5:53:07 AM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@2330e3e0{HTTP/1.1}{localhost:0}
+Sep 06, 2022 5:53:07 AM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@3abfe845{/jenkins,file:/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test/,UNAVAILABLE}{/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test}
+Sep 06, 2022 5:53:07 AM org.jenkinsci.plugins.workflow.job.WorkflowRun finish
+INFO: us #1 completed: SUCCESS
+[us #1] [Pipeline] build (Building ds)
+[us #1] Scheduling project: ds
+[us #1] [Pipeline] End of Pipeline
+[us #1] Finished: SUCCESS
+Sep 06, 2022 5:54:07 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Sep 06, 2022 5:54:07 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /jenkins, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 06, 2022 5:54:07 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@13275d8{/jenkins,file:/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test/,AVAILABLE}{/apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/target/jenkins-for-test}
+Sep 06, 2022 5:54:07 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@a7ad6e5{HTTP/1.1}{localhost:35445}
+Sep 06, 2022 5:54:07 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @919567ms
+Sep 06, 2022 5:54:07 AM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:35445/jenkins/
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 06, 2022 5:54:07 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 44499
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 06, 2022 5:54:07 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+[foo #1] Started
+[foo #1] [Pipeline] build (Building test1)
+[foo #1] Scheduling project: test1
+java.lang.IllegalThreadStateException: process hasn't exited
+	at java.base/java.lang.ProcessImpl.exitValue(ProcessImpl.java:521)
+	at eu.stamp_project.testrunner.EntryPoint.runGivenCommandLine(EntryPoint.java:850)
+	at eu.stamp_project.testrunner.EntryPoint.runOnlineCoveredTestResultPerTestMethods(EntryPoint.java:741)
+	at fr.spoonlabs.flacoco.core.coverage.framework.JUnit4Strategy.execute(JUnit4Strategy.java:25)
+	at fr.spoonlabs.flacoco.core.coverage.CoverageRunner.getCoverageMatrix(CoverageRunner.java:47)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.runFlacoco(FlacocoFaultLocalizer.java:93)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:35)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:39)
+	at fr.inria.lille.repair.nopol.NoPol.createLocalizer(NoPol.java:181)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:126)
+	at fr.inria.lille.repair.Main$1.call(Main.java:101)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.nio.file.NoSuchFileException: /apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/./target/CoveredTestResultPerTest.dat
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at fr.inria.lille.repair.Main.main(Main.java:106)
+Caused by: java.lang.RuntimeException: java.nio.file.NoSuchFileException: /apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/./target/CoveredTestResultPerTest.dat
+	at eu.stamp_project.testrunner.listener.utils.ListenerUtils.loadFromMemoryMappedFile(ListenerUtils.java:113)
+	at eu.stamp_project.testrunner.listener.impl.OnlineCoveredTestResultPerTestMethodImpl.load(OnlineCoveredTestResultPerTestMethodImpl.java:169)
+	at eu.stamp_project.testrunner.EntryPoint.runOnlineCoveredTestResultPerTestMethods(EntryPoint.java:749)
+	at fr.spoonlabs.flacoco.core.coverage.framework.JUnit4Strategy.execute(JUnit4Strategy.java:25)
+	at fr.spoonlabs.flacoco.core.coverage.CoverageRunner.getCoverageMatrix(CoverageRunner.java:47)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.runFlacoco(FlacocoFaultLocalizer.java:93)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:35)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:39)
+	at fr.inria.lille.repair.nopol.NoPol.createLocalizer(NoPol.java:181)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:126)
+	at fr.inria.lille.repair.Main$1.call(Main.java:101)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.file.NoSuchFileException: /apiarty/data/VUL4J-57/jenkinsci/pipeline-build-step-plugin/./target/CoveredTestResultPerTest.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:182)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:292)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:345)
+	at eu.stamp_project.testrunner.listener.utils.ListenerUtils.loadFromMemoryMappedFile(ListenerUtils.java:97)
+	... 14 more
+
+Usage: java -jar nopol.jar
+                          [(-m|--mode) <repair|ranking>] (-e|--type) <condition|precondition|pre_then_cond|loop|arithmetic> [(-o|--oracle) <angelic|symbolic>] [(-y|--synthesis) <smt|dynamoth>] [(-l|--solver) <z3|cvc4>] [(-p|--solver-path) <solverPath>] (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> [(-t|--test) test1:test2:...:testN ] [--complianceLevel <complianceLevel>] [--maxTime <maxTime>] [--maxTimeType <maxTimeType>] [(-z|--flocal) <cocospoon|dumb|gzoltar|flacoco>] [--output <outputFolder>] [--json[:<outputJson>]]
+
+  [(-m|--mode) <repair|ranking>]
+        Define the mode of execution. (default: repair)
+
+  (-e|--type) <condition|precondition|pre_then_cond|loop|arithmetic>
+        The repair type (example fixing only conditions, or adding
+        precondition). REQUIRED OPTION (default: condition)
+
+  [(-o|--oracle) <angelic|symbolic>]
+        Define the oracle (only used with repair mode). (default: angelic)
+
+  [(-y|--synthesis) <smt|dynamoth>]
+        Define the patch synthesis. (default: smt)
+
+  [(-l|--solver) <z3|cvc4>]
+        Define the solver (only used with smt synthesis). (default: z3)
+
+  [(-p|--solver-path) <solverPath>]
+        Define the solver binary path (only used with smt synthesis).
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  [(-t|--test) test1:test2:...:testN ]
+        Define the test classes of the project (both failing and passing),
+        fully-qualified, separated with ':' (even if the classpath contains
+        other tests, only those are considered.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [--maxTime <maxTime>]
+        The maximum time execution in minute for the whole execution of
+        Nopol.(default: 10)
+
+  [--maxTimeType <maxTimeType>]
+        The maximum time execution in minute for one type of patch. (default: 5)
+
+  [(-z|--flocal) <cocospoon|dumb|gzoltar|flacoco>]
+        Define the fault localizer to be used. (default: flacoco)
+
+  [--output <outputFolder>]
+        Define the location where the patches will be saved. (default: .)
+
+  [--json[:<outputJson>]]
+        Output a json file in the current working directory.
+

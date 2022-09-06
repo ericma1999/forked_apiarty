@@ -1,0 +1,1123 @@
+[0] INFO NoPol - Source files: [/apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/src/main/java, /apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/src/test/java]
+[1] INFO NoPol - Classpath: [file:/apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/target/classes/, file:/apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/target/test-classes/, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.jar, file:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.8/jackson-module-jaxb-annotations-2.7.8.jar, file:/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar, file:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, file:/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar, file:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[2] INFO NoPol - Statement type: PRE_THEN_COND
+[3] INFO NoPol - Args: [com.fasterxml.jackson.dataformat.xml.SupportDTDDefaultsTest]
+[5] INFO NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/src/main/java, /apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[com.fasterxml.jackson.dataformat.xml.SupportDTDDefaultsTest], complianceLevel=8, outputFolder=., json=false}
+[6] INFO NoPol - Available processors (cores): 8
+[15] INFO NoPol - Free memory: 69 MB
+[16] INFO NoPol - Maximum memory: 3 GB
+[17] INFO NoPol - Total memory available to JVM: 80 MB
+[20] INFO NoPol - Java version: null
+[21] INFO NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+[22] INFO NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/src/main/java, /apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[com.fasterxml.jackson.dataformat.xml.SupportDTDDefaultsTest], complianceLevel=8, outputFolder=., json=false}
+Parsing --path-options-file /tmp/test_runner4277996396311501983.options
+Parsing --sourceBinaries /apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/./target/classes --testBinaries /apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/./target/test-classes --class com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest:com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest:com.fasterxml.jackson.dataformat.xml.misc.NodeTest:com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest:com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest:com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest:com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test:com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest:com.fasterxml.jackson.dataformat.xml.misc.EmptyPolymorphicTest:com.fasterxml.jackson.dataformat.xml.misc.TextValueTest:com.fasterxml.jackson.dataformat.xml.failing.TestUntypedListSerialization:com.fasterxml.jackson.dataformat.xml.failing.SupportDTDDefaultsTest:com.fasterxml.jackson.dataformat.xml.failing.TestConflictingGetters:com.fasterxml.jackson.dataformat.xml.failing.TestDeserialization:com.fasterxml.jackson.dataformat.xml.failing.TestUnwrappedDeserIssue86:com.fasterxml.jackson.dataformat.xml.failing.PolymorphicList97Test:com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest:com.fasterxml.jackson.dataformat.xml.failing.TestEnums:com.fasterxml.jackson.dataformat.xml.failing.TestEmptyContent:com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162:com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic:com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization:com.fasterxml.jackson.dataformat.xml.deser.TestViews:com.fasterxml.jackson.dataformat.xml.deser.TestEnums:com.fasterxml.jackson.dataformat.xml.deser.TestStringValues:com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData:com.fasterxml.jackson.dataformat.xml.RoundtripContentTest:com.fasterxml.jackson.dataformat.xml.VersionInfoTest:com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom:com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr:com.fasterxml.jackson.dataformat.xml.ser.TestIndentation:com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration:com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces:com.fasterxml.jackson.dataformat.xml.ser.TestSerializationManual:com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability:com.fasterxml.jackson.dataformat.xml.ser.TestSerialization:com.fasterxml.jackson.dataformat.xml.ser.TestSerializationOrdering:com.fasterxml.jackson.dataformat.xml.stream.XmlParserNextXxxTest:com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest:com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest:com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest:com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest:com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute:com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest:com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest:com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest:com.fasterxml.jackson.dataformat.xml.jaxb.JAXBObjectId170Test:com.fasterxml.jackson.dataformat.xml.lists.DeserializePolyList178Test:com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes:com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest:com.fasterxml.jackson.dataformat.xml.lists.ListDeser191Test:com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest:com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest:com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest:com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test:com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest:com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest:com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest:com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test:com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest:com.fasterxml.jackson.dataformat.xml.lists.WrappedListsTest:com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest:com.fasterxml.jackson.dataformat.xml.lists.EmptyListDeserTest --tests com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest#testSimpleRead:com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest#testSimple:com.fasterxml.jackson.dataformat.xml.misc.NodeTest#testMixed:com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsClassProperty:com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsClassObject:com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsPropertyWithObjectId:com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testNullXform:com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testArrayIdentityTransforms:com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testByteArrayFrom:com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testShortArrayToX:com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testIntArrayToX:com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testLongArrayToX:com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testListToIntArray:com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testListAsProperty:com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest#testXmlTextWithSuppressedValue:com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test#testSimpleCollectionDeserWithForwardRefs:com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testSimpleUnwrappingRoundtrip:com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingWithAttribute:com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingSubWithAttribute:com.fasterxml.jackson.dataformat.xml.misc.EmptyPolymorphicTest#testEmpty:com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testIssue66:com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testTextOnlyPojo:com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testSerializeAsText:com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testDeserializeAsText:com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testIssue24:com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testAlternateTextElementName:com.fasterxml.jackson.dataformat.xml.failing.TestUntypedListSerialization#testListAsObject:com.fasterxml.jackson.dataformat.xml.failing.SupportDTDDefaultsTest#testDTDAttempt:com.fasterxml.jackson.dataformat.xml.failing.TestConflictingGetters#testIssue27:com.fasterxml.jackson.dataformat.xml.failing.TestDeserialization#testEmptyStringFromElemAndAttr:com.fasterxml.jackson.dataformat.xml.failing.TestUnwrappedDeserIssue86#testDeserializeUnwrappedListWhenLocalNameForRootElementAndXmlPropertyMatch:com.fasterxml.jackson.dataformat.xml.failing.PolymorphicList97Test#testGood:com.fasterxml.jackson.dataformat.xml.failing.PolymorphicList97Test#testBad:com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation_nonJaxb:com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap:com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMapSimpleAnnotation:com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap_nonJaxb:com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation:com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMap:com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testUntypedEnum:com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testRootEnumIssue121:com.fasterxml.jackson.dataformat.xml.failing.TestEmptyContent#testNoContent:com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyString162:com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyStringElement:com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testStringsInList:com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsClassArray:com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsWrappedClassArray:com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testRoundTripWithJacksonExample:com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testFromAttribute:com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testMapWithAttr:com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testOptionalAttr:com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testMissingOptionalAttr:com.fasterxml.jackson.dataformat.xml.deser.TestViews#testIssue7:com.fasterxml.jackson.dataformat.xml.deser.TestViews#testNullSuppression:com.fasterxml.jackson.dataformat.xml.deser.TestViews#testIssue44:com.fasterxml.jackson.dataformat.xml.deser.TestEnums#testEnum:com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testMissingString:com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testSimpleStringElement:com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringWithAttribute:com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringsWithAttribute:com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringArrayWithAttribute:com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testEmptyElementToString:com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData#testTwoBinaryProps:com.fasterxml.jackson.dataformat.xml.RoundtripContentTest#testRoundtrip:com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperCopy:com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperSerialization:com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperVersions:com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom#testIssue42:com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testSimpleNsAttr:com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue19:com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue6:com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue117AnySetterAttrs:com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleStringBean:com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleIntBean:com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleMap:com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testWithAttr:com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testEmptyElem:com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testMultiLevel172:com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration#testXml10Declaration:com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration#testXml11Declaration:com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces#testRootNamespace:com.fasterxml.jackson.dataformat.xml.ser.TestSerializationManual#testIssue54:com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability#testXmlFactory:com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability#testMapper:com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testRootName:com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleAttribute:com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleAttrAndElem:com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleNsElem:com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testMap:com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testNakedMap:com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCDataString:com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCDataStringArray:com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCustomSerializer:com.fasterxml.jackson.dataformat.xml.ser.TestSerializationOrdering#testOrdering:com.fasterxml.jackson.dataformat.xml.stream.XmlParserNextXxxTest#testXmlAttributesWithNextTextValue:com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testSimple:com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testRootAttributes:com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testEmptyTags:com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testNested:com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimplest:com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimpleWithEmpty:com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimpleNested:com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testRoundTripWithSample:com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testForceElementAsArray:com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testXmlAttributes:com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSimpleAttribute:com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSimpleElement:com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSecondLevelAttribute:com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testAttrAndElem:com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testWriteToFile:com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidXmlDecl:com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidRoot:com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidDoctype:com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidComment:com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidPI:com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleViaObjectReader:com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testListViaObjectReader:com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleInvalid:com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute#testEmptyStringFromElemAndAttr:com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testTwoAttributes:com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testAttributeAndElement:com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testElementWrapper:com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testNoElementWrapper:com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testRootName:com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testSerializeAsAttr:com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testAsTextWithJAXB:com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testPersonAsXml:com.fasterxml.jackson.dataformat.xml.jaxb.JAXBObjectId170Test#testPolyIdList178:com.fasterxml.jackson.dataformat.xml.lists.DeserializePolyList178Test#testPolyIdList178:com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testIdsFromAttributes:com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testIssue43:com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testListWithAttributes:com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testWrappedLists:com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testUnwrappedLists:com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testDefaultWrapping:com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testDefaultWrappingWithEmptyLists:com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testOptionalsWithMissingType:com.fasterxml.jackson.dataformat.xml.lists.ListDeser191Test#testListDeser:com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testRenamedRootItem:com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testListSerialization:com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testArraySerialization:com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest#testAnnotationSharing:com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedList:com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListWithGetters:com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListBeanDeser:com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListWithAttribute:com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testUnwrappedListBeanDeser:com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test#testListWithEmptyCData:com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested1_2:com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNestedWithEmpty:com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNestedWithEmpty2:com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested1_2b:com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested2_1:com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest#testOptionalsWithMissingType:com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest#testWithTwoAttributes:com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testParentListRoundtrip:com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testListWithAttrOnlyValues:com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testOptionals:com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test#testNestedUnwrappedLists180:com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest#testCollection:com.fasterxml.jackson.dataformat.xml.lists.WrappedListsTest#testEmptyList:com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest#testSimpleWrappedList:com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest#testStringList:com.fasterxml.jackson.dataformat.xml.lists.EmptyListDeserTest#testEmptyList  --coverage-detail DETAIL_COMPRESSED --nb-failing-load-class 0
+-> {"child":"4"}
+File saved to the following path: /apiarty/data/VUL4J-47/FasterXML/jackson-dataformat-xml/target/CoveredTestResultPerTest.dat
+[16638] INFO CoverageRunner - Tests found: 332
+[16640] INFO CoverageRunner - Tests executed: 332
+209186073
+209186073
+[17636] ERROR NoPol - Error ExecutionException java.util.concurrent.ExecutionException: spoon.SpoonException: cannot insert a statement before a super or this invocation.
+209186073
+209186073
+[18243] ERROR NoPol - Error ExecutionException java.util.concurrent.ExecutionException: spoon.SpoonException: cannot insert a statement before a super or this invocation.
+1385386353
+209186073
+209186073
+[20466] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlMapper:86.
+209186073
+[21621] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlMapper:83.
+209186073
+[22704] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlMapper:82.
+[23778] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlMapper:82.
+209186073
+[24394] ERROR DynamicClassCompiler - [Compilation errors]
+XmlMapper.java:51: error: variable _xmlModule might not have been initialized
+    }
+    ^
+[24467] ERROR ConstraintModelBuilder - Unable to compile the change: 
+public class XmlMapper extends com.fasterxml.jackson.databind.ObjectMapper {
+    private static final long serialVersionUID = 1L;
+
+    protected static final com.fasterxml.jackson.dataformat.xml.JacksonXmlModule DEFAULT_XML_MODULE = new com.fasterxml.jackson.dataformat.xml.JacksonXmlModule();
+
+    protected static final com.fasterxml.jackson.dataformat.xml.util.DefaultXmlPrettyPrinter DEFAULT_XML_PRETTY_PRINTER = new com.fasterxml.jackson.dataformat.xml.util.DefaultXmlPrettyPrinter();
+
+    protected final com.fasterxml.jackson.dataformat.xml.JacksonXmlModule _xmlModule;
+
+    public XmlMapper() {
+        this(new com.fasterxml.jackson.dataformat.xml.XmlFactory());
+    }
+
+    public XmlMapper(javax.xml.stream.XMLInputFactory inputF, javax.xml.stream.XMLOutputFactory outF) {
+        this(new com.fasterxml.jackson.dataformat.xml.XmlFactory(inputF, outF));
+    }
+
+    public XmlMapper(javax.xml.stream.XMLInputFactory inputF) {
+        this(new com.fasterxml.jackson.dataformat.xml.XmlFactory(inputF));
+    }
+
+    public XmlMapper(com.fasterxml.jackson.dataformat.xml.XmlFactory xmlFactory) {
+        this(xmlFactory, com.fasterxml.jackson.dataformat.xml.XmlMapper.DEFAULT_XML_MODULE);
+    }
+
+    public XmlMapper(com.fasterxml.jackson.dataformat.xml.JacksonXmlModule module) {
+        this(new com.fasterxml.jackson.dataformat.xml.XmlFactory(), module);
+    }
+
+    public XmlMapper(com.fasterxml.jackson.dataformat.xml.XmlFactory xmlFactory, com.fasterxml.jackson.dataformat.xml.JacksonXmlModule module) {
+        super(xmlFactory, new com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider(new com.fasterxml.jackson.dataformat.xml.util.XmlRootNameLookup()), null);
+        boolean spoonDefaultValue = false;
+        try {
+            spoonDefaultValue = true;
+        } catch (java.lang.Exception __NopolProcessorException) {
+        }
+        boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+        if (fr.inria.lille.commons.trace.RuntimeValues.instance(6).isEnabled()) {
+            fr.inria.lille.commons.trace.RuntimeValues.instance(6).collectionStarts();
+            fr.inria.lille.commons.trace.RuntimeValues.instance(6).collectOutput(runtimeAngelicValue);
+            fr.inria.lille.commons.trace.RuntimeValues.instance(6).collectionEnds();
+        }
+        if (runtimeAngelicValue)
+            _xmlModule = module;
+
+        if (module != null) {
+            registerModule(module);
+        }
+        _serializationConfig = _serializationConfig.withDefaultPrettyPrinter(com.fasterxml.jackson.dataformat.xml.XmlMapper.DEFAULT_XML_PRETTY_PRINTER);
+    }
+
+    @java.lang.Override
+    public com.fasterxml.jackson.dataformat.xml.XmlMapper copy() {
+        _checkInvalidCopy(com.fasterxml.jackson.dataformat.xml.XmlMapper.class);
+        return new com.fasterxml.jackson.dataformat.xml.XmlMapper(((com.fasterxml.jackson.dataformat.xml.XmlFactory) (_jsonFactory.copy())), _xmlModule);
+    }
+
+    @java.lang.Override
+    public com.fasterxml.jackson.core.Version version() {
+        return com.fasterxml.jackson.dataformat.xml.PackageVersion.VERSION;
+    }
+
+    protected void setXMLTextElementName(java.lang.String name) {
+        ((com.fasterxml.jackson.dataformat.xml.XmlFactory) (_jsonFactory)).setXMLTextElementName(name);
+    }
+
+    public com.fasterxml.jackson.dataformat.xml.XmlMapper setDefaultUseWrapper(boolean state) {
+        com.fasterxml.jackson.databind.AnnotationIntrospector ai0 = getDeserializationConfig().getAnnotationIntrospector();
+        for (com.fasterxml.jackson.databind.AnnotationIntrospector ai : ai0.allIntrospectors()) {
+            if (ai instanceof com.fasterxml.jackson.dataformat.xml.XmlAnnotationIntrospector) {
+                ((com.fasterxml.jackson.dataformat.xml.XmlAnnotationIntrospector) (ai)).setDefaultUseWrapper(state);
+            }
+        }
+        return this;
+    }
+
+    @java.lang.Override
+    public com.fasterxml.jackson.dataformat.xml.XmlFactory getFactory() {
+        return ((com.fasterxml.jackson.dataformat.xml.XmlFactory) (_jsonFactory));
+    }
+
+    public com.fasterxml.jackson.databind.ObjectMapper configure(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature f, boolean state) {
+        ((com.fasterxml.jackson.dataformat.xml.XmlFactory) (_jsonFactory)).configure(f, state);
+        return this;
+    }
+
+    public com.fasterxml.jackson.databind.ObjectMapper configure(com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature f, boolean state) {
+        ((com.fasterxml.jackson.dataformat.xml.XmlFactory) (_jsonFactory)).configure(f, state);
+        return this;
+    }
+
+    public com.fasterxml.jackson.databind.ObjectMapper enable(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature f) {
+        ((com.fasterxml.jackson.dataformat.xml.XmlFactory) (_jsonFactory)).enable(f);
+        return this;
+    }
+
+    public com.fasterxml.jackson.databind.ObjectMapper enable(com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature f) {
+        ((com.fasterxml.jackson.dataformat.xml.XmlFactory) (_jsonFactory)).enable(f);
+        return this;
+    }
+
+    public com.fasterxml.jackson.databind.ObjectMapper disable(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature f) {
+        ((com.fasterxml.jackson.dataformat.xml.XmlFactory) (_jsonFactory)).disable(f);
+        return this;
+    }
+
+    public com.fasterxml.jackson.databind.ObjectMapper disable(com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature f) {
+        ((com.fasterxml.jackson.dataformat.xml.XmlFactory) (_jsonFactory)).disable(f);
+        return this;
+    }
+
+    public <T> T readValue(javax.xml.stream.XMLStreamReader r, java.lang.Class<T> valueType) throws java.io.IOException {
+        return readValue(r, _typeFactory.constructType(valueType));
+    }
+
+    public <T> T readValue(javax.xml.stream.XMLStreamReader r, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef) throws java.io.IOException {
+        return readValue(r, _typeFactory.constructType(valueTypeRef));
+    }
+
+    @java.lang.SuppressWarnings("resource")
+    public <T> T readValue(javax.xml.stream.XMLStreamReader r, com.fasterxml.jackson.databind.JavaType valueType) throws java.io.IOException {
+        com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser p = getFactory().createParser(r);
+        return super.readValue(p, valueType);
+    }
+
+    public void writeValue(javax.xml.stream.XMLStreamWriter w0, java.lang.Object value) throws java.io.IOException {
+        @java.lang.SuppressWarnings("resource")
+        com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator g = getFactory().createGenerator(w0);
+        super.writeValue(g, value);
+    }
+
+    @java.lang.Deprecated
+    @java.lang.Override
+    protected com.fasterxml.jackson.core.PrettyPrinter _defaultPrettyPrinter() {
+        return new com.fasterxml.jackson.dataformat.xml.util.DefaultXmlPrettyPrinter();
+    }
+}
+[24468] ERROR NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+209186073
+1385386353
+1385386353
+[25472] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlModule:72.
+1385386353
+[26547] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlModule:64.
+[27354] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlModule:64.
+1385386353
+[28212] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlModule:61.
+1385386353
+[29130] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlModule:58.
+1385386353
+[30026] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlModule:57.
+373150203
+373150203
+[30685] ERROR DynamicClassCompiler - [Compilation errors]
+XmlSerializerProvider.java:25: error: variable _rootNameLookup might not have been initialized
+    }
+    ^
+[30712] ERROR ConstraintModelBuilder - Unable to compile the change: 
+public class XmlSerializerProvider extends com.fasterxml.jackson.databind.ser.DefaultSerializerProvider {
+    private static final long serialVersionUID = 1L;
+
+    protected static final javax.xml.namespace.QName ROOT_NAME_FOR_NULL = new javax.xml.namespace.QName("null");
+
+    protected final com.fasterxml.jackson.dataformat.xml.util.XmlRootNameLookup _rootNameLookup;
+
+    public XmlSerializerProvider(com.fasterxml.jackson.dataformat.xml.util.XmlRootNameLookup rootNames) {
+        super();
+        boolean spoonDefaultValue = false;
+        try {
+            spoonDefaultValue = true;
+        } catch (java.lang.Exception __NopolProcessorException) {
+        }
+        boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+        if (fr.inria.lille.commons.trace.RuntimeValues.instance(13).isEnabled()) {
+            fr.inria.lille.commons.trace.RuntimeValues.instance(13).collectionStarts();
+            fr.inria.lille.commons.trace.RuntimeValues.instance(13).collectOutput(runtimeAngelicValue);
+            fr.inria.lille.commons.trace.RuntimeValues.instance(13).collectionEnds();
+        }
+        if (runtimeAngelicValue)
+            _rootNameLookup = rootNames;
+
+    }
+
+    public XmlSerializerProvider(com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider src, com.fasterxml.jackson.databind.SerializationConfig config, com.fasterxml.jackson.databind.ser.SerializerFactory f) {
+        super(src, config, f);
+        _rootNameLookup = src._rootNameLookup;
+    }
+
+    @java.lang.Override
+    public com.fasterxml.jackson.databind.ser.DefaultSerializerProvider createInstance(com.fasterxml.jackson.databind.SerializationConfig config, com.fasterxml.jackson.databind.ser.SerializerFactory jsf) {
+        return new com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider(this, config, jsf);
+    }
+
+    @java.lang.SuppressWarnings("resource")
+    @java.lang.Override
+    public void serializeValue(com.fasterxml.jackson.core.JsonGenerator gen, java.lang.Object value) throws java.io.IOException {
+        if (value == null) {
+            _serializeXmlNull(gen);
+            return;
+        }
+        final java.lang.Class<?> cls = value.getClass();
+        final boolean asArray;
+        final com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator xgen = _asXmlGenerator(gen);
+        if (xgen == null) {
+            asArray = false;
+        } else {
+            javax.xml.namespace.QName rootName = _rootNameFromConfig();
+            if (rootName == null) {
+                rootName = _rootNameLookup.findRootName(cls, _config);
+            }
+            _initWithRootName(xgen, rootName);
+            asArray = com.fasterxml.jackson.dataformat.xml.util.TypeUtil.isIndexedType(cls);
+            if (asArray) {
+                _startRootArray(xgen, rootName);
+            }
+        }
+        final com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object> ser = findTypedValueSerializer(cls, true, null);
+        try {
+            ser.serialize(value, gen, this);
+        } catch (java.io.IOException ioe) {
+            throw ioe;
+        } catch (java.lang.Exception e) {
+            java.lang.String msg = e.getMessage();
+            if (msg == null) {
+                msg = ("[no message for " + e.getClass().getName()) + "]";
+            }
+            throw com.fasterxml.jackson.databind.JsonMappingException.from(gen, msg, e);
+        }
+        if (asArray) {
+            gen.writeEndObject();
+        }
+    }
+
+    @java.lang.SuppressWarnings("resource")
+    @java.lang.Override
+    public void serializeValue(com.fasterxml.jackson.core.JsonGenerator gen, java.lang.Object value, com.fasterxml.jackson.databind.JavaType rootType) throws java.io.IOException {
+        if (value == null) {
+            _serializeXmlNull(gen);
+            return;
+        }
+        final boolean asArray;
+        final com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator xgen = _asXmlGenerator(gen);
+        if (xgen == null) {
+            asArray = false;
+        } else {
+            javax.xml.namespace.QName rootName = _rootNameFromConfig();
+            if (rootName == null) {
+                rootName = _rootNameLookup.findRootName(rootType, _config);
+            }
+            _initWithRootName(xgen, rootName);
+            asArray = com.fasterxml.jackson.dataformat.xml.util.TypeUtil.isIndexedType(rootType);
+            if (asArray) {
+                _startRootArray(xgen, rootName);
+            }
+        }
+        final com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object> ser = findTypedValueSerializer(rootType, true, null);
+        try {
+            ser.serialize(value, gen, this);
+        } catch (java.io.IOException ioe) {
+            throw ioe;
+        } catch (java.lang.Exception e) {
+            java.lang.String msg = e.getMessage();
+            if (msg == null) {
+                msg = ("[no message for " + e.getClass().getName()) + "]";
+            }
+            throw com.fasterxml.jackson.databind.JsonMappingException.from(gen, msg, e);
+        }
+        if (asArray) {
+            gen.writeEndObject();
+        }
+    }
+
+    @java.lang.SuppressWarnings("resource")
+    @java.lang.Override
+    public void serializeValue(com.fasterxml.jackson.core.JsonGenerator gen, java.lang.Object value, com.fasterxml.jackson.databind.JavaType rootType, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object> ser) throws java.io.IOException {
+        if (value == null) {
+            _serializeXmlNull(gen);
+            return;
+        }
+        final boolean asArray;
+        final com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator xgen = _asXmlGenerator(gen);
+        if (xgen == null) {
+            asArray = false;
+        } else {
+            javax.xml.namespace.QName rootName = _rootNameFromConfig();
+            if (rootName == null) {
+                rootName = _rootNameLookup.findRootName(rootType, _config);
+            }
+            _initWithRootName(xgen, rootName);
+            asArray = com.fasterxml.jackson.dataformat.xml.util.TypeUtil.isIndexedType(rootType);
+            if (asArray) {
+                _startRootArray(xgen, rootName);
+            }
+        }
+        if (ser == null) {
+            ser = findTypedValueSerializer(rootType, true, null);
+        }
+        try {
+            ser.serialize(value, gen, this);
+        } catch (java.io.IOException ioe) {
+            throw ioe;
+        } catch (java.lang.Exception e) {
+            java.lang.String msg = e.getMessage();
+            if (msg == null) {
+                msg = ("[no message for " + e.getClass().getName()) + "]";
+            }
+            throw com.fasterxml.jackson.databind.JsonMappingException.from(gen, msg, e);
+        }
+        if (asArray) {
+            gen.writeEndObject();
+        }
+    }
+
+    protected void _serializeXmlNull(com.fasterxml.jackson.core.JsonGenerator jgen) throws java.io.IOException {
+        if (jgen instanceof com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator) {
+            _initWithRootName(((com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator) (jgen)), com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider.ROOT_NAME_FOR_NULL);
+        }
+        super.serializeValue(jgen, null);
+    }
+
+    protected void _startRootArray(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator xgen, javax.xml.namespace.QName rootName) throws java.io.IOException {
+        xgen.writeStartObject();
+        xgen.writeFieldName("item");
+    }
+
+    protected void _initWithRootName(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator xgen, javax.xml.namespace.QName rootName) throws java.io.IOException {
+        if (!xgen.setNextNameIfMissing(rootName)) {
+            if (xgen.inRoot()) {
+                xgen.setNextName(rootName);
+            }
+        }
+        xgen.initGenerator();
+        java.lang.String ns = rootName.getNamespaceURI();
+        if ((ns != null) && (ns.length() > 0)) {
+            try {
+                xgen.getStaxWriter().setDefaultNamespace(ns);
+            } catch (javax.xml.stream.XMLStreamException e) {
+                com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e);
+            }
+        }
+    }
+
+    protected javax.xml.namespace.QName _rootNameFromConfig() {
+        com.fasterxml.jackson.databind.PropertyName name = _config.getFullRootName();
+        if (name == null) {
+            return null;
+        }
+        java.lang.String ns = name.getNamespace();
+        if ((ns == null) || ns.isEmpty()) {
+            return new javax.xml.namespace.QName(name.getSimpleName());
+        }
+        return new javax.xml.namespace.QName(ns, name.getSimpleName());
+    }
+
+    protected com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator _asXmlGenerator(com.fasterxml.jackson.core.JsonGenerator gen) throws com.fasterxml.jackson.databind.JsonMappingException {
+        if (!(gen instanceof com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator)) {
+            if (!(gen instanceof com.fasterxml.jackson.databind.util.TokenBuffer)) {
+                throw com.fasterxml.jackson.databind.JsonMappingException.from(gen, "XmlMapper does not with generators of type other than ToXmlGenerator; got: " + gen.getClass().getName());
+            }
+            return null;
+        }
+        return ((com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator) (gen));
+    }
+}
+[30716] ERROR NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+373150203
+-1968683100
+-1968683100
+[31903] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:35.
+-1968683100
+2107067967
+-1818112078
+-1818112078
+[32922] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.deser.XmlBeanDeserializerModifier:28.
+2107067967
+-1818112078
+-1818112078
+1217924913
+260365588
+260365588
+[34182] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:143.
+260365588
+[35283] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:141.
+260365588
+260365588
+[36294] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:122.
+260365588
+[37170] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:121.
+260365588
+[38097] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:120.
+260365588
+[38981] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:118.
+260365588
+[39879] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:117.
+[40677] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:117.
+260365588
+[41574] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:115.
+260365588
+[42497] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:113.
+260365588
+[43496] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:112.
+[44266] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:112.
+260365588
+[45230] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:111.
+260365588
+[46316] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:110.
+260365588
+[47191] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:109.
+260365588
+260365588
+260365588
+[47760] ERROR NoPol - Error ExecutionException java.util.concurrent.ExecutionException: spoon.SpoonException: cannot insert a statement before a super or this invocation.
+260365588
+[48236] ERROR NoPol - Error ExecutionException java.util.concurrent.ExecutionException: spoon.SpoonException: cannot insert a statement before a super or this invocation.
+1386078875
+1386078875
+[48937] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.util.StaxUtil:23.
+1386078875
+[49607] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.util.StaxUtil:22.
+1386078875
+[50178] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.util.StaxUtil:19.
+1386078875
+260365588
+1224049261
+[51168] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser:528.
+1224049261
+2071221859
+1224049261
+[52125] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser:521.
+[52772] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser:521.
+1224049261
+[53594] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser:520.
+-44315483
+-44315483
+[54299] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:86.
+-44315483
+-44315483
+[254678] ERROR NoPol - Error ExecutionException java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.util.concurrent.TimeoutException
+-44315483
+[255432] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:83.
+-44315483
+-44315483
+[256164] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:80.
+[256808] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:80.
+-44315483
+-44315483
+-1968683100
+1386078875
+[257581] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.util.StaxUtil:64.
+1386078875
+[258254] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.util.StaxUtil:61.
+[258838] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.util.StaxUtil:61.
+1386078875
+[259491] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.util.StaxUtil:60.
+1386078875
+[260169] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.util.StaxUtil:58.
+-44315483
+-44315483
+[261013] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:49.
+[261665] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:49.
+-44315483
+-44315483
+[262350] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:40.
+-44315483
+[263048] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:37.
+[263787] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:37.
+-44315483
+-44315483
+[264556] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:28.
+-44315483
+[265202] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:27.
+[265843] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:27.
+-44315483
+[266469] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder:26.
+-44315483
+260365588
+[267401] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:428.
+[268223] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:428.
+260365588
+260365588
+-1968683100
+260365588
+[268924] ERROR DynamicClassCompiler - [Compilation errors]
+XmlFactory.java:339: error: variable sr might not have been initialized
+            sr = _initializeXmlReader(sr);
+                                      ^
+Note: XmlFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+[268999] ERROR ConstraintModelBuilder - Unable to compile the change: 
+public class XmlFactory extends com.fasterxml.jackson.core.JsonFactory {
+    private static final long serialVersionUID = 1;
+
+    public static final java.lang.String FORMAT_NAME_XML = "XML";
+
+    static final int DEFAULT_XML_PARSER_FEATURE_FLAGS = com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature.collectDefaults();
+
+    static final int DEFAULT_XML_GENERATOR_FEATURE_FLAGS = com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature.collectDefaults();
+
+    protected int _xmlParserFeatures;
+
+    protected int _xmlGeneratorFeatures;
+
+    protected transient javax.xml.stream.XMLInputFactory _xmlInputFactory;
+
+    protected transient javax.xml.stream.XMLOutputFactory _xmlOutputFactory;
+
+    protected java.lang.String _cfgNameForTextElement;
+
+    public XmlFactory() {
+        this(null, null, null);
+    }
+
+    public XmlFactory(com.fasterxml.jackson.core.ObjectCodec oc) {
+        this(oc, null, null);
+    }
+
+    public XmlFactory(javax.xml.stream.XMLInputFactory xmlIn) {
+        this(null, xmlIn, null);
+    }
+
+    public XmlFactory(javax.xml.stream.XMLInputFactory xmlIn, javax.xml.stream.XMLOutputFactory xmlOut) {
+        this(null, xmlIn, xmlOut);
+    }
+
+    public XmlFactory(com.fasterxml.jackson.core.ObjectCodec oc, javax.xml.stream.XMLInputFactory xmlIn, javax.xml.stream.XMLOutputFactory xmlOut) {
+        this(oc, com.fasterxml.jackson.dataformat.xml.XmlFactory.DEFAULT_XML_PARSER_FEATURE_FLAGS, com.fasterxml.jackson.dataformat.xml.XmlFactory.DEFAULT_XML_GENERATOR_FEATURE_FLAGS, xmlIn, xmlOut, null);
+    }
+
+    protected XmlFactory(com.fasterxml.jackson.core.ObjectCodec oc, int xpFeatures, int xgFeatures, javax.xml.stream.XMLInputFactory xmlIn, javax.xml.stream.XMLOutputFactory xmlOut, java.lang.String nameForTextElem) {
+        super(oc);
+        _xmlParserFeatures = xpFeatures;
+        _xmlGeneratorFeatures = xgFeatures;
+        _cfgNameForTextElement = nameForTextElem;
+        if (xmlIn == null) {
+            xmlIn = javax.xml.stream.XMLInputFactory.newInstance();
+            xmlIn.setProperty(javax.xml.stream.XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, java.lang.Boolean.FALSE);
+        }
+        if (xmlOut == null) {
+            xmlOut = javax.xml.stream.XMLOutputFactory.newInstance();
+        }
+        _initFactories(xmlIn, xmlOut);
+        _xmlInputFactory = xmlIn;
+        _xmlOutputFactory = xmlOut;
+    }
+
+    protected XmlFactory(com.fasterxml.jackson.dataformat.xml.XmlFactory src, com.fasterxml.jackson.core.ObjectCodec oc) {
+        super(src, oc);
+        _xmlParserFeatures = src._xmlParserFeatures;
+        _xmlGeneratorFeatures = src._xmlGeneratorFeatures;
+        _cfgNameForTextElement = src._cfgNameForTextElement;
+        _xmlInputFactory = src._xmlInputFactory;
+        _xmlOutputFactory = src._xmlOutputFactory;
+    }
+
+    protected void _initFactories(javax.xml.stream.XMLInputFactory xmlIn, javax.xml.stream.XMLOutputFactory xmlOut) {
+        xmlOut.setProperty(javax.xml.stream.XMLOutputFactory.IS_REPAIRING_NAMESPACES, java.lang.Boolean.TRUE);
+        xmlIn.setProperty(javax.xml.stream.XMLInputFactory.IS_COALESCING, java.lang.Boolean.TRUE);
+    }
+
+    @java.lang.Override
+    public com.fasterxml.jackson.dataformat.xml.XmlFactory copy() {
+        _checkInvalidCopy(com.fasterxml.jackson.dataformat.xml.XmlFactory.class);
+        return new com.fasterxml.jackson.dataformat.xml.XmlFactory(this, null);
+    }
+
+    @java.lang.Override
+    public com.fasterxml.jackson.core.Version version() {
+        return com.fasterxml.jackson.dataformat.xml.PackageVersion.VERSION;
+    }
+
+    protected transient java.lang.String _jdkXmlInFactory;
+
+    protected transient java.lang.String _jdkXmlOutFactory;
+
+    @java.lang.Override
+    protected java.lang.Object readResolve() {
+        if (_jdkXmlInFactory == null) {
+            throw new java.lang.IllegalStateException("No XMLInputFactory class name read during JDK deserialization");
+        }
+        if (_jdkXmlOutFactory == null) {
+            throw new java.lang.IllegalStateException("No XMLOutputFactory class name read during JDK deserialization");
+        }
+        try {
+            javax.xml.stream.XMLInputFactory inf = ((javax.xml.stream.XMLInputFactory) (java.lang.Class.forName(_jdkXmlInFactory).newInstance()));
+            javax.xml.stream.XMLOutputFactory outf = ((javax.xml.stream.XMLOutputFactory) (java.lang.Class.forName(_jdkXmlOutFactory).newInstance()));
+            return new com.fasterxml.jackson.dataformat.xml.XmlFactory(_objectCodec, _xmlParserFeatures, _xmlGeneratorFeatures, inf, outf, _cfgNameForTextElement);
+        } catch (java.lang.ClassNotFoundException e) {
+            throw new java.lang.IllegalArgumentException(e);
+        } catch (java.lang.InstantiationException e) {
+            throw new java.lang.IllegalArgumentException(e);
+        } catch (java.lang.IllegalAccessException e) {
+            throw new java.lang.IllegalArgumentException(e);
+        }
+    }
+
+    private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, java.lang.ClassNotFoundException {
+        in.defaultReadObject();
+        _jdkXmlInFactory = in.readUTF();
+        _jdkXmlOutFactory = in.readUTF();
+    }
+
+    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
+        out.defaultWriteObject();
+        out.writeUTF(_xmlInputFactory.getClass().getName());
+        out.writeUTF(_xmlOutputFactory.getClass().getName());
+    }
+
+    public void setXMLTextElementName(java.lang.String name) {
+        _cfgNameForTextElement = name;
+    }
+
+    public java.lang.String getXMLTextElementName() {
+        return _cfgNameForTextElement;
+    }
+
+    public final com.fasterxml.jackson.dataformat.xml.XmlFactory configure(com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature f, boolean state) {
+        if (state) {
+            enable(f);
+        } else {
+            disable(f);
+        }
+        return this;
+    }
+
+    public com.fasterxml.jackson.dataformat.xml.XmlFactory enable(com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature f) {
+        _xmlParserFeatures |= f.getMask();
+        return this;
+    }
+
+    public com.fasterxml.jackson.dataformat.xml.XmlFactory disable(com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature f) {
+        _xmlParserFeatures &= ~f.getMask();
+        return this;
+    }
+
+    public final boolean isEnabled(com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature f) {
+        return (_xmlParserFeatures & f.getMask()) != 0;
+    }
+
+    public final com.fasterxml.jackson.dataformat.xml.XmlFactory configure(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature f, boolean state) {
+        if (state) {
+            enable(f);
+        } else {
+            disable(f);
+        }
+        return this;
+    }
+
+    public com.fasterxml.jackson.dataformat.xml.XmlFactory enable(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature f) {
+        _xmlGeneratorFeatures |= f.getMask();
+        return this;
+    }
+
+    public com.fasterxml.jackson.dataformat.xml.XmlFactory disable(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature f) {
+        _xmlGeneratorFeatures &= ~f.getMask();
+        return this;
+    }
+
+    public final boolean isEnabled(com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature f) {
+        return (_xmlGeneratorFeatures & f.getMask()) != 0;
+    }
+
+    public javax.xml.stream.XMLInputFactory getXMLInputFactory() {
+        return _xmlInputFactory;
+    }
+
+    public void setXMLInputFactory(javax.xml.stream.XMLInputFactory f) {
+        _xmlInputFactory = f;
+    }
+
+    public javax.xml.stream.XMLOutputFactory getXMLOutputFactory() {
+        return _xmlOutputFactory;
+    }
+
+    public void setXMLOutputFactory(javax.xml.stream.XMLOutputFactory f) {
+        _xmlOutputFactory = f;
+    }
+
+    @java.lang.Override
+    public java.lang.String getFormatName() {
+        return com.fasterxml.jackson.dataformat.xml.XmlFactory.FORMAT_NAME_XML;
+    }
+
+    @java.lang.Override
+    public com.fasterxml.jackson.core.format.MatchStrength hasFormat(com.fasterxml.jackson.core.format.InputAccessor acc) throws java.io.IOException {
+        return com.fasterxml.jackson.dataformat.xml.XmlFactory.hasXMLFormat(acc);
+    }
+
+    @java.lang.Override
+    public boolean requiresCustomCodec() {
+        return true;
+    }
+
+    @java.lang.Override
+    public boolean canUseCharArrays() {
+        return false;
+    }
+
+    @java.lang.Override
+    public java.lang.Class<com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature> getFormatReadFeatureType() {
+        return com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.Feature.class;
+    }
+
+    @java.lang.Override
+    public java.lang.Class<com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature> getFormatWriteFeatureType() {
+        return com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator.Feature.class;
+    }
+
+    @java.lang.SuppressWarnings("resource")
+    @java.lang.Override
+    public com.fasterxml.jackson.core.JsonParser createParser(java.lang.String content) throws java.io.IOException {
+        java.io.Reader r = new java.io.StringReader(content);
+        com.fasterxml.jackson.core.io.IOContext ctxt = _createContext(r, true);
+        if (_inputDecorator != null) {
+            r = _inputDecorator.decorate(ctxt, r);
+        }
+        return _createParser(r, ctxt);
+    }
+
+    @java.lang.Override
+    public com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator createGenerator(java.io.OutputStream out) throws java.io.IOException {
+        return createGenerator(out, com.fasterxml.jackson.core.JsonEncoding.UTF8);
+    }
+
+    @java.lang.Override
+    public com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator createGenerator(java.io.OutputStream out, com.fasterxml.jackson.core.JsonEncoding enc) throws java.io.IOException {
+        com.fasterxml.jackson.core.io.IOContext ctxt = _createContext(out, false);
+        ctxt.setEncoding(enc);
+        return new com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator(ctxt, _generatorFeatures, _xmlGeneratorFeatures, _objectCodec, _createXmlWriter(out));
+    }
+
+    @java.lang.Override
+    public com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator createGenerator(java.io.Writer out) throws java.io.IOException {
+        return new com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator(_createContext(out, false), _generatorFeatures, _xmlGeneratorFeatures, _objectCodec, _createXmlWriter(out));
+    }
+
+    @java.lang.SuppressWarnings("resource")
+    @java.lang.Override
+    public com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator createGenerator(java.io.File f, com.fasterxml.jackson.core.JsonEncoding enc) throws java.io.IOException {
+        java.io.OutputStream out = new java.io.FileOutputStream(f);
+        com.fasterxml.jackson.core.io.IOContext ctxt = _createContext(out, true);
+        ctxt.setEncoding(enc);
+        return new com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator(ctxt, _generatorFeatures, _xmlGeneratorFeatures, _objectCodec, _createXmlWriter(out));
+    }
+
+    public com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser createParser(javax.xml.stream.XMLStreamReader sr) throws java.io.IOException {
+        if (sr.getEventType() != javax.xml.stream.XMLStreamConstants.START_ELEMENT) {
+            try {
+                sr = _initializeXmlReader(sr);
+            } catch (javax.xml.stream.XMLStreamException e) {
+                return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e);
+            }
+        }
+        com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser xp = new com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser(_createContext(sr, false), _generatorFeatures, _xmlGeneratorFeatures, _objectCodec, sr);
+        if (_cfgNameForTextElement != null) {
+            xp.setXMLTextElementName(_cfgNameForTextElement);
+        }
+        return xp;
+    }
+
+    public com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator createGenerator(javax.xml.stream.XMLStreamWriter sw) throws java.io.IOException {
+        try {
+            sw = _initializeXmlWriter(sw);
+        } catch (javax.xml.stream.XMLStreamException e) {
+            return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e);
+        }
+        com.fasterxml.jackson.core.io.IOContext ctxt = _createContext(sw, false);
+        return new com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator(ctxt, _generatorFeatures, _xmlGeneratorFeatures, _objectCodec, sw);
+    }
+
+    @java.lang.Override
+    protected com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser _createParser(java.io.InputStream in, com.fasterxml.jackson.core.io.IOContext ctxt) throws java.io.IOException {
+        javax.xml.stream.XMLStreamReader sr;
+        try {
+            sr = _xmlInputFactory.createXMLStreamReader(in);
+            sr = _initializeXmlReader(sr);
+        } catch (javax.xml.stream.XMLStreamException e) {
+            return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e);
+        }
+        com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser xp = new com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser(ctxt, _generatorFeatures, _xmlGeneratorFeatures, _objectCodec, sr);
+        if (_cfgNameForTextElement != null) {
+            xp.setXMLTextElementName(_cfgNameForTextElement);
+        }
+        return xp;
+    }
+
+    @java.lang.Override
+    protected com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser _createParser(java.io.Reader r, com.fasterxml.jackson.core.io.IOContext ctxt) throws java.io.IOException {
+        javax.xml.stream.XMLStreamReader sr;
+        try {
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(61).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_EXCL",com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_EXCL);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_l",com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_l);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("ctxt",ctxt);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_m",com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_m);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.this._xmlParserFeatures",com.fasterxml.jackson.dataformat.xml.XmlFactory.this._xmlParserFeatures);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.this._jdkXmlInFactory",com.fasterxml.jackson.dataformat.xml.XmlFactory.this._jdkXmlInFactory);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_LT",com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_LT);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.this._cfgNameForTextElement",com.fasterxml.jackson.dataformat.xml.XmlFactory.this._cfgNameForTextElement);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_QMARK",com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_QMARK);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.this._xmlOutputFactory",com.fasterxml.jackson.dataformat.xml.XmlFactory.this._xmlOutputFactory);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.this._xmlGeneratorFeatures",com.fasterxml.jackson.dataformat.xml.XmlFactory.this._xmlGeneratorFeatures);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.DEFAULT_XML_GENERATOR_FEATURE_FLAGS",com.fasterxml.jackson.dataformat.xml.XmlFactory.DEFAULT_XML_GENERATOR_FEATURE_FLAGS);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.UTF8_BOM_2",com.fasterxml.jackson.dataformat.xml.XmlFactory.UTF8_BOM_2);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("r",r);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.UTF8_BOM_3",com.fasterxml.jackson.dataformat.xml.XmlFactory.UTF8_BOM_3);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.UTF8_BOM_1",com.fasterxml.jackson.dataformat.xml.XmlFactory.UTF8_BOM_1);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_x",com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_x);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_HYPHEN",com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_HYPHEN);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_D",com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_D);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.this._xmlInputFactory",com.fasterxml.jackson.dataformat.xml.XmlFactory.this._xmlInputFactory);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.FORMAT_NAME_XML",com.fasterxml.jackson.dataformat.xml.XmlFactory.FORMAT_NAME_XML);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.this._jdkXmlOutFactory",com.fasterxml.jackson.dataformat.xml.XmlFactory.this._jdkXmlOutFactory);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectInput("com.fasterxml.jackson.dataformat.xml.XmlFactory.DEFAULT_XML_PARSER_FEATURE_FLAGS",com.fasterxml.jackson.dataformat.xml.XmlFactory.DEFAULT_XML_PARSER_FEATURE_FLAGS);} catch (Exception ex1) {ex1.printStackTrace();};
+                fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(61).collectionEnds();
+            }
+            if (runtimeAngelicValue)
+                sr = _xmlInputFactory.createXMLStreamReader(r);
+
+            sr = _initializeXmlReader(sr);
+        } catch (javax.xml.stream.XMLStreamException e) {
+            return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e);
+        }
+        com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser xp = new com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser(ctxt, _generatorFeatures, _xmlGeneratorFeatures, _objectCodec, sr);
+        if (_cfgNameForTextElement != null) {
+            xp.setXMLTextElementName(_cfgNameForTextElement);
+        }
+        return xp;
+    }
+
+    @java.lang.Override
+    protected com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser _createParser(char[] data, int offset, int len, com.fasterxml.jackson.core.io.IOContext ctxt, boolean recycleBuffer) throws java.io.IOException {
+        javax.xml.stream.XMLStreamReader sr;
+        try {
+            sr = _xmlInputFactory.createXMLStreamReader(new org.codehaus.stax2.io.Stax2CharArraySource(data, offset, len));
+            sr = _initializeXmlReader(sr);
+        } catch (javax.xml.stream.XMLStreamException e) {
+            return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e);
+        }
+        com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser xp = new com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser(ctxt, _generatorFeatures, _xmlGeneratorFeatures, _objectCodec, sr);
+        if (_cfgNameForTextElement != null) {
+            xp.setXMLTextElementName(_cfgNameForTextElement);
+        }
+        return xp;
+    }
+
+    @java.lang.Override
+    protected com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser _createParser(byte[] data, int offset, int len, com.fasterxml.jackson.core.io.IOContext ctxt) throws java.io.IOException {
+        javax.xml.stream.XMLStreamReader sr;
+        try {
+            sr = _xmlInputFactory.createXMLStreamReader(new org.codehaus.stax2.io.Stax2ByteArraySource(data, offset, len));
+            sr = _initializeXmlReader(sr);
+        } catch (javax.xml.stream.XMLStreamException e) {
+            return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e);
+        }
+        com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser xp = new com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser(ctxt, _generatorFeatures, _xmlGeneratorFeatures, _objectCodec, sr);
+        if (_cfgNameForTextElement != null) {
+            xp.setXMLTextElementName(_cfgNameForTextElement);
+        }
+        return xp;
+    }
+
+    @java.lang.Override
+    protected com.fasterxml.jackson.core.JsonGenerator _createGenerator(java.io.Writer out, com.fasterxml.jackson.core.io.IOContext ctxt) throws java.io.IOException {
+        com.fasterxml.jackson.core.util.VersionUtil.throwInternal();
+        return null;
+    }
+
+    protected javax.xml.stream.XMLStreamWriter _createXmlWriter(java.io.OutputStream out) throws java.io.IOException {
+        try {
+            return _initializeXmlWriter(_xmlOutputFactory.createXMLStreamWriter(out, "UTF-8"));
+        } catch (javax.xml.stream.XMLStreamException e) {
+            return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e);
+        }
+    }
+
+    protected javax.xml.stream.XMLStreamWriter _createXmlWriter(java.io.Writer w) throws java.io.IOException {
+        try {
+            return _initializeXmlWriter(_xmlOutputFactory.createXMLStreamWriter(w));
+        } catch (javax.xml.stream.XMLStreamException e) {
+            return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e);
+        }
+    }
+
+    protected final javax.xml.stream.XMLStreamWriter _initializeXmlWriter(javax.xml.stream.XMLStreamWriter sw) throws java.io.IOException, javax.xml.stream.XMLStreamException {
+        sw.setDefaultNamespace("");
+        return sw;
+    }
+
+    protected final javax.xml.stream.XMLStreamReader _initializeXmlReader(javax.xml.stream.XMLStreamReader sr) throws java.io.IOException, javax.xml.stream.XMLStreamException {
+        while (sr.next() != javax.xml.stream.XMLStreamConstants.START_ELEMENT) {
+        } 
+        return sr;
+    }
+
+    private static final byte UTF8_BOM_1 = ((byte) (0xef));
+
+    private static final byte UTF8_BOM_2 = ((byte) (0xbb));
+
+    private static final byte UTF8_BOM_3 = ((byte) (0xbf));
+
+    private static final byte BYTE_x = ((byte) ('x'));
+
+    private static final byte BYTE_m = ((byte) ('m'));
+
+    private static final byte BYTE_l = ((byte) ('l'));
+
+    private static final byte BYTE_D = ((byte) ('D'));
+
+    private static final byte BYTE_LT = ((byte) ('<'));
+
+    private static final byte BYTE_QMARK = ((byte) ('?'));
+
+    private static final byte BYTE_EXCL = ((byte) ('!'));
+
+    private static final byte BYTE_HYPHEN = ((byte) ('-'));
+
+    public static com.fasterxml.jackson.core.format.MatchStrength hasXMLFormat(com.fasterxml.jackson.core.format.InputAccessor acc) throws java.io.IOException {
+        if (!acc.hasMoreBytes()) {
+            return com.fasterxml.jackson.core.format.MatchStrength.INCONCLUSIVE;
+        }
+        byte b = acc.nextByte();
+        if (b == com.fasterxml.jackson.dataformat.xml.XmlFactory.UTF8_BOM_1) {
+            if (!acc.hasMoreBytes()) {
+                return com.fasterxml.jackson.core.format.MatchStrength.INCONCLUSIVE;
+            }
+            if (acc.nextByte() != com.fasterxml.jackson.dataformat.xml.XmlFactory.UTF8_BOM_2) {
+                return com.fasterxml.jackson.core.format.MatchStrength.NO_MATCH;
+            }
+            if (!acc.hasMoreBytes()) {
+                return com.fasterxml.jackson.core.format.MatchStrength.INCONCLUSIVE;
+            }
+            if (acc.nextByte() != com.fasterxml.jackson.dataformat.xml.XmlFactory.UTF8_BOM_3) {
+                return com.fasterxml.jackson.core.format.MatchStrength.NO_MATCH;
+            }
+            if (!acc.hasMoreBytes()) {
+                return com.fasterxml.jackson.core.format.MatchStrength.INCONCLUSIVE;
+            }
+            b = acc.nextByte();
+        }
+        boolean maybeXmlDecl = b == com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_LT;
+        if (!maybeXmlDecl) {
+            int ch = com.fasterxml.jackson.dataformat.xml.XmlFactory.skipSpace(acc, b);
+            if (ch < 0) {
+                return com.fasterxml.jackson.core.format.MatchStrength.INCONCLUSIVE;
+            }
+            b = ((byte) (ch));
+            if (b != com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_LT) {
+                return com.fasterxml.jackson.core.format.MatchStrength.NO_MATCH;
+            }
+        }
+        if (!acc.hasMoreBytes()) {
+            return com.fasterxml.jackson.core.format.MatchStrength.INCONCLUSIVE;
+        }
+        b = acc.nextByte();
+        if (b == com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_QMARK) {
+            b = acc.nextByte();
+            if (b == com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_x) {
+                if (maybeXmlDecl) {
+                    if (acc.hasMoreBytes() && (acc.nextByte() == com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_m)) {
+                        if (acc.hasMoreBytes() && (acc.nextByte() == com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_l)) {
+                            return com.fasterxml.jackson.core.format.MatchStrength.FULL_MATCH;
+                        }
+                    }
+                }
+                return com.fasterxml.jackson.core.format.MatchStrength.SOLID_MATCH;
+            }
+            if (com.fasterxml.jackson.dataformat.xml.XmlFactory.validXmlNameStartChar(acc, b)) {
+                return com.fasterxml.jackson.core.format.MatchStrength.SOLID_MATCH;
+            }
+        } else if (b == com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_EXCL) {
+            if (!acc.hasMoreBytes()) {
+                return com.fasterxml.jackson.core.format.MatchStrength.INCONCLUSIVE;
+            }
+            b = acc.nextByte();
+            if (b == com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_HYPHEN) {
+                if (!acc.hasMoreBytes()) {
+                    return com.fasterxml.jackson.core.format.MatchStrength.INCONCLUSIVE;
+                }
+                if (acc.nextByte() == com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_HYPHEN) {
+                    return com.fasterxml.jackson.core.format.MatchStrength.SOLID_MATCH;
+                }
+            } else if (b == com.fasterxml.jackson.dataformat.xml.XmlFactory.BYTE_D) {
+                return com.fasterxml.jackson.dataformat.xml.XmlFactory.tryMatch(acc, "OCTYPE", com.fasterxml.jackson.core.format.MatchStrength.SOLID_MATCH);
+            }
+        } else if (com.fasterxml.jackson.dataformat.xml.XmlFactory.validXmlNameStartChar(acc, b)) {
+            return com.fasterxml.jackson.core.format.MatchStrength.SOLID_MATCH;
+        }
+        return com.fasterxml.jackson.core.format.MatchStrength.NO_MATCH;
+    }
+
+    private static final boolean validXmlNameStartChar(com.fasterxml.jackson.core.format.InputAccessor acc, byte b) throws java.io.IOException {
+        int ch = ((int) (b)) & 0xff;
+        if (ch >= 'A') {
+            return true;
+        }
+        return false;
+    }
+
+    private static final com.fasterxml.jackson.core.format.MatchStrength tryMatch(com.fasterxml.jackson.core.format.InputAccessor acc, java.lang.String matchStr, com.fasterxml.jackson.core.format.MatchStrength fullMatchStrength) throws java.io.IOException {
+        for (int i = 0, len = matchStr.length(); i < len; ++i) {
+            if (!acc.hasMoreBytes()) {
+                return com.fasterxml.jackson.core.format.MatchStrength.INCONCLUSIVE;
+            }
+            if (acc.nextByte() != matchStr.charAt(i)) {
+                return com.fasterxml.jackson.core.format.MatchStrength.NO_MATCH;
+            }
+        }
+        return fullMatchStrength;
+    }
+
+    private static final int skipSpace(com.fasterxml.jackson.core.format.InputAccessor acc, byte b) throws java.io.IOException {
+        while (true) {
+            int ch = ((int) (b)) & 0xff;
+            if (!((((ch == ' ') || (ch == '\r')) || (ch == '\n')) || (ch == '\t'))) {
+                return ch;
+            }
+            if (!acc.hasMoreBytes()) {
+                return -1;
+            }
+            b = acc.nextByte();
+            ch = ((int) (b)) & 0xff;
+        } 
+    }
+}
+[269022] ERROR NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+1386078875
+-1968683100
+[269777] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:201.
+[270490] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:201.
+-1968683100
+260365588
+[271464] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:650.
+-1968683100
+[272273] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:169.
+[272980] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:169.
+2071221859
+2071221859
+2071221859
+2071221859
+2071221859
+[273928] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream:488.
+[274653] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream:488.
+697262776
+697262776
+[275820] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:474.
+[276601] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:474.
+697262776
+[277478] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:473.
+697262776
+[278411] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator:472.
+-1968683100
+[279259] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:168.
+[280005] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:168.
+-1968683100
+[280698] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:167.
+-1968683100
+-1968683100
+[281516] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:166.
+[282262] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:166.
+-1968683100
+260365588
+260365588
+[283267] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.XmlFactory:557.
+2071221859
+-1968683100
+[284016] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:64.
+-1968683100
+-1968683100
+[284718] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:151.
+[285437] INFO SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation com.fasterxml.jackson.dataformat.xml.JacksonXmlAnnotationIntrospector:151.
+-1968683100
+-611636611
+697262776
+1224049261
+1224049261

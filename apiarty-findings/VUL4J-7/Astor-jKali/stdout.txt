@@ -31,3 +31,47 @@ Path to runner Classes: /astor/target/astor-2.0.0-jar-with-dependencies.jar
 /astor/target/astor-2.0.0-jar-with-dependencies.jar
 /astor/target/astor-2.0.0-jar-with-dependencies.jar
 /astor/target/astor-2.0.0-jar-with-dependencies.jar
+Test [Manual]TestMethod=org.apache.commons.compress.archivers.cpio.CpioArchiveTest#utf18RoundtripTest result was not reported by test-runner.
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Test [Manual]TestMethod=org.apache.commons.compress.archivers.examples.ParameterizedArchiverTest#channelVersion result was not reported by test-runner.
+Test [Manual]TestMethod=org.apache.commons.compress.archivers.examples.ParameterizedArchiverTest#archiveStreamVersion result was not reported by test-runner.
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Test [Manual]TestMethod=org.apache.commons.compress.compressors.CompressorStreamFactoryRoundtripTest#testCompressorStreamFactoryRoundtrip result was not reported by test-runner.
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Test [Manual]TestMethod=org.apache.commons.compress.archivers.examples.ParameterizedExpanderTest#fileVersionWithAutoDetection result was not reported by test-runner.
+Test [Manual]TestMethod=org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorRoundtripTest#biggerFileRoundtrip result was not reported by test-runner.
+Test [Manual]TestMethod=org.apache.commons.compress.archivers.examples.ParameterizedArchiverTest#fileVersion result was not reported by test-runner.
+Test [Manual]TestMethod=org.apache.commons.compress.archivers.ar.ArArchiveInputStreamTest#cantReadWithoutOpeningAnEntry result was not reported by test-runner.
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Test [Manual]TestMethod=org.apache.commons.compress.archivers.ArTestCase#XtestExplicitDirectoryEntry result was not reported by test-runner.
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Test [Manual]TestMethod=org.apache.commons.compress.archivers.examples.ParameterizedExpanderTest#inputStreamVersion result was not reported by test-runner.
+Test [Manual]TestMethod=org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorRoundtripTest#gzippedLoremIpsumRoundtrip result was not reported by test-runner.
+Test [Manual]TestMethod=org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorRoundtripTest#blaTarRoundtrip result was not reported by test-runner.
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Test [Manual]TestMethod=org.apache.commons.compress.ArchiveReadTest#testArchive result was not reported by test-runner.
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Test [Manual]TestMethod=org.apache.commons.compress.compressors.lz4.BlockLZ4CompressorOutputStreamTest#canWriteBackReferenceFollowedByShortLiteralIfLengthIsBigEnough result was not reported by test-runner.
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Test [Manual]TestMethod=org.apache.commons.compress.compressors.lz4.XXHash32Test#verifyChecksum result was not reported by test-runner.
+Adding a line where an exception was thrown: org.apache.commons.compress.AbstractTestCase@-@73
+No source code file was found for stack-trace element: org.apache.commons.compress.AbstractTestCase.getFile(AbstractTestCase.java:73)
+Test [Manual]TestMethod=org.apache.commons.compress.archivers.examples.ParameterizedExpanderTest#fileVersion result was not reported by test-runner.

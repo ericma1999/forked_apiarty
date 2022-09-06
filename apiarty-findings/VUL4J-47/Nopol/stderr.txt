@@ -1,0 +1,39 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.fasterxml.jackson.databind.util.ClassUtil (file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.jar) to field java.util.LinkedList.first
+WARNING: Please consider reporting this to the maintainers of com.fasterxml.jackson.databind.util.ClassUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Some test(s) failed during computation of coverage:
+com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testTwoAttributes(com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testPersonAsXml(com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.TestUntypedListSerialization#testListAsObject(com.fasterxml.jackson.dataformat.xml.failing.TestUntypedListSerialization): expected:<<L><list>[<list>first</list><list>second</list>]</list></L>> but was:<<L><list>[first</list><list>second]</list></L>>
+com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyStringElement(com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162): expected:<> but was:<null>
+com.fasterxml.jackson.dataformat.xml.jaxb.JAXBObjectId170Test#testPolyIdList178(com.fasterxml.jackson.dataformat.xml.jaxb.JAXBObjectId170Test): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testElementWrapper(com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testRootName(com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testAsTextWithJAXB(com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation(com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsWrappedClassArray(com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic): Unexpected token (VALUE_STRING), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic$BaseTypeWithClassArray
+ at [Source: java.io.StringReader@7dd712e8; line: 1, column: 112] (through reference chain: com.fasterxml.jackson.dataformat.xml.failing.ClassArrayWrapper["wrapped"])
+com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testAttributeAndElement(com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyString162(com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162): expected:<> but was:<null>
+com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testRootEnumIssue121(com.fasterxml.jackson.dataformat.xml.failing.TestEnums): Can not deserialize instance of com.fasterxml.jackson.dataformat.xml.failing.TestEnums$TestEnum out of START_OBJECT token
+ at [Source: java.io.StringReader@29d2d081; line: 1, column: 1]
+com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testNoElementWrapper(com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsClassArray(com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic): Unexpected IOException (of type java.io.IOException): javax.xml.stream.XMLStreamException: Trying to output second root, <SubTypeWithClassArray>
+com.fasterxml.jackson.dataformat.xml.failing.TestEmptyContent#testNoContent(com.fasterxml.jackson.dataformat.xml.failing.TestEmptyContent): com.ctc.wstx.exc.WstxEOFException: Unexpected EOF in prolog
+ at [row,col {unknown-source}]: [1,0]
+com.fasterxml.jackson.dataformat.xml.failing.TestDeserialization#testEmptyStringFromElemAndAttr(com.fasterxml.jackson.dataformat.xml.failing.TestDeserialization): expected:<> but was:<null>
+com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testUntypedEnum(com.fasterxml.jackson.dataformat.xml.failing.TestEnums): Failed to deserialize TestEnum (got class java.lang.StringtestUntypedEnum) from: <UntypedEnumBean><value>com.fasterxml.jackson.dataformat.xml.failing.TestEnums..TestEnum</value><value>B</value></UntypedEnumBean>
+com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMapSimpleAnnotation(com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testStringsInList(com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162): expected:<> but was:<null>
+com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMap(com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.SupportDTDDefaultsTest#testDTDAttempt(com.fasterxml.jackson.dataformat.xml.failing.SupportDTDDefaultsTest): Should not try to resolve external DTD subset: java.io.IOException: java.net.ConnectException: Connection refused (Connection refused)
+com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation_nonJaxb(com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.TestConflictingGetters#testIssue27(com.fasterxml.jackson.dataformat.xml.failing.TestConflictingGetters): Conflicting getter definitions for property "item": com.fasterxml.jackson.dataformat.xml.failing.TestConflictingGetters$Bean#getBeanInfo(0 params) vs com.fasterxml.jackson.dataformat.xml.failing.TestConflictingGetters$Bean#getBeanOther(0 params)
+com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testSerializeAsAttr(com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap_nonJaxb(com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap(com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest): javax/xml/bind/annotation/XmlElement
+com.fasterxml.jackson.dataformat.xml.failing.PolymorphicList97Test#testBad(com.fasterxml.jackson.dataformat.xml.failing.PolymorphicList97Test): Can not deserialize instance of java.lang.String out of START_OBJECT token
+ at [Source: java.io.StringReader@40f33492; line: 1, column: 35] (through reference chain: com.fasterxml.jackson.dataformat.xml.failing.FooBad["bar"]->java.util.ArrayList[0])
+com.fasterxml.jackson.dataformat.xml.failing.TestUnwrappedDeserIssue86#testDeserializeUnwrappedListWhenLocalNameForRootElementAndXmlPropertyMatch(com.fasterxml.jackson.dataformat.xml.failing.TestUnwrappedDeserIssue86): Current state not XML_START_ELEMENT (1) but 6 (through reference chain: com.fasterxml.jackson.dataformat.xml.failing.Issue86["test"]->java.util.ArrayList[1])

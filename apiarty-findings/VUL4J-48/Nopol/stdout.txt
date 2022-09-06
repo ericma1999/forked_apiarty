@@ -1,0 +1,26 @@
+[0] INFO NoPol - Source files: [/apiarty/data/VUL4J-48/inversoft/prime-jwt/src/main/java, /apiarty/data/VUL4J-48/inversoft/prime-jwt/src/test/java]
+[1] INFO NoPol - Classpath: [file:/apiarty/data/VUL4J-48/inversoft/prime-jwt/target/classes/, file:/apiarty/data/VUL4J-48/inversoft/prime-jwt/target/test-classes/, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar, file:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar, file:/root/.m2/repository/org/testng/testng/6.8.7/testng-6.8.7.jar, file:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar, file:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar, file:/root/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar, file:/root/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar, file:/root/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar]
+[2] INFO NoPol - Statement type: PRE_THEN_COND
+[3] INFO NoPol - Args: [org.primeframework.jwt.VulnerabilityTest]
+[5] INFO NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-48/inversoft/prime-jwt/src/main/java, /apiarty/data/VUL4J-48/inversoft/prime-jwt/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[org.primeframework.jwt.VulnerabilityTest], complianceLevel=8, outputFolder=., json=false}
+[6] INFO NoPol - Available processors (cores): 8
+[14] INFO NoPol - Free memory: 69 MB
+[15] INFO NoPol - Maximum memory: 3 GB
+[16] INFO NoPol - Total memory available to JVM: 80 MB
+[17] INFO NoPol - Java version: null
+[19] INFO NoPol - JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+[19] INFO NoPol - PATH: /apiarty/apiarty.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/nopol/nopol/lib/z3/z3_for_linux', projectSources=[/apiarty/data/VUL4J-48/inversoft/prime-jwt/src/main/java, /apiarty/data/VUL4J-48/inversoft/prime-jwt/src/test/java], projectClasspath='[Ljava.net.URL;@2b80d80f', projectTests=[org.primeframework.jwt.VulnerabilityTest], complianceLevel=8, outputFolder=., json=false}
+[3485] INFO CoverageRunner - Tests found: 0
+[3488] INFO CoverageRunner - Tests executed: 0
+[3492] INFO NoPol - ----INFORMATION----
+[3526] INFO NoPol - Nb classes : 41
+[3529] INFO NoPol - Nb methods : 134
+[3537] INFO NoPol - Nb Statements Analyzed : 0
+[3540] INFO NoPol - Nb Statements with Angelic Value Found : 0
+[3543] INFO NoPol - Nb inputs in SMT : 0
+[3546] INFO NoPol - Nb SMT level: 0
+[3547] INFO NoPol - Nb variables in SMT : 0
+[3547] INFO NoPol - NoPol Execution time : 3493ms
+[3548] INFO NoPol - 
+NO_ANGELIC_VALUE

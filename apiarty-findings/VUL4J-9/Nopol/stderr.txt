@@ -1,0 +1,3 @@
+Some test(s) failed during computation of coverage:
+org.apache.commons.configuration2.TestYAMLConfiguration#testObjectCreationFromStream(org.apache.commons.configuration2.TestYAMLConfiguration): Java object was created
+org.apache.commons.configuration2.TestYAMLConfiguration#testObjectCreationFromReader(org.apache.commons.configuration2.TestYAMLConfiguration): Java object was created

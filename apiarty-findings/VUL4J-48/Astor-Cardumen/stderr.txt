@@ -1,0 +1,10 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by spoon.support.visitor.java.JavaReflectionTreeBuilder (file:/astor/target/astor-2.0.0-jar-with-dependencies.jar) to field sun.security.util.DerValue.TAG_UNIVERSAL
+WARNING: Please consider reporting this to the maintainers of spoon.support.visitor.java.JavaReflectionTreeBuilder
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Exception in thread "main" java.lang.IllegalStateException: No suspicious line detected by the fault localization
+	at fr.inria.main.evolution.AstorMain.createEngine(AstorMain.java:105)
+	at fr.inria.main.evolution.AstorMain.run(AstorMain.java:160)
+	at fr.inria.main.evolution.AstorMain.execute(AstorMain.java:222)
+	at fr.inria.main.evolution.AstorMain.main(AstorMain.java:193)

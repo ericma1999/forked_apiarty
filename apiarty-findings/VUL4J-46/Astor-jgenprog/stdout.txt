@@ -1,0 +1,1096 @@
+[0] INFO ProjectConfiguration - Version of the JVM used: 1.8.0_342
+[2] INFO main - Java version of the JDK used to run tests: 1.8.0_342
+[3] INFO main - The compliance of the JVM is:  8
+[8] INFO main - command line arguments: [-mode  jgenprog  -location  /apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/  -jvm4testexecution  /usr/lib/jvm/java-8-openjdk-amd64/bin/  -failing  com.fasterxml.jackson.dataformat.xml.TestCVE_2016_3720  -srcjavafolder  /src/main/java  -srctestfolder  /src/test/java  -binjavafolder  /target/classes  -bintestfolder  /target/test-classes  -maxtime  120  -stopfirst  true  -maxgen  1000000  -seed  0  -scope  local  -population  1  -dependencies  /root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.3/jackson-core-2.7.3.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.3/jackson-databind-2.7.3.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.3/jackson-module-jaxb-annotations-2.7.3.jar:/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar:/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/astor/lib/gzoltar/com.gzoltar-0.0.3.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom]
+[10] INFO AstorMain - Running Astor on a JDK at /usr/lib/jvm/java-11-openjdk-amd64
+Source folders: [/apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/src/main/java]
+Source Test folders: [/apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/src/test/java]
+---- Creating spoon model
+Creating model,  Code location from working folder: /apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/src/main/java
+building model: /apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/src/main/java, compliance level: 8
+Classpath (Dependencies) for building SpoonModel: [/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.3/jackson-core-2.7.3.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.3/jackson-databind-2.7.3.jar, /root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.3/jackson-module-jaxb-annotations-2.7.3.jar, /root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar, /root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, /root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar, /root/.m2/repository/junit/junit/4.12/junit-4.12.jar, /root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, /astor/lib/gzoltar/com.gzoltar-0.0.3.jar]
+Problem compiling the model with compliance level 8
+PackageVersion cannot be resolved to a variable at /apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/src/main/java/com/fasterxml/jackson/dataformat/xml/XmlMapper.java:98
+Recompiling with compliance level 8
+building model: /apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/src/main/java, compliance level: 8
+Classpath (Dependencies) for building SpoonModel: [/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.3/jackson-core-2.7.3.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.3/jackson-databind-2.7.3.jar, /root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.3/jackson-module-jaxb-annotations-2.7.3.jar, /root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar, /root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar, /root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar, /root/.m2/repository/junit/junit/4.12/junit-4.12.jar, /root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, /astor/lib/gzoltar/com.gzoltar-0.0.3.jar]
+Error compiling: PackageVersion cannot be resolved to a variable at /apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/src/main/java/com/fasterxml/jackson/dataformat/xml/XmlMapper.java:98
+Astor continues when model build fails. Classes created: 33
+Number of CtTypes created: 33
+Running chosen test detection strategy: CLASSLOADER
+Test retrieved from classes: 60
+Running Flacoco...
+Running spectrum-based fault localization...
+FlacocoConfig{workspace='/astor/.', projectPath='/apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml', srcJavaDir=[/apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/src/main/java], srcTestDir=[/apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/src/test/java], binJavaDir=[/apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/target/classes], binTestDir=[/apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/target/test-classes], classpath='/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.3/jackson-core-2.7.3.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.3/jackson-databind-2.7.3.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.3/jackson-module-jaxb-annotations-2.7.3.jar:/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar:/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/astor/lib/gzoltar/com.gzoltar-0.0.3.jar', customJUnitClasspath='null', customJacocoClasspath='null', mavenHome='/root/.m2/repository/', coverTests=false, testRunnerVerbose=false, testRunnerTimeoutInMs=7200000, testRunnerJVMArgs='null', threshold=0.1, includeZeros=false, complianceLevel=8, testDetectionStrategy=CLASSLOADER, ignoredTests=[], jUnit4Tests=[com.fasterxml.jackson.dataformat.xml.ser.TestSerializationOrdering#testOrdering, com.fasterxml.jackson.dataformat.xml.failing.TestDeserialization#testEmptyStringFromElemAndAttr, com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom#testIssue42, com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testUnwrappedListBeanDeser, com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleNsElem, com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested1_2b, com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidDoctype, com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testEmptyElementToString, com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCDataStringArray, com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimplest, com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testSimpleNsAttr, com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testWithAttr, com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleViaObjectReader, com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCustomSerializer, com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testLongArrayToX, com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testTwoAttributes, com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest#testCollection, com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testOptionalAttr, com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testUntypedEnum, com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute#testEmptyStringFromElemAndAttr, com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testSimpleUnwrappingRoundtrip, com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces#testRootNamespace, com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testIntArrayToX, com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testListAsProperty, com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testElementWrapper, com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testXmlAttributes, com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testIdsFromAttributes, com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingWithAttribute, com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testRootName, com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyString162, com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testAttributeAndElement, com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testDefaultWrappingWithEmptyLists, com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test#testListWithEmptyCData, com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest#testWithTwoAttributes, com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testSimple, com.fasterxml.jackson.dataformat.xml.misc.EmptyPolymorphicTest#testEmpty, com.fasterxml.jackson.dataformat.xml.failing.TestConflictingGetters#testIssue27, com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMapSimpleAnnotation, com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest#testSimple, com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperCopy, com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest#testOptionalsWithMissingType, com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testNullXform, com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testNested, com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testRootName, com.fasterxml.jackson.dataformat.xml.lists.WrappedListsTest#testEmptyList, com.fasterxml.jackson.dataformat.xml.failing.TestUnwrappedDeserIssue86#testDeserializeUnwrappedListWhenLocalNameForRootElementAndXmlPropertyMatch, com.fasterxml.jackson.dataformat.xml.failing.DeserializePolyList178Test#testPolyIdList178, com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidXmlDecl, com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testDeserializeAsText, com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSecondLevelAttribute, com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testRenamedRootItem, com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringsWithAttribute, com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability#testMapper, com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testMissingOptionalAttr, com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testPersonAsXml, com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedList, com.fasterxml.jackson.dataformat.xml.failing.TestUntypedListSerialization#testListAsObject, com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testRootEnumIssue121, com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testRoundTripWithSample, com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested2_1, com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest#testSimpleRead, com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testTextOnlyPojo, com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue6, com.fasterxml.jackson.dataformat.xml.deser.TestViews#testNullSuppression, com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testFromAttribute, com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsClassObject, com.fasterxml.jackson.dataformat.xml.deser.TestViews#testIssue44, com.fasterxml.jackson.dataformat.xml.jaxb.JAXBObjectId170Test#testPolyIdList178, com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testMapWithAttr, com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListBeanDeser, com.fasterxml.jackson.dataformat.xml.failing.TestEmptyContent#testNoContent, com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue117AnySetterAttrs, com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMap, com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperSerialization, com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testIssue66, com.fasterxml.jackson.dataformat.xml.misc.NodeTest#testMixed, com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test#testSimpleCollectionDeserWithForwardRefs, com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingSubWithAttribute, com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test#testNestedUnwrappedLists180, com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testAsTextWithJAXB, com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsClassArray, com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testWrappedLists, com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testByteArrayFrom, com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testListViaObjectReader, com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsClassProperty, com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testListSerialization, com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testArrayIdentityTransforms, com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListWithAttribute, com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringArrayWithAttribute, com.fasterxml.jackson.dataformat.xml.RoundtripContentTest#testRoundtrip, com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testListWithAttributes, com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testOptionalsWithMissingType, com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListWithGetters, com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testMultiLevel172, com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration#testXml11Declaration, com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testListWithAttrOnlyValues, com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testSimpleStringElement, com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsPropertyWithObjectId, com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest#testXmlTextWithSuppressedValue, com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSimpleElement, com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData#testTwoBinaryProps, com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested1_2, com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleInvalid, com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testNoElementWrapper, com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testIssue43, com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testOptionals, com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidPI, com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSimpleAttribute, com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testNakedMap, com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleStringBean, com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleIntBean, com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleAttrAndElem, com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testMissingString, com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap_nonJaxb, com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testDefaultWrapping, com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleMap, com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testEmptyTags, com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimpleWithEmpty, com.fasterxml.jackson.dataformat.xml.failing.Issue97Test#testBad, com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation_nonJaxb, com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest#testStringList, com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testShortArrayToX, com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperVersions, com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest#testSimpleWrappedList, com.fasterxml.jackson.dataformat.xml.ser.TestSerializationManual#testIssue54, com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testSerializeAsAttr, com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testSerializeAsText, com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testAlternateTextElementName, com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testRootAttributes, com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testMap, com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testStringsInList, com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringWithAttribute, com.fasterxml.jackson.dataformat.xml.deser.TestViews#testIssue7, com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNestedWithEmpty2, com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsWrappedClassArray, com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap, com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testEmptyElem, com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCDataString, com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidComment, com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidRoot, com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration#testXml10Declaration, com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testArraySerialization, com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation, com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyStringElement, com.fasterxml.jackson.dataformat.xml.failing.Issue97Test#testGood, com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testParentListRoundtrip, com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testListToIntArray, com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testIssue24, com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimpleNested, com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleAttribute, com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest#testAnnotationSharing, com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testUnwrappedLists, com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testRoundTripWithJacksonExample, com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNestedWithEmpty, com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testForceElementAsArray, com.fasterxml.jackson.dataformat.xml.lists.EmptyListDeserTest#testEmptyList, com.fasterxml.jackson.dataformat.xml.deser.TestEnums#testEnum, com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testAttrAndElem, com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability#testXmlFactory, com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testWriteToFile, com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue19], jUnit5Tests=[], jacocoIncludes=[], jacocoExcludes=[java.*], family=SPECTRUM_BASED, spectrumFormula=OCHIAI, computeSpoonResults=false}
+Computing tests from config.
+Running TestContext{testMethods=[[Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationOrdering#testOrdering, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestDeserialization#testEmptyStringFromElemAndAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom#testIssue42, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testUnwrappedListBeanDeser, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleNsElem, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested1_2b, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidDoctype, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testEmptyElementToString, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCDataStringArray, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimplest, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testSimpleNsAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testWithAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleViaObjectReader, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCustomSerializer, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testLongArrayToX, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testTwoAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest#testCollection, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testOptionalAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testUntypedEnum, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute#testEmptyStringFromElemAndAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testSimpleUnwrappingRoundtrip, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces#testRootNamespace, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testIntArrayToX, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testListAsProperty, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testElementWrapper, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testXmlAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testIdsFromAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testRootName, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyString162, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testAttributeAndElement, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testDefaultWrappingWithEmptyLists, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test#testListWithEmptyCData, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest#testWithTwoAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testSimple, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.EmptyPolymorphicTest#testEmpty, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestConflictingGetters#testIssue27, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMapSimpleAnnotation, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest#testSimple, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperCopy, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest#testOptionalsWithMissingType, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testNullXform, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testNested, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testRootName, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.WrappedListsTest#testEmptyList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestUnwrappedDeserIssue86#testDeserializeUnwrappedListWhenLocalNameForRootElementAndXmlPropertyMatch, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.DeserializePolyList178Test#testPolyIdList178, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidXmlDecl, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testDeserializeAsText, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSecondLevelAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testRenamedRootItem, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringsWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability#testMapper, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testMissingOptionalAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testPersonAsXml, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestUntypedListSerialization#testListAsObject, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testRootEnumIssue121, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testRoundTripWithSample, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested2_1, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest#testSimpleRead, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testTextOnlyPojo, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue6, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestViews#testNullSuppression, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testFromAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsClassObject, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestViews#testIssue44, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.JAXBObjectId170Test#testPolyIdList178, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testMapWithAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListBeanDeser, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestEmptyContent#testNoContent, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue117AnySetterAttrs, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMap, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperSerialization, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testIssue66, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.NodeTest#testMixed, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test#testSimpleCollectionDeserWithForwardRefs, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingSubWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test#testNestedUnwrappedLists180, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testAsTextWithJAXB, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsClassArray, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testWrappedLists, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testByteArrayFrom, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testListViaObjectReader, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsClassProperty, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testListSerialization, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testArrayIdentityTransforms, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringArrayWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.RoundtripContentTest#testRoundtrip, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testListWithAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testOptionalsWithMissingType, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListWithGetters, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testMultiLevel172, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration#testXml11Declaration, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testListWithAttrOnlyValues, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testSimpleStringElement, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsPropertyWithObjectId, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest#testXmlTextWithSuppressedValue, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSimpleElement, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData#testTwoBinaryProps, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested1_2, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleInvalid, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testNoElementWrapper, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testIssue43, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testOptionals, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidPI, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSimpleAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testNakedMap, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleStringBean, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleIntBean, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleAttrAndElem, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testMissingString, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap_nonJaxb, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testDefaultWrapping, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleMap, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testEmptyTags, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimpleWithEmpty, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue97Test#testBad, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation_nonJaxb, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest#testStringList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testShortArrayToX, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperVersions, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest#testSimpleWrappedList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationManual#testIssue54, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testSerializeAsAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testSerializeAsText, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testAlternateTextElementName, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testRootAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testMap, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testStringsInList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestViews#testIssue7, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNestedWithEmpty2, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsWrappedClassArray, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testEmptyElem, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCDataString, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidComment, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidRoot, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration#testXml10Declaration, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testArraySerialization, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyStringElement, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue97Test#testGood, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testParentListRoundtrip, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testListToIntArray, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testIssue24, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimpleNested, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest#testAnnotationSharing, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testUnwrappedLists, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testRoundTripWithJacksonExample, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNestedWithEmpty, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testForceElementAsArray, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.EmptyListDeserTest#testEmptyList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestEnums#testEnum, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testAttrAndElem, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability#testXmlFactory, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testWriteToFile, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue19], testFrameworkStrategy=fr.spoonlabs.flacoco.core.coverage.framework.JUnit4Strategy@60c8a093}
+Running TestContext{testMethods=[[Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationOrdering#testOrdering, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestDeserialization#testEmptyStringFromElemAndAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom#testIssue42, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testUnwrappedListBeanDeser, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleNsElem, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested1_2b, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidDoctype, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testEmptyElementToString, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCDataStringArray, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimplest, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testSimpleNsAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testWithAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleViaObjectReader, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCustomSerializer, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testLongArrayToX, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testTwoAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest#testCollection, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testOptionalAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testUntypedEnum, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.adapters.TestIssue47Attribute#testEmptyStringFromElemAndAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testSimpleUnwrappingRoundtrip, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces#testRootNamespace, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testIntArrayToX, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testListAsProperty, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testElementWrapper, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testXmlAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testIdsFromAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testRootName, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyString162, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest#testAttributeAndElement, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testDefaultWrappingWithEmptyLists, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test#testListWithEmptyCData, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest#testWithTwoAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testSimple, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.EmptyPolymorphicTest#testEmpty, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestConflictingGetters#testIssue27, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMapSimpleAnnotation, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.incr.IncrementalWritingTest#testSimple, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperCopy, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest#testOptionalsWithMissingType, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testNullXform, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testNested, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testRootName, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.WrappedListsTest#testEmptyList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestUnwrappedDeserIssue86#testDeserializeUnwrappedListWhenLocalNameForRootElementAndXmlPropertyMatch, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.DeserializePolyList178Test#testPolyIdList178, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidXmlDecl, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testDeserializeAsText, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSecondLevelAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testRenamedRootItem, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringsWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability#testMapper, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testMissingOptionalAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testPersonAsXml, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestUntypedListSerialization#testListAsObject, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestEnums#testRootEnumIssue121, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testRoundTripWithSample, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested2_1, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.incr.PartialReadTest#testSimpleRead, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testTextOnlyPojo, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue6, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestViews#testNullSuppression, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testFromAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsClassObject, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestViews#testIssue44, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.JAXBObjectId170Test#testPolyIdList178, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testMapWithAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListBeanDeser, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestEmptyContent#testNoContent, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue117AnySetterAttrs, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testSimpleKeyMap, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperSerialization, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testIssue66, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.NodeTest#testMixed, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test#testSimpleCollectionDeserWithForwardRefs, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.UnwrappingWithXMLTest#testUnwrappingSubWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test#testNestedUnwrappedLists180, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testAsTextWithJAXB, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsClassArray, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testWrappedLists, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testByteArrayFrom, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testListViaObjectReader, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsClassProperty, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testListSerialization, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testArrayIdentityTransforms, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringArrayWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.RoundtripContentTest#testRoundtrip, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testListWithAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testOptionalsWithMissingType, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest#testWrappedListWithGetters, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testMultiLevel172, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration#testXml11Declaration, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testListWithAttrOnlyValues, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testSimpleStringElement, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest#testAsPropertyWithObjectId, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest#testXmlTextWithSuppressedValue, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSimpleElement, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestBinaryData#testTwoBinaryProps, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNested1_2, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleInvalid, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest#testNoElementWrapper, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListWithAttributes#testIssue43, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testOptionals, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidPI, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testSimpleAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testNakedMap, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleStringBean, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleIntBean, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleAttrAndElem, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testMissingString, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap_nonJaxb, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testDefaultWrapping, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testSimpleMap, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testEmptyTags, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimpleWithEmpty, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue97Test#testBad, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation_nonJaxb, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest#testStringList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testShortArrayToX, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.VersionInfoTest#testMapperVersions, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListSerializationTest#testSimpleWrappedList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationManual#testIssue54, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest#testSerializeAsAttr, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testSerializeAsText, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testAlternateTextElementName, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest#testRootAttributes, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testMap, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testStringsInList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestStringValues#testStringWithAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestViews#testIssue7, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNestedWithEmpty2, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestPolymorphic#testAsWrappedClassArray, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMap, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestIndentation#testEmptyElem, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testCDataString, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidComment, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest#testSimpleValidRoot, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration#testXml10Declaration, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.RootListHandlingTest#testArraySerialization, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue37AdapterTest#testNeedEncodingKeyMapSimpleAnnotation, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.TestStringValues162#testEmptyStringElement, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.failing.Issue97Test#testGood, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest#testParentListRoundtrip, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest#testListToIntArray, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.misc.TextValueTest#testIssue24, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testSimpleNested, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerialization#testSimpleAttribute, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.ListAnnotationSharingTest#testAnnotationSharing, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest#testUnwrappedLists, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization#testRoundTripWithJacksonExample, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest#testNestedWithEmpty, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest#testForceElementAsArray, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.lists.EmptyListDeserTest#testEmptyList, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.deser.TestEnums#testEnum, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testAttrAndElem, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability#testXmlFactory, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest#testWriteToFile, [Manual]TestMethod=com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr#testIssue19], testFrameworkStrategy=fr.spoonlabs.flacoco.core.coverage.framework.JUnit4Strategy@60c8a093}
+Path to runner Classes: /astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+/astor/target/astor-2.0.0-jar-with-dependencies.jar
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider@-@90
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider@-@68
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider@-@72
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider@-@73
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider@-@74
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider@-@75
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider@-@90
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer@-@120
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer@-@119
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer@-@120
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream@-@228
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream@-@228
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser@-@305
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser@-@305
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer@-@153
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer@-@153
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer@-@119
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer@-@119
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.util.StaxUtil@-@24
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.util.StaxUtil@-@18
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.util.StaxUtil@-@19
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.util.StaxUtil@-@22
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.util.StaxUtil@-@23
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.util.StaxUtil@-@24
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@557
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@557
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@429
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@424
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@425
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@426
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@429
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@648
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@555
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@554
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.XmlFactory@-@555
+Adding a line where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer@-@120
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer@-@119
+Adding a line from the block where an exception was thrown: com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer@-@120
+Tests found: 161
+Tests executed: 161
+Suspicious: 1 line com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer l: 119, susp 0.7071067811865475
+Suspicious: 2 line com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer l: 120, susp 0.7071067811865475
+Suspicious: 3 line com.fasterxml.jackson.dataformat.xml.util.StaxUtil l: 18, susp 0.5
+Suspicious: 4 line com.fasterxml.jackson.dataformat.xml.util.StaxUtil l: 19, susp 0.5
+Suspicious: 5 line com.fasterxml.jackson.dataformat.xml.util.StaxUtil l: 22, susp 0.5
+Suspicious: 6 line com.fasterxml.jackson.dataformat.xml.util.StaxUtil l: 23, susp 0.5
+Suspicious: 7 line com.fasterxml.jackson.dataformat.xml.util.StaxUtil l: 24, susp 0.5
+Suspicious: 8 line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 68, susp 0.5
+Suspicious: 9 line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 72, susp 0.5
+Suspicious: 10 line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 73, susp 0.5
+Suspicious: 11 line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 74, susp 0.5
+Suspicious: 12 line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 75, susp 0.5
+Suspicious: 13 line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 90, susp 0.5
+Suspicious: 14 line com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer l: 153, susp 0.5
+Suspicious: 15 line com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream l: 228, susp 0.5
+Suspicious: 16 line com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser l: 305, susp 0.5
+Suspicious: 17 line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 424, susp 0.5
+Suspicious: 18 line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 425, susp 0.5
+Suspicious: 19 line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 426, susp 0.5
+Suspicious: 20 line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 429, susp 0.5
+Suspicious: 21 line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 554, susp 0.5
+Suspicious: 22 line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 555, susp 0.5
+Suspicious: 23 line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 557, susp 0.5
+Suspicious: 24 line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 648, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer l: 119, susp 0.7071067811865475
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer l: 120, susp 0.7071067811865475
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.util.StaxUtil l: 18, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.util.StaxUtil l: 19, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.util.StaxUtil l: 22, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.util.StaxUtil l: 23, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.util.StaxUtil l: 24, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 68, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 72, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 73, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 74, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 75, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider l: 90, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer l: 153, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream l: 228, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser l: 305, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 424, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 425, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 426, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 429, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 554, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 555, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 557, susp 0.5
+Suspicious:  line com.fasterxml.jackson.dataformat.xml.XmlFactory l: 648, susp 0.5
+Executing time Fault localization: 7 sec
+Setting up the max to 70340 milliseconds (70 sec)
+---- Initial suspicious size: 24
+Creating variant 1
+--ModifPoint:CtInvocationImpl, suspValue 0.7071067811865475, line 119, file WrapperHandlingDeserializer.java
+--ModifPoint:CtReturnImpl, suspValue 0.7071067811865475, line 120, file WrapperHandlingDeserializer.java
+--ModifPoint:CtLocalVariableImpl, suspValue 0.5, line 18, file StaxUtil.java
+--ModifPoint:CtWhileImpl, suspValue 0.5, line 19, file StaxUtil.java
+--ModifPoint:CtThrowImpl, suspValue 0.5, line 22, file StaxUtil.java
+--ModifPoint:CtIfImpl, suspValue 0.5, line 22, file StaxUtil.java
+--ModifPoint:CtThrowImpl, suspValue 0.5, line 23, file StaxUtil.java
+--ModifPoint:CtIfImpl, suspValue 0.5, line 23, file StaxUtil.java
+--ModifPoint:CtThrowImpl, suspValue 0.5, line 24, file StaxUtil.java
+--ModifPoint:CtIfImpl, suspValue 0.5, line 68, file XmlSerializerProvider.java
+--ModifPoint:CtLocalVariableImpl, suspValue 0.5, line 72, file XmlSerializerProvider.java
+--ModifPoint:CtLocalVariableImpl, suspValue 0.5, line 73, file XmlSerializerProvider.java
+--ModifPoint:CtLocalVariableImpl, suspValue 0.5, line 74, file XmlSerializerProvider.java
+--ModifPoint:CtIfImpl, suspValue 0.5, line 75, file XmlSerializerProvider.java
+--ModifPoint:CtLocalVariableImpl, suspValue 0.5, line 90, file XmlSerializerProvider.java
+--ModifPoint:CtInvocationImpl, suspValue 0.5, line 153, file WrapperHandlingDeserializer.java
+--ModifPoint:CtThrowImpl, suspValue 0.5, line 228, file XmlTokenStream.java
+--ModifPoint:CtInvocationImpl, suspValue 0.5, line 305, file FromXmlParser.java
+--ModifPoint:CtLocalVariableImpl, suspValue 0.5, line 424, file XmlFactory.java
+--ModifPoint:CtLocalVariableImpl, suspValue 0.5, line 425, file XmlFactory.java
+--ModifPoint:CtIfImpl, suspValue 0.5, line 426, file XmlFactory.java
+--ModifPoint:CtReturnImpl, suspValue 0.5, line 429, file XmlFactory.java
+--ModifPoint:CtAssignmentImpl, suspValue 0.5, line 554, file XmlFactory.java
+--ModifPoint:CtAssignmentImpl, suspValue 0.5, line 555, file XmlFactory.java
+--ModifPoint:CtReturnImpl, suspValue 0.5, line 557, file XmlFactory.java
+--ModifPoint:CtWhileImpl, suspValue 0.5, line 648, file XmlFactory.java
+Total suspicious from FL: 24,  26
+Total ModPoint created: 26
+Creating program variant #1, [Variant id: 1, #gens: 26, #ops: 0, parent:-]
+Calculating fitness
+Calculating fitness for original program variant.
+-Running first validation
+Executing process: (timeout10secs) 
+/usr/lib/jvm/java-8-openjdk-amd64/bin//java  -Xmx2048m  -Dmutnumber_0=null  -cp  "/astor/./lib/com.gzoltar-0.1.1-jar-with-dependencies.jar":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.3/jackson-core-2.7.3.jar":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.3/jackson-databind-2.7.3.jar":"/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.3/jackson-module-jaxb-annotations-2.7.3.jar":"/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar":"/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar":"/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar":"/root/.m2/repository/junit/junit/4.12/junit-4.12.jar":"/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar":"/astor/lib/gzoltar/com.gzoltar-0.0.3.jar":"/astor/./output_astor/AstorMain-jackson-dataformat-xml/bin/default/":"/astor/lib/jtestex7.jar":"/astor/target/astor-2.0.0-jar-with-dependencies.jar":  fr.inria.astor.core.validation.junit.JUnitNologExternalExecutor  com.fasterxml.jackson.dataformat.xml.TestCVE_2016_3720
+Analyzing output from process
+Error reading the validation process
+ output: 
+America/Los_Angeles
+
+**The validation 1 have not finished well**
+Initial run of test suite fails
+The original fitness is : 1.7976931348623157E308
+----------------------------
+---Configuration properties
+p:projectinfocommand= com.github.tdurieux:project-config-maven-plugin:info
+p:workingDirectory= /astor/./output_astor
+p:keepcomments= true
+p:maxnumvariablesperingredient= 10
+p:folderDiff= ./diffSolutions
+p:evo_affected_by_op= true
+p:clusteringfilename= clustering.csv
+p:validation= process
+p:modificationpointnavigation= weight
+p:transformingredient= false
+p:diffcontext= 0
+p:evo_buggy_class= true
+p:runjava7code= false
+p:manipulatesuper= false
+p:forceExecuteRegression= false
+p:skipfitnessinitialpopulation= false
+p:filterfaultlocalization= true
+p:population= 1
+p:maxtimefactor= 10
+p:elementsToMutate= 10
+p:parsesourcefromoriginal= true
+p:alternativecompliancelevel= 8
+p:bugId= 280
+p:regressionforfaultlocalization= true
+p:max_synthesis_step= 10000
+p:failing= com.fasterxml.jackson.dataformat.xml.TestCVE_2016_3720
+p:maxmodificationpoints= 1000
+p:projectIdentifier= 
+p:savecompletepatched= true
+p:synthesis_depth= 3
+p:seed= 0
+p:applyCrossover= false
+p:executorjar= ./lib/jtestex7.jar
+p:binjavafolder= /target/classes
+p:version-location= ./math-version/
+p:tmax1= 10000
+p:tmax2= 70340
+p:continuewhenmodelfail= true
+p:locationGzoltarJar= ./lib/
+p:logtestexecution= false
+p:processoutputinfile= false
+p:gzoltarVersion= 1.7.3
+p:javacompliancelevel= 8
+p:gzoltarpackagetonotinstrument= junit.framework
+p:diff_type= relative
+p:cleantemplates= true
+p:stopfirst= true
+p:lastJUnitVersion= ./examples/libs/junit-4.11.jar
+p:testbystep= false
+p:maxtime= 120
+p:preservelinenumbers= true
+p:resetoperations= false
+p:forcesubprocesskilling= false
+p:jvm4evosuitetestexecution= /usr/lib/jvm/java-11-openjdk-amd64/bin
+p:dependenciespath= /root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.3/jackson-core-2.7.3.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.3/jackson-databind-2.7.3.jar:/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.3/jackson-module-jaxb-annotations-2.7.3.jar:/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar:/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/astor/lib/gzoltar/com.gzoltar-0.0.3.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar:/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom
+p:pathToMVNRepository= 
+p:limitbysuspicious= true
+p:faultlocalization= fr.inria.astor.core.faultlocalization.flacoco.FlacocoFaultLocalization
+p:maxsuspcandidates= 1000
+p:antipattern= false
+p:reintroduce= PARENTS:ORIGINAL
+p:multipointmodification= false
+p:probabilistictransformation= true
+p:mutationrate= 1 
+p:jvm4testexecution= /usr/lib/jvm/java-8-openjdk-amd64/bin/
+p:mode= jgenprog
+p:pvariantfoldername= variant-
+p:flthreshold= 0.1
+p:fitnessfunction= fr.inria.astor.core.solutionsearch.population.TestCaseFitnessFunction
+p:nrPlaceholders= 1
+p:nolog= False
+p:saveall= false
+p:evoRunOnBuggyClass= true
+p:learningdir= 
+p:bintestfolder= /target/test-classes
+p:evosuiteresultfolder= evosuite
+p:operatorspace= irr-statements
+p:resourcesfolder= /src/main/resources:/src/test/resources:
+p:includeZeros= false
+p:allpoints= false
+p:collectonlyusedmethod= false
+p:maxVarCombination= 1000
+p:timezone= America/Los_Angeles
+p:skipfaultlocalization= false
+p:savesolution= true
+p:maxGeneration= 1000000
+p:evosuitetimeout= 120
+p:packageToInstrument= 
+p:uniqueoptogen= false
+p:scope= local
+p:srcjavafolder= /src/main/java
+p:commandTrunk= 50000
+p:metid= 0
+p:ignoredTestCases= 
+p:savespoonmodelondisk= false
+p:targetelementprocessor= statements
+p:compiler= fr.inria.astor.core.manipulation.bytecode.compiler.SpoonClassCompiler
+p:maxCombinationVariableLimit= false
+p:jvmversion= 1.8.0_342
+p:nomodificationconvergence= 100
+p:evosuitejar= ./lib/evosuite-master-1.0.4-SNAPSHOT.jar
+p:srctestfolder= /src/test/java
+p:outputjsonresult= true
+p:gzoltartestpackagetoexclude= junit.framework
+p:probagenmutation= false
+p:resetmodel= true
+p:jsonoutputname= astor_output
+p:numberExecutions= 1
+p:ignoreflakyinfl= false
+p:evoDSE= false
+p:duplicateingredientsinspace= false
+p:overridemaxtime= true
+p:maxnumbersolutions= 1000000
+p:logsattemps= true
+p:location= /apiarty/data/VUL4J-46/FasterXML/jackson-dataformat-xml/
+p:populationcontroller= fr.inria.astor.core.solutionsearch.population.TestCaseBasedFitnessPopulationController
+----------------------------
+----Starting Solution Search
+----------Running generation: 1, population size: 1
+
+***** Generation 1 : 0
+**Parent Variant: [Variant id: 1, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 2
+--Creating new operations for variant [Variant id: 2, #gens: 26, #ops: 0, parent:1]
+---analyzing modificationPoint position: 18
+Templates availables142
+Attempts Base Ingredients  1 total 142
+---modifPoint 0 not mutation generated in  java.io.Reader r = new java.io.StringReader(content)
+---analyzing modificationPoint position: 5
+Templates availables33
+Attempts Base Ingredients  1 total 33
+---modifPoint 1 not mutation generated in  if (t instanceof java.lang.Error) { 	throw ((java.lang.Error) (t));}
+---analyzing modificationPoint position: 15
+location: WrapperHandlingDeserializer.java153
+operation: OP_INSTANCE:
+RemoveOp:(spoon.support.reflect.code.CtInvocationImpl) `((com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser) (jp)).addVirtualWrapping(_namesToWrap) ` -topatch--> `-` (null) 
+
+--Summary Creation: for variant [Variant id: 2, #gens: 25, #ops: 1, parent:1] gen mutated: 1 , gen not mut: 2, gen not applied  0
+-The child compiles: id 2
+-Running first validation
+Executing process: (timeout10secs) 
+/usr/lib/jvm/java-8-openjdk-amd64/bin//java  -Xmx2048m  -Dmutnumber_0=null  -cp  "/astor/./lib/com.gzoltar-0.1.1-jar-with-dependencies.jar":"/astor/./output_astor/AstorMain-jackson-dataformat-xml/bin/variant-2/":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.3/jackson-core-2.7.3.jar":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.3/jackson-databind-2.7.3.jar":"/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.3/jackson-module-jaxb-annotations-2.7.3.jar":"/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar":"/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar":"/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar":"/root/.m2/repository/junit/junit/4.12/junit-4.12.jar":"/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar":"/astor/lib/gzoltar/com.gzoltar-0.0.3.jar":"/astor/./output_astor/AstorMain-jackson-dataformat-xml/bin/default/":"/astor/lib/jtestex7.jar":"/astor/target/astor-2.0.0-jar-with-dependencies.jar":  fr.inria.astor.core.validation.junit.JUnitNologExternalExecutor  com.fasterxml.jackson.dataformat.xml.TestCVE_2016_3720
+Analyzing output from process
+Error reading the validation process
+ output: 
+America/Los_Angeles
+
+**The validation 1 have not finished well**
+-Valid?: null, fitness 1.7976931348623157E308
+Ingredient counter is Zero
+---Undoing: gnrtn(1): OP_INSTANCE:
+RemoveOp:(spoon.support.reflect.code.CtInvocationImpl) `((com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser) (jp)).addVirtualWrapping(_namesToWrap) ` -topatch--> `-` (null) 
+End analysis generation - Solutions found:--> ()
+Variants to next generation from: 2-->IDs: (1(f=1.7976931348623157E308), 2(f=1.7976931348623157E308), )
+Selected to next generation: IDs2--> (1(f=1.7976931348623157E308), )
+----------Running generation: 2, population size: 1
+
+***** Generation 2 : 0
+**Parent Variant: [Variant id: 3, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 4
+--Creating new operations for variant [Variant id: 4, #gens: 26, #ops: 0, parent:3]
+---analyzing modificationPoint position: 1
+Templates availables30
+Attempts Base Ingredients  1 total 30
+---modifPoint 0 not mutation generated in  return _delegatee.deserialize(jp, ctxt)
+---analyzing modificationPoint position: 25
+Templates availables142
+Attempts Base Ingredients  1 total 142
+---modifPoint 1 not mutation generated in  // for now, nothing to do... except let's find the root element while (sr.next() != javax.xml.stream[...]
+---analyzing modificationPoint position: 18
+Templates availables142
+Attempts Base Ingredients  1 total 142
+---modifPoint 2 not mutation generated in  java.io.Reader r = new java.io.StringReader(content)
+---analyzing modificationPoint position: 17
+Templates availables157
+Attempts Base Ingredients  1 total 157
+vars from patch []
+location: FromXmlParser.java305
+operation: OP_INSTANCE:
+InsertBeforeOp:(spoon.support.reflect.code.CtInvocationImpl) `_xmlTokens.repeatStartElement() ` -topatch--> `continue` (spoon.support.reflect.code.CtContinueImpl) 
+---MP=com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser line: 305, pointed element: CtContinueImpl
+---OP_INSTANCE:
+InsertBeforeOp:(spoon.support.reflect.code.CtInvocationImpl) `_xmlTokens.repeatStartElement() ` -topatch--> `continue` (spoon.support.reflect.code.CtContinueImpl) 
+
+--Summary Creation: for variant [Variant id: 4, #gens: 27, #ops: 1, parent:3] gen mutated: 1 , gen not mut: 3, gen not applied  0
+-The child does NOT compile: 4, errors: [FromXmlParser.java:503: error: illegal start of expression
+	 * Method that return the <b>starting</b> location of the current
+	 ^, FromXmlParser.java:503: error: ';' expected
+	 * Method that return the <b>starting</b> location of the current
+	         ^, FromXmlParser.java:503: error: not a statement
+	 * Method that return the <b>starting</b> location of the current
+	          ^, FromXmlParser.java:503: error: ';' expected
+	 * Method that return the <b>starting</b> location of the current
+	              ^, FromXmlParser.java:503: error: illegal start of expression
+	 * Method that return the <b>starting</b> location of the current
+	                                      ^, FromXmlParser.java:503: error: ';' expected
+	 * Method that return the <b>starting</b> location of the current
+	                                                  ^, FromXmlParser.java:503: error: ';' expected
+	 * Method that return the <b>starting</b> location of the current
+	                                                         ^, FromXmlParser.java:504: error: not a statement
+	 * token; that is, position of the first character from input
+	 ^, FromXmlParser.java:504: error: ';' expected
+	 * token; that is, position of the first character from input
+	                           ^, FromXmlParser.java:504: error: ';' expected
+	 * token; that is, position of the first character from input
+	                                  ^, FromXmlParser.java:504: error: ';' expected
+	 * token; that is, position of the first character from input
+	                                                  ^, FromXmlParser.java:504: error: ';' expected
+	 * token; that is, position of the first character from input
+	                                                             ^, FromXmlParser.java:505: error: ';' expected
+	 * that starts the current token.
+	              ^, FromXmlParser.java:505: error: ';' expected
+	 * that starts the current token.
+	                          ^, FromXmlParser.java:505: error: <identifier> expected
+	 * that starts the current token.
+	                                 ^, FromXmlParser.java:506: error: illegal start of expression
+	 */ 	@java.lang.Override 	public com.fasterxml.jackson.core.JsonLocation getTokenLocation() { 		return _xmlTokens.getTokenLocation();} 	/**
+	  ^, FromXmlParser.java:506: error: illegal start of expression
+	 */ 	@java.lang.Override 	public com.fasterxml.jackson.core.JsonLocation getTokenLocation() { 		return _xmlTokens.getTokenLocation();} 	/**
+	    	                    	^, FromXmlParser.java:506: error: ';' expected
+	 */ 	@java.lang.Override 	public com.fasterxml.jackson.core.JsonLocation getTokenLocation() { 		return _xmlTokens.getTokenLocation();} 	/**
+	    	                   ^, FromXmlParser.java:518: error: illegal start of expression
+	public JsonToken nextToken() throws IOException
+	^, FromXmlParser.java:535: error: illegal start of type
+	 */ 	@java.lang.Override 	public com.fasterxml.jackson.core.JsonToken nextToken() throws java.io.IOException { 		_binaryValue = null; 		if (_nextToken != null) { 			com.fasterxml.jackson.core.JsonToken t = _nextToken; 			_currToken = t; 			_nextToken = null; 			switch (t) { 				case START_OBJECT : 					_parsingContext = _parsingContext.createChildObjectContext(-1, -1); 					break; 				case START_ARRAY : 					_parsingContext = _parsingContext.createChildArrayContext(-1, -1); 					break; 				case END_OBJECT : 				case END_ARRAY : 					_parsingContext = _parsingContext.getParent(); 					_namesToWrap = _parsingContext.getNamesToWrap(); 					break; 				case FIELD_NAME : 					_parsingContext.setCurrentName(_xmlTokens.getLocalName()); 					break; 				default : 					// VALUE_STRING, VALUE_NULL 					// should be fine as is?} 			return t;} 		int token = _xmlTokens.next(); 		// Need to have a loop just because we may have to eat/convert 		// a start-element that indicates an array element.
+	 ^, FromXmlParser.java:543: error: orphaned case
+			case com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream.XML_ATTRIBUTE_VALUE :
+			^, FromXmlParser.java:601: error: ';' expected
+	public java.lang.String nextTextValue() throws java.io.IOException 
+	                                     ^, FromXmlParser.java:601: error: not a statement
+	public java.lang.String nextTextValue() throws java.io.IOException 
+	                                                      ^, FromXmlParser.java:601: error: ';' expected
+	public java.lang.String nextTextValue() throws java.io.IOException 
+	                                                                  ^, FromXmlParser.java:697: error: illegal start of expression
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	        ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	             ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                         ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                          ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                             ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                              ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                       ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                        ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                               ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                                ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                                    ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                                     ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                                               ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                                                ^, FromXmlParser.java:698: error: case, default, or '}' expected
+	{
+	^, FromXmlParser.java:699: error: case, default, or '}' expected
+		switch (t) {
+		^, FromXmlParser.java:699: error: case, default, or '}' expected
+		switch (t) {
+		       ^, FromXmlParser.java:699: error: case, default, or '}' expected
+		switch (t) {
+		        ^, FromXmlParser.java:699: error: case, default, or '}' expected
+		switch (t) {
+		         ^, FromXmlParser.java:699: error: case, default, or '}' expected
+		switch (t) {
+		           ^, FromXmlParser.java:725: error: ';' expected
+	public java.lang.String getText() throws java.io.IOException 
+	                               ^, FromXmlParser.java:725: error: not a statement
+	public java.lang.String getText() throws java.io.IOException 
+	                                                ^, FromXmlParser.java:725: error: ';' expected
+	public java.lang.String getText() throws java.io.IOException 
+	                                                            ^, FromXmlParser.java:742: error: ';' expected
+	public final java.lang.String getValueAsString() throws java.io.IOException {
+	                                              ^, FromXmlParser.java:742: error: not a statement
+	public final java.lang.String getValueAsString() throws java.io.IOException {
+	                                                               ^, FromXmlParser.java:742: error: ';' expected
+	public final java.lang.String getValueAsString() throws java.io.IOException {
+	                                                                           ^, FromXmlParser.java:747: error: ';' expected
+	public java.lang.String getValueAsString(java.lang.String defValue) throws java.io.IOException 
+	                                        ^, FromXmlParser.java:747: error: ';' expected
+	public java.lang.String getValueAsString(java.lang.String defValue) throws java.io.IOException 
+	                                                                  ^, FromXmlParser.java:747: error: not a statement
+	public java.lang.String getValueAsString(java.lang.String defValue) throws java.io.IOException 
+	                                                                                  ^, FromXmlParser.java:747: error: ';' expected
+	public java.lang.String getValueAsString(java.lang.String defValue) throws java.io.IOException 
+	                                                                                              ^, FromXmlParser.java:790: error: ';' expected
+	public char[] getTextCharacters() throws java.io.IOException {
+	                               ^, FromXmlParser.java:790: error: not a statement
+	public char[] getTextCharacters() throws java.io.IOException {
+	                                                ^, FromXmlParser.java:790: error: ';' expected
+	public char[] getTextCharacters() throws java.io.IOException {
+	                                                            ^, FromXmlParser.java:796: error: ';' expected
+	public int getTextLength() throws java.io.IOException {
+	                        ^, FromXmlParser.java:796: error: not a statement
+	public int getTextLength() throws java.io.IOException {
+	                                         ^, FromXmlParser.java:796: error: ';' expected
+	public int getTextLength() throws java.io.IOException {
+	                                                     ^, FromXmlParser.java:802: error: ';' expected
+	public int getTextOffset() throws java.io.IOException {
+	                        ^, FromXmlParser.java:802: error: not a statement
+	public int getTextOffset() throws java.io.IOException {
+	                                         ^, FromXmlParser.java:802: error: ';' expected
+	public int getTextOffset() throws java.io.IOException {
+	                                                     ^, FromXmlParser.java:811: error: ';' expected
+	public boolean hasTextCharacters() 
+	                                ^, FromXmlParser.java:823: error: ';' expected
+	public java.lang.Object getEmbeddedObject() throws java.io.IOException {
+	                                         ^, FromXmlParser.java:823: error: not a statement
+	public java.lang.Object getEmbeddedObject() throws java.io.IOException {
+	                                                          ^, FromXmlParser.java:823: error: ';' expected
+	public java.lang.Object getEmbeddedObject() throws java.io.IOException {
+	                                                                      ^, FromXmlParser.java:829: error: ';' expected
+	public byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                            ^, FromXmlParser.java:829: error: ';' expected
+	public byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                ^, FromXmlParser.java:829: error: not a statement
+	public byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                                ^, FromXmlParser.java:829: error: ';' expected
+	public byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                                            ^, FromXmlParser.java:849: error: ';' expected
+	protected byte[] _decodeBase64(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                              ^, FromXmlParser.java:849: error: ';' expected
+	protected byte[] _decodeBase64(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                  ^, FromXmlParser.java:849: error: not a statement
+	protected byte[] _decodeBase64(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                                  ^, FromXmlParser.java:849: error: ';' expected
+	protected byte[] _decodeBase64(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                                              ^, FromXmlParser.java:864: error: ';' expected
+	public java.math.BigInteger getBigIntegerValue() throws java.io.IOException {
+	                                              ^, FromXmlParser.java:864: error: not a statement
+	public java.math.BigInteger getBigIntegerValue() throws java.io.IOException {
+	                                                               ^, FromXmlParser.java:864: error: ';' expected
+	public java.math.BigInteger getBigIntegerValue() throws java.io.IOException {
+	                                                                           ^, FromXmlParser.java:870: error: ';' expected
+	public java.math.BigDecimal getDecimalValue() throws java.io.IOException {
+	                                           ^, FromXmlParser.java:870: error: not a statement
+	public java.math.BigDecimal getDecimalValue() throws java.io.IOException {
+	                                                            ^, FromXmlParser.java:870: error: ';' expected
+	public java.math.BigDecimal getDecimalValue() throws java.io.IOException {
+	                                                                        ^, FromXmlParser.java:876: error: ';' expected
+	public double getDoubleValue() throws java.io.IOException {
+	                            ^, FromXmlParser.java:876: error: not a statement
+	public double getDoubleValue() throws java.io.IOException {
+	                                             ^, FromXmlParser.java:876: error: ';' expected
+	public double getDoubleValue() throws java.io.IOException {
+	                                                         ^, FromXmlParser.java:882: error: ';' expected
+	public float getFloatValue() throws java.io.IOException {
+	                          ^, FromXmlParser.java:882: error: not a statement
+	public float getFloatValue() throws java.io.IOException {
+	                                           ^, FromXmlParser.java:882: error: ';' expected
+	public float getFloatValue() throws java.io.IOException {
+	                                                       ^, FromXmlParser.java:888: error: ';' expected
+	public int getIntValue() throws java.io.IOException {
+	                      ^, FromXmlParser.java:888: error: not a statement
+	public int getIntValue() throws java.io.IOException {
+	                                       ^, FromXmlParser.java:888: error: ';' expected
+	public int getIntValue() throws java.io.IOException {
+	                                                   ^, FromXmlParser.java:894: error: ';' expected
+	public long getLongValue() throws java.io.IOException {
+	                        ^, FromXmlParser.java:894: error: not a statement
+	public long getLongValue() throws java.io.IOException {
+	                                         ^, FromXmlParser.java:894: error: ';' expected
+	public long getLongValue() throws java.io.IOException {
+	                                                     ^, FromXmlParser.java:900: error: ';' expected
+	public com.fasterxml.jackson.core.JsonParser.NumberType getNumberType() throws java.io.IOException {
+	                                                                     ^, FromXmlParser.java:900: error: not a statement
+	public com.fasterxml.jackson.core.JsonParser.NumberType getNumberType() throws java.io.IOException {
+	                                                                                      ^, FromXmlParser.java:900: error: ';' expected
+	public com.fasterxml.jackson.core.JsonParser.NumberType getNumberType() throws java.io.IOException {
+	                                                                                                  ^, FromXmlParser.java:906: error: ';' expected
+	public java.lang.Number getNumberValue() throws java.io.IOException {
+	                                      ^, FromXmlParser.java:906: error: not a statement
+	public java.lang.Number getNumberValue() throws java.io.IOException {
+	                                                       ^, FromXmlParser.java:906: error: ';' expected
+	public java.lang.Number getNumberValue() throws java.io.IOException {
+	                                                                   ^]
+Ingredient counter is Zero
+---Undoing: gnrtn(2): OP_INSTANCE:
+InsertBeforeOp:(spoon.support.reflect.code.CtInvocationImpl) `_xmlTokens.repeatStartElement() ` -topatch--> `continue` (spoon.support.reflect.code.CtContinueImpl) 
+End analysis generation - Solutions found:--> ()
+Variants to next generation from: 2-->IDs: (3(f=1.7976931348623157E308), 4(f=1.7976931348623157E308), )
+Selected to next generation: IDs2--> (3(f=1.7976931348623157E308), )
+----------Running generation: 3, population size: 1
+
+***** Generation 3 : 0
+**Parent Variant: [Variant id: 5, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 6
+--Creating new operations for variant [Variant id: 6, #gens: 26, #ops: 0, parent:5]
+---analyzing modificationPoint position: 3
+Templates availables33
+Attempts Base Ingredients  1 total 33
+---modifPoint 0 not mutation generated in  while (t.getCause() != null) { 	t = t.getCause(); } 
+---analyzing modificationPoint position: 5
+Templates availables33
+Attempts Base Ingredients  1 total 33
+Attempts Base Ingredients  2 total 33
+---modifPoint 1 not mutation generated in  if (t instanceof java.lang.Error) { 	throw ((java.lang.Error) (t));}
+---analyzing modificationPoint position: 23
+Templates availables28
+Attempts Base Ingredients  1 total 28
+---modifPoint 2 not mutation generated in  sr = _initializeXmlReader(sr)
+---analyzing modificationPoint position: 8
+Templates availables33
+Attempts Base Ingredients  1 total 33
+vars from patch [t]
+--> var from patch: t spoon.support.reflect.code.CtVariableReadImpl
+location: StaxUtil.java24
+operation: OP_INSTANCE:
+InsertAfterOp:(spoon.support.reflect.code.CtThrowImpl) `throw new java.io.IOException(t) ` -topatch--> `if (t instanceof java.lang.Error) { 	throw ((java.lang.Error) (t));}` (spoon.support.reflect.code.CtIfImpl) 
+---MP=com.fasterxml.jackson.dataformat.xml.util.StaxUtil line: 24, pointed element: CtIfImpl
+---OP_INSTANCE:
+InsertAfterOp:(spoon.support.reflect.code.CtThrowImpl) `throw new java.io.IOException(t) ` -topatch--> `if (t instanceof java.lang.Error) { 	throw ((java.lang.Error) (t));}` (spoon.support.reflect.code.CtIfImpl) 
+
+--Summary Creation: for variant [Variant id: 6, #gens: 27, #ops: 1, parent:5] gen mutated: 1 , gen not mut: 3, gen not applied  0
+-The child does NOT compile: 6, errors: [StaxUtil.java:25: error: unreachable statement
+		throw new java.io.IOException(t); 		if (t instanceof java.lang.Error) { 			throw ((java.lang.Error) (t));}
+		                                  		^, StaxUtil.java:26: error: missing return statement
+	}
+	^]
+Ingredient counter is Zero
+---Undoing: gnrtn(3): OP_INSTANCE:
+InsertAfterOp:(spoon.support.reflect.code.CtThrowImpl) `throw new java.io.IOException(t) ` -topatch--> `if (t instanceof java.lang.Error) { 	throw ((java.lang.Error) (t));}` (spoon.support.reflect.code.CtIfImpl) 
+End analysis generation - Solutions found:--> ()
+Variants to next generation from: 2-->IDs: (5(f=1.7976931348623157E308), 6(f=1.7976931348623157E308), )
+Selected to next generation: IDs2--> (5(f=1.7976931348623157E308), )
+----------Running generation: 4, population size: 1
+
+***** Generation 4 : 0
+**Parent Variant: [Variant id: 7, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 8
+--Creating new operations for variant [Variant id: 8, #gens: 26, #ops: 0, parent:7]
+---analyzing modificationPoint position: 7
+Templates availables11
+Attempts Base Ingredients  1 total 11
+---modifPoint 0 not mutation generated in  if (t instanceof java.lang.RuntimeException) { 	throw ((java.lang.RuntimeException) (t));}
+---analyzing modificationPoint position: 24
+Templates availables38
+Attempts Base Ingredients  1 total 38
+vars from patch [_xmlInputFactory]
+--> var from patch: _xmlInputFactory spoon.support.reflect.code.CtFieldReadImpl
+location: XmlFactory.java557
+operation: OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtReturnImpl) `return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e) ` -topatch--> `return _xmlInputFactory` (spoon.support.reflect.code.CtReturnImpl) 
+---MP=com.fasterxml.jackson.dataformat.xml.XmlFactory line: 557, pointed element: CtReturnImpl
+---OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtReturnImpl) `return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e) ` -topatch--> `return _xmlInputFactory` (spoon.support.reflect.code.CtReturnImpl) 
+
+--Summary Creation: for variant [Variant id: 8, #gens: 26, #ops: 1, parent:7] gen mutated: 1 , gen not mut: 1, gen not applied  0
+-The child does NOT compile: 8, errors: [XmlFactory.java:557: error: incompatible types: javax.xml.stream.XMLInputFactory cannot be converted to com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser
+		} catch (javax.xml.stream.XMLStreamException e) { 			return _xmlInputFactory;
+		                                                  			       ^]
+Ingredient counter is Zero
+---Undoing: gnrtn(4): OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtReturnImpl) `return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e) ` -topatch--> `return _xmlInputFactory` (spoon.support.reflect.code.CtReturnImpl) 
+End analysis generation - Solutions found:--> ()
+Variants to next generation from: 2-->IDs: (7(f=1.7976931348623157E308), 8(f=1.7976931348623157E308), )
+Selected to next generation: IDs2--> (7(f=1.7976931348623157E308), )
+----------Running generation: 5, population size: 1
+
+***** Generation 5 : 0
+**Parent Variant: [Variant id: 9, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 10
+--Creating new operations for variant [Variant id: 10, #gens: 26, #ops: 0, parent:9]
+---analyzing modificationPoint position: 8
+Templates availables33
+Attempts Base Ingredients  1 total 33
+---modifPoint 0 not mutation generated in  throw new java.io.IOException(t)
+---analyzing modificationPoint position: 17
+Templates availables20
+Attempts Base Ingredients  1 total 20
+vars from patch []
+location: FromXmlParser.java305
+operation: OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtInvocationImpl) `_xmlTokens.repeatStartElement() ` -topatch--> `// should never get here _throwInternal()` (spoon.support.reflect.code.CtInvocationImpl) 
+---MP=com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser line: 305, pointed element: CtInvocationImpl
+---OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtInvocationImpl) `_xmlTokens.repeatStartElement() ` -topatch--> `// should never get here _throwInternal()` (spoon.support.reflect.code.CtInvocationImpl) 
+
+--Summary Creation: for variant [Variant id: 10, #gens: 26, #ops: 1, parent:9] gen mutated: 1 , gen not mut: 1, gen not applied  0
+-The child does NOT compile: 10, errors: [FromXmlParser.java:594: error: illegal start of expression
+	 * Method that return the <b>starting</b> location of the current
+	 ^, FromXmlParser.java:594: error: ';' expected
+	 * Method that return the <b>starting</b> location of the current
+	         ^, FromXmlParser.java:594: error: not a statement
+	 * Method that return the <b>starting</b> location of the current
+	          ^, FromXmlParser.java:594: error: ';' expected
+	 * Method that return the <b>starting</b> location of the current
+	              ^, FromXmlParser.java:594: error: illegal start of expression
+	 * Method that return the <b>starting</b> location of the current
+	                                      ^, FromXmlParser.java:594: error: ';' expected
+	 * Method that return the <b>starting</b> location of the current
+	                                                  ^, FromXmlParser.java:594: error: ';' expected
+	 * Method that return the <b>starting</b> location of the current
+	                                                         ^, FromXmlParser.java:595: error: not a statement
+	 * token; that is, position of the first character from input
+	 ^, FromXmlParser.java:595: error: ';' expected
+	 * token; that is, position of the first character from input
+	                           ^, FromXmlParser.java:595: error: ';' expected
+	 * token; that is, position of the first character from input
+	                                  ^, FromXmlParser.java:595: error: ';' expected
+	 * token; that is, position of the first character from input
+	                                                  ^, FromXmlParser.java:595: error: ';' expected
+	 * token; that is, position of the first character from input
+	                                                             ^, FromXmlParser.java:596: error: ';' expected
+	 * that starts the current token.
+	              ^, FromXmlParser.java:596: error: ';' expected
+	 * that starts the current token.
+	                          ^, FromXmlParser.java:596: error: <identifier> expected
+	 * that starts the current token.
+	                                 ^, FromXmlParser.java:597: error: illegal start of expression
+	 */ 	@java.lang.Override 	public com.fasterxml.jackson.core.JsonLocation getTokenLocation() { 		return _xmlTokens.getTokenLocation();} 	/**
+	  ^, FromXmlParser.java:597: error: illegal start of expression
+	 */ 	@java.lang.Override 	public com.fasterxml.jackson.core.JsonLocation getTokenLocation() { 		return _xmlTokens.getTokenLocation();} 	/**
+	    	                    	^, FromXmlParser.java:597: error: ';' expected
+	 */ 	@java.lang.Override 	public com.fasterxml.jackson.core.JsonLocation getTokenLocation() { 		return _xmlTokens.getTokenLocation();} 	/**
+	    	                   ^, FromXmlParser.java:609: error: illegal start of expression
+	public JsonToken nextToken() throws IOException
+	^, FromXmlParser.java:626: error: illegal start of type
+	 */ 	@java.lang.Override 	public com.fasterxml.jackson.core.JsonToken nextToken() throws java.io.IOException { 		_binaryValue = null; 		if (_nextToken != null) { 			com.fasterxml.jackson.core.JsonToken t = _nextToken; 			_currToken = t; 			_nextToken = null; 			switch (t) { 				case START_OBJECT : 					_parsingContext = _parsingContext.createChildObjectContext(-1, -1); 					break; 				case START_ARRAY : 					_parsingContext = _parsingContext.createChildArrayContext(-1, -1); 					break; 				case END_OBJECT : 				case END_ARRAY : 					_parsingContext = _parsingContext.getParent(); 					_namesToWrap = _parsingContext.getNamesToWrap(); 					break; 				case FIELD_NAME : 					_parsingContext.setCurrentName(_xmlTokens.getLocalName()); 					break; 				default : 					// VALUE_STRING, VALUE_NULL 					// should be fine as is?} 			return t;} 		int token = _xmlTokens.next(); 		// Need to have a loop just because we may have to eat/convert 		// a start-element that indicates an array element.
+	 ^, FromXmlParser.java:633: error: orphaned case
+				if (_mayBeLeaf) { 					_mayBeLeaf = false; 					_nextToken = com.fasterxml.jackson.core.JsonToken.FIELD_NAME; 					_currText = _xmlTokens.getText(); 					_parsingContext = _parsingContext.createChildObjectContext(-1, -1); 					return _currToken = com.fasterxml.jackson.core.JsonToken.START_OBJECT;} 				_parsingContext.setCurrentName(_xmlTokens.getLocalName()); 				return _currToken = com.fasterxml.jackson.core.JsonToken.FIELD_NAME; 			case com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream.XML_ATTRIBUTE_VALUE : 				_currText = _xmlTokens.getText(); 				return _currToken = com.fasterxml.jackson.core.JsonToken.VALUE_STRING; 			case com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream.XML_TEXT : 				_currText = _xmlTokens.getText(); 				if (_mayBeLeaf) { 					_mayBeLeaf = false; 					/* One more refinement (pronunced like "hack") is that if
+				                  					                    					                                                              					                                  					                                                                    					                                                                        				                                                           				                                                                     			^, FromXmlParser.java:643: error: ';' expected
+	 */ 	@java.lang.Override 	public java.lang.String nextTextValue() throws java.io.IOException { 		_binaryValue = null; 		if (_nextToken != null) { 			com.fasterxml.jackson.core.JsonToken t = _nextToken; 			_currToken = t; 			_nextToken = null; 			// expected case; yes, got a String
+	    	                    	                                     ^, FromXmlParser.java:643: error: not a statement
+	 */ 	@java.lang.Override 	public java.lang.String nextTextValue() throws java.io.IOException { 		_binaryValue = null; 		if (_nextToken != null) { 			com.fasterxml.jackson.core.JsonToken t = _nextToken; 			_currToken = t; 			_nextToken = null; 			// expected case; yes, got a String
+	    	                    	                                                      ^, FromXmlParser.java:643: error: ';' expected
+	 */ 	@java.lang.Override 	public java.lang.String nextTextValue() throws java.io.IOException { 		_binaryValue = null; 		if (_nextToken != null) { 			com.fasterxml.jackson.core.JsonToken t = _nextToken; 			_currToken = t; 			_nextToken = null; 			// expected case; yes, got a String
+	    	                    	                                                                  ^, FromXmlParser.java:697: error: illegal start of expression
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	        ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	             ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                         ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                          ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                             ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                              ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                       ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                        ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                               ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                                ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                                    ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                                     ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                                               ^, FromXmlParser.java:697: error: case, default, or '}' expected
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	                                                                ^, FromXmlParser.java:698: error: case, default, or '}' expected
+	{
+	^, FromXmlParser.java:699: error: case, default, or '}' expected
+		switch (t) {
+		^, FromXmlParser.java:699: error: case, default, or '}' expected
+		switch (t) {
+		       ^, FromXmlParser.java:699: error: case, default, or '}' expected
+		switch (t) {
+		        ^, FromXmlParser.java:699: error: case, default, or '}' expected
+		switch (t) {
+		         ^, FromXmlParser.java:699: error: case, default, or '}' expected
+		switch (t) {
+		           ^, FromXmlParser.java:725: error: ';' expected
+	public java.lang.String getText() throws java.io.IOException 
+	                               ^, FromXmlParser.java:725: error: not a statement
+	public java.lang.String getText() throws java.io.IOException 
+	                                                ^, FromXmlParser.java:725: error: ';' expected
+	public java.lang.String getText() throws java.io.IOException 
+	                                                            ^, FromXmlParser.java:742: error: ';' expected
+	public final java.lang.String getValueAsString() throws java.io.IOException {
+	                                              ^, FromXmlParser.java:742: error: not a statement
+	public final java.lang.String getValueAsString() throws java.io.IOException {
+	                                                               ^, FromXmlParser.java:742: error: ';' expected
+	public final java.lang.String getValueAsString() throws java.io.IOException {
+	                                                                           ^, FromXmlParser.java:747: error: ';' expected
+	public java.lang.String getValueAsString(java.lang.String defValue) throws java.io.IOException 
+	                                        ^, FromXmlParser.java:747: error: ';' expected
+	public java.lang.String getValueAsString(java.lang.String defValue) throws java.io.IOException 
+	                                                                  ^, FromXmlParser.java:747: error: not a statement
+	public java.lang.String getValueAsString(java.lang.String defValue) throws java.io.IOException 
+	                                                                                  ^, FromXmlParser.java:747: error: ';' expected
+	public java.lang.String getValueAsString(java.lang.String defValue) throws java.io.IOException 
+	                                                                                              ^, FromXmlParser.java:790: error: ';' expected
+	public char[] getTextCharacters() throws java.io.IOException {
+	                               ^, FromXmlParser.java:790: error: not a statement
+	public char[] getTextCharacters() throws java.io.IOException {
+	                                                ^, FromXmlParser.java:790: error: ';' expected
+	public char[] getTextCharacters() throws java.io.IOException {
+	                                                            ^, FromXmlParser.java:796: error: ';' expected
+	public int getTextLength() throws java.io.IOException {
+	                        ^, FromXmlParser.java:796: error: not a statement
+	public int getTextLength() throws java.io.IOException {
+	                                         ^, FromXmlParser.java:796: error: ';' expected
+	public int getTextLength() throws java.io.IOException {
+	                                                     ^, FromXmlParser.java:802: error: ';' expected
+	public int getTextOffset() throws java.io.IOException {
+	                        ^, FromXmlParser.java:802: error: not a statement
+	public int getTextOffset() throws java.io.IOException {
+	                                         ^, FromXmlParser.java:802: error: ';' expected
+	public int getTextOffset() throws java.io.IOException {
+	                                                     ^, FromXmlParser.java:811: error: ';' expected
+	public boolean hasTextCharacters() 
+	                                ^, FromXmlParser.java:823: error: ';' expected
+	public java.lang.Object getEmbeddedObject() throws java.io.IOException {
+	                                         ^, FromXmlParser.java:823: error: not a statement
+	public java.lang.Object getEmbeddedObject() throws java.io.IOException {
+	                                                          ^, FromXmlParser.java:823: error: ';' expected
+	public java.lang.Object getEmbeddedObject() throws java.io.IOException {
+	                                                                      ^, FromXmlParser.java:829: error: ';' expected
+	public byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                            ^, FromXmlParser.java:829: error: ';' expected
+	public byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                ^, FromXmlParser.java:829: error: not a statement
+	public byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                                ^, FromXmlParser.java:829: error: ';' expected
+	public byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                                            ^, FromXmlParser.java:849: error: ';' expected
+	protected byte[] _decodeBase64(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                              ^, FromXmlParser.java:849: error: ';' expected
+	protected byte[] _decodeBase64(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                  ^, FromXmlParser.java:849: error: not a statement
+	protected byte[] _decodeBase64(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                                  ^, FromXmlParser.java:849: error: ';' expected
+	protected byte[] _decodeBase64(com.fasterxml.jackson.core.Base64Variant b64variant) throws java.io.IOException 
+	                                                                                                              ^, FromXmlParser.java:864: error: ';' expected
+	public java.math.BigInteger getBigIntegerValue() throws java.io.IOException {
+	                                              ^, FromXmlParser.java:864: error: not a statement
+	public java.math.BigInteger getBigIntegerValue() throws java.io.IOException {
+	                                                               ^, FromXmlParser.java:864: error: ';' expected
+	public java.math.BigInteger getBigIntegerValue() throws java.io.IOException {
+	                                                                           ^, FromXmlParser.java:870: error: ';' expected
+	public java.math.BigDecimal getDecimalValue() throws java.io.IOException {
+	                                           ^, FromXmlParser.java:870: error: not a statement
+	public java.math.BigDecimal getDecimalValue() throws java.io.IOException {
+	                                                            ^, FromXmlParser.java:870: error: ';' expected
+	public java.math.BigDecimal getDecimalValue() throws java.io.IOException {
+	                                                                        ^, FromXmlParser.java:876: error: ';' expected
+	public double getDoubleValue() throws java.io.IOException {
+	                            ^, FromXmlParser.java:876: error: not a statement
+	public double getDoubleValue() throws java.io.IOException {
+	                                             ^, FromXmlParser.java:876: error: ';' expected
+	public double getDoubleValue() throws java.io.IOException {
+	                                                         ^, FromXmlParser.java:882: error: ';' expected
+	public float getFloatValue() throws java.io.IOException {
+	                          ^, FromXmlParser.java:882: error: not a statement
+	public float getFloatValue() throws java.io.IOException {
+	                                           ^, FromXmlParser.java:882: error: ';' expected
+	public float getFloatValue() throws java.io.IOException {
+	                                                       ^, FromXmlParser.java:888: error: ';' expected
+	public int getIntValue() throws java.io.IOException {
+	                      ^, FromXmlParser.java:888: error: not a statement
+	public int getIntValue() throws java.io.IOException {
+	                                       ^, FromXmlParser.java:888: error: ';' expected
+	public int getIntValue() throws java.io.IOException {
+	                                                   ^, FromXmlParser.java:894: error: ';' expected
+	public long getLongValue() throws java.io.IOException {
+	                        ^, FromXmlParser.java:894: error: not a statement
+	public long getLongValue() throws java.io.IOException {
+	                                         ^, FromXmlParser.java:894: error: ';' expected
+	public long getLongValue() throws java.io.IOException {
+	                                                     ^, FromXmlParser.java:900: error: ';' expected
+	public com.fasterxml.jackson.core.JsonParser.NumberType getNumberType() throws java.io.IOException {
+	                                                                     ^, FromXmlParser.java:900: error: not a statement
+	public com.fasterxml.jackson.core.JsonParser.NumberType getNumberType() throws java.io.IOException {
+	                                                                                      ^, FromXmlParser.java:900: error: ';' expected
+	public com.fasterxml.jackson.core.JsonParser.NumberType getNumberType() throws java.io.IOException {
+	                                                                                                  ^, FromXmlParser.java:906: error: ';' expected
+	public java.lang.Number getNumberValue() throws java.io.IOException {
+	                                      ^, FromXmlParser.java:906: error: not a statement
+	public java.lang.Number getNumberValue() throws java.io.IOException {
+	                                                       ^, FromXmlParser.java:906: error: ';' expected
+	public java.lang.Number getNumberValue() throws java.io.IOException {
+	                                                                   ^]
+Ingredient counter is Zero
+---Undoing: gnrtn(5): OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtInvocationImpl) `_xmlTokens.repeatStartElement() ` -topatch--> `// should never get here _throwInternal()` (spoon.support.reflect.code.CtInvocationImpl) 
+End analysis generation - Solutions found:--> ()
+Variants to next generation from: 2-->IDs: (9(f=1.7976931348623157E308), 10(f=1.7976931348623157E308), )
+Selected to next generation: IDs2--> (9(f=1.7976931348623157E308), )
+----------Running generation: 6, population size: 1
+
+***** Generation 6 : 0
+**Parent Variant: [Variant id: 11, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 12
+--Creating new operations for variant [Variant id: 12, #gens: 26, #ops: 0, parent:11]
+---analyzing modificationPoint position: 0
+Templates availables4
+Attempts Base Ingredients  1 total 4
+vars from patch [((com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser) (jp)), _namesToWrap]
+--> var from patch: ((com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser) (jp)) spoon.support.reflect.code.CtVariableReadImpl
+--> var from patch: _namesToWrap spoon.support.reflect.code.CtFieldReadImpl
+location: WrapperHandlingDeserializer.java119
+operation: OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtInvocationImpl) `_configureParser(jp) ` -topatch--> `((com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser) (jp)).addVirtualWrapping(_namesToWrap)` (spoon.support.reflect.code.CtInvocationImpl) 
+---MP=com.fasterxml.jackson.dataformat.xml.deser.WrapperHandlingDeserializer line: 119, pointed element: CtInvocationImpl
+---OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtInvocationImpl) `_configureParser(jp) ` -topatch--> `((com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser) (jp)).addVirtualWrapping(_namesToWrap)` (spoon.support.reflect.code.CtInvocationImpl) 
+
+--Summary Creation: for variant [Variant id: 12, #gens: 26, #ops: 1, parent:11] gen mutated: 1 , gen not mut: 0, gen not applied  0
+-The child compiles: id 12
+-Running first validation
+Executing process: (timeout10secs) 
+/usr/lib/jvm/java-8-openjdk-amd64/bin//java  -Xmx2048m  -Dmutnumber_0=null  -cp  "/astor/./lib/com.gzoltar-0.1.1-jar-with-dependencies.jar":"/astor/./output_astor/AstorMain-jackson-dataformat-xml/bin/variant-12/":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.3/jackson-core-2.7.3.jar":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.3/jackson-databind-2.7.3.jar":"/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.3/jackson-module-jaxb-annotations-2.7.3.jar":"/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar":"/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar":"/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar":"/root/.m2/repository/junit/junit/4.12/junit-4.12.jar":"/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar":"/astor/lib/gzoltar/com.gzoltar-0.0.3.jar":"/astor/./output_astor/AstorMain-jackson-dataformat-xml/bin/default/":"/astor/lib/jtestex7.jar":"/astor/target/astor-2.0.0-jar-with-dependencies.jar":  fr.inria.astor.core.validation.junit.JUnitNologExternalExecutor  com.fasterxml.jackson.dataformat.xml.TestCVE_2016_3720
+Analyzing output from process
+Error reading the validation process
+ output: 
+America/Los_Angeles
+
+**The validation 1 have not finished well**
+-Valid?: null, fitness 1.7976931348623157E308
+Ingredient counter is Zero
+---Undoing: gnrtn(6): OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtInvocationImpl) `_configureParser(jp) ` -topatch--> `((com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser) (jp)).addVirtualWrapping(_namesToWrap)` (spoon.support.reflect.code.CtInvocationImpl) 
+End analysis generation - Solutions found:--> ()
+Variants to next generation from: 2-->IDs: (11(f=1.7976931348623157E308), 12(f=1.7976931348623157E308), )
+Selected to next generation: IDs2--> (11(f=1.7976931348623157E308), )
+----------Running generation: 7, population size: 1
+
+***** Generation 7 : 0
+**Parent Variant: [Variant id: 13, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 14
+--Creating new operations for variant [Variant id: 14, #gens: 26, #ops: 0, parent:13]
+---analyzing modificationPoint position: 5
+location: StaxUtil.java22
+operation: OP_INSTANCE:
+RemoveOp:(spoon.support.reflect.code.CtIfImpl) `if (t instanceof java.lang.Error) { 	throw ((java.lang.Error) (t));} ` -topatch--> `-` (null) 
+
+--Summary Creation: for variant [Variant id: 14, #gens: 25, #ops: 1, parent:13] gen mutated: 1 , gen not mut: 0, gen not applied  0
+-The child compiles: id 14
+-Running first validation
+Executing process: (timeout10secs) 
+/usr/lib/jvm/java-8-openjdk-amd64/bin//java  -Xmx2048m  -Dmutnumber_0=null  -cp  "/astor/./lib/com.gzoltar-0.1.1-jar-with-dependencies.jar":"/astor/./output_astor/AstorMain-jackson-dataformat-xml/bin/variant-14/":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.3/jackson-core-2.7.3.jar":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar":"/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.3/jackson-databind-2.7.3.jar":"/root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.3/jackson-module-jaxb-annotations-2.7.3.jar":"/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar":"/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar":"/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.2/woodstox-core-5.0.2.jar":"/root/.m2/repository/junit/junit/4.12/junit-4.12.jar":"/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar":"/astor/lib/gzoltar/com.gzoltar-0.0.3.jar":"/astor/./output_astor/AstorMain-jackson-dataformat-xml/bin/default/":"/astor/lib/jtestex7.jar":"/astor/target/astor-2.0.0-jar-with-dependencies.jar":  fr.inria.astor.core.validation.junit.JUnitNologExternalExecutor  com.fasterxml.jackson.dataformat.xml.TestCVE_2016_3720
+Analyzing output from process
+Error reading the validation process
+ output: 
+America/Los_Angeles
+
+**The validation 1 have not finished well**
+-Valid?: null, fitness 1.7976931348623157E308
+Ingredient counter is Zero
+---Undoing: gnrtn(7): OP_INSTANCE:
+RemoveOp:(spoon.support.reflect.code.CtIfImpl) `if (t instanceof java.lang.Error) { 	throw ((java.lang.Error) (t));} ` -topatch--> `-` (null) 
+End analysis generation - Solutions found:--> ()
+Variants to next generation from: 2-->IDs: (13(f=1.7976931348623157E308), 14(f=1.7976931348623157E308), )
+Selected to next generation: IDs2--> (13(f=1.7976931348623157E308), )
+----------Running generation: 8, population size: 1
+
+***** Generation 8 : 0
+**Parent Variant: [Variant id: 15, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 16
+--Creating new operations for variant [Variant id: 16, #gens: 26, #ops: 0, parent:15]
+---analyzing modificationPoint position: 23
+Templates availables142
+Attempts Base Ingredients  1 total 142
+vars from patch [_jdkXmlInFactory]
+--> var from patch: _jdkXmlInFactory spoon.support.reflect.code.CtFieldReadImpl
+location: XmlFactory.java555
+operation: OP_INSTANCE:
+InsertAfterOp:(spoon.support.reflect.code.CtAssignmentImpl) `sr = _initializeXmlReader(sr) ` -topatch--> `javax.xml.stream.XMLInputFactory inf = ((javax.xml.stream.XMLInputFactory) (java.lang.Class.forName([...]` (spoon.support.reflect.code.CtLocalVariableImpl) 
+---MP=com.fasterxml.jackson.dataformat.xml.XmlFactory line: 555, pointed element: CtLocalVariableImpl
+---OP_INSTANCE:
+InsertAfterOp:(spoon.support.reflect.code.CtAssignmentImpl) `sr = _initializeXmlReader(sr) ` -topatch--> `javax.xml.stream.XMLInputFactory inf = ((javax.xml.stream.XMLInputFactory) (java.lang.Class.forName([...]` (spoon.support.reflect.code.CtLocalVariableImpl) 
+
+--Summary Creation: for variant [Variant id: 16, #gens: 27, #ops: 1, parent:15] gen mutated: 1 , gen not mut: 0, gen not applied  0
+-The child does NOT compile: 16, errors: [XmlFactory.java:556: error: unreported exception java.lang.ClassNotFoundException; must be caught or declared to be thrown
+			sr = _initializeXmlReader(sr); 			javax.xml.stream.XMLInputFactory inf = ((javax.xml.stream.XMLInputFactory) (java.lang.Class.forName(_jdkXmlInFactory).newInstance()));
+			                               			                                                                                                   ^, XmlFactory.java:556: error: unreported exception java.lang.InstantiationException; must be caught or declared to be thrown
+			sr = _initializeXmlReader(sr); 			javax.xml.stream.XMLInputFactory inf = ((javax.xml.stream.XMLInputFactory) (java.lang.Class.forName(_jdkXmlInFactory).newInstance()));
+			                               			                                                                                                                                 ^]
+Ingredient counter is Zero
+---Undoing: gnrtn(8): OP_INSTANCE:
+InsertAfterOp:(spoon.support.reflect.code.CtAssignmentImpl) `sr = _initializeXmlReader(sr) ` -topatch--> `javax.xml.stream.XMLInputFactory inf = ((javax.xml.stream.XMLInputFactory) (java.lang.Class.forName([...]` (spoon.support.reflect.code.CtLocalVariableImpl) 
+End analysis generation - Solutions found:--> ()
+Variants to next generation from: 2-->IDs: (15(f=1.7976931348623157E308), 16(f=1.7976931348623157E308), )
+Selected to next generation: IDs2--> (15(f=1.7976931348623157E308), )
+----------Running generation: 9, population size: 1
+
+***** Generation 9 : 0
+**Parent Variant: [Variant id: 17, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 18
+--Creating new operations for variant [Variant id: 18, #gens: 26, #ops: 0, parent:17]
+---analyzing modificationPoint position: 17
+Templates availables20
+Attempts Base Ingredients  1 total 20
+vars from patch [_parsingContext, namesToWrap]
+--> var from patch: _parsingContext spoon.support.reflect.code.CtFieldReadImpl
+--> var from patch: namesToWrap spoon.support.reflect.code.CtVariableReadImpl
+location: FromXmlParser.java305
+operation: OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtInvocationImpl) `_xmlTokens.repeatStartElement() ` -topatch--> `_parsingContext.setNamesToWrap(namesToWrap)` (spoon.support.reflect.code.CtInvocationImpl) 
+---MP=com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser line: 305, pointed element: CtInvocationImpl
+---OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtInvocationImpl) `_xmlTokens.repeatStartElement() ` -topatch--> `_parsingContext.setNamesToWrap(namesToWrap)` (spoon.support.reflect.code.CtInvocationImpl) 
+
+--Summary Creation: for variant [Variant id: 18, #gens: 26, #ops: 1, parent:17] gen mutated: 1 , gen not mut: 0, gen not applied  0
+-The child does NOT compile: 18, errors: [FromXmlParser.java:601: error: ';' expected
+	public java.lang.String nextTextValue() throws java.io.IOException 
+	                                     ^, FromXmlParser.java:601: error: not a statement
+	public java.lang.String nextTextValue() throws java.io.IOException 
+	                                                      ^, FromXmlParser.java:601: error: ';' expected
+	public java.lang.String nextTextValue() throws java.io.IOException 
+	                                                                  ^, FromXmlParser.java:697: error: illegal start of expression
+	private void _updateState(com.fasterxml.jackson.core.JsonToken t) 
+	^]
+Ingredient counter is Zero
+---Undoing: gnrtn(9): OP_INSTANCE:
+ReplaceOp:(spoon.support.reflect.code.CtInvocationImpl) `_xmlTokens.repeatStartElement() ` -topatch--> `_parsingContext.setNamesToWrap(namesToWrap)` (spoon.support.reflect.code.CtInvocationImpl) 
+End analysis generation - Solutions found:--> ()
+Variants to next generation from: 2-->IDs: (17(f=1.7976931348623157E308), 18(f=1.7976931348623157E308), )
+Selected to next generation: IDs2--> (17(f=1.7976931348623157E308), )
+----------Running generation: 10, population size: 1
+
+***** Generation 10 : 0
+**Parent Variant: [Variant id: 19, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 20
+--Creating new operations for variant [Variant id: 20, #gens: 26, #ops: 0, parent:19]
+---analyzing modificationPoint position: 24
+Templates availables38
+Attempts Base Ingredients  1 total 38
+---modifPoint 0 not mutation generated in  return com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(e)
+---analyzing modificationPoint position: 21
+Templates availables142
+Attempts Base Ingredients  1 total 142
+---modifPoint 1 not mutation generated in  return _createParser(r, ctxt)
+---analyzing modificationPoint position: 20
+Templates availables30
+Attempts Base Ingredients  1 total 30
+---modifPoint 2 not mutation generated in  if (_inputDecorator != null) { 	r = _inputDecorator.decorate(ctxt, r); }
+---analyzing modificationPoint position: 8
+Templates availables33
+Attempts Base Ingredients  1 total 33
+vars from patch [((java.lang.Error) (t))]
+--> var from patch: ((java.lang.Error) (t)) spoon.support.reflect.code.CtVariableReadImpl
+location: StaxUtil.java24
+operation: OP_INSTANCE:
+InsertAfterOp:(spoon.support.reflect.code.CtThrowImpl) `throw new java.io.IOException(t) ` -topatch--> `throw ((java.lang.Error) (t))` (spoon.support.reflect.code.CtThrowImpl) 
+---MP=com.fasterxml.jackson.dataformat.xml.util.StaxUtil line: 24, pointed element: CtThrowImpl
+---OP_INSTANCE:
+InsertAfterOp:(spoon.support.reflect.code.CtThrowImpl) `throw new java.io.IOException(t) ` -topatch--> `throw ((java.lang.Error) (t))` (spoon.support.reflect.code.CtThrowImpl) 
+
+--Summary Creation: for variant [Variant id: 20, #gens: 27, #ops: 1, parent:19] gen mutated: 1 , gen not mut: 3, gen not applied  0
+-The child does NOT compile: 20, errors: [StaxUtil.java:25: error: unreachable statement
+		throw new java.io.IOException(t); 		throw ((java.lang.Error) (t));
+		                                  		^]
+Ingredient counter is Zero
+---Undoing: gnrtn(10): OP_INSTANCE:
+InsertAfterOp:(spoon.support.reflect.code.CtThrowImpl) `throw new java.io.IOException(t) ` -topatch--> `throw ((java.lang.Error) (t))` (spoon.support.reflect.code.CtThrowImpl) 
+End analysis generation - Solutions found:--> ()
+Variants to next generation from: 2-->IDs: (19(f=1.7976931348623157E308), 20(f=1.7976931348623157E308), )
+Selected to next generation: IDs2--> (19(f=1.7976931348623157E308), )
+----------Running generation: 11, population size: 1
+
+***** Generation 11 : 0
+**Parent Variant: [Variant id: 21, #gens: 26, #ops: 0, parent:-]
+
+--Child created id: 22
+--Creating new operations for variant [Variant id: 22, #gens: 26, #ops: 0, parent:21]
+---analyzing modificationPoint position: 14
+Templates availables57
+Attempts Base Ingredients  1 total 57
+---modifPoint 0 not mutation generated in  // From super-class implementation final com.fasterxml.jackson.databind.JsonSerializer<java.lang.Obj[...]
+---analyzing modificationPoint position: 18
+Templates availables142
+Attempts Base Ingredients  1 total 142
+vars from patch [PackageVersion.VERSION]
+--> var from patch: PackageVersion.VERSION spoon.support.reflect.code.CtFieldReadImpl
+Error at generation 11
+java.lang.NullPointerException
+Time Repair Loop (s): 3.532
+generationsexecuted: 11
+----SUMMARY_EXECUTION---
+End Repair Search: NOT Found solution
+All variants:
+f 1.7976931348623157E308, [Variant id: 21, #gens: 26, #ops: 0, parent:-]
+Number suspicious:1
+Astor Output:
+
+General stats:
+EXECUTION_IDENTIFIER=
+TOTAL_TIME=3.532
+NR_GENERATIONS=11
+NR_RIGHT_COMPILATIONS=3
+NR_FAILLING_COMPILATIONS=7
+NR_ERRONEOUS_VARIANCES=null
+NR_FAILING_VALIDATION_PROCESS=null
+OUTPUT_STATUS=ERROR
+FAULT_LOCALIZATION=fr.inria.astor.core.faultlocalization.flacoco.FlacocoFaultLocalization
+
+Patch stats:
+
+Storing ing JSON at /astor/./output_astor/AstorMain-jackson-dataformat-xml//astor_output.json
+astor_output:
+{"general":{"NR_RIGHT_COMPILATIONS":3,"NR_ERRONEOUS_VARIANCES":null,"EXECUTION_IDENTIFIER":"","FAULT_LOCALIZATION":"fr.inria.astor.core.faultlocalization.flacoco.FlacocoFaultLocalization","OUTPUT_STATUS":"ERROR","NR_FAILLING_COMPILATIONS":7,"NR_GENERATIONS":11,"TOTAL_TIME":3.532,"NR_FAILING_VALIDATION_PROCESS":null},"patches":[]}
+Time Total(s): 29.462
