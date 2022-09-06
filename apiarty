@@ -438,8 +438,16 @@ class Npefix():
 		else:
 			project_folder = project.root
 
-		dependencies = (Path(str(project_folder) +
-							 '/classpath.info')).read_text()
+		class_path = (Path(str(project_folder) +
+							 '/classpath.info')) 
+		
+		if project.custom_classpath_project != '':
+			class_path = (Path(str(project_folder) + "/" + project.custom_classpath_project +
+							 '/classpath.info'))
+		
+		print(class_path)
+
+		dependencies = class_path.read_text()
 
 		with cd(project_folder):
 			with (output_dir / 'stdout.txt').open('w') as stdout,\
