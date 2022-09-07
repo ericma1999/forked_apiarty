@@ -1,0 +1,102 @@
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.util.regex.Matcher.getTextLength(Matcher.java:1770)
+	at java.base/java.util.regex.Matcher.reset(Matcher.java:416)
+	at java.base/java.util.regex.Matcher.<init>(Matcher.java:253)
+	at java.base/java.util.regex.Pattern.matcher(Pattern.java:1133)
+	at eu.stamp_project.testrunner.runner.MethodFilter.lambda$null$1(MethodFilter.java:50)
+	at java.base/java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:528)
+	at eu.stamp_project.testrunner.runner.MethodFilter.lambda$new$2(MethodFilter.java:48)
+	at eu.stamp_project.testrunner.runner.MethodFilter.shouldRun(MethodFilter.java:36)
+	at org.junit.runners.ParentRunner.shouldRun(ParentRunner.java:545)
+	at org.junit.runners.ParentRunner.filter(ParentRunner.java:435)
+	at org.junit.runner.manipulation.Filter.apply(Filter.java:97)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:37)
+	at eu.stamp_project.testrunner.runner.JUnit4Runner.run(JUnit4Runner.java:70)
+	at eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.executeCoveredTestPerTestMethod(JUnit4OnlineJacocoRunner.java:39)
+	at eu.stamp_project.testrunner.runner.coverage.JacocoOnlineRunner.runCoveredTestResultPerTestMethod(JacocoOnlineRunner.java:57)
+	at eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.main(JUnit4OnlineJacocoRunner.java:59)
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: Forked process did not finish correctly.
+Timeout set was 1000000 ms, process took 1690 ms before ending.
+Use the verbose mode to obtain more information regarding the error.
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at fr.inria.lille.repair.Main.main(Main.java:106)
+Caused by: java.lang.RuntimeException: Forked process did not finish correctly.
+Timeout set was 1000000 ms, process took 1690 ms before ending.
+Use the verbose mode to obtain more information regarding the error.
+	at eu.stamp_project.testrunner.EntryPoint.runGivenCommandLine(EntryPoint.java:852)
+	at eu.stamp_project.testrunner.EntryPoint.runOnlineCoveredTestResultPerTestMethods(EntryPoint.java:741)
+	at fr.spoonlabs.flacoco.core.coverage.framework.JUnit4Strategy.execute(JUnit4Strategy.java:25)
+	at fr.spoonlabs.flacoco.core.coverage.CoverageRunner.getCoverageMatrix(CoverageRunner.java:47)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.runFlacoco(FlacocoFaultLocalizer.java:93)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:35)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:39)
+	at fr.inria.lille.repair.nopol.NoPol.createLocalizer(NoPol.java:181)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:126)
+	at fr.inria.lille.repair.Main$1.call(Main.java:101)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Usage: java -jar nopol.jar
+                          [(-m|--mode) <repair|ranking>] (-e|--type) <condition|precondition|pre_then_cond|loop|arithmetic> [(-o|--oracle) <angelic|symbolic>] [(-y|--synthesis) <smt|dynamoth>] [(-l|--solver) <z3|cvc4>] [(-p|--solver-path) <solverPath>] (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> [(-t|--test) test1:test2:...:testN ] [--complianceLevel <complianceLevel>] [--maxTime <maxTime>] [--maxTimeType <maxTimeType>] [(-z|--flocal) <cocospoon|dumb|gzoltar|flacoco>] [--output <outputFolder>] [--json[:<outputJson>]]
+
+  [(-m|--mode) <repair|ranking>]
+        Define the mode of execution. (default: repair)
+
+  (-e|--type) <condition|precondition|pre_then_cond|loop|arithmetic>
+        The repair type (example fixing only conditions, or adding
+        precondition). REQUIRED OPTION (default: condition)
+
+  [(-o|--oracle) <angelic|symbolic>]
+        Define the oracle (only used with repair mode). (default: angelic)
+
+  [(-y|--synthesis) <smt|dynamoth>]
+        Define the patch synthesis. (default: smt)
+
+  [(-l|--solver) <z3|cvc4>]
+        Define the solver (only used with smt synthesis). (default: z3)
+
+  [(-p|--solver-path) <solverPath>]
+        Define the solver binary path (only used with smt synthesis).
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  [(-t|--test) test1:test2:...:testN ]
+        Define the test classes of the project (both failing and passing),
+        fully-qualified, separated with ':' (even if the classpath contains
+        other tests, only those are considered.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [--maxTime <maxTime>]
+        The maximum time execution in minute for the whole execution of
+        Nopol.(default: 10)
+
+  [--maxTimeType <maxTimeType>]
+        The maximum time execution in minute for one type of patch. (default: 5)
+
+  [(-z|--flocal) <cocospoon|dumb|gzoltar|flacoco>]
+        Define the fault localizer to be used. (default: flacoco)
+
+  [--output <outputFolder>]
+        Define the location where the patches will be saved. (default: .)
+
+  [--json[:<outputJson>]]
+        Output a json file in the current working directory.
+

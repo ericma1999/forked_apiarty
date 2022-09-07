@@ -562,16 +562,16 @@ def make_build(name, project_path):
 
 
 tool_by_name = {
-    'Arja': Arja('us.msu.cse.repair.Main', 'Arja'),
-	'Arja-GenProg': Arja('us.msu.cse.repair.GenProgMain', 'GenProg'),
-    'Arja-Kali': Arja('us.msu.cse.repair.KaliMain', 'Kali'),
-	'Arja-RSRepair': Arja('us.msu.cse.repair.RSRepairMain', 'RSRepair'),
-	# 'Astor-jGenProg': Astor('fr.inria.main.evolution.AstorMain', 'jgenprog'),
-	# 'Astor-jKali': Astor('fr.inria.main.evolution.AstorMain', 'jKali'),
-	# 'Astor-jMutRepair': Astor('fr.inria.main.evolution.AstorMain', 'jMutRepair'),
-	# 'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen'),
-  #   'Dynamoth': Nopol('dynamoth'),
-  #   'Nopol': Nopol(None),
+  #   'Arja': Arja('us.msu.cse.repair.Main', 'Arja'),
+	# 'Arja-GenProg': Arja('us.msu.cse.repair.GenProgMain', 'GenProg'),
+  #   'Arja-Kali': Arja('us.msu.cse.repair.KaliMain', 'Kali'),
+	# 'Arja-RSRepair': Arja('us.msu.cse.repair.RSRepairMain', 'RSRepair'),
+	'Astor-jGenProg': Astor('fr.inria.main.evolution.AstorMain', 'jgenprog'),
+	'Astor-jKali': Astor('fr.inria.main.evolution.AstorMain', 'jKali'),
+	'Astor-jMutRepair': Astor('fr.inria.main.evolution.AstorMain', 'jMutRepair'),
+	'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen'),
+    'Dynamoth': Nopol('dynamoth'),
+    'Nopol': Nopol(None),
 	# 'NPEFix': Npefix(),
 }
 
