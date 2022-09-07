@@ -10,7 +10,7 @@
   "build_system": {
     "custom": [
       {
-        "test": "./gradlew :spring-core:test --tests org.springframework.util.MimeTypeTests.testCVE_2018_1272"
+        "test": "./gradlew :spring-core:test --tests org.springframework.util.MimeTypeTests"
       },
       {
         "compile": "./gradlew :spring-core:compileTestJava"
@@ -22,9 +22,9 @@
   },
   "file_path": "spring-core/src/main/java/org/springframework/util/MimeTypeUtils.java",
   "test_class": "org.springframework.util.MimeTypeTests",
-  "src_path": "src/main/java",
-  "test_path": "src/test/java",
+  "src_path": "spring-core/src/main/java",
+  "test_path": "spring-core/src/test/java",
   "package_path": ".",
-  "src_classes": "build/classes/main",
-  "test_classes": "build/classes/test"
+  "src_classes": "spring-core/build/classes/main",
+  "test_classes": "spring-core/build/classes/test"
 }

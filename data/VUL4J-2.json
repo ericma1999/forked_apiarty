@@ -21,7 +21,7 @@
     ]
   },
   "file_path": "batik-dom/src/main/java/org/apache/batik/dom/util/SAXDocumentFactory.java",
-  "test_class": "org.apache.batik.dom.util.TestCVE_2017_5662#testCVE_2017_5662",
+  "test_class": "org.apache.batik.dom.util.TestCVE_2017_5662",
   "src_path": "batik-dom/src/main/java/",
   "test_path": "src/test/java",
   "package_path": ".",

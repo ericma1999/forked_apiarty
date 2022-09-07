@@ -7,7 +7,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 
 RUN apt update \
     # Install runtime dependencies
-    && apt install -y openjdk-8-jdk ant unzip wget curl cpanminus git graphviz maven subversion python vim \
+    && apt install -y openjdk-8-jdk ant unzip wget curl cpanminus git graphviz gradle maven subversion python vim \
     # Install Python 3
     && apt install -y python3-pip python3-dev \
     && cd /usr/local/bin \

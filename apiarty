@@ -241,6 +241,18 @@ class Arja():
 		with cd(ARJA_ROOT):
 			with (output_dir / 'stdout.txt').open('w') as stdout,\
 				 (output_dir / 'stderr.txt').open('w') as stderr:
+				x = [
+					'java', '-Xmx4048m', '-cp', 'lib/*:bin', self.main_class, self.algorithm,
+							'-DsrcJavaDir', str(project_folder /
+												project.src_path),
+							'-DbinJavaDir', str(project_folder /
+												project.src_classes),
+							'-DbinTestDir', str(project_folder /
+												project.test_classes),
+							'-Ddependences', dependencies,
+							'-DpatchOutputRoot', str(output_dir)
+				]
+				print(' '.join(x))
 				p = run([
 					'java', '-Xmx4048m', '-cp', 'lib/*:bin', self.main_class, self.algorithm,
 							'-DsrcJavaDir', str(project_folder /
@@ -550,16 +562,16 @@ def make_build(name, project_path):
 
 
 tool_by_name = {
-  #   'Arja': Arja('us.msu.cse.repair.Main', 'Arja'),
-	# 'Arja-GenProg': Arja('us.msu.cse.repair.GenProgMain', 'GenProg'),
-  #   'Arja-Kali': Arja('us.msu.cse.repair.KaliMain', 'Kali'),
-	# 'Arja-RSRepair': Arja('us.msu.cse.repair.RSRepairMain', 'RSRepair'),
-	'Astor-jGenProg': Astor('fr.inria.main.evolution.AstorMain', 'jgenprog'),
-	'Astor-jKali': Astor('fr.inria.main.evolution.AstorMain', 'jKali'),
-	'Astor-jMutRepair': Astor('fr.inria.main.evolution.AstorMain', 'jMutRepair'),
-	'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen'),
-    'Dynamoth': Nopol('dynamoth'),
-    'Nopol': Nopol(None),
+    'Arja': Arja('us.msu.cse.repair.Main', 'Arja'),
+	'Arja-GenProg': Arja('us.msu.cse.repair.GenProgMain', 'GenProg'),
+    'Arja-Kali': Arja('us.msu.cse.repair.KaliMain', 'Kali'),
+	'Arja-RSRepair': Arja('us.msu.cse.repair.RSRepairMain', 'RSRepair'),
+	# 'Astor-jGenProg': Astor('fr.inria.main.evolution.AstorMain', 'jgenprog'),
+	# 'Astor-jKali': Astor('fr.inria.main.evolution.AstorMain', 'jKali'),
+	# 'Astor-jMutRepair': Astor('fr.inria.main.evolution.AstorMain', 'jMutRepair'),
+	# 'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen'),
+  #   'Dynamoth': Nopol('dynamoth'),
+  #   'Nopol': Nopol(None),
 	# 'NPEFix': Npefix(),
 }
 
