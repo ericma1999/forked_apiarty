@@ -3,7 +3,8 @@ FROM ubuntu:20.04
 # settings
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG=C.UTF-8
-ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
+ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+ENV PATH=$JAVA_HOME/bin:$PATH
 
 RUN apt update \
     # Install runtime dependencies
