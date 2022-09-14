@@ -1,0 +1,13 @@
+com.fasterxml.jackson.dataformat.xml.XmlFactory@108
+com.fasterxml.jackson.dataformat.xml.XmlFactory@109
+com.fasterxml.jackson.dataformat.xml.XmlFactory@110
+com.fasterxml.jackson.dataformat.xml.XmlFactory@111
+com.fasterxml.jackson.dataformat.xml.XmlFactory@112
+com.fasterxml.jackson.dataformat.xml.XmlFactory@113
+com.fasterxml.jackson.dataformat.xml.XmlFactory@114
+com.fasterxml.jackson.dataformat.xml.XmlFactory@115
+com.fasterxml.jackson.dataformat.xml.XmlFactory@116
+com.fasterxml.jackson.dataformat.xml.XmlFactory@117
+com.fasterxml.jackson.dataformat.xml.XmlFactory@118
+com.fasterxml.jackson.dataformat.xml.XmlFactory@119
+com.fasterxml.jackson.dataformat.xml.XmlFactory@120

@@ -1,6 +1,6 @@
 Exception in thread "main" java.lang.IllegalArgumentException: Could not find org.apache.commons.compress.archivers.tar.TarArchiveEntryTest#preservesDriveSpecOnWindowsAndNetwareIfAskedTo in failing test
 	at eu.stamp_project.testrunner.listener.impl.OnlineCoveredTestResultPerTestMethodImpl.lambda$getFailureOf$3(OnlineCoveredTestResultPerTestMethodImpl.java:143)
-	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at java.util.Optional.orElseThrow(Optional.java:290)
 	at eu.stamp_project.testrunner.listener.impl.OnlineCoveredTestResultPerTestMethodImpl.getFailureOf(OnlineCoveredTestResultPerTestMethodImpl.java:143)
 	at fr.spoonlabs.flacoco.core.coverage.CoverageMatrix.processSingleTest(CoverageMatrix.java:87)
 	at fr.spoonlabs.flacoco.core.coverage.CoverageRunner.getCoverageMatrix(CoverageRunner.java:54)

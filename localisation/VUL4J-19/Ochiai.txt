@@ -1,0 +1,11 @@
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@239
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@240
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@241
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@242
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@243
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@244
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@245
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@246
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@247
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@248
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler@249

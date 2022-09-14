@@ -1,0 +1,12 @@
+org.owasp.esapi.codecs.PercentCodec@98
+org.owasp.esapi.codecs.PercentCodec@99
+org.owasp.esapi.codecs.PercentCodec@100
+org.owasp.esapi.codecs.PercentCodec@101
+org.owasp.esapi.codecs.PercentCodec@102
+org.owasp.esapi.codecs.PercentCodec@103
+org.owasp.esapi.codecs.PercentCodec@104
+org.owasp.esapi.codecs.PercentCodec@105
+org.owasp.esapi.codecs.PercentCodec@106
+org.owasp.esapi.codecs.PercentCodec@107
+org.owasp.esapi.codecs.PercentCodec@108
+org.owasp.esapi.codecs.PercentCodec@109

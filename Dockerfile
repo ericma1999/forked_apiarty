@@ -66,6 +66,14 @@ RUN git clone https://github.com/SerVal-DTF/AVATAR.git \
     && cpanm --installdeps . \
     && ./init.sh
 
+
+
+# Install Tbar
+WORKDIR /tbar
+RUN git clone https://github.com/ericma1999/forked_tbar.git /tbar \
+    && cd /tbar \
+    && mvn package -DskipTests
+
 # Install TBar
 # WORKDIR /tbar
 # RUN git clone https://github.com/SerVal-DTF/TBar.git \
@@ -87,6 +95,9 @@ RUN git clone https://github.com/SerVal-DTF/AVATAR.git \
 #     && ./init.sh
 
 WORKDIR /apiarty
+
+RUN git config --global user.name "apiarty"
+RUN git config --global user.email "apiarty@gmail.com"
 
 COPY . .
 CMD ["bash"]

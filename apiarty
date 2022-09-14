@@ -30,6 +30,7 @@ ARJA_ROOT = Path('/arja')
 ASTOR_ROOT = Path('/astor')
 NOPOL_ROOT = Path('/nopol')
 NPEFIX_ROOT = Path('/npefix')
+TBAR_ROOT = Path("/tbar")
 
 
 # this is needed for "camel"
@@ -122,6 +123,7 @@ class Project:
 			print("copying to " + str(self.root) + "/" + self.package_path + "/" + self.test_path)
 			shutil.copytree(next_dir + "/" + self.package_path + "/" + self.test_path,
 							str(self.root) + "/" + self.package_path + "/" + self.test_path)
+			self.vcs.commit_setup_project(self.root)
 
 
 class Git:
@@ -142,6 +144,21 @@ class Git:
 
 	def fetch_previous(self, revision, root):
 		self.fetch(revision + '^', root)
+
+	def commit_setup_project(self, root):
+		print("current root")
+		print(root)
+		with cd(root):
+			p = run(["git", "add", "."], stdout=apiarty_stdout, stderr=apiarty_stderr)
+			time.sleep(1.0)
+			p = run(["git", "commit", "-m", "testhello"], stdout=apiarty_stdout, stderr=apiarty_stderr)
+			if p.returncode != 0:
+				logger.warning("git failed to setup project with newer tests")
+
+		# 	command = ["git", "commit", "-m", "project setup done"]
+			# p = call(command, stdout=apiarty_stdout, stderr=apiarty_stderr)
+			# if p != 0:
+			# 	logger.warning("git failed to commit -m")	
 
 
 class Svn:
@@ -484,6 +501,53 @@ class Npefix():
 					repair_status = RepairStatus.SUCCESS
 		return RepairStatus.UNKNOWN
 
+class TBar():
+
+	def run(self, project, output_dir):
+		with cd(TBAR_ROOT):
+			command = "./NormalFLTBarRunner.sh"
+			args = [APIARTY_ROOT + "/data/", project.id, "D4J/defects4j/", "/apiarty/localisation/"]
+
+			
+
+		print("Project folder: " + str(project_folder))
+
+		with cd(ASTOR_ROOT):
+			with (output_dir / 'stdout.txt').open('w') as stdout,\
+				 (output_dir / 'stderr.txt').open('w') as stderr:
+				p = run([
+					'java', '-Xmx4048m', '-cp', "/astor/lib/jtestex7.jar:/astor/target/astor-2.0.0-jar-with-dependencies.jar", self.main_class,
+							'-mode', self.algorithm,
+							'-location', str(project_folder.resolve()) + "/",
+							'-jvm4testexecution', str(os.getenv("JAVA_HOME"))+str("/bin/"),
+							'-failing', str(project.test_class),
+							'-srcjavafolder', "/"+str(project.src_path),
+							'-srctestfolder', "/"+str(project.test_path),
+							'-binjavafolder', "/"+str(project.src_classes),
+							'-bintestfolder', "/"+str(project.test_classes),
+							'-maxtime', str(120),
+							'-stopfirst', 'true',
+							'-maxgen', str(1000000),
+							'-seed', str(0),
+							'-scope', 'local',
+							'-population', str(1),
+							'-dependencies', dependencies+":"+str(GZOLTAR.resolve())+":"+str("/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar"+":"+str("/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom"))
+				],
+					stdout=stdout,
+					stderr=stderr,timeout=7200)
+				if p.returncode != 0:
+					logger.warning("repair returned non-zero code")
+				# check for generated patches by Astor tools
+				entries = output_dir
+				for entry in entries.iterdir():
+					if 'PATCH_DIFF_ORIG' in entry.read_text():
+						repair_status = RepairStatus.SUCCESS
+		return repair_status
+
+
+
+
+
 
 def repair(tool, project):
 	logger.info("fetching " + project.id)
@@ -580,13 +644,13 @@ def parse_project(id, project_root):
 	with (APIARTY_ROOT / 'data' / (id + '.json')).open() as json_file:
 		data = json.load(json_file)
 		vcs = make_vcs(data['vcs'], data['repo'])
-		build_system = make_build(data['build_system'], project_root / data['name'])
+		build_system = make_build(data['build_system'], project_root)
 
 		custom_classpath_project = ""
 		if data.get("custom_classpath_project") is not None:
 			custom_classpath_project = data.get("custom_classpath_project")
 
-		return Project(id=data['id'], root=(project_root / data['name']),
+		return Project(id=data['id'], root=(project_root),
 					   vcs=vcs, revision=data['revision'], build_system=build_system,
 					   test_class=data['test_class'], src_path=data['src_path'], test_path=data['test_path'],
 					   package_path=data['package_path'], src_classes=data['src_classes'], test_classes=data['test_classes'], build_command=data['build_system'],custom_classpath_project=custom_classpath_project)

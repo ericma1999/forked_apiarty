@@ -1,0 +1,5 @@
+com.google.refine.importers.XmlImporter@321
+com.google.refine.importers.XmlImporter@322
+com.google.refine.importers.XmlImporter@323
+com.google.refine.importers.XmlImporter@324
+com.google.refine.importers.XmlImporter@325

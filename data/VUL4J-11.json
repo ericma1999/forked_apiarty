@@ -3,9 +3,9 @@
   "name": "apache/commons-fileupload",
   "vcs": "git",
   "repo": "https://github.com/apache/commons-fileupload.git",
-  "method": "FileItemIteratorImpl",
-  "method_line": "938",
-  "method_line_before": "",
+  "method": "MultipartStream",
+  "method_line": "318",
+  "method_line_before": "323",
   "revision": "c61ff05b3241cb14d989b67209e57aa71540417a",
   "build_system": {
     "custom": [

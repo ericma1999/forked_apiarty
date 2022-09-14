@@ -1,0 +1,6 @@
+org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepExecution@61
+org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepExecution@62
+org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepExecution@63
+org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepExecution@64
+org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepExecution@65
+org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStepExecution@66
