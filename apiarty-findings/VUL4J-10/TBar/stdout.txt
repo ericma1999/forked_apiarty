@@ -1,0 +1,1636 @@
+5
+/apiarty/data/
+VUL4J-10
+compile
+/apiarty/data/VUL4J-10
+[{"test":"mvn test -Dtest=org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepositoryWithNullChar"},{"compile":"mvn -DskipTests clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Dtest=org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepositoryWithNullChar"}
+{"compile":"mvn -DskipTests clean install"}
+The compile command
+"mvn -DskipTests clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests clean install
+test
+/apiarty/data/VUL4J-10
+[{"test":"mvn test -Dtest=org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepositoryWithNullChar"},{"compile":"mvn -DskipTests clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Dtest=org.apache.commons.fileupload.DiskFileItemSerializeTest#testInvalidRepositoryWithNullChar"}
+The test command
+{"compile":"mvn -DskipTests clean install"}
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn test -Dtest=org.apache.commons.fileupload.DiskFileItemSerializeTest
+this is the test result
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mcommons-fileupload:commons-fileupload[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Commons FileUpload 1.4-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.7:run[m [1m(javadoc.resources)[m @ [36mcommons-fileupload[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.4:process[m [1m(default)[m @ [36mcommons-fileupload[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.2:create[m [1m(default)[m @ [36mcommons-fileupload[0;1m ---[m
+[[1;34mINFO[m] Checking for local modifications: skipped.
+[[1;34mINFO[m] Updating project files from SCM: skipped.
+[[1;34mINFO[m] Executing: /bin/sh -c cd /apiarty/data/VUL4J-10 && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-10
+[[1;34mINFO[m] Storing buildNumber: ?????? at timestamp: 1663128269422
+[[1;34mINFO[m] Executing: /bin/sh -c cd /apiarty/data/VUL4J-10 && svn --non-interactive info
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-10
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN_BRANCH
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcommons-fileupload[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /apiarty/data/VUL4J-10/src/main/resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.0:compile[m [1m(default-compile)[m @ [36mcommons-fileupload[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 39 source files to /apiarty/data/VUL4J-10/target/classes
+[[1;33mWARNING[m] /apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/servlet/ServletFileUpload.java: /apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/servlet/ServletFileUpload.java uses or overrides a deprecated API.
+[[1;33mWARNING[m] /apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/servlet/ServletFileUpload.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:2.3.7:manifest[m [1m(bundle-manifest)[m @ [36mcommons-fileupload[0;1m ---[m
+[[1;33mWARNING[m] Manifest commons-fileupload:commons-fileupload:jar:1.4-SNAPSHOT : Did not find matching referal for !javax.portlet
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcommons-fileupload[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /apiarty/data/VUL4J-10/src/test/resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.0:testCompile[m [1m(default-testCompile)[m @ [36mcommons-fileupload[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 15 source files to /apiarty/data/VUL4J-10/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.13:test[m [1m(default-test)[m @ [36mcommons-fileupload[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /apiarty/data/VUL4J-10/target/surefire-reports
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.13/surefire-junit4-2.13.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.13/surefire-junit4-2.13.pom (2.5 kB at 748 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.13/surefire-providers-2.13.pom
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.13/surefire-providers-2.13.pom (2.4 kB at 125 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.13/surefire-junit4-2.13.jar
+Progress (1): 4.1/79 kB
+Progress (1): 8.2/79 kB
+Progress (1): 12/79 kB 
+Progress (1): 16/79 kB
+Progress (1): 20/79 kB
+Progress (1): 25/79 kB
+Progress (1): 29/79 kB
+Progress (1): 33/79 kB
+Progress (1): 37/79 kB
+Progress (1): 41/79 kB
+Progress (1): 45/79 kB
+Progress (1): 49/79 kB
+Progress (1): 53/79 kB
+Progress (1): 57/79 kB
+Progress (1): 61/79 kB
+Progress (1): 66/79 kB
+Progress (1): 70/79 kB
+Progress (1): 74/79 kB
+Progress (1): 78/79 kB
+Progress (1): 79 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.13/surefire-junit4-2.13.jar (79 kB at 1.7 MB/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.fileupload.DiskFileItemSerializeTest
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec <<< FAILURE!
+testInvalidRepositoryWithNullChar(org.apache.commons.fileupload.DiskFileItemSerializeTest)  Time elapsed: 0.103 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.io.IOException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+
+testInvalidRepository(org.apache.commons.fileupload.DiskFileItemSerializeTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.io.IOException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+
+
+Results :
+
+Failed tests: 
+   Expected exception: java.io.IOException
+   Expected exception: java.io.IOException
+
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.753 s
+[[1;34mINFO[m] Finished at: 2022-09-14T04:04:35Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.13:test[m [1m(default-test)[m on project [36mcommons-fileupload[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mPlease refer to /apiarty/data/VUL4J-10/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+04:04:36.003 [main] INFO edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 Failed Tests: 2
+VUL4J-10
+YOYOY
+"654"
+BRUH123
+04:04:36.081 [main] INFO edu.lu.uni.serval.tbar.TBarFixer - =======TBar: Start to fix suspicious code======
+04:04:36.082 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===656
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:04:36.923 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Failed to identify the buggy statement in: org.apache.commons.fileupload.disk.DiskFileItem --- 656
+04:04:36.924 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===657
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:04:37.012 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+in.defaultReadObject();
+04:04:37.181 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getContentType().defaultReadObject();
+04:04:37.183 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getCharSet().defaultReadObject();
+04:04:37.184 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getName().defaultReadObject();
+04:04:37.184 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: isInMemory().defaultReadObject();
+04:04:37.185 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getSize().defaultReadObject();
+04:04:37.186 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: get().defaultReadObject();
+04:04:37.186 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getString().defaultReadObject();
+04:04:37.187 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete().defaultReadObject();
+04:04:37.188 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getFieldName().defaultReadObject();
+04:04:37.188 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: isFormField().defaultReadObject();
+04:04:37.189 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getStoreLocation().defaultReadObject();
+04:04:37.190 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize().defaultReadObject();
+04:04:37.191 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getTempFile().defaultReadObject();
+04:04:37.192 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getUniqueId().defaultReadObject();
+04:04:37.193 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: toString().defaultReadObject();
+04:04:37.194 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getHeaders().defaultReadObject();
+04:04:37.195 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:37.932 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:37.948 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:38.754 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:38.756 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:39.378 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:39.380 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:40.055 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:40.057 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:40.863 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:40.865 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:41.535 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:41.538 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:42.151 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:42.153 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:42.846 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:42.848 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:43.490 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:43.492 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:44.135 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:44.137 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:44.807 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:44.809 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:45.447 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:45.449 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:46.095 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:46.097 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:46.746 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:46.748 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:47.374 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:47.375 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:48.030 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:48.050 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (in != null) {
+	
+
+	}
+
+04:04:48.052 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (in == null) {
+	    throw new IllegalArgumentException("Null 'in' argument.");
+	}
+
+04:04:48.052 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (in == null) {
+	    return;
+	}
+
+04:04:48.053 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (in == null) in = new ObjectInputStream();
+ 
+04:04:48.055 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:48.861 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:48.863 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:49.461 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:49.463 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:50.083 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:50.085 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:50.722 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:50.738 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+        OutputStream output = getOutputStream();
+	in.defaultReadObject();
+
+MOVE-BUGGY-STATEMENT
+04:04:50.739 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+        OutputStream output = getOutputStream();
+        if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+	in.defaultReadObject();
+
+MOVE-BUGGY-STATEMENT
+04:04:50.740 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+        OutputStream output = getOutputStream();
+        if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+        output.close();
+	in.defaultReadObject();
+
+MOVE-BUGGY-STATEMENT
+04:04:50.742 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+        OutputStream output = getOutputStream();
+        if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+        output.close();
+
+        cachedContent = null;
+	in.defaultReadObject();
+
+MOVE-BUGGY-STATEMENT
+04:04:50.744 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:51.360 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:51.362 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:51.989 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:51.992 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:52.699 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:52.702 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:53.370 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:53.392 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+04:04:53.393 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+04:04:53.396 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:54.056 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:54.058 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:54.687 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:54.703 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete();
+	in.defaultReadObject();
+04:04:54.704 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: in.defaultReadObject();
+	delete();
+04:04:54.706 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize();
+	in.defaultReadObject();
+04:04:54.706 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: in.defaultReadObject();
+	finalize();
+04:04:54.707 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: readObject(in);
+04:04:54.708 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: readObject(in);
+	in.defaultReadObject();
+04:04:54.709 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: in.defaultReadObject();
+	readObject(in);
+04:04:54.711 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:55.370 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:55.372 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:55.991 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:55.992 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:56.635 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:56.638 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:57.252 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:57.253 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:57.901 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:57.904 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:58.689 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:58.691 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:04:59.568 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:04:59.570 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===658
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:04:59.596 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Failed to identify the buggy statement in: org.apache.commons.fileupload.disk.DiskFileItem --- 658
+04:04:59.597 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===659
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:04:59.621 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+OutputStream output = getOutputStream();
+04:04:59.717 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+04:04:59.718 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+04:04:59.720 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:00.331 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:00.349 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===660
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:05:00.381 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:00.394 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (cachedContent == null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:00.399 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:01.016 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:01.085 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (getContentType() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.086 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (getCharSet() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.087 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (getName() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.088 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (isInMemory() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.089 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (getSize() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.090 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (get() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.091 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (getString() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.091 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (delete() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.092 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (getFieldName() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.092 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (isFormField() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.093 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (getStoreLocation() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.093 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (finalize() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.094 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (getTempFile() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.095 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (getUniqueId() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.095 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (toString() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.096 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (getHeaders() != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:01.098 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:01.803 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:01.804 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:02.431 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:02.433 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:03.042 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:03.043 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:03.643 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:03.644 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:04.250 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:04.251 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:04.848 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:04.850 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:05.449 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:05.451 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:06.064 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:06.066 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:06.682 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:06.684 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:07.303 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:07.305 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:07.941 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:07.942 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:08.560 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:08.562 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:09.166 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:09.168 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:09.804 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:09.806 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:10.408 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:10.410 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:11.022 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:11.046 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+	in.defaultReadObject();
+
+        OutputStream output = getOutputStream();
+        
+null
+04:05:11.047 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+	OutputStream output = getOutputStream();
+        
+null
+04:05:11.048 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+        output.close();
+	if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+
+MOVE-BUGGY-STATEMENT
+04:05:11.049 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+        output.close();
+
+        cachedContent = null;
+	if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+
+MOVE-BUGGY-STATEMENT
+04:05:11.050 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:11.671 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:11.673 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:12.296 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:12.298 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:12.923 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:12.925 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:13.536 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:13.548 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+04:05:13.549 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(cachedContent);
+04:05:13.550 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+04:05:13.551 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+04:05:13.553 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:14.175 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:14.176 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:14.792 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:14.795 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:15.420 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:15.430 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete();
+	if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:15.431 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+	delete();
+04:05:15.431 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize();
+	if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:05:15.433 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+	finalize();
+04:05:15.435 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:16.049 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:16.051 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:16.684 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:16.685 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:17.316 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:17.318 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:17.936 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:17.938 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===661
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:05:17.963 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+output.write(cachedContent);
+04:05:18.000 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getContentType().write(cachedContent);
+04:05:18.001 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getCharSet().write(cachedContent);
+04:05:18.001 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getName().write(cachedContent);
+04:05:18.002 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: isInMemory().write(cachedContent);
+04:05:18.002 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getSize().write(cachedContent);
+04:05:18.003 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: get().write(cachedContent);
+04:05:18.004 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getString().write(cachedContent);
+04:05:18.004 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete().write(cachedContent);
+04:05:18.005 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getFieldName().write(cachedContent);
+04:05:18.006 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: isFormField().write(cachedContent);
+04:05:18.006 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getStoreLocation().write(cachedContent);
+04:05:18.007 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize().write(cachedContent);
+04:05:18.007 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getTempFile().write(cachedContent);
+04:05:18.008 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getUniqueId().write(cachedContent);
+04:05:18.009 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: toString().write(cachedContent);
+04:05:18.009 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getHeaders().write(cachedContent);
+04:05:18.010 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(getContentType());
+04:05:18.010 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(getCharSet());
+04:05:18.011 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(getName());
+04:05:18.012 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(isInMemory());
+04:05:18.012 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(getSize());
+04:05:18.013 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(get());
+04:05:18.013 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(getString());
+04:05:18.014 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(delete());
+04:05:18.015 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(getFieldName());
+04:05:18.015 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(isFormField());
+04:05:18.016 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(getStoreLocation());
+04:05:18.016 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(finalize());
+04:05:18.017 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(getTempFile());
+04:05:18.018 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(getUniqueId());
+04:05:18.018 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(toString());
+04:05:18.019 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(getHeaders());
+04:05:18.020 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:18.650 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:18.652 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:19.286 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:19.287 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:19.948 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:19.950 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:20.556 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:20.558 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:21.201 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:21.203 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:21.829 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:21.831 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:22.450 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:22.451 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:23.096 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:23.097 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:23.726 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:23.727 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:24.352 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:24.354 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:24.957 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:24.959 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:25.559 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:25.561 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:26.181 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:26.183 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:26.802 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:26.804 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:27.417 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:27.419 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:28.047 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:28.049 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:28.658 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:28.659 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:29.274 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:29.276 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:29.959 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:29.961 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:30.559 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:30.561 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:31.191 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:31.193 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:31.816 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:31.819 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:32.420 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:32.422 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:33.040 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:33.042 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:33.654 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:33.657 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:34.280 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:34.282 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:34.913 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:34.914 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:35.539 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:35.541 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:36.161 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:36.163 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:36.800 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:36.801 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:37.422 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:37.423 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:38.031 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:38.040 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output != null) {
+	
+
+	}
+
+04:05:38.040 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output == null) {
+	    throw new IllegalArgumentException("Null 'output' argument.");
+	}
+
+04:05:38.042 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output == null) {
+	    return;
+	}
+
+04:05:38.042 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output == null) output = new OutputStream();
+ 
+04:05:38.044 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:38.652 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:38.653 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:39.298 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:39.299 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:39.917 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:39.919 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:40.539 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:40.554 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+04:05:40.555 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+04:05:40.556 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:41.175 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:41.186 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete();
+	output.write(cachedContent);
+04:05:41.187 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(cachedContent);
+	delete();
+04:05:41.188 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize();
+	output.write(cachedContent);
+04:05:41.189 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.write(cachedContent);
+	finalize();
+04:05:41.190 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:41.802 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:41.804 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:42.422 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:42.423 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:43.033 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:43.034 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:43.651 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:43.652 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===662
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:05:43.671 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Failed to identify the buggy statement in: org.apache.commons.fileupload.disk.DiskFileItem --- 662
+04:05:43.672 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===663
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:05:43.691 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+FileInputStream input = new FileInputStream(dfosFile);
+04:05:43.714 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.tempFile);
+04:05:43.715 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.repository);
+04:05:43.717 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(getContentType());
+04:05:43.717 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(getCharSet());
+04:05:43.719 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(getName());
+04:05:43.719 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(isInMemory());
+04:05:43.720 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(getSize());
+04:05:43.721 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(get());
+04:05:43.722 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(getString());
+04:05:43.723 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(delete());
+04:05:43.724 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(getFieldName());
+04:05:43.724 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(isFormField());
+04:05:43.725 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(getStoreLocation());
+04:05:43.726 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(finalize());
+04:05:43.727 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(getTempFile());
+04:05:43.727 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(getUniqueId());
+04:05:43.728 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(toString());
+04:05:43.729 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(getHeaders());
+04:05:43.730 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:44.360 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:44.363 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:44.981 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:44.982 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:45.611 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:45.613 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:46.225 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:46.226 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:46.862 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:46.864 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:47.478 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:47.479 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:48.085 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:48.087 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:48.703 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:48.704 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:49.291 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:49.293 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:49.892 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:49.893 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:50.495 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:50.496 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:51.121 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:51.123 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:51.736 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:51.738 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:52.337 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:52.339 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:52.945 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:52.948 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:53.599 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:53.600 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:54.211 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:54.213 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:54.838 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:54.851 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile != null) {
+	
+
+	}
+
+04:05:54.852 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile == null) {
+	    throw new IllegalArgumentException("Null 'dfosFile' argument.");
+	}
+
+04:05:54.853 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile == null) {
+	    return;
+	}
+
+04:05:54.854 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile == null) dfosFile = this.repository;
+ 
+04:05:54.854 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile == null) dfosFile = this.tempFile;
+ 
+04:05:54.855 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile == null) dfosFile = new File();
+ 
+04:05:54.857 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:55.461 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:55.462 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:56.109 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:56.111 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:56.742 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:56.744 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:57.358 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:57.360 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:57.967 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:57.969 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:58.595 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:58.604 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(input, dfosFile);
+04:05:58.605 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(output, dfosFile);
+04:05:58.606 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(in, dfosFile);
+04:05:58.606 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.fieldName, dfosFile);
+04:05:58.607 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.contentType, dfosFile);
+04:05:58.607 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.isFormField, dfosFile);
+04:05:58.608 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.fileName, dfosFile);
+04:05:58.608 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.size, dfosFile);
+04:05:58.609 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.sizeThreshold, dfosFile);
+04:05:58.610 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.repository, dfosFile);
+04:05:58.610 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.cachedContent, dfosFile);
+04:05:58.611 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.dfos, dfosFile);
+04:05:58.611 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.tempFile, dfosFile);
+04:05:58.612 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.dfosFile, dfosFile);
+04:05:58.612 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(this.headers, dfosFile);
+04:05:58.613 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, input);
+04:05:58.613 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, output);
+04:05:58.614 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, in);
+04:05:58.616 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.fieldName);
+04:05:58.617 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.contentType);
+04:05:58.618 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.isFormField);
+04:05:58.618 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.fileName);
+04:05:58.619 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.size);
+04:05:58.619 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.sizeThreshold);
+04:05:58.620 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.repository);
+04:05:58.620 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.cachedContent);
+04:05:58.621 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.dfos);
+04:05:58.622 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.tempFile);
+04:05:58.622 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.dfosFile);
+04:05:58.623 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile, this.headers);
+04:05:58.624 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream();
+04:05:58.625 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:59.245 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:59.246 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:05:59.866 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:05:59.868 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:00.480 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:00.482 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:01.127 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:01.128 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:01.738 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:01.740 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:02.380 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:02.381 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:02.997 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:02.999 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:03.643 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:03.645 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:04.265 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:04.266 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:04.873 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:04.874 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:05.481 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:05.482 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:06.094 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:06.095 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:06.721 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:06.724 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:07.333 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:07.335 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:07.955 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:07.958 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:08.575 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:08.576 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:09.263 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:09.265 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:09.911 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:09.912 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:10.519 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:10.520 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:11.140 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:11.143 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:11.755 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:11.757 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:12.368 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:12.370 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:12.990 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:12.992 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:13.656 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:13.658 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:14.290 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:14.291 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:14.927 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:14.928 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:15.576 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:15.578 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:17.281 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:17.309 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:18.060 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:18.061 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:18.693 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:18.695 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:19.446 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:19.469 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+04:06:19.470 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+04:06:19.472 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:20.332 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:20.342 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete();
+	FileInputStream input = new FileInputStream(dfosFile);
+04:06:20.343 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile);
+	delete();
+04:06:20.344 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize();
+	FileInputStream input = new FileInputStream(dfosFile);
+04:06:20.344 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: FileInputStream input = new FileInputStream(dfosFile);
+	finalize();
+04:06:20.346 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:21.423 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:21.426 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:22.273 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:22.275 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:23.281 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:23.290 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:24.079 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:24.082 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===664
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:06:24.114 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+IOUtils.copy(input, output);
+04:06:24.167 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(getContentType(), output);
+04:06:24.169 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(getCharSet(), output);
+04:06:24.170 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(getName(), output);
+04:06:24.171 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(isInMemory(), output);
+04:06:24.171 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(getSize(), output);
+04:06:24.173 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(get(), output);
+04:06:24.173 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(getString(), output);
+04:06:24.175 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(delete(), output);
+04:06:24.175 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(getFieldName(), output);
+04:06:24.176 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(isFormField(), output);
+04:06:24.178 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(getStoreLocation(), output);
+04:06:24.178 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(finalize(), output);
+04:06:24.179 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(getTempFile(), output);
+04:06:24.180 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(getUniqueId(), output);
+04:06:24.181 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(toString(), output);
+04:06:24.182 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(getHeaders(), output);
+04:06:24.183 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, getContentType());
+04:06:24.184 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, getCharSet());
+04:06:24.185 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, getName());
+04:06:24.186 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, isInMemory());
+04:06:24.187 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, getSize());
+04:06:24.188 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, get());
+04:06:24.188 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, getString());
+04:06:24.189 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, delete());
+04:06:24.190 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, getFieldName());
+04:06:24.192 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, isFormField());
+04:06:24.193 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, getStoreLocation());
+04:06:24.194 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, finalize());
+04:06:24.194 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, getTempFile());
+04:06:24.195 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, getUniqueId());
+04:06:24.196 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, toString());
+04:06:24.197 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, getHeaders());
+04:06:24.199 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:25.109 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:25.111 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:25.864 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:25.866 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:26.978 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:26.980 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:27.654 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:27.656 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:28.262 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:28.264 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:28.904 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:28.907 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:29.581 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:29.582 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:30.326 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:30.328 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:30.959 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:30.961 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:31.654 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:31.656 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:32.293 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:32.294 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:32.950 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:32.951 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:33.581 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:33.582 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:34.222 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:34.223 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:34.916 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:34.917 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:35.581 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:35.583 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:36.256 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:36.258 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:36.897 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:36.899 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:37.576 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:37.579 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:38.378 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:38.381 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:39.143 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:39.145 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:39.840 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:39.841 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:40.527 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:40.528 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:41.285 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:41.288 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:41.907 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:41.909 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:42.542 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:42.543 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:43.170 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:43.172 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:43.818 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:43.819 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:44.523 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:44.524 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:45.156 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:45.157 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:45.771 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:45.773 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:46.399 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:46.412 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (input != null) {
+	
+
+	}
+
+04:06:46.413 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (input == null) {
+	    throw new IllegalArgumentException("Null 'input' argument.");
+	}
+
+04:06:46.414 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (input == null) {
+	    return;
+	}
+
+04:06:46.415 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (input == null) input = new FileInputStream();
+ 
+04:06:46.416 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output != null) {
+	
+
+	}
+
+04:06:46.416 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output == null) {
+	    throw new IllegalArgumentException("Null 'output' argument.");
+	}
+
+04:06:46.417 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output == null) {
+	    return;
+	}
+
+04:06:46.418 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output == null) output = new OutputStream();
+ 
+04:06:46.419 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (input != null && output != null) {
+	
+
+	}
+
+04:06:46.421 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:47.047 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:47.049 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:47.677 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:47.679 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:48.296 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:48.298 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:48.945 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:48.947 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:49.552 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:49.554 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:50.165 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:50.166 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:50.791 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:50.793 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:51.412 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:51.415 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:52.038 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:52.056 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+04:06:52.057 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+04:06:52.058 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:52.683 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:52.693 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete();
+	IOUtils.copy(input, output);
+04:06:52.693 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, output);
+	delete();
+04:06:52.694 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize();
+	IOUtils.copy(input, output);
+04:06:52.695 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: IOUtils.copy(input, output);
+	finalize();
+04:06:52.696 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:53.295 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:53.296 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:53.993 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:53.994 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:54.607 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:54.609 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:55.218 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:55.219 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===665
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:06:55.242 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+dfosFile.delete();
+04:06:55.278 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: this.tempFile.delete();
+04:06:55.279 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: this.repository.delete();
+04:06:55.279 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getContentType().delete();
+04:06:55.280 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getCharSet().delete();
+04:06:55.281 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getName().delete();
+04:06:55.281 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: isInMemory().delete();
+04:06:55.282 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getSize().delete();
+04:06:55.282 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: get().delete();
+04:06:55.283 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getString().delete();
+04:06:55.284 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete().delete();
+04:06:55.284 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getFieldName().delete();
+04:06:55.285 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: isFormField().delete();
+04:06:55.285 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getStoreLocation().delete();
+04:06:55.286 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize().delete();
+04:06:55.286 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getTempFile().delete();
+04:06:55.287 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getUniqueId().delete();
+04:06:55.287 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: toString().delete();
+04:06:55.288 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getHeaders().delete();
+04:06:55.289 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:55.915 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:55.916 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:56.557 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:56.559 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:57.248 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:57.262 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:57.933 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:57.935 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:58.752 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:58.754 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:06:59.504 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:06:59.507 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:00.155 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:00.157 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:00.761 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:00.763 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:01.375 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:01.377 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:01.970 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:01.972 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:02.703 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:02.704 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:03.338 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:03.340 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:03.953 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:03.955 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:04.592 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:04.594 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:05.247 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:05.248 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:05.948 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:05.950 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:06.540 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:06.541 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:07.146 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:07.154 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile != null) {
+	
+
+	}
+
+04:07:07.155 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile == null) {
+	    throw new IllegalArgumentException("Null 'dfosFile' argument.");
+	}
+
+04:07:07.156 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile == null) {
+	    return;
+	}
+
+04:07:07.156 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile == null) dfosFile = this.repository;
+ 
+04:07:07.157 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile == null) dfosFile = this.tempFile;
+ 
+04:07:07.157 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (dfosFile == null) dfosFile = new File();
+ 
+04:07:07.158 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:07.771 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:07.773 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:08.372 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:08.374 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:08.983 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:08.984 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:09.587 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:09.588 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:10.200 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:10.201 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:10.809 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:10.826 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+04:07:10.828 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+04:07:10.829 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:11.434 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:11.446 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete();
+	dfosFile.delete();
+04:07:11.447 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: dfosFile.delete();
+	delete();
+04:07:11.447 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize();
+	dfosFile.delete();
+04:07:11.448 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: dfosFile.delete();
+	finalize();
+04:07:11.449 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:12.069 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:12.070 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:12.690 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:12.691 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:13.301 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:13.302 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:13.902 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:13.904 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===666
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:07:13.921 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+dfosFile = null;
+04:07:13.966 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+04:07:13.967 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+04:07:13.968 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:14.603 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:14.612 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===667
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:07:14.630 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+04:07:14.631 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===668
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:07:14.653 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+output.close();
+04:07:14.682 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getContentType().close();
+04:07:14.682 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getCharSet().close();
+04:07:14.683 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getName().close();
+04:07:14.684 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: isInMemory().close();
+04:07:14.684 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getSize().close();
+04:07:14.685 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: get().close();
+04:07:14.685 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getString().close();
+04:07:14.686 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete().close();
+04:07:14.687 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getFieldName().close();
+04:07:14.687 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: isFormField().close();
+04:07:14.688 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getStoreLocation().close();
+04:07:14.688 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize().close();
+04:07:14.689 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getTempFile().close();
+04:07:14.689 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getUniqueId().close();
+04:07:14.690 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: toString().close();
+04:07:14.690 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: getHeaders().close();
+04:07:14.691 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:15.301 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:15.302 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:15.917 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:15.919 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:16.520 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:16.521 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:17.119 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:17.121 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:17.723 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:17.724 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:18.332 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:18.333 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:18.939 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:18.941 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:19.540 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:19.541 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:20.181 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:20.183 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:20.822 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:20.824 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:21.441 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:21.444 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:22.047 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:22.049 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:22.665 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:22.666 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:23.299 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:23.300 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:23.919 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:23.922 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:24.548 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:24.555 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output != null) {
+	
+
+	}
+
+04:07:24.556 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output == null) {
+	    throw new IllegalArgumentException("Null 'output' argument.");
+	}
+
+04:07:24.557 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output == null) {
+	    return;
+	}
+
+04:07:24.557 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output == null) output = new OutputStream();
+ 
+04:07:24.558 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: if (output != null) 
+	
+04:07:24.559 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:25.170 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:25.172 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:25.799 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:25.802 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:26.414 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:26.416 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:27.019 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:27.021 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:27.643 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:27.650 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.close();
+	in.defaultReadObject();
+
+        OutputStream output = getOutputStream();
+        if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+        
+null
+04:07:27.651 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.close();
+	OutputStream output = getOutputStream();
+        if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+        
+null
+04:07:27.652 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.close();
+	if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+        
+null
+04:07:27.652 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+        cachedContent = null;
+	output.close();
+
+MOVE-BUGGY-STATEMENT
+04:07:27.653 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:28.271 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:28.272 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:28.885 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:28.886 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:29.486 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:29.487 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:30.159 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:30.166 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+04:07:30.168 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+04:07:30.169 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:30.786 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:30.797 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: delete();
+	output.close();
+04:07:30.798 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.close();
+	delete();
+04:07:30.799 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: finalize();
+	output.close();
+04:07:30.799 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: output.close();
+	finalize();
+04:07:30.800 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:31.418 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:31.419 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:32.086 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:32.088 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:32.815 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:32.817 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:33.594 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:33.596 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===669
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:07:33.616 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Failed to identify the buggy statement in: org.apache.commons.fileupload.disk.DiskFileItem --- 669
+04:07:33.618 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.fileupload.disk.DiskFileItem ===670
+this is the file
+org/apache/commons/fileupload/disk/DiskFileItem.java
+this is the file path
+/apiarty/data/VUL4J-10/src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java
+true
+/tbar
+after openning
+04:07:33.658 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+cachedContent = null;
+04:07:33.700 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: cachedContent = null;
+	in.defaultReadObject();
+
+        OutputStream output = getOutputStream();
+        if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+        output.close();
+
+        
+null
+04:07:33.701 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: cachedContent = null;
+	OutputStream output = getOutputStream();
+        if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+        output.close();
+
+        
+null
+04:07:33.702 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: cachedContent = null;
+	if (cachedContent != null) {
+            output.write(cachedContent);
+        } else {
+            FileInputStream input = new FileInputStream(dfosFile);
+            IOUtils.copy(input, output);
+            dfosFile.delete();
+            dfosFile = null;
+        }
+        output.close();
+
+        
+null
+04:07:33.703 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: cachedContent = null;
+	output.close();
+
+        
+null
+04:07:33.705 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:35.108 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:35.111 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:35.756 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:35.757 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:36.379 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:36.381 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:37.011 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:37.018 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+04:07:37.019 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+04:07:37.020 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+04:07:37.638 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-10 ---Fixer: fix fail because of failed compiling! 
+04:07:37.646 [main] INFO edu.lu.uni.serval.tbar.TBarFixer - =======TBar: Finish off fixing======
+Failed to fix bug VUL4J-10

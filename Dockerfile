@@ -66,13 +66,12 @@ RUN git clone https://github.com/SerVal-DTF/AVATAR.git \
     && cpanm --installdeps . \
     && ./init.sh
 
-
-
+RUN cd
 # Install Tbar
 WORKDIR /tbar
 RUN git clone https://github.com/ericma1999/forked_tbar.git /tbar \
     && cd /tbar \
-    && mvn package -DskipTests
+    && mvn package -DskipTests dependency:copy-dependencies 
 
 # Install TBar
 # WORKDIR /tbar

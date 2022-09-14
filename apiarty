@@ -503,50 +503,27 @@ class Npefix():
 
 class TBar():
 
+	def __init__(self):
+		self.name = "TBar"
+
 	def run(self, project, output_dir):
 		with cd(TBAR_ROOT):
 			command = "./NormalFLTBarRunner.sh"
-			args = [APIARTY_ROOT + "/data/", project.id, "D4J/defects4j/", "/apiarty/localisation/"]
-
-			
-
-		print("Project folder: " + str(project_folder))
-
-		with cd(ASTOR_ROOT):
+			args = [str(Path.joinpath(APIARTY_ROOT, "data")) + "/" , project.id, "D4J/defects4j/",str(Path.joinpath(APIARTY_ROOT, "data")) + "/", "/apiarty/localisation/"]
+			repair_status = RepairStatus.UNKNOWN
 			with (output_dir / 'stdout.txt').open('w') as stdout,\
-				 (output_dir / 'stderr.txt').open('w') as stderr:
-				p = run([
-					'java', '-Xmx4048m', '-cp', "/astor/lib/jtestex7.jar:/astor/target/astor-2.0.0-jar-with-dependencies.jar", self.main_class,
-							'-mode', self.algorithm,
-							'-location', str(project_folder.resolve()) + "/",
-							'-jvm4testexecution', str(os.getenv("JAVA_HOME"))+str("/bin/"),
-							'-failing', str(project.test_class),
-							'-srcjavafolder', "/"+str(project.src_path),
-							'-srctestfolder', "/"+str(project.test_path),
-							'-binjavafolder', "/"+str(project.src_classes),
-							'-bintestfolder', "/"+str(project.test_classes),
-							'-maxtime', str(120),
-							'-stopfirst', 'true',
-							'-maxgen', str(1000000),
-							'-seed', str(0),
-							'-scope', 'local',
-							'-population', str(1),
-							'-dependencies', dependencies+":"+str(GZOLTAR.resolve())+":"+str("/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.1.1.jar"+":"+str("/root/.m2/repository/com/gzoltar/gzoltar/0.1.1/gzoltar-0.0.1.pom"))
-				],
-					stdout=stdout,
-					stderr=stderr,timeout=7200)
-				if p.returncode != 0:
-					logger.warning("repair returned non-zero code")
-				# check for generated patches by Astor tools
-				entries = output_dir
-				for entry in entries.iterdir():
-					if 'PATCH_DIFF_ORIG' in entry.read_text():
-						repair_status = RepairStatus.SUCCESS
-		return repair_status
+					(output_dir / "stderr.txt").open('w') as stderr:
+					print([command] + args)
+					p = run([command] + args, stdout=stdout, stderr=stderr, timeout=7200)
+					if p.returncode != 0:
+						logger.warning("repair returned non-zero code")
+					entries = output_dir
+					for entry in entries.iterdir():
+						if 'Succeeded to fix bug' in entry.read_text():
+							repair_status = RepairStatus.SUCCESS
+							return repair_status
 
-
-
-
+			return repair_status
 
 
 def repair(tool, project):
@@ -636,6 +613,7 @@ tool_by_name = {
 	'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen'),
     'Dynamoth': Nopol('dynamoth'),
     'Nopol': Nopol(None),
+		'TBar': TBar()
 	# 'NPEFix': Npefix(),
 }
 
