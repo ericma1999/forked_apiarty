@@ -1,3 +1,9 @@
+<style scoped>
+table {
+  font-size: 11px;
+}
+</style>
+
 # APIARTy
 
 ## Goals
