@@ -1,0 +1,436 @@
+2023-03-10 19:06:50.452:INFO::main: Logging initialized @6105ms to org.eclipse.jetty.util.log.StdErrLog
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/root/.m2/repository/org/slf4j/slf4j-jdk14/1.7.25/slf4j-jdk14-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/nopol/nopol/target/nopol-0.2-SNAPSHOT-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+   0.081 [id=14]	INFO	o.jvnet.hudson.test.WarExploder#explode: Exploding /root/.m2/repository/org/jenkins-ci/main/jenkins-war/2.7.3/jenkins-war-2.7.3.war into /apiarty/data/VUL4J-56/target/jenkins-for-test
+   2.335 [id=14]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:46077/jenkins/
+   2.778 [id=21]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   3.024 [id=31]	INFO	hudson.PluginManager$1$3$1#isDuplicate: Ignoring /tmp/hudson579831344374238655tmp/junit.jpi because /tmp/hudson579831344374238655tmp/the.jpl is already loaded
+   3.481 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   6.927 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   6.932 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   6.937 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   8.147 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   8.523 [id=34]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 46781
+   8.524 [id=31]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   8.752 [id=14]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   8.779 [id=14]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   8.789 [id=14]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   8.790 [id=14]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   8.884 [id=65]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #1 from /172.17.0.3:56492
+   8.895 [id=14]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   8.897 [id=14]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   8.901 [id=14]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+   8.906 [id=14]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.016 [id=66]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:40931/jenkins/
+   0.036 [id=72]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.051 [id=83]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.195 [id=79]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.196 [id=79]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.200 [id=85]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.208 [id=77]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.472 [id=87]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 38355
+   0.473 [id=87]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.496 [id=66]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   0.503 [id=66]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   0.506 [id=66]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   0.507 [id=66]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   0.518 [id=108]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #2 from /172.17.0.3:56164
+   0.522 [id=66]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   0.523 [id=66]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   0.525 [id=66]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+   0.526 [id=66]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.028 [id=109]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:36601/jenkins/
+Loading $JENKINS_HOME from /apiarty/data/VUL4J-56/target/test-classes/hudson/tasks/junit/JUnitResultArchiverTest/All.zip
+   0.088 [id=115]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.102 [id=126]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.225 [id=118]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.227 [id=128]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.232 [id=128]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.338 [id=117]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.358 [id=117]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 33457
+   0.359 [id=117]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.461 [id=131]	INFO	hudson.model.Run#execute: junit #1 main build action completed: SUCCESS
+   0.781 [id=150]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.784 [id=152]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.786 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.788 [id=159]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.790 [id=161]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.830 [id=163]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.831 [id=156]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.898 [id=109]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   0.907 [id=109]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   0.909 [id=109]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   0.909 [id=109]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   0.920 [id=171]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #3 from /172.17.0.3:52698
+   0.923 [id=109]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   0.925 [id=109]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   0.927 [id=109]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+   0.927 [id=109]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.013 [id=172]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:46059/jenkins/
+Loading $JENKINS_HOME from /apiarty/data/VUL4J-56/target/test-classes/hudson/tasks/junit/JUnitResultArchiverTest/All.zip
+   0.054 [id=178]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.061 [id=190]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.155 [id=187]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.157 [id=187]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.158 [id=181]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.380 [id=186]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.401 [id=185]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 34729
+   0.402 [id=185]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.429 [id=194]	INFO	hudson.model.Run#execute: junit #1 main build action completed: SUCCESS
+   4.840 [id=172]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   4.851 [id=172]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:46059/jenkins/static/5e85e704/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   7.041 [id=172]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   7.044 [id=172]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:46059/jenkins/static/5e85e704/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   8.461 [id=172]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   8.464 [id=172]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:46059/jenkins/static/5e85e704/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   9.868 [id=172]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   9.870 [id=172]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:46059/jenkins/static/5e85e704/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+  11.227 [id=172]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+  11.229 [id=172]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:46059/jenkins/static/5e85e704/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+  12.449 [id=172]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+  12.451 [id=172]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:46059/jenkins/static/5e85e704/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+  12.944 [id=172]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+  12.953 [id=172]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+  12.955 [id=172]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+  12.955 [id=172]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+  12.964 [id=239]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #4 from /172.17.0.3:58486
+  12.967 [id=172]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+  12.968 [id=172]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+  12.970 [id=172]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+  12.976 [id=172]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.009 [id=240]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:42095/jenkins/
+Loading $JENKINS_HOME from /apiarty/data/VUL4J-56/target/test-classes/hudson/tasks/junit/JUnitResultArchiverTest/All.zip
+   0.043 [id=246]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.051 [id=257]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.141 [id=255]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.142 [id=255]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.144 [id=253]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.206 [id=249]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.224 [id=249]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 40919
+   0.225 [id=249]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.531 [id=52]	INFO	o.j.h.test.SimpleCommandLauncher#launch: agent launched for slave0
+   2.888 [id=278]	INFO	hudson.model.Run#execute: junit #1 main build action completed: SUCCESS
+   6.259 [id=240]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   6.261 [id=240]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:42095/jenkins/static/2ee56dd8/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   7.517 [id=240]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   7.519 [id=240]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:42095/jenkins/static/2ee56dd8/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   8.675 [id=240]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   8.677 [id=240]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:42095/jenkins/static/2ee56dd8/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   9.868 [id=240]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   9.870 [id=240]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:42095/jenkins/static/2ee56dd8/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+  11.044 [id=240]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+  11.045 [id=240]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:42095/jenkins/static/2ee56dd8/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+  12.217 [id=240]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+  12.219 [id=240]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:42095/jenkins/static/2ee56dd8/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+  12.713 [id=240]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+  12.720 [id=240]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+  12.722 [id=240]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+  12.723 [id=240]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+  12.735 [id=313]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #5 from /172.17.0.3:47982
+  12.737 [id=240]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+  12.740 [id=240]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+  12.742 [id=240]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+  12.746 [id=240]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.014 [id=314]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:34019/jenkins/
+Loading $JENKINS_HOME from /apiarty/data/VUL4J-56/target/test-classes/hudson/tasks/junit/JUnitResultArchiverTest/All.zip
+   0.056 [id=320]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.062 [id=331]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.144 [id=333]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.146 [id=322]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.147 [id=326]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.293 [id=330]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.312 [id=321]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 35467
+   0.314 [id=321]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.334 [id=337]	INFO	hudson.model.Run#execute: junit #1 main build action completed: SUCCESS
+   1.284 [id=314]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   1.286 [id=314]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:34019/jenkins/static/ad4c706b/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.630 [id=314]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   2.632 [id=314]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:34019/jenkins/static/ad4c706b/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   3.851 [id=314]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   3.854 [id=314]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:34019/jenkins/static/ad4c706b/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   5.365 [id=314]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   5.367 [id=314]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:34019/jenkins/static/ad4c706b/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   6.614 [id=314]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   6.616 [id=314]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:34019/jenkins/static/ad4c706b/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   7.941 [id=314]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   7.943 [id=314]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:34019/jenkins/static/ad4c706b/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   8.435 [id=314]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   8.440 [id=314]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   8.442 [id=314]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   8.442 [id=314]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   8.452 [id=377]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #6 from /172.17.0.3:54310
+   8.454 [id=314]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   8.455 [id=314]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   8.456 [id=314]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+   8.461 [id=314]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.008 [id=378]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:35691/jenkins/
+   0.022 [id=384]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.027 [id=396]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.096 [id=391]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.098 [id=387]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.099 [id=391]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.200 [id=392]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.217 [id=392]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 42887
+   0.219 [id=392]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   2.255 [id=378]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   2.257 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.582 [id=378]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   2.596 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.662 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.664 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.666 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.668 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.669 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.671 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.673 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.674 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.677 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.679 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.681 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.682 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.684 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.686 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.688 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.690 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '[id='sizzle1678475262817'] :input.block-control' error: Invalid selector: *[id="sizzle1678475262817"] *:input.block-control).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+  14.595 [id=378]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+  14.599 [id=378]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:35691/jenkins/static/6954a083/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+  15.518 [id=378]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+  15.525 [id=378]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+  15.526 [id=378]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+  15.527 [id=378]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+  15.539 [id=437]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #7 from /172.17.0.3:49254
+  15.544 [id=378]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+  15.545 [id=378]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+  15.547 [id=378]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+  15.552 [id=378]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.008 [id=438]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:42253/jenkins/
+   0.025 [id=444]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.031 [id=456]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.143 [id=445]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.144 [id=449]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.146 [id=449]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.284 [id=447]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.301 [id=447]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 35051
+   0.302 [id=447]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.149 [id=52]	INFO	o.j.h.test.SimpleCommandLauncher#launch: agent launched for slave0
+   2.908 [id=476]	INFO	hudson.model.Run#execute: junit #1 main build action completed: UNSTABLE
+   2.917 [id=438]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   2.927 [id=438]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   2.929 [id=438]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   2.930 [id=438]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   2.943 [id=492]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #8 from /172.17.0.3:36900
+   2.947 [id=438]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   2.948 [id=438]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   2.952 [id=438]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+   2.953 [id=438]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.008 [id=493]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:34767/jenkins/
+   0.023 [id=499]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.029 [id=510]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.104 [id=509]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.105 [id=509]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.106 [id=509]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.174 [id=509]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.191 [id=512]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 35553
+   0.193 [id=512]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.215 [id=515]	INFO	hudson.model.Run#execute: test1 #1 main build action completed: SUCCESS
+   0.225 [id=493]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   0.232 [id=493]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   0.233 [id=493]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   0.234 [id=493]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   0.246 [id=537]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #9 from /172.17.0.3:41292
+   0.249 [id=493]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   0.251 [id=493]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   0.252 [id=493]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+   0.253 [id=493]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.011 [id=538]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:42543/jenkins/
+   0.026 [id=544]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.031 [id=555]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.102 [id=544]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.104 [id=550]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.105 [id=550]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.209 [id=546]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.227 [id=554]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 39497
+   0.229 [id=554]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.288 [id=560]	INFO	hudson.model.Run#execute: test-1/a=<|#) #1 main build action completed: SUCCESS
+   1.286 [id=577]	INFO	hudson.model.Run#execute: test-1 #1 main build action completed: UNSTABLE
+   2.158 [id=538]	WARNING	c.g.h.j.host.css.CSSStyleSheet#isValidSelector: Unhandled CSS condition type '7'. Accepting it silently.
+   2.160 [id=538]	SEVERE	c.g.h.j.StrictErrorReporter#runtimeError: runtimeError: message=[An invalid or illegal selector was specified (selector: '*,:x' error: Invalid selector: *:x).] sourceName=[http://localhost:42543/jenkins/static/e9a5207f/assets/jquery-detached/jsmodules/jquery2.js] line=[996] lineSource=[null] lineOffset=[0]
+   2.780 [id=538]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   2.787 [id=538]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   2.788 [id=538]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   2.789 [id=538]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   2.801 [id=596]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #10 from /172.17.0.3:41750
+   2.808 [id=538]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   2.812 [id=538]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   2.814 [id=538]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+   2.817 [id=538]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.006 [id=597]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:45547/jenkins/
+   0.020 [id=603]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.025 [id=614]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.096 [id=609]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.098 [id=612]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.099 [id=612]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.250 [id=603]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.266 [id=607]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 43575
+   0.267 [id=607]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.288 [id=620]	INFO	hudson.model.Run#execute: test1 #1 main build action completed: SUCCESS
+   0.298 [id=597]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   0.305 [id=597]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   0.306 [id=597]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   0.307 [id=597]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   0.318 [id=641]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #11 from /172.17.0.3:53498
+   0.319 [id=597]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   0.320 [id=597]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   0.322 [id=597]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+   0.322 [id=597]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.011 [id=642]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:35521/jenkins/
+   0.028 [id=648]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.035 [id=659]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.105 [id=649]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.106 [id=657]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.109 [id=660]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.225 [id=648]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.242 [id=654]	INFO	o.j.main.modules.sshd.SSHD#start: Started SSHD at port 38867
+   0.243 [id=654]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.272 [id=664]	INFO	hudson.model.Run#execute: junit #1 main build action completed: UNSTABLE
+   0.279 [id=642]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   0.290 [id=642]	INFO	jenkins.model.Jenkins$21#onAttained: Started termination
+   0.292 [id=642]	INFO	jenkins.model.Jenkins$21#onAttained: Completed termination
+   0.293 [id=642]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+   0.304 [id=686]	INFO	h.TcpSlaveAgentListener$ConnectionHandler#run: Accepted connection #12 from /172.17.0.3:43150
+   0.306 [id=642]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+   0.307 [id=642]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+   0.310 [id=642]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+   0.310 [id=642]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+   0.532 [id=1]	SEVERE	h.i.i.InstallUncaughtExceptionHandler$DefaultUncaughtExceptionHandler#uncaughtException: A thread (main/1) died unexpectedly due to an uncaught exception, this may leave your Jenkins in a bad way and is usually indicative of a bug in the code.
+java.lang.NoSuchMethodError: org.objectweb.asm.tree.InsnList.iterator()Ljava/util/Iterator;
+	at org.jacoco.core.internal.analysis.MethodAnalyzer.accept(MethodAnalyzer.java:50)
+	at org.jacoco.core.internal.analysis.ClassAnalyzer$1.accept(ClassAnalyzer.java:107)
+	at org.jacoco.core.internal.flow.ClassProbesAdapter$2.visitEnd(ClassProbesAdapter.java:91)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.jacoco.core.analysis.Analyzer.analyzeClass(Analyzer.java:117)
+	at org.jacoco.core.analysis.Analyzer.analyzeClass(Analyzer.java:133)
+	at org.jacoco.core.analysis.Analyzer.analyzeClass(Analyzer.java:158)
+	at eu.stamp_project.testrunner.listener.impl.CoverageCollectorDetailedCompressed.transformJacocoObject(CoverageCollectorDetailedCompressed.java:32)
+	at eu.stamp_project.testrunner.listener.impl.CoverageCollectorDetailedCompressed.transformJacocoObject(CoverageCollectorDetailedCompressed.java:21)
+	at eu.stamp_project.testrunner.listener.impl.OnlineCoveredTestResultPerTestMethodImpl.lambda$computeCoverages$4(OnlineCoveredTestResultPerTestMethodImpl.java:155)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1723)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:159)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:173)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:650)
+	at eu.stamp_project.testrunner.listener.impl.OnlineCoveredTestResultPerTestMethodImpl.computeCoverages(OnlineCoveredTestResultPerTestMethodImpl.java:154)
+	at eu.stamp_project.testrunner.listener.junit4.OnlineCoveredTestResultsPerJUnit4TestMethod.computeCoverages(OnlineCoveredTestResultsPerJUnit4TestMethod.java:130)
+	at eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.executeCoveredTestPerTestMethod(JUnit4OnlineJacocoRunner.java:47)
+	at eu.stamp_project.testrunner.runner.coverage.JacocoOnlineRunner.runCoveredTestResultPerTestMethod(JacocoOnlineRunner.java:57)
+	at eu.stamp_project.testrunner.runner.coverage.JUnit4OnlineJacocoRunner.main(JUnit4OnlineJacocoRunner.java:59)
+java.lang.IllegalThreadStateException: process hasn't exited
+	at java.lang.UNIXProcess.exitValue(UNIXProcess.java:421)
+	at eu.stamp_project.testrunner.EntryPoint.runGivenCommandLine(EntryPoint.java:850)
+	at eu.stamp_project.testrunner.EntryPoint.runOnlineCoveredTestResultPerTestMethods(EntryPoint.java:741)
+	at fr.spoonlabs.flacoco.core.coverage.framework.JUnit4Strategy.execute(JUnit4Strategy.java:25)
+	at fr.spoonlabs.flacoco.core.coverage.CoverageRunner.getCoverageMatrix(CoverageRunner.java:47)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.runFlacoco(FlacocoFaultLocalizer.java:93)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:35)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:39)
+	at fr.inria.lille.repair.nopol.NoPol.createLocalizer(NoPol.java:181)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:126)
+	at fr.inria.lille.repair.Main$1.call(Main.java:101)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.nio.file.NoSuchFileException: /apiarty/data/VUL4J-56/./target/CoveredTestResultPerTest.dat
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at fr.inria.lille.repair.Main.main(Main.java:106)
+Caused by: java.lang.RuntimeException: java.nio.file.NoSuchFileException: /apiarty/data/VUL4J-56/./target/CoveredTestResultPerTest.dat
+	at eu.stamp_project.testrunner.listener.utils.ListenerUtils.loadFromMemoryMappedFile(ListenerUtils.java:113)
+	at eu.stamp_project.testrunner.listener.impl.OnlineCoveredTestResultPerTestMethodImpl.load(OnlineCoveredTestResultPerTestMethodImpl.java:169)
+	at eu.stamp_project.testrunner.EntryPoint.runOnlineCoveredTestResultPerTestMethods(EntryPoint.java:749)
+	at fr.spoonlabs.flacoco.core.coverage.framework.JUnit4Strategy.execute(JUnit4Strategy.java:25)
+	at fr.spoonlabs.flacoco.core.coverage.CoverageRunner.getCoverageMatrix(CoverageRunner.java:47)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.runFlacoco(FlacocoFaultLocalizer.java:93)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:35)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:39)
+	at fr.inria.lille.repair.nopol.NoPol.createLocalizer(NoPol.java:181)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:126)
+	at fr.inria.lille.repair.Main$1.call(Main.java:101)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.nio.file.NoSuchFileException: /apiarty/data/VUL4J-56/./target/CoveredTestResultPerTest.dat
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:177)
+	at java.nio.channels.FileChannel.open(FileChannel.java:287)
+	at java.nio.channels.FileChannel.open(FileChannel.java:335)
+	at eu.stamp_project.testrunner.listener.utils.ListenerUtils.loadFromMemoryMappedFile(ListenerUtils.java:97)
+	... 14 more
+
+Usage: java -jar nopol.jar
+                          [(-m|--mode) <repair|ranking>] (-e|--type) <condition|precondition|pre_then_cond|loop|arithmetic> [(-o|--oracle) <angelic|symbolic>] [(-y|--synthesis) <smt|dynamoth>] [(-l|--solver) <z3|cvc4>] [(-p|--solver-path) <solverPath>] (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> [(-t|--test) test1:test2:...:testN ] [--complianceLevel <complianceLevel>] [--maxTime <maxTime>] [--maxTimeType <maxTimeType>] [(-z|--flocal) <cocospoon|dumb|gzoltar|flacoco>] [--output <outputFolder>] [--json[:<outputJson>]]
+
+  [(-m|--mode) <repair|ranking>]
+        Define the mode of execution. (default: repair)
+
+  (-e|--type) <condition|precondition|pre_then_cond|loop|arithmetic>
+        The repair type (example fixing only conditions, or adding
+        precondition). REQUIRED OPTION (default: condition)
+
+  [(-o|--oracle) <angelic|symbolic>]
+        Define the oracle (only used with repair mode). (default: angelic)
+
+  [(-y|--synthesis) <smt|dynamoth>]
+        Define the patch synthesis. (default: smt)
+
+  [(-l|--solver) <z3|cvc4>]
+        Define the solver (only used with smt synthesis). (default: z3)
+
+  [(-p|--solver-path) <solverPath>]
+        Define the solver binary path (only used with smt synthesis).
+
+  (-s|--source) source1:source2:...:sourceN 
+        Define the path to the source code of the project.
+
+  (-c|--classpath) <classpath>
+        Define the classpath of the project.
+
+  [(-t|--test) test1:test2:...:testN ]
+        Define the test classes of the project (both failing and passing),
+        fully-qualified, separated with ':' (even if the classpath contains
+        other tests, only those are considered.
+
+  [--complianceLevel <complianceLevel>]
+        The compliance level of the project. (default: 7)
+
+  [--maxTime <maxTime>]
+        The maximum time execution in minute for the whole execution of
+        Nopol.(default: 10)
+
+  [--maxTimeType <maxTimeType>]
+        The maximum time execution in minute for one type of patch. (default: 5)
+
+  [(-z|--flocal) <cocospoon|dumb|gzoltar|flacoco>]
+        Define the fault localizer to be used. (default: flacoco)
+
+  [--output <outputFolder>]
+        Define the location where the patches will be saved. (default: .)
+
+  [--json[:<outputJson>]]
+        Output a json file in the current working directory.
+

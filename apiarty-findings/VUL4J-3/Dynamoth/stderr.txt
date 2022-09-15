@@ -1,5 +1,32 @@
-java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
-	at fr.inria.lille.repair.Main.main(Main.java:78)
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.io.IOException: Cannot run program "java" (in directory "/apiarty/data/VUL4J-3/."): error=7, Argument list too long
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at fr.inria.lille.repair.Main.main(Main.java:106)
+Caused by: java.lang.RuntimeException: java.io.IOException: Cannot run program "java" (in directory "/apiarty/data/VUL4J-3/."): error=7, Argument list too long
+	at eu.stamp_project.testrunner.EntryPoint.runGivenCommandLine(EntryPoint.java:862)
+	at eu.stamp_project.testrunner.EntryPoint.runOnlineCoveredTestResultPerTestMethods(EntryPoint.java:741)
+	at fr.spoonlabs.flacoco.core.coverage.framework.JUnit4Strategy.execute(JUnit4Strategy.java:25)
+	at fr.spoonlabs.flacoco.core.coverage.CoverageRunner.getCoverageMatrix(CoverageRunner.java:47)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.runFlacoco(FlacocoFaultLocalizer.java:93)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:35)
+	at fr.inria.lille.localization.FlacocoFaultLocalizer.<init>(FlacocoFaultLocalizer.java:39)
+	at fr.inria.lille.repair.nopol.NoPol.createLocalizer(NoPol.java:181)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:126)
+	at fr.inria.lille.repair.Main$1.call(Main.java:101)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Cannot run program "java" (in directory "/apiarty/data/VUL4J-3/."): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at eu.stamp_project.testrunner.EntryPoint.runGivenCommandLine(EntryPoint.java:840)
+	... 13 more
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 14 more
 
 Usage: java -jar nopol.jar
                           [(-m|--mode) <repair|ranking>] (-e|--type) <condition|precondition|pre_then_cond|loop|arithmetic> [(-o|--oracle) <angelic|symbolic>] [(-y|--synthesis) <smt|dynamoth>] [(-l|--solver) <z3|cvc4>] [(-p|--solver-path) <solverPath>] (-s|--source) source1:source2:...:sourceN  (-c|--classpath) <classpath> [(-t|--test) test1:test2:...:testN ] [--complianceLevel <complianceLevel>] [--maxTime <maxTime>] [--maxTimeType <maxTimeType>] [(-z|--flocal) <cocospoon|dumb|gzoltar|flacoco>] [--output <outputFolder>] [--json[:<outputJson>]]
