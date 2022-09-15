@@ -49,7 +49,7 @@ The following table lists the bug benchmarks used for creating our benchmark of 
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---: |:---:|:---:|:---:|:---:|:---:|
 | VUL4J-2|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:hammer_and_wrench:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
 | VUL4J-3|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:hammer_and_wrench:|:x:|:hammer_and_wrench:|:hammer_and_wrench:|:hammer_and_wrench:
-| VUL4J-7|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:hammer_and_wrench:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-7|:x:|:clock1230:|:x:|:x:|:x:|:x:|:x:|:x:|:hammer_and_wrench:|:x:|:x:|:x:|:hammer_and_wrench:
 | VUL4J-8|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:hammer_and_wrench:|:clock1230:|:x:|:x:|:hammer_and_wrench:
 | VUL4J-9|:clock1230:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:hammer_and_wrench:|:x:|:x:|:x:|:hammer_and_wrench:
 | VUL4J-10|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:white_check_mark:|:x:|:x:|:hammer_and_wrench:
