@@ -47,30 +47,34 @@ The following table lists the bug benchmarks used for creating our benchmark of 
 
 | # | Arja-Arja | Arja-Genprog | Arja-Kali | Arja-RSRepair | Astor-Cardumen | Astor-jgenprog | Astor-jKali | Astor-jMutRepair | Dynamoth | Nopol | Tbar | Avatar | SimFix
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---: |:---:|:---:|:---:|:---:|:---:|
-| VUL4J-2|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-3|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-7|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-8|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-9|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-10|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-11|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-19|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-23|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-24|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-34|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-44|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-45|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-46|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-47|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-48|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-51|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-56|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-57|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-61|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-64|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-71|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-74|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
-| VUL4J-77|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-2|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:hammer_and_wrench:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-3|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:hammer_and_wrench:|:x:|:hammer_and_wrench:|:hammer_and_wrench:|:hammer_and_wrench:
+| VUL4J-7|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:hammer_and_wrench:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-8|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:hammer_and_wrench:|:clock1230:|:x:|:x:|:hammer_and_wrench:
+| VUL4J-9|:clock1230:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:hammer_and_wrench:|:x:|:x:|:x:|:hammer_and_wrench:
+| VUL4J-10|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:white_check_mark:|:x:|:x:|:hammer_and_wrench:
+| VUL4J-11|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-19|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-23|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-24|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-34|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-44|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-45|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-46|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-47|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-48|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-51|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-56|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-57|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-61|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-64|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-71|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-74|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+| VUL4J-77|:x:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:hammer_and_wrench:
+
+* :clock1230: The tool timed out (7200 seconds)
+* :white_check_mark: The tool completes and successful generate a plausible patch
+* :x: The and did not generate a plausible patch or unknown repair result
 
 ## Usage
 
