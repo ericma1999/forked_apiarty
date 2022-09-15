@@ -10,22 +10,22 @@
 
 The following table shows the automated repair tools used for comparing their capabilities on detecting and fixing API misuses.
 
-| #  | Tool             | Language | Repository                             | Checkout SHA |
-| -- | ---------------  | -------- | -------------------------------------  | ------------ |
-| 1  | Nopol            | Java     | <https://github.com/ericma1999/forked_nopol.git>*    | 8cb3676|
-| 2  | DynaMoth         | Java     | <https://github.com/ericma1999/forked_nopol.git>*     | 8cb3676     |
-| 3  | NPEFix           | Java     | <https://github.com/SpoonLabs/npefix>    | -      |
-| 4  | jGenProg         | Java     | <https://github.com/ericma1999/forked-astor.git>*     | 5bf2e83      |
-| 5  | jKali            | Java     | <https://github.com/ericma1999/forked-astor.git>*     | 5bf2e83      |
-| 6  | jMutRepair       | Java     | <https://github.com/ericma1999/forked-astor.git>*    | 5bf2e83      |
-| 7  | Cardumen         | Java     | <https://github.com/ericma1999/forked-astor.git>*     | 5bf2e83      |
-| 8  | ARJA             | Java     | <https://github.com/yyxhdy/arja>         | 3e01305      |
-| 9  | ARJA-GenProg     | Java     | <https://github.com/yyxhdy/arja>         | 3e01305      |
-| 10 | ARJA-RSRepair    | Java     | <https://github.com/yyxhdy/arja>         | 3e01305      |
-| 11 | ARJA-Kali        | Java     | <https://github.com/yyxhdy/arja>         | 3e01305      |
-| 12 | Avatar           | Java     | <https://github.com/ericma1999/forked_avatar.git>*   | 49389fd     |
-| 13 | TBar             | Java     | <https://github.com/ericma1999/forked_tbar.git>*     | 4b5d42f     |
-| 14 | SimFix           | Java     | <https://github.com/xgdsmileboy/SimFix>  | -      |
+| #| Tool | Language | Repository| Checkout SHA |
+| -- | ---------------| -------- | -------------------------------------| ------------ |
+| 1| Nopol| Java| <https://github.com/ericma1999/forked_nopol.git>* | 8cb3676|
+| 2| DynaMoth| Java| <https://github.com/ericma1999/forked_nopol.git>*| 8cb3676|
+| 3| NPEFix| Java| <https://github.com/SpoonLabs/npefix> | -|
+| 4| jGenProg| Java| <https://github.com/ericma1999/forked-astor.git>*| 5bf2e83|
+| 5| jKali| Java| <https://github.com/ericma1999/forked-astor.git>*| 5bf2e83|
+| 6| jMutRepair | Java| <https://github.com/ericma1999/forked-astor.git>* | 5bf2e83|
+| 7| Cardumen| Java| <https://github.com/ericma1999/forked-astor.git>*| 5bf2e83|
+| 8| ARJA | Java| <https://github.com/yyxhdy/arja>| 3e01305|
+| 9| ARJA-GenProg| Java| <https://github.com/yyxhdy/arja>| 3e01305|
+| 10 | ARJA-RSRepair | Java| <https://github.com/yyxhdy/arja>| 3e01305|
+| 11 | ARJA-Kali| Java| <https://github.com/yyxhdy/arja>| 3e01305|
+| 12 | Avatar| Java| <https://github.com/ericma1999/forked_avatar.git>*| 49389fd|
+| 13 | TBar | Java| <https://github.com/ericma1999/forked_tbar.git>*| 4b5d42f|
+| 14 | SimFix| Java| <https://github.com/xgdsmileboy/SimFix>| -|
 
 Below are the tools that were modified to work with Java 1.8 which our bug projects require
 
@@ -40,31 +40,31 @@ Below are the tools that were modified to work with Java 1.8 which our bug proje
 The following table lists the bug benchmarks used for creating our benchmark of API misuses
 
 | # | Arja-Arja | Arja-Genprog | Arja-Kali | Arja-RSRepair | Astor-Cardumen | Astor-jgenprog | Astor-jKali | Astor-jMutRepair | Dynamoth | Nopol | Tbar | Avatar | SimFix
-|    :---:   |     :---:      |   :---:  |    :---:   |     :---:      |   :---: |    :---:   |     :---:      |   :---: |    :---:   |     :---:      |   :---:   | :---:   | :---:   |
-| VUL4J-2   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-3   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-7   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-8   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-9   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-10   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-11   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-19   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-23   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-24   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-34   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-44   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-45   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-46   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-47   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-48   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-51   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-56   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-57   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-61   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-64   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-71   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-74   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
-| VUL4J-77   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---: |:---:|:---:|:---:|:---:|:---:|
+| VUL4J-2|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-3|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-7|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-8|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-9|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-10|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-11|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-19|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-23|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-24|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-34|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-44|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-45|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-46|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-47|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-48|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-51|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-56|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-57|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-61|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-64|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-71|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-74|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
+| VUL4J-77|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:clock1230:|:white_check_mark:|:x:|:x:
 
 ## Usage
 
@@ -130,10 +130,46 @@ APIARTy
 │   └── <bug_id>.json: standard input (with project metadata)
 ├── apiarty-findings: findings for Astor, NPEFix, recent tools (Avatar, TBar, SimFix), and remaining tools (the general structure follows)
    └── apiarty-findings
-      ├── <bug_id>
-      │   └── <repair tool>
-      │       ├── stderr.txt: stderr of the execution (with repair)
-      │       └── stdout.txt: stdout of the execution (with repair)
-      ├── all-results.csv: execution time taken by the repair attempts (without those that reach the timeout)
-      └── timeout.csv: repair attempts that failed by timeout
+ ├── <bug_id>
+ │   └── <repair tool>
+ │  ├── stderr.txt: stderr of the execution (with repair)
+ │  └── stdout.txt: stdout of the execution (with repair)
+ ├── all-results.csv: execution time taken by the repair attempts (without those that reach the timeout)
+ └── timeout.csv: repair attempts that failed by timeout
+```
+
+## Data Structure of the Misuse Project
+
+```
+"id": the misuse name/id of the project you will run with ./apiarty tool_name id,
+"name": the letter name of the project eg 'esigate/esigate',
+"vcs": version control system eg: svn, git....,
+"repo": git repo of the project,
+"method": the method that contains the misuse "createTransformer",
+"method_line": the line number of the misuse method in the fixed commit,
+"method_line_before": the line number of the misuse method before the fixed commit,
+"revision": revision of the fixed commit,
+"build_system": {
+ "custom": [
+{
+"test": the test command for the misuse project, you can specify it to run a single test if the project is a multi-module project, but note that some tools utilise the checking whether the candidate patches cause other tests to fail. Hence we recommend to run the test on the whole test file for the single module of the project via the -pl using maven. "Eg: mvn test -pl esigate-core -Dtest=org.esigate.xml.XsltRendererTest -B"
+},
+{
+"compile": the command to compile the misuse project
+},
+{
+"extract": build the dependencies classpath for the misuse project, on a typical maven project it is "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B". Do check where the classpath is generated for multi-module project, since you will have to adjust the "custom_classpath_project" if you are only building a module from a bigger project.
+}
+ ]
+},
+"file_path": path to the file that contains the misuse code,
+"test_class": the name of the class that contains the set of tests you want to run, it is the package name on top of the file + the class name eg: "org.esigate.xml.XsltRendererTest",
+"src_path": source code path to the root of the misuse project,
+"test_path": test path to the root of the misuse project,
+"package_path": ".", //legacy property leave inside for compatibility with some tools
+"src_classes": path to the compile classes eg:"esigate-core/target/classes",
+"test_classes": path to the compile test-classes eg:"esigate-core/target/classes",
+"custom_classpath_project": specify the subproject path that you want to evalute the tool on eg:"esigate-core" ** NEED: to specify this in order to work with multi-module projects
+
+
 ```
