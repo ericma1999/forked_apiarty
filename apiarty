@@ -31,6 +31,7 @@ ASTOR_ROOT = Path('/astor')
 NOPOL_ROOT = Path('/nopol')
 NPEFIX_ROOT = Path('/npefix')
 TBAR_ROOT = Path("/tbar")
+AVATAR_ROOT = Path("/avatar")
 
 
 # this is needed for "camel"
@@ -526,6 +527,35 @@ class TBar():
 			return repair_status
 
 
+class Avatar():
+
+	def __init__(self):
+		self.name = "Avatar"
+
+	def run(self, project, output_dir):
+		with cd(AVATAR_ROOT):
+			command = "./FLFix.sh"
+			# args = [str(Path.joinpath(APIARTY_ROOT, "data")) + "/" , project.id, "D4J/defects4j/",str(Path.joinpath(APIARTY_ROOT, "data")) + "/", "/apiarty/localisation/"]
+
+
+			args = [str(Path.joinpath(APIARTY_ROOT, "data")) + "/", "projects/", project.id, "Ochiai", str(Path.joinpath(APIARTY_ROOT, "data")) + "/", "/apiarty/localisation/"]
+			repair_status = RepairStatus.UNKNOWN
+			with (output_dir / 'stdout.txt').open('w') as stdout,\
+					(output_dir / "stderr.txt").open('w') as stderr:
+					print([command] + args)
+					p = run([command] + args, stdout=stdout, stderr=stderr, timeout=7200)
+					if p.returncode != 0:
+						logger.warning("repair returned non-zero code")
+					entries = output_dir
+					for entry in entries.iterdir():
+						if 'Succeeded to fix bug' in entry.read_text():
+							repair_status = RepairStatus.SUCCESS
+							return repair_status
+
+			return repair_status
+
+
+
 def repair(tool, project):
 	logger.info("fetching " + project.id)
 	project.fetch()
@@ -613,7 +643,8 @@ tool_by_name = {
 	'Astor-Cardumen': Astor('fr.inria.main.evolution.AstorMain', 'Cardumen'),
     'Dynamoth': Nopol('dynamoth'),
     'Nopol': Nopol(None),
-		'TBar': TBar()
+		'TBar': TBar(),
+		'Avatar': Avatar()
 	# 'NPEFix': Npefix(),
 }
 

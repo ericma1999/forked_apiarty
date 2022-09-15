@@ -54,23 +54,19 @@ WORKDIR /astor
 RUN git clone https://github.com/ericma1999/forked-astor.git /astor \
     && mvn package -DskipTests=true
 
-# Install Avatar
-WORKDIR /avatar
-RUN git clone https://github.com/SerVal-DTF/AVATAR.git \
-    && cd /avatar/AVATAR \
-    && mkdir D4J \
-    && cd D4J \
-    && mkdir Defects4JData \
-    && git clone https://github.com/rjust/defects4j.git \
-    && cd defects4j \
-    && cpanm --installdeps . \
-    && ./init.sh
 
-RUN cd
 # Install Tbar
 WORKDIR /tbar
 RUN git clone https://github.com/ericma1999/forked_tbar.git /tbar \
     && cd /tbar \
+    && mvn package -DskipTests dependency:copy-dependencies
+
+
+
+# Install Tbar
+WORKDIR /Avatar
+RUN git clone https://github.com/ericma1999/forked_avatar.git /avatar \
+    && cd /avatar \
     && mvn package -DskipTests dependency:copy-dependencies 
 
 # Install TBar
