@@ -48,7 +48,7 @@ The following table lists the bug benchmarks used for creating our benchmark of 
 | # | Arja-Arja | Arja-Genprog | Arja-Kali | Arja-RSRepair | Astor-Cardumen | Astor-jgenprog | Astor-jKali | Astor-jMutRepair | Dynamoth | Nopol | Tbar | Avatar | SimFix
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---: |:---:|:---:|:---:|:---:|:---:|
 | VUL4J-2|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:hammer_and_wrench:|:x:|:x:|:x:|:hammer_and_wrench:
-| VUL4J-3|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:hammer_and_wrench:|:x:|:hammer_and_wrench:|:hammer_and_wrench:|:hammer_and_wrench:
+| VUL4J-3|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:hammer_and_wrench:|:x:|:x:|:x:|:hammer_and_wrench:
 | VUL4J-7|:x:|:clock1230:|:x:|:x:|:x:|:x:|:x:|:x:|:hammer_and_wrench:|:x:|:x:|:x:|:hammer_and_wrench:
 | VUL4J-8|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:clock1230:|:hammer_and_wrench:|:clock1230:|:x:|:x:|:hammer_and_wrench:
 | VUL4J-9|:clock1230:|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:hammer_and_wrench:|:x:|:x:|:x:|:hammer_and_wrench:

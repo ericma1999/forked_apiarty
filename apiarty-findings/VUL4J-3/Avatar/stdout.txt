@@ -1,0 +1,394 @@
+VUL4J-3
+VUL4J-3
+YOYOY
+"575"
+test
+/apiarty/data/VUL4J-3
+[{"test":"mvn test -pl camel-core -Dtest=org.apache.camel.component.xslt.XsltDTDTest"},{"compile":"mvn -pl camel-core -DskipTests clean install"},{"extract":"mvn -pl camel-core dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -pl camel-core -Dtest=org.apache.camel.component.xslt.XsltDTDTest"}
+The test command
+{"compile":"mvn -pl camel-core -DskipTests clean install"}
+{"extract":"mvn -pl camel-core dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn test -pl camel-core -Dtest=org.apache.camel.component.xslt.XsltDTDTest
+this is the test result
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.camel:camel-core[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Core 2.15-SNAPSHOT[m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4:enforce[m [1m(enforce-maven)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:2.3.7:cleanVersions[m [1m(versions)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-components-list[m [1m(components)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/components/META-INF/services/org/apache/camel/component.properties containing 24 Camel components: language file scheduler seda rest direct dataformat bean xslt dataset validator log vm browse class test mock ref stub binding direct-vm controlbus timer properties
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 48 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:compile[m [1m(default-compile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-eips-list[m [1m(eips)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/models/META-INF/services/org/apache/camel/model.properties containing 156 Camel models
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-dataformats-list[m [1m(dataformats)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/dataformats/META-INF/services/org/apache/camel/dataformat.properties containing 3 Camel dataformats: serialization string zip
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-languages-list[m [1m(languages)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/languages/META-INF/services/org/apache/camel/language.properties containing 10 Camel languages: constant simple file xpath bean exchangeProperty tokenize xtokenize ref header
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 124 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.16:test[m [1m(default-test)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /apiarty/data/VUL4J-3/camel-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.camel.component.xslt.XsltDTDTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.849 sec - in org.apache.camel.component.xslt.XsltDTDTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.476 s
+[[1;34mINFO[m] Finished at: 2022-09-15T22:55:46Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.camel:camel-core[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Core 2.15-SNAPSHOT[m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4:enforce[m [1m(enforce-maven)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:2.3.7:cleanVersions[m [1m(versions)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-components-list[m [1m(components)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/components/META-INF/services/org/apache/camel/component.properties containing 24 Camel components: language file scheduler seda rest direct dataformat bean xslt dataset validator log vm browse class test mock ref stub binding direct-vm controlbus timer properties
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 48 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:compile[m [1m(default-compile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-eips-list[m [1m(eips)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/models/META-INF/services/org/apache/camel/model.properties containing 156 Camel models
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-dataformats-list[m [1m(dataformats)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/dataformats/META-INF/services/org/apache/camel/dataformat.properties containing 3 Camel dataformats: serialization string zip
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-languages-list[m [1m(languages)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/languages/META-INF/services/org/apache/camel/language.properties containing 10 Camel languages: constant simple file xpath bean exchangeProperty tokenize xtokenize ref header
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 124 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.16:test[m [1m(default-test)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /apiarty/data/VUL4J-3/camel-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.camel.component.xslt.XsltDTDTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.849 sec - in org.apache.camel.component.xslt.XsltDTDTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.476 s
+[[1;34mINFO[m] Finished at: 2022-09-15T22:55:46Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+compile
+/apiarty/data/VUL4J-3
+[{"test":"mvn test -pl camel-core -Dtest=org.apache.camel.component.xslt.XsltDTDTest"},{"compile":"mvn -pl camel-core -DskipTests clean install"},{"extract":"mvn -pl camel-core dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -pl camel-core -Dtest=org.apache.camel.component.xslt.XsltDTDTest"}
+{"compile":"mvn -pl camel-core -DskipTests clean install"}
+The compile command
+"mvn -pl camel-core -DskipTests clean install"
+{"extract":"mvn -pl camel-core dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -pl camel-core -DskipTests clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.camel:camel-core[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Core 2.15-SNAPSHOT[m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-3/camel-core/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4:enforce[m [1m(enforce-maven)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:2.3.7:cleanVersions[m [1m(versions)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-components-list[m [1m(components)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/components/META-INF/services/org/apache/camel/component.properties containing 24 Camel components: language file scheduler seda rest direct dataformat bean xslt dataset validator log vm browse class test mock ref stub binding direct-vm controlbus timer properties
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 48 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:compile[m [1m(default-compile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 1251 source files to /apiarty/data/VUL4J-3/camel-core/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-eips-list[m [1m(eips)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/models/META-INF/services/org/apache/camel/model.properties containing 156 Camel models
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-dataformats-list[m [1m(dataformats)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/dataformats/META-INF/services/org/apache/camel/dataformat.properties containing 3 Camel dataformats: serialization string zip
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-languages-list[m [1m(languages)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/languages/META-INF/services/org/apache/camel/language.properties containing 10 Camel languages: constant simple file xpath bean exchangeProperty tokenize xtokenize ref header
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 124 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Compiling 2269 source files to /apiarty/data/VUL4J-3/camel-core/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.16:test[m [1m(default-test)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:2.3.7:bundle[m [1m(default-bundle)[m @ [36mcamel-core[0;1m ---[m
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Split package org/apache/camel/spi
+Use directive -split-package:=(merge-first|merge-last|error|first) on Export/Private Package instruction to get rid of this warning
+Package found in   [Jar:., Jar:spi-annotations]
+Reference from     /root/.m2/repository/org/apache/camel/spi-annotations/2.15-SNAPSHOT/spi-annotations-2.15-SNAPSHOT.jar
+Classpath          [Jar:., Jar:spi-annotations, Jar:concurrentlinkedhashmap-lru, Jar:slf4j-api, Jar:org.osgi.core, Jar:apt, Jar:jaxb-core, Jar:jaxb-impl]
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for !org.apache.camel.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for com.thoughtworks.xstream.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for freemarker.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for javax.persistence.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for net.sf.flatpack.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for net.sf.saxon.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.antlr.stringtemplate.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.apache.abdera.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.apache.camel.tools.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.apache.commons.httpclient.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.apache.commons.logging.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.apache.cxf.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.apache.lucene.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.apache.qpid.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.apache.solr.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.apache.velocity.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.apache.xmlbeans.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.ccil.cowan.tagsoup.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.eclipse.jetty.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.mortbay.cometd.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.springframework.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.springframework.ws.*
+[[1;33mWARNING[m] Bundle org.apache.camel:camel-core:bundle:2.15-SNAPSHOT : Did not find matching referal for org.springframework.xml.*
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.3:attach-descriptor[m [1m(attach-descriptor)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:2.1:shade[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Excluding org.apache.camel:spi-annotations:jar:2.15-SNAPSHOT from the shaded jar.
+[[1;34mINFO[m] Including com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2 in the shaded jar.
+[[1;34mINFO[m] Excluding org.slf4j:slf4j-api:jar:1.6.6 from the shaded jar.
+[[1;34mINFO[m] Excluding com.sun.xml.bind:jaxb-core:jar:2.2.11 from the shaded jar.
+[[1;34mINFO[m] Excluding com.sun.xml.bind:jaxb-impl:jar:2.2.11 from the shaded jar.
+[[1;34mINFO[m] Replacing original artifact with shaded artifact.
+[[1;34mINFO[m] Replacing /apiarty/data/VUL4J-3/camel-core/target/camel-core-2.15-SNAPSHOT.jar with /apiarty/data/VUL4J-3/camel-core/target/camel-core-2.15-SNAPSHOT-shaded.jar
+[[1;34mINFO[m] Dependency-reduced POM written at: /apiarty/data/VUL4J-3/camel-core/dependency-reduced-pom.xml
+[[1;34mINFO[m] Dependency-reduced POM written at: /apiarty/data/VUL4J-3/camel-core/dependency-reduced-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:test-jar[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Building jar: /apiarty/data/VUL4J-3/camel-core/target/camel-core-2.15-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mianal-maven-plugin:1.0-alpha-1:verify-legal-files[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Checking legal files in: camel-core-2.15-SNAPSHOT.jar
+[[1;34mINFO[m] Checking legal files in: camel-core-2.15-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.1:install[m [1m(default-install)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Installing /apiarty/data/VUL4J-3/camel-core/target/camel-core-2.15-SNAPSHOT.jar to /root/.m2/repository/org/apache/camel/camel-core/2.15-SNAPSHOT/camel-core-2.15-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /apiarty/data/VUL4J-3/camel-core/dependency-reduced-pom.xml to /root/.m2/repository/org/apache/camel/camel-core/2.15-SNAPSHOT/camel-core-2.15-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /apiarty/data/VUL4J-3/camel-core/target/generated/camel/components/META-INF/services/org/apache/camel/component.properties to /root/.m2/repository/org/apache/camel/camel-core/2.15-SNAPSHOT/camel-core-2.15-SNAPSHOT-camelComponent.properties
+[[1;34mINFO[m] Installing /apiarty/data/VUL4J-3/camel-core/target/generated/camel/models/META-INF/services/org/apache/camel/model.properties to /root/.m2/repository/org/apache/camel/camel-core/2.15-SNAPSHOT/camel-core-2.15-SNAPSHOT-camelModel.properties
+[[1;34mINFO[m] Installing /apiarty/data/VUL4J-3/camel-core/target/generated/camel/dataformats/META-INF/services/org/apache/camel/dataformat.properties to /root/.m2/repository/org/apache/camel/camel-core/2.15-SNAPSHOT/camel-core-2.15-SNAPSHOT-camelDataFormat.properties
+[[1;34mINFO[m] Installing /apiarty/data/VUL4J-3/camel-core/target/generated/camel/languages/META-INF/services/org/apache/camel/language.properties to /root/.m2/repository/org/apache/camel/camel-core/2.15-SNAPSHOT/camel-core-2.15-SNAPSHOT-camelLanguage.properties
+[[1;34mINFO[m] Installing /apiarty/data/VUL4J-3/camel-core/target/camel-core-2.15-SNAPSHOT-tests.jar to /root/.m2/repository/org/apache/camel/camel-core/2.15-SNAPSHOT/camel-core-2.15-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:2.3.7:install[m [1m(default-install)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Installing org/apache/camel/camel-core/2.15-SNAPSHOT/camel-core-2.15-SNAPSHOT.jar
+[[1;34mINFO[m] Writing OBR metadata
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  43.455 s
+[[1;34mINFO[m] Finished at: 2022-09-15T22:56:31Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+test
+/apiarty/data/VUL4J-3
+[{"test":"mvn test -pl camel-core -Dtest=org.apache.camel.component.xslt.XsltDTDTest"},{"compile":"mvn -pl camel-core -DskipTests clean install"},{"extract":"mvn -pl camel-core dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -pl camel-core -Dtest=org.apache.camel.component.xslt.XsltDTDTest"}
+The test command
+{"compile":"mvn -pl camel-core -DskipTests clean install"}
+{"extract":"mvn -pl camel-core dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn test -pl camel-core -Dtest=org.apache.camel.component.xslt.XsltDTDTest
+this is the test result
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.camel:camel-core[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Core 2.15-SNAPSHOT[m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4:enforce[m [1m(enforce-maven)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:2.3.7:cleanVersions[m [1m(versions)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-components-list[m [1m(components)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/components/META-INF/services/org/apache/camel/component.properties containing 24 Camel components: language file scheduler seda rest direct dataformat bean xslt dataset validator log vm browse class test mock ref stub binding direct-vm controlbus timer properties
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 48 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:compile[m [1m(default-compile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-eips-list[m [1m(eips)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/models/META-INF/services/org/apache/camel/model.properties containing 156 Camel models
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-dataformats-list[m [1m(dataformats)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/dataformats/META-INF/services/org/apache/camel/dataformat.properties containing 3 Camel dataformats: serialization string zip
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-languages-list[m [1m(languages)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/languages/META-INF/services/org/apache/camel/language.properties containing 10 Camel languages: constant simple file xpath bean exchangeProperty tokenize xtokenize ref header
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 124 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.16:test[m [1m(default-test)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /apiarty/data/VUL4J-3/camel-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.camel.component.xslt.XsltDTDTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.643 sec - in org.apache.camel.component.xslt.XsltDTDTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.291 s
+[[1;34mINFO[m] Finished at: 2022-09-15T22:56:40Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.camel:camel-core[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Camel :: Core 2.15-SNAPSHOT[m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4:enforce[m [1m(enforce-maven)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:2.3.7:cleanVersions[m [1m(versions)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(default)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-components-list[m [1m(components)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/components/META-INF/services/org/apache/camel/component.properties containing 24 Camel components: language file scheduler seda rest direct dataformat bean xslt dataset validator log vm browse class test mock ref stub binding direct-vm controlbus timer properties
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 48 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:compile[m [1m(default-compile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-eips-list[m [1m(eips)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/models/META-INF/services/org/apache/camel/model.properties containing 156 Camel models
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-dataformats-list[m [1m(dataformats)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/dataformats/META-INF/services/org/apache/camel/dataformat.properties containing 3 Camel dataformats: serialization string zip
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcamel-package-maven-plugin:2.15-SNAPSHOT:generate-languages-list[m [1m(languages)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Generated /apiarty/data/VUL4J-3/camel-core/target/generated/camel/languages/META-INF/services/org/apache/camel/language.properties containing 10 Camel languages: constant simple file xpath bean exchangeProperty tokenize xtokenize ref header
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 124 resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.16:test[m [1m(default-test)[m @ [36mcamel-core[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /apiarty/data/VUL4J-3/camel-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.camel.component.xslt.XsltDTDTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.643 sec - in org.apache.camel.component.xslt.XsltDTDTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.291 s
+[[1;34mINFO[m] Finished at: 2022-09-15T22:56:40Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+22:56:40.581 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-3 Failed Tests: 2147483647
+VUL4J-3
+YOYOY
+"575"
+Failed to defects4j compile bug VUL4J-3
