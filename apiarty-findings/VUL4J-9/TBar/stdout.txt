@@ -1,0 +1,185 @@
+5
+/apiarty/data/
+VUL4J-9
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+test
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+The test command
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration
+this is the test result
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Skipping - all parsers are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663271996888
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.1.0:manifest[m [1m(bundle-manifest)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.17:check[m [1m(checkAPIcompatibility)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 132 resources
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mcommons-configuration2[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.pom
+Progress (1): 2.7/3.1 kB
+Progress (1): 3.1 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.pom (3.1 kB at 8.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom (2.5 kB at 108 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar
+Progress (1): 4.1/85 kB
+Progress (1): 8.2/85 kB
+Progress (1): 12/85 kB 
+Progress (1): 16/85 kB
+Progress (1): 20/85 kB
+Progress (1): 25/85 kB
+Progress (1): 29/85 kB
+Progress (1): 33/85 kB
+Progress (1): 37/85 kB
+Progress (1): 41/85 kB
+Progress (1): 45/85 kB
+Progress (1): 49/85 kB
+Progress (1): 53/85 kB
+Progress (1): 57/85 kB
+Progress (1): 61/85 kB
+Progress (1): 66/85 kB
+Progress (1): 70/85 kB
+Progress (1): 74/85 kB
+Progress (1): 78/85 kB
+Progress (1): 82/85 kB
+Progress (1): 85 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar (85 kB at 1.8 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.commons.configuration2.[1mTestYAMLConfiguration[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m11[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.311 s[1;31m <<< FAILURE![m - in org.apache.commons.configuration2.[1mTestYAMLConfiguration[m
+[[1;31mERROR[m] testObjectCreationFromReader(org.apache.commons.configuration2.TestYAMLConfiguration)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Java object was created
+	at org.apache.commons.configuration2.TestYAMLConfiguration.testObjectCreationFromReader(TestYAMLConfiguration.java:164)
+
+[[1;31mERROR[m] testObjectCreationFromStream(org.apache.commons.configuration2.TestYAMLConfiguration)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Java object was created
+	at org.apache.commons.configuration2.TestYAMLConfiguration.testObjectCreationFromStream(TestYAMLConfiguration.java:182)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestYAMLConfiguration.testObjectCreationFromReader:164 Java object was created[m
+[[1;31mERROR[m] [1;31m  TestYAMLConfiguration.testObjectCreationFromStream:182 Java object was created[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 11, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  11.399 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:00:05Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.22.1:test[m [1m(default-test)[m on project [36mcommons-configuration2[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mPlease refer to /apiarty/data/VUL4J-9/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] [1;31mPlease refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:00:06.208 [main] INFO edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-9 Failed Tests: 2
+VUL4J-9
+YOYOY
+"64, 78, 116, 130"
+20:00:06.596 [main] INFO edu.lu.uni.serval.tbar.TBarFixer - =======TBar: Start to fix suspicious code======
+20:00:06.597 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - org.apache.commons.configuration2.YAMLConfiguration ===68
+this is the file
+org/apache/commons/configuration2/YAMLConfiguration.java
+this is the file path
+/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java
+true
+/tbar
+after openning
+20:00:07.381 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Suspicious Code: 
+final Yaml yaml = new Yaml();
+20:00:07.733 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+20:00:07.736 [main] DEBUG edu.lu.uni.serval.tbar.fixtemplate.FixTemplate - Patch Candidate: 
+
+20:00:07.737 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+20:00:08.332 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+20:00:08.334 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - Compiling
+20:00:08.962 [main] DEBUG edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+20:00:08.973 [main] INFO edu.lu.uni.serval.tbar.TBarFixer - =======TBar: Finish off fixing======
+Failed to fix bug VUL4J-9

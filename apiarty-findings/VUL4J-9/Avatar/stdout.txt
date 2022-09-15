@@ -1,0 +1,2281 @@
+VUL4J-9
+VUL4J-9
+YOYOY
+"64, 78, 116, 130"
+test
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+The test command
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration
+this is the test result
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Skipping - all parsers are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272045057
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.1.0:manifest[m [1m(bundle-manifest)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.17:check[m [1m(checkAPIcompatibility)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 132 resources
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.commons.configuration2.[1mTestYAMLConfiguration[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m11[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.322 s[1;31m <<< FAILURE![m - in org.apache.commons.configuration2.[1mTestYAMLConfiguration[m
+[[1;31mERROR[m] testObjectCreationFromReader(org.apache.commons.configuration2.TestYAMLConfiguration)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Java object was created
+	at org.apache.commons.configuration2.TestYAMLConfiguration.testObjectCreationFromReader(TestYAMLConfiguration.java:164)
+
+[[1;31mERROR[m] testObjectCreationFromStream(org.apache.commons.configuration2.TestYAMLConfiguration)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Java object was created
+	at org.apache.commons.configuration2.TestYAMLConfiguration.testObjectCreationFromStream(TestYAMLConfiguration.java:182)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestYAMLConfiguration.testObjectCreationFromReader:164 Java object was created[m
+[[1;31mERROR[m] [1;31m  TestYAMLConfiguration.testObjectCreationFromStream:182 Java object was created[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 11, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.861 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:00:53Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.22.1:test[m [1m(default-test)[m on project [36mcommons-configuration2[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mPlease refer to /apiarty/data/VUL4J-9/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] [1;31mPlease refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Skipping - all parsers are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272045057
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:4.1.0:manifest[m [1m(bundle-manifest)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.17:check[m [1m(checkAPIcompatibility)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 132 resources
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.commons.configuration2.[1mTestYAMLConfiguration[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m11[m, [1;31mFailures: [0;1;31m2[m, Errors: 0, Skipped: 0, Time elapsed: 0.322 s[1;31m <<< FAILURE![m - in org.apache.commons.configuration2.[1mTestYAMLConfiguration[m
+[[1;31mERROR[m] testObjectCreationFromReader(org.apache.commons.configuration2.TestYAMLConfiguration)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Java object was created
+	at org.apache.commons.configuration2.TestYAMLConfiguration.testObjectCreationFromReader(TestYAMLConfiguration.java:164)
+
+[[1;31mERROR[m] testObjectCreationFromStream(org.apache.commons.configuration2.TestYAMLConfiguration)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Java object was created
+	at org.apache.commons.configuration2.TestYAMLConfiguration.testObjectCreationFromStream(TestYAMLConfiguration.java:182)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  TestYAMLConfiguration.testObjectCreationFromReader:164 Java object was created[m
+[[1;31mERROR[m] [1;31m  TestYAMLConfiguration.testObjectCreationFromStream:182 Java object was created[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 11, Failures: 2, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.861 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:00:53Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.22.1:test[m [1m(default-test)[m on project [36mcommons-configuration2[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mPlease refer to /apiarty/data/VUL4J-9/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] [1;31mPlease refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:00:53.774 [main] INFO edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 Failed Tests: 2
+VUL4J-9
+YOYOY
+"64, 78, 116, 130"
+Cannot find the suspicious code position file./apiarty/localisation/VUL4J-9/ochiai.txt
+20:00:54.153 [main] INFO edu.lu.uni.serval.avatar.Avatar - =======StaticBugFixer: Start to fix suspicious code======
+20:00:54.153 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - org.apache.commons.configuration2.YAMLConfiguration ===68
+20:00:54.985 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Suspicious Code: 
+final Yaml yaml = new Yaml();
+suspicious code string
+final Yaml yaml = new Yaml();
+suspicious code string
+final Yaml yaml = new Yaml();
+suspicious code string
+final Yaml yaml = new Yaml();
+suspicious code string
+final Yaml yaml = new Yaml();
+20:00:55.059 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+Recovering
+20:00:55.066 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272060623
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[69,18] cannot find symbol
+  symbol:   variable map
+  location: class org.apache.commons.configuration2.YAMLConfiguration
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.188 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:01:04Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[69,18] cannot find symbol[m
+[[1;31mERROR[m] [1;31m  symbol:   variable map[m
+[[1;31mERROR[m] [1;31m  location: class org.apache.commons.configuration2.YAMLConfiguration[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:01:04.664 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+suspicious code string
+final Yaml yaml = new Yaml();
+suspicious code string
+final Yaml yaml = new Yaml();
+suspicious code string
+final Yaml yaml = new Yaml();
+20:01:04.684 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+Recovering
+20:01:04.690 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272070453
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.984 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:01:13Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:01:14.127 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:01:14.134 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+candidates
+
+Recovering
+20:01:14.144 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272079154
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.495 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:01:22Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:01:22.824 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Recovering
+20:01:22.827 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272087164
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.715 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:01:30Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:01:30.720 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:01:30.727 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+Recovering
+20:01:30.732 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272095091
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.848 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:01:38Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:01:38.796 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:01:38.802 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+candidates
+
+Recovering
+20:01:38.810 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272103171
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.948 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:01:46Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:01:46.947 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Recovering
+20:01:46.951 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272111498
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.947 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:01:55Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:01:55.215 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:01:55.220 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+Recovering
+20:01:55.224 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272119675
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.114 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:02:03Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:02:03.488 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:02:03.494 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+candidates
+
+Recovering
+20:02:03.502 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272128934
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.572 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:02:12Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:02:12.430 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Recovering
+20:02:12.432 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272137064
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.958 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:02:20Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:02:20.678 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:02:20.683 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+Recovering
+20:02:20.686 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272145240
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.944 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:02:28Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:02:28.760 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:02:28.767 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+candidates
+
+Recovering
+20:02:28.775 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272153097
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.661 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:02:36Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:02:36.679 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Recovering
+20:02:36.682 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272161432
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.513 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:02:45Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:02:45.536 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:02:45.540 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+Recovering
+20:02:45.546 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272170188
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.032 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:02:53Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:02:53.831 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:02:53.836 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+candidates
+
+Recovering
+20:02:53.841 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272178250
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.130 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:03:02Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:03:02.143 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Recovering
+20:03:02.147 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272186599
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.763 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:03:10Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:03:10.256 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:03:10.261 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+Recovering
+20:03:10.265 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272195042
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.478 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:03:19Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:03:19.251 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:03:19.257 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+candidates
+
+Recovering
+20:03:19.265 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272203579
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.636 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:03:26Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:03:27.034 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Recovering
+20:03:27.037 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272211476
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.593 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:03:34Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:03:35.003 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+suspicious code string
+final Yaml yaml = new Yaml();
+20:03:35.008 [main] DEBUG edu.lu.uni.serval.fixpattern.FixTemplate - Patch Candiate: 
+null
+candidates
+
+Recovering
+20:03:35.014 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - Compiling
+compile
+/apiarty/data/VUL4J-9
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.apache.commons:commons-configuration2[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Apache Commons Configuration 2.7-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Deleting /apiarty/data/VUL4J-9/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-3)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mapache-rat-plugin:0.13:check[m [1m(rat-check)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:parse-version[m [1m(parse-version)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(javadoc.resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [copy] Copying 2 files to /apiarty/data/VUL4J-9/target/apidocs/META-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjavacc-maven-plugin:2.6:javacc[m [1m(javacc)[m @ [36mcommons-configuration2[0;1m ---[m
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /apiarty/data/VUL4J-9/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[[1;34mINFO[m] Processed 1 grammar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildNumber: 4c5583f235725723a3ef9a350db4fbb0acb0bf65 at timestamp: 1663272219309
+[[1;33mWARNING[m] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/apiarty/data/VUL4J-9' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /apiarty/data/VUL4J-9
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Using 'iso-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources to META-INF
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mcommons-configuration2[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 267 source files to /apiarty/data/VUL4J-9/target/classes
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/AbstractYAMLBasedConfiguration.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased
+[[1;34mINFO[m] 1 error
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.787 s
+[[1;34mINFO[m] Finished at: 2022-09-15T20:03:42Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mcommons-configuration2[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/apiarty/data/VUL4J-9/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.java:[41,8] org.apache.commons.configuration2.YAMLConfiguration is not abstract and does not override abstract method read(java.io.Reader) in org.apache.commons.configuration2.io.FileBased[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+20:03:42.923 [main] DEBUG edu.lu.uni.serval.avatar.AbstractFixer - VUL4J-9 ---Fixer: fix fail because of failed compiling! 
+Deleting the old file
+20:03:42.925 [main] INFO edu.lu.uni.serval.avatar.Avatar - =======StaticBugFixer: Finish off fixing======
+Failed to fix bug VUL4J-9

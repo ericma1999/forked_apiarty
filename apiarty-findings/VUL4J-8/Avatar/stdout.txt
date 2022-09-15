@@ -1,0 +1,13 @@
+VUL4J-8
+VUL4J-8
+YOYOY
+"78"
+test
+/apiarty/data/VUL4J-8
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair"}
+The test command
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest

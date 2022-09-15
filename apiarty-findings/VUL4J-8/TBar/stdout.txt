@@ -1,0 +1,50 @@
+5
+/apiarty/data/
+VUL4J-8
+compile
+/apiarty/data/VUL4J-8
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+test
+/apiarty/data/VUL4J-8
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair"}
+The test command
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest
+this is the test result
+
+compile
+/apiarty/data/VUL4J-8
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair"}
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+The compile command
+"mvn -DskipTests -Drat.skip=true clean install"
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn -DskipTests -Drat.skip=true clean install
+test
+/apiarty/data/VUL4J-8
+[{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair"},{"compile":"mvn -DskipTests -Drat.skip=true clean install"},{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}]
+{"test":"mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest#partialSurrogatePair"}
+The test command
+{"compile":"mvn -DskipTests -Drat.skip=true clean install"}
+{"extract":"mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"}
+Executing the command
+mvn test -Drat.skip=true -Dtest=org.apache.commons.compress.archivers.zip.NioZipEncodingTest
+this is the test result
+
+19:38:53.905 [main] INFO edu.lu.uni.serval.tbar.AbstractFixer - VUL4J-8 Failed Tests: 2147483647
+VUL4J-8
+YOYOY
+"78"
+Failed to defects4j compile bug VUL4J-8

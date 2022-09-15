@@ -54,7 +54,7 @@ WORKDIR /astor
 RUN git clone https://github.com/ericma1999/forked-astor.git /astor \
     && mvn package -DskipTests=true
 
-
+RUN echo "test"
 # Install Tbar
 WORKDIR /tbar
 RUN git clone https://github.com/ericma1999/forked_tbar.git /tbar \
@@ -63,7 +63,7 @@ RUN git clone https://github.com/ericma1999/forked_tbar.git /tbar \
 
 
 
-# Install Tbar
+# Install Avatar
 WORKDIR /Avatar
 RUN git clone https://github.com/ericma1999/forked_avatar.git /avatar \
     && cd /avatar \

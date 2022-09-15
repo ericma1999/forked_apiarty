@@ -1,0 +1,10 @@
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -22361
+	at java.lang.String.substring(String.java:1967)
+	at edu.lu.uni.serval.fixpattern.FixTemplate.getSubSuspiciouCodeStr(FixTemplate.java:104)
+	at edu.lu.uni.serval.fixpattern.pmd.EP3.generatedFix(EP3.java:100)
+	at edu.lu.uni.serval.fixpattern.pmd.EP3.generatePatches(EP3.java:35)
+	at edu.lu.uni.serval.avatar.Avatar.generatePatches(Avatar.java:187)
+	at edu.lu.uni.serval.avatar.Avatar.fixWithMatchedFixTemplates(Avatar.java:142)
+	at edu.lu.uni.serval.avatar.Avatar.fixProcess(Avatar.java:71)
+	at edu.lu.uni.serval.main.Main.fixBug(Main.java:69)
+	at edu.lu.uni.serval.main.Main.main(Main.java:35)

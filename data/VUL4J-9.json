@@ -10,10 +10,10 @@
   "build_system": {
     "custom": [
       {
-        "test": "mvn test -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"
+        "test": "mvn test -Drat.skip=true -Dtest=org.apache.commons.configuration2.TestYAMLConfiguration"
       },
       {
-        "compile": "mvn -DskipTests clean install"
+        "compile": "mvn -DskipTests -Drat.skip=true clean install"
       },
       {
         "extract": "mvn dependency:build-classpath -Dmdep.outputFile='classpath.info' -U -V -B"

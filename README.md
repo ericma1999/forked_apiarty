@@ -1,15 +1,5 @@
 # APIARTy
 
-APIARTy is an automated pipeline for evaluating and comparing automated program repair tools (repair tools) that can potentially detect and fix API misuses in Java programs. APIARTy currently includes MUBench, Bears, and Bugs.jar as bug benchmarks and state-of-the-art repair tools including Arja, Astor, Nopol, NPEFix, Avatar, TBar, and SimFix. APIARTy is evaluated on a new benchmark of API misuses, APIRepBench (see APIARTy/data and APIRepBench.xlsx).
-
-This repository accompanies the paper [Evaluating Automatic Program Repair Capabilities to Repair API Misuses](https://www.computer.org/csdl/journal/ts/5555/01/09381596/1s4l0XuiCgo). If you use APIARTy or APIRepBench, please cite our paper as follows:
-
-M. Kechagia, S. Mechtaev, F. Sarro and M. Harman, "Evaluating Automatic Program Repair Capabilities to Repair API Misuses" in IEEE Transactions on Software Engineering, vol. , no. 01, pp. 1-1, 2021. doi: 10.1109/TSE.2021.3067156.
-
-See this project's webpage in CREST/SOLAR, [here](https://solar.cs.ucl.ac.uk/os/apiarty.html).
-
-For any questions on this project, please contact M. Kechagia or Prof. F. Sarro.
-
 ## Goals
 
 * Execution of 14 repair tools on API misuses extracted from three bug benchmarks.
@@ -22,53 +12,81 @@ The following table shows the automated repair tools used for comparing their ca
 
 | #  | Tool             | Language | Repository                             | Checkout SHA |
 | -- | ---------------  | -------- | -------------------------------------  | ------------ |
-| 1  | Nopol            | Java     | https://github.com/SpoonLabs/nopol     | bf4a92f      |
-| 2  | DynaMoth         | Java     | https://github.com/SpoonLabs/nopol     | bf4a92f 	   |
-| 3  | NPEFix           | Java     | https://github.com/SpoonLabs/npefix    | 80cfc38      |
-| 4  | jGenProg         | Java     | https://github.com/SpoonLabs/Astor     | da8a267      |
-| 5  | jKali            | Java     | https://github.com/SpoonLabs/Astor     | da8a267      |
-| 6  | jMutRepair       | Java     | https://github.com/SpoonLabs/Astor     | da8a267      |
-| 7  | Cardumen         | Java     | https://github.com/SpoonLabs/Astor     | da8a267      |
-| 8  | ARJA             | Java     | https://github.com/yyxhdy/arja         | 3e01305      |
-| 9  | ARJA-GenProg     | Java     | https://github.com/yyxhdy/arja         | 3e01305      |
-| 10 | ARJA-RSRepair    | Java     | https://github.com/yyxhdy/arja         | 3e01305      |
-| 11 | ARJA-Kali        | Java     | https://github.com/yyxhdy/arja         | 3e01305      |
-| 12 | Avatar           | Java     | https://github.com/SerVal-DTF/AVATAR   | 68a1386      |
-| 13 | TBar             | Java     | https://github.com/SerVal-DTF/TBar     | d1b1555      |
-| 14 | SimFix           | Java     | https://github.com/xgdsmileboy/SimFix  | c2a5319      |
+| 1  | Nopol            | Java     | <https://github.com/ericma1999/forked_nopol.git>*    | 8cb3676|
+| 2  | DynaMoth         | Java     | <https://github.com/ericma1999/forked_nopol.git>*     | 8cb3676     |
+| 3  | NPEFix           | Java     | <https://github.com/SpoonLabs/npefix>    | -      |
+| 4  | jGenProg         | Java     | <https://github.com/ericma1999/forked-astor.git>*     | 5bf2e83      |
+| 5  | jKali            | Java     | <https://github.com/ericma1999/forked-astor.git>*     | 5bf2e83      |
+| 6  | jMutRepair       | Java     | <https://github.com/ericma1999/forked-astor.git>*    | 5bf2e83      |
+| 7  | Cardumen         | Java     | <https://github.com/ericma1999/forked-astor.git>*     | 5bf2e83      |
+| 8  | ARJA             | Java     | <https://github.com/yyxhdy/arja>         | 3e01305      |
+| 9  | ARJA-GenProg     | Java     | <https://github.com/yyxhdy/arja>         | 3e01305      |
+| 10 | ARJA-RSRepair    | Java     | <https://github.com/yyxhdy/arja>         | 3e01305      |
+| 11 | ARJA-Kali        | Java     | <https://github.com/yyxhdy/arja>         | 3e01305      |
+| 12 | Avatar           | Java     | <https://github.com/ericma1999/forked_avatar.git>*   | 49389fd     |
+| 13 | TBar             | Java     | <https://github.com/ericma1999/forked_tbar.git>*     | 4b5d42f     |
+| 14 | SimFix           | Java     | <https://github.com/xgdsmileboy/SimFix>  | -      |
+
+Below are the tools that were modified to work with Java 1.8 which our bug projects require
+
+* Nopol was checked out with the specified SHA and dependencies were modified
+* Astor based tools (jGenProg, jKali, jMutRepair, Cardumen) was checked out with the specified SHA and dependencies were modified
+* Avatar modified to execute with projects outside of Defects4j
+* TBar modified to execute with projects outside of Defects4j
+* SimFix
 
 ## Used bug benchmarks
 
-The following table lists the bug benchmarks used for creating our benchmark of API misuses, APIRepBench (found in the data folder).
+The following table lists the bug benchmarks used for creating our benchmark of API misuses
 
-| # | Benchmark      | Language | # Projects | # Bugs | # API Misuses | # Final Projects | Link                                           |
-| - | -------------- | -------- | ----------:| ------:| -------------:| ----------------:| ---------------------------------------------  |
-| 1 | Bears          | Java     |         72 |    251 |            19 |				 10  | https://github.com/bears-bugs/bears-benchmark  |
-| 2 | Bugs.jar       | Java     |          8 |  1,159 | 	       40 |				  7	 | https://github.com/bugs-dot-jar/bugs-dot-jar   | 
-| 3 | MUBench        | Java     |         68 |    280 | 	       42 |				 12	 | https://github.com/stg-tud/MUBench             |
-|   | **Total**      |          |        148 |  1,690 |           101 |               29 |                                                |
+| # | Arja-Arja | Arja-Genprog | Arja-Kali | Arja-RSRepair | Astor-Cardumen | Astor-jgenprog | Astor-jKali | Astor-jMutRepair | Dynamoth | Nopol | Tbar | Avatar | SimFix
+|    :---:   |     :---:      |   :---:  |    :---:   |     :---:      |   :---: |    :---:   |     :---:      |   :---: |    :---:   |     :---:      |   :---:   | :---:   | :---:   |
+| VUL4J-2   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-3   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-7   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-8   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-9   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-10   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-11   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-19   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-23   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-24   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-34   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-44   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-45   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-46   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-47   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-48   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-51   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-56   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-57   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-61   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-64   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-71   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-74   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
+| VUL4J-77   | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :clock1230:     | :white_check_mark:    | :x: | :x:
 
 ## Usage
 
 To deploy and use APIARTy, you need to install Docker. If you use APIARTy on a desktop, get Docker Desktop from the following link:
 
-- https://www.docker.com/products/docker-desktop
+* <https://www.docker.com/products/docker-desktop>
 
 ### Set-up and deployment
 
 To build a Docker image of this repository and run it on Docker you need to follow the next instructions:
 
-- `git clone https://github.com/mkechagia/APIARTy.git`
-- `cd APIARTy`
-- `docker build -t apiarty .`
-- `docker run -it -v apiarty-findings:/apiarty/findings --rm apiarty` or
-- `docker run -it -v <absolute_path_to_store_results>:/apiarty/findings --rm apiarty` (it locally stores the results).
-- Also, the following command can be used for keeping locally the data (buggy projects) `docker run -it -v <absolute_path_to_store_results>:/apiarty/findings -v <absolute_path_to_store_results>:/apiarty/data --rm apiarty`.
+* `git clone https://github.com/mkechagia/APIARTy.git`
+* `cd APIARTy`
+* `docker build -t apiarty .`
+* `docker run -it -v $PWD/apiarty-findings:/apiarty/findings --rm apiarty` or
+* `docker run -it -v <absolute_path_to_store_results>:/apiarty/findings --rm apiarty` (it locally stores the results).
+* Also, the following command can be used for keeping locally the data (buggy projects) `docker run -it -v <absolute_path_to_store_results>:/apiarty/findings -v <absolute_path_to_store_results>:/apiarty/data --rm apiarty`.
 
 For more information about Docker, please check the following links:
 
-- https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
-- https://docs.docker.com/engine/reference/run/
+* <https://docs.docker.com/develop/develop-images/dockerfile_best-practices/>
+* <https://docs.docker.com/engine/reference/run/>
 
 ### Running APIARTy
 
@@ -76,15 +94,15 @@ For more information about Docker, please check the following links:
 
 1. To run an experiment on one project e.g., Bears-84, using one tool e.g., Kali, give the following command:
 
-- `./apiarty Arja-Kali Bears-84`
+* `./apiarty Arja-Kali Bears-84`
 
 2. To analyse all the projects that exist in `data` using a particular repair tool e.g., Kali, give the following command:
 
-- `./apiarty Arja-Kali`
+* `./apiarty Arja-Kali`
 
 3. To run all tools (Arja, Astor, Nopol and NPEFix) on a project e.g., Bears-84, give the following command:
 
-- `./apiarty ALL Bears-84`
+* `./apiarty ALL Bears-84`
 
 4. To run Avatar, TBar, or SimFix, apply the guidelines included in the `guidelines.txt` as these tools strictly use Defects4J commands.
 
@@ -110,21 +128,12 @@ APIARTy
 │   └── bashrc
 ├── data: Our APIRepBench benchmark of API misuses
 │   └── <bug_id>.json: standard input (with project metadata)
-├── findings: findings for Astor, NPEFix, recent tools (Avatar, TBar, SimFix), and remaining tools (the general structure follows)
-│   └── findings
-│       ├── <bug_id>
-│       │   └── <repair tool>
-│       │       ├── stderr.txt: stderr of the execution (with repair)
-│       │       └── stdout.txt: stdout of the execution (with repair)
-│       ├── <bug_id>_avatar.txt: repair log of Avatar
-│       ├── <bug_id>_tbar.txt: repair log of TBar
-│       ├── <bug_id>_simfix.txt: repair log of SimFix
-│       ├── all-results.csv: execution time taken by the repair attempts (without those that reach the timeout)
-│       └── timeout.csv: repair attempts that failed by timeout
-└── guidelines
-    ├── Avatar
-    │   ├── AbstractFixer.java
-    │   ├── Configuration.java
-    │   └── FLFix.sh
-    └── guidelines.txt: specific guidelines for running Avatar, TBar, and SimFix
+├── apiarty-findings: findings for Astor, NPEFix, recent tools (Avatar, TBar, SimFix), and remaining tools (the general structure follows)
+   └── apiarty-findings
+      ├── <bug_id>
+      │   └── <repair tool>
+      │       ├── stderr.txt: stderr of the execution (with repair)
+      │       └── stdout.txt: stdout of the execution (with repair)
+      ├── all-results.csv: execution time taken by the repair attempts (without those that reach the timeout)
+      └── timeout.csv: repair attempts that failed by timeout
 ```
